@@ -1,0 +1,487 @@
+{
+ "generated_at": "2026-10-28",
+ "generator": "scripts/seed_kb.py",
+ "count": 32,
+ "benchmarks": [
+  {
+   "name": "ALFRED",
+   "domain": "Embodied Agent",
+   "desc": "Instruction-following household tasks: 25k language instructions in 8 task types",
+   "venue": "CVPR 2021",
+   "url": "https://askforalfred.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://askforalfred.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "API-Bank",
+   "domain": "Tool Use",
+   "desc": "73 API tools, 314 tool-use dialogues, 1910 test cases for API-calling agents",
+   "venue": "EMNLP 2023",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "paper-venue",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "ARZBench",
+   "domain": "General Agent",
+   "desc": "Agent reasoning and zero-shot behavior across diverse task families",
+   "venue": "arXiv 2024",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "paper-venue",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "AdvBench",
+   "domain": "Safety",
+   "desc": "Adversarial suffix attacks on LLMs; 520 harmful behaviors for red-teaming",
+   "venue": "NeurIPS 2023",
+   "url": "https://github.com/llm-attacks/llm-attacks",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/llm-attacks/llm-attacks",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Agent-SafetyBench",
+   "domain": "Agent Safety",
+   "desc": "10 hazard types, 200 scenarios, 3815 test cases for LLM agent safety",
+   "venue": "arXiv 2024",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "paper-venue",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "AgentBench",
+   "domain": "General Agent",
+   "desc": "8 environments: OS, DB, KG, web, house-holding, card game, over 200 tasks",
+   "venue": "ICLR 2024",
+   "url": "https://github.com/THUDM/AgentBench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/THUDM/AgentBench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "AgentMonitor",
+   "domain": "Agent Safety",
+   "desc": "Zero-preparation runtime monitoring with anomaly detection for agent safety",
+   "venue": "arXiv 2025",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "paper-venue",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "BigCodeBench",
+   "domain": "Code Generation",
+   "desc": "Function-level code generation with 1395 tasks using 723 libraries and tools",
+   "venue": "BigCode 2024",
+   "url": "https://github.com/bigcode-project/bigcode-benchmark",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/bigcode-project/bigcode-benchmark",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "CALVIN",
+   "domain": "Embodied Agent",
+   "desc": "Long-horizon language-conditioned manipulation: 34 tasks, 5 environments, 52 actions",
+   "venue": "ICRA 2022",
+   "url": "https://github.com/mees/calvin",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/mees/calvin",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "DS-1000",
+   "domain": "Data Science Agent",
+   "desc": "1000 data science problems across Matplotlib/NumPy/Pandas/PyTorch/SciPy/Sklearn",
+   "venue": "ICLR 2023",
+   "url": "https://github.com/xlang-ai/ds-1000",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/xlang-ai/ds-1000",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "GAIA",
+   "domain": "General AI Assistant",
+   "desc": "466 real-world tasks requiring multi-step tool-use, web search, file handling",
+   "venue": "ICLR 2024",
+   "url": "https://github.com/facebookresearch/gaia",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/facebookresearch/gaia",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "HarmBench",
+   "domain": "Safety",
+   "desc": "Standardized evaluation for automated red-teaming; 400 harmful behaviors across 7 categories",
+   "venue": "ICML 2024",
+   "url": "https://github.com/centerforaisafety/HarmBench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/centerforaisafety/HarmBench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "HumanEval",
+   "domain": "Code Generation",
+   "desc": "164 hand-written programming problems; pass@k metric",
+   "venue": "OpenAI 2021",
+   "url": "https://github.com/openai/human-eval",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/openai/human-eval",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "LIBERO",
+   "domain": "Embodied Agent",
+   "desc": "Benchmark for lifelong robot learning: 130 manipulation tasks across 5 suites",
+   "venue": "ICML 2024",
+   "url": "https://github.com/Lifelong-Robot-Learning/LIBERO",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/Lifelong-Robot-Learning/LIBERO",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "LiveCodeBench",
+   "domain": "Code Generation",
+   "desc": "Contamination-free: problems after model training cutoff; holistic code agent eval",
+   "venue": "UC Berkeley 2024",
+   "url": "https://github.com/LiveCodeBench/LiveCodeBench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/LiveCodeBench/LiveCodeBench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "MBPP",
+   "domain": "Code Generation",
+   "desc": "974 beginner Python programming problems; pass@1 metric",
+   "venue": "Google 2021",
+   "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/google-research/google-research/tree/master/mbpp",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "MINT-Bench",
+   "domain": "General Agent",
+   "desc": "Multi-turn interaction with tools: evaluates tool-use, multi-step reasoning, and self-improvement",
+   "venue": "ICLR 2024",
+   "url": "https://github.com/xingyaoww/mint-bench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/xingyaoww/mint-bench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "MLAgentBench",
+   "domain": "ML Research Agent",
+   "desc": "ML research task solving: from paper reproduction to hyperparameter tuning",
+   "venue": "ICLR 2024",
+   "url": "https://github.com/snap-research/mlagentbench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/snap-research/mlagentbench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "MLE-Bench",
+   "domain": "ML Research Agent",
+   "desc": "75 Kaggle competitions for ML engineering agents; bronze/silver/gold medal metric",
+   "venue": "ICLR 2025",
+   "url": "https://github.com/openai/mle-bench",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/openai/mle-bench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Mind2Web",
+   "domain": "Web Agent",
+   "desc": "2350 tasks across 137 real websites; action trace prediction",
+   "venue": "NeurIPS 2023",
+   "url": "https://github.com/OSU-NLP-Group/Mind2Web",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/OSU-NLP-Group/Mind2Web",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "OSWorld",
+   "domain": "Computer Agent",
+   "desc": "369 tasks across 9 real OS apps (Chrome, VSCode, Terminal); multi-step GUI interaction",
+   "venue": "NeurIPS 2024",
+   "url": "https://github.com/xlang-ai/OSWorld",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/xlang-ai/OSWorld",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "RoboCasa",
+   "domain": "Embodied Agent",
+   "desc": "100k everyday manipulation tasks in kitchen scenes; 29 task categories",
+   "venue": "RSS 2024",
+   "url": "https://github.com/robocasa/robocasa",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/robocasa/robocasa",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "SWE-bench",
+   "domain": "Software Engineering",
+   "desc": "2294 real GitHub issues across 12 Python repos; resolved-rate metric",
+   "venue": "ICLR 2024",
+   "url": "https://github.com/swe-bench/SWE-bench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/swe-bench/SWE-bench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "SWE-bench Verified",
+   "domain": "Software Engineering",
+   "desc": "Human-verified 500-task subset of SWE-bench; current gold standard for coding agents",
+   "venue": "OpenAI 2024",
+   "url": "https://openai.com/index/introducing-swe-bench-verified/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://openai.com/index/introducing-swe-bench-verified/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Tau-Bench",
+   "domain": "Tool-User Interaction",
+   "desc": "Benchmark for tool-agent-user interaction with simulated users in real-world domains",
+   "venue": "ICLR 2025",
+   "url": "https://github.com/sierra-research/tau-bench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/sierra-research/tau-bench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "TheAgentCompany",
+   "domain": "Workplace Agent",
+   "desc": "Realistic workplace tasks: 329 tasks across software, finance, admin in simulated company",
+   "venue": "ICLR 2025",
+   "url": "https://github.com/TheAgentCompany/TheAgentCompany",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/TheAgentCompany/TheAgentCompany",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "ToolBench",
+   "domain": "Tool Use",
+   "desc": "16000+ real API calls with DFS-based multi-tool instruction; pass_rate and win_rate",
+   "venue": "ICLR 2024",
+   "url": "https://github.com/OpenBMB/ToolBench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/OpenBMB/ToolBench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "VLABench",
+   "domain": "Embodied Agent",
+   "desc": "100 language-conditioned manipulation tasks with procedural generation; VLA model eval",
+   "venue": "NeurIPS 2024",
+   "url": "https://github.com/Open-VLABench/VLABench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/Open-VLABench/VLABench",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "VisualWebArena",
+   "domain": "Web Agent",
+   "desc": "Multimodal extension of WebArena: 910 visual web tasks requiring image understanding",
+   "venue": "ICML 2024",
+   "url": "https://github.com/web-arena-x/visualwebarena",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/web-arena-x/visualwebarena",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "WebArena",
+   "domain": "Web Agent",
+   "desc": "812 web tasks across 5 self-hosted websites; end-to-end success rate",
+   "venue": "ICLR 2024",
+   "url": "https://github.com/web-arena-x/webarena",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/web-arena-x/webarena",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "WebShop",
+   "domain": "Web Agent",
+   "desc": "11878 web shopping tasks; instruction-following and search-based decision making",
+   "venue": "NeurIPS 2022",
+   "url": "https://github.com/princeton-nlp/WebShop",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/princeton-nlp/WebShop",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "WebShop-2",
+   "domain": "Web Agent",
+   "desc": "Expanded web shopping benchmark: 50000 tasks with dynamic inventory and price changes",
+   "venue": "NeurIPS 2024",
+   "url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "paper-venue",
+    "status": "seed-verified"
+   }
+  }
+ ]
+}

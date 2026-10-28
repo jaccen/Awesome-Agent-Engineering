@@ -1,0 +1,1739 @@
+{
+ "generated_at": "2026-10-28",
+ "generator": "scripts/seed_kb.py",
+ "count": 107,
+ "domain_count": 17,
+ "domains": {
+  "Finance": 11,
+  "Healthcare": 10,
+  "Government": 9,
+  "Manufacturing": 8,
+  "Customer Service": 7,
+  "Education": 7,
+  "Legal": 7,
+  "RPA & Automation": 6,
+  "Research & Development": 6,
+  "IT Operations": 5,
+  "Logistics": 5,
+  "Media & Content": 5,
+  "Retail & E-commerce": 5,
+  "Telecommunications": 5,
+  "Human Resources": 4,
+  "Real Estate": 4,
+  "Energy": 3
+ },
+ "industries": [
+  {
+   "domain": "Customer Service",
+   "project": "Ada AI",
+   "organization": "Ada",
+   "desc": "No-code AI agent platform: resolves 70%+ of customer queries autonomously across 80+ brands",
+   "status": "production",
+   "url": "https://ada.support/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://ada.support/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Customer Service",
+   "project": "Decagon AI",
+   "organization": "Decagon",
+   "desc": "Enterprise support agent: auto-resolves tickets, learns from every interaction, integrates with Zendesk",
+   "status": "production",
+   "url": "https://decagon.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://decagon.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Customer Service",
+   "project": "Gladly AI",
+   "organization": "Gladly",
+   "desc": "Customer service platform with AI agent: unified customer timeline and proactive outreach",
+   "status": "production",
+   "url": "https://www.gladly.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.gladly.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Customer Service",
+   "project": "Intercom Fin",
+   "organization": "Intercom",
+   "desc": "AI agent for customer support: resolves 50%+ of queries autonomously with human handoff",
+   "status": "production",
+   "url": "https://www.intercom.com/fin",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.intercom.com/fin",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Customer Service",
+   "project": "Salesforce Einstein",
+   "organization": "Salesforce",
+   "desc": "AI-powered CRM: case routing, response generation, and predictive analytics across sales and service",
+   "status": "production",
+   "url": "https://www.salesforce.com/ai/einstein/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.salesforce.com/ai/einstein/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Customer Service",
+   "project": "Sierra AI",
+   "organization": "Sierra",
+   "desc": "Conversational AI platform: enterprise customer service agents with voice and empathy",
+   "status": "production",
+   "url": "https://sierra.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://sierra.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Customer Service",
+   "project": "Zendesk AI Agents",
+   "organization": "Zendesk",
+   "desc": "Autonomous resolution agent: resolves tickets without human intervention, intent detection at 95%+",
+   "status": "production",
+   "url": "https://www.zendesk.com/ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.zendesk.com/ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Education",
+   "project": "BYJU'S AI Tutor",
+   "organization": "BYJU'S",
+   "desc": "Adaptive learning agent: personalized math/science tutoring for 150M+ students",
+   "status": "production",
+   "url": "https://byjus.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://byjus.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Education",
+   "project": "Century Tech",
+   "organization": "Century Tech",
+   "desc": "AI learning platform: personalized pathways, real-time assessment, and teacher intervention signals",
+   "status": "production",
+   "url": "https://www.century.tech/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.century.tech/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Education",
+   "project": "CheggMate AI",
+   "organization": "Chegg",
+   "desc": "Study companion: 24/7 homework help, step-by-step explanations, and practice generation",
+   "status": "production",
+   "url": "https://www.chegg.com/cheggmate",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.chegg.com/cheggmate",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Education",
+   "project": "Coursera AI Coach",
+   "organization": "Coursera",
+   "desc": "Personalized learning agent: course recommendation, progress nudges, and assignment feedback",
+   "status": "production",
+   "url": "https://www.coursera.org/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.coursera.org/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Education",
+   "project": "Duolingo Max",
+   "organization": "Duolingo/OpenAI",
+   "desc": "AI-powered language learning: Roleplay conversations and Explain My Answer features",
+   "status": "production",
+   "url": "https://www.duolingo.com/efficiency",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.duolingo.com/efficiency",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Education",
+   "project": "Khanmigo",
+   "organization": "Khan Academy",
+   "desc": "AI tutor: Socratic-method tutoring, personalized practice, and teacher lesson planning assistant",
+   "status": "production",
+   "url": "https://www.khanmigo.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.khanmigo.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Education",
+   "project": "Squirrel AI",
+   "organization": "Squirrel Ai Learning",
+   "desc": "Adaptive learning system: knowledge-point-level personalization for K-12 education across 2000+ centers",
+   "status": "production",
+   "url": "https://squirrelai.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://squirrelai.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Energy",
+   "project": "Enel AI Grid",
+   "organization": "Enel",
+   "desc": "Smart grid agent: load forecasting, renewable integration, and fault detection across 70M+ meters",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Energy",
+   "project": "Google DeepMind Grid",
+   "organization": "Google DeepMind/Google",
+   "desc": "Data center cooling agent: 40% energy reduction via ML-optimized HVAC control",
+   "status": "production",
+   "url": "https://deepmind.google/discover/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://deepmind.google/discover/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Energy",
+   "project": "Shell AI Refinery",
+   "organization": "Shell",
+   "desc": "Refinery optimization agent: process control, predictive maintenance, and emissions reduction",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "Ant Group AI Risk",
+   "organization": "Ant Group",
+   "desc": "Real-time credit risk agent: multimodal fraud detection processing 100M+ transactions/day",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "Anti-Fraud Agents",
+   "organization": "Visa/Mastercard",
+   "desc": "Real-time transaction monitoring agents: anomaly detection and risk scoring across millions of TPS",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "BloombergGPT",
+   "organization": "Bloomberg",
+   "desc": "50B parameter LLM fine-tuned on financial data for sentiment analysis, named entity recognition, and Q&A",
+   "status": "research",
+   "url": "https://arxiv.org/abs/2303.17564",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2303.17564",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "BloombergGPT-Agent",
+   "organization": "Bloomberg",
+   "desc": "Financial agent: terminal natural language queries, earnings analysis, market sentiment",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "FinGPT",
+   "organization": "AI4Finance Foundation",
+   "desc": "Open-source financial LLM framework: data sourcing, preprocessing, and fine-tuning for finance",
+   "status": "open-source",
+   "url": "https://github.com/AI4Finance-Foundation/FinGPT",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/AI4Finance-Foundation/FinGPT",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "Goldman Sachs AI Assistant",
+   "organization": "Goldman Sachs",
+   "desc": "Internal AI assistant for bankers: code writing, document summarization, and market analysis",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "JPMorgan COiN",
+   "organization": "JPMorgan Chase",
+   "desc": "Contract Intelligence: AI reviews commercial loan agreements in seconds vs 360k lawyer-hours/year",
+   "status": "production",
+   "url": "https://www.jpmorgan.com/technology/artificial-intelligence",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.jpmorgan.com/technology/artificial-intelligence",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "Klarna AI Assistant",
+   "organization": "Klarna",
+   "desc": "Customer service AI agent handling 2.3M conversations in first month, replacing 700 human agents",
+   "status": "production",
+   "url": "https://www.klarna.com/international/press/klarna-ai-assistant/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.klarna.com/international/press/klarna-ai-assistant/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "Morgan Stanley AI @ Morgan Stanley",
+   "organization": "Morgan Stanley",
+   "desc": "GPT-4-powered assistant for 16k+ wealth advisors: research retrieval and document Q&A",
+   "status": "production",
+   "url": "https://www.morganstanley.com/press-releases/morgan-stanley-and-openai-announce-announcement",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.morganstanley.com/press-releases/morgan-stanley-and-openai-announce-announcement",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "Robo-Advisor Agents",
+   "organization": "Wealthfront/Betterment",
+   "desc": "Automated investment management: risk assessment, portfolio rebalancing, and tax-loss harvesting",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Finance",
+   "project": "Truist AI Assistant",
+   "organization": "Truist Financial",
+   "desc": "Internal employee AI assistant for operations, compliance lookup, and process automation",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Government",
+   "project": "Australia Service NSW",
+   "organization": "NSW Government",
+   "desc": "AI virtual assistant for citizen services: 24/7 multilingual support across 40+ service types",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Government",
+   "project": "Dubai AI Government",
+   "organization": "Digital Dubai",
+   "desc": "City-wide AI agent: 100+ government services via natural language across departments",
+   "status": "production",
+   "url": "https://www.digitaldubai.ae/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.digitaldubai.ae/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Government",
+   "project": "Estonia AI Burokratt",
+   "organization": "Estonia",
+   "desc": "Citizen AI assistant: proactive government services, voice-based interactions, 30+ agencies",
+   "status": "production",
+   "url": "https://www.kratid.ee/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.kratid.ee/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Government",
+   "project": "GovGPT",
+   "organization": "Singapore GovTech",
+   "desc": "Government services assistant: answers citizen queries across 70+ agencies in natural language",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Government",
+   "project": "PolitiBot",
+   "organization": "Various",
+   "desc": "Constituent service agents: answer policy questions, track casework, and route requests",
+   "status": "pilot",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Government",
+   "project": "UK GOV.UK Chat",
+   "organization": "UK Government",
+   "desc": "Experimental AI assistant for gov.uk: navigates citizens through services and forms",
+   "status": "pilot",
+   "url": "https://www.gov.uk/government/news/new-ai-tool-to-help-people-find-information-on-govuk",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.gov.uk/government/news/new-ai-tool-to-help-people-find-information-on-govuk",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Government",
+   "project": "国数通超级智能体平台",
+   "organization": "国家数据集团",
+   "desc": "政务侧个人智能体供给网络与可信底座，核心体验'边聊边办'，近400项能力模块",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Government",
+   "project": "智e办",
+   "organization": "中国多地政务",
+   "desc": "智能审批助手：材料预审、流程引导、一网通办智能问答",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Government",
+   "project": "智慧政务客服",
+   "organization": "中国电信",
+   "desc": "政务AI客服：12345热线智能分流、政策问答、工单自动派发",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Abridge AI",
+   "organization": "Abridge",
+   "desc": "Ambient AI scribe: clinical conversation to structured notes, 12k+ clinicians deployed",
+   "status": "production",
+   "url": "https://www.abridge.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.abridge.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Aidoc AI",
+   "organization": "Aidoc",
+   "desc": "Radiology AI agent: triages CT/MRI for intracranial hemorrhage, pulmonary embolism, stroke",
+   "status": "production",
+   "url": "https://www.aidoc.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.aidoc.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Epic AI Hub",
+   "organization": "Epic Systems",
+   "desc": "EHR-integrated AI: draft chart replies, in-basket message triage, and clinical summarization",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Glass Health",
+   "organization": "Glass Health",
+   "desc": "AI clinical assistant: differential diagnosis generation and clinical plan drafting from patient presentations",
+   "status": "production",
+   "url": "https://glass.health/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://glass.health/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Hippocratic AI",
+   "organization": "Hippocratic AI",
+   "desc": "Healthcare-focused LLM for non-diagnostic patient interactions: pre-visit, post-discharge follow-up calls",
+   "status": "production",
+   "url": "https://www.hippocraticai.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.hippocraticai.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Med-PaLM",
+   "organization": "Google Health",
+   "desc": "Medical knowledge LLM: USMLE-style Q&A, clinical reasoning, and long-form medical text generation",
+   "status": "research",
+   "url": "https://arxiv.org/abs/2307.14334",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2307.14334",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Nabla Copilot",
+   "organization": "Nabla",
+   "desc": "AI medical scribe: real-time clinical note generation from consultations, 45k+ clinicians",
+   "status": "production",
+   "url": "https://www.nabla.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.nabla.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Nuance DAX",
+   "organization": "Microsoft/Nuance",
+   "desc": "Ambient clinical intelligence: auto-generates clinical notes from patient-physician conversations",
+   "status": "production",
+   "url": "https://www.nuance.com/healthcare/dragon-ai.html",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.nuance.com/healthcare/dragon-ai.html",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Qventus AI",
+   "organization": "Qventus",
+   "desc": "Hospital operations agent: OR scheduling, discharge planning, and length-of-stay optimization",
+   "status": "production",
+   "url": "https://qventus.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://qventus.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Healthcare",
+   "project": "Suki AI",
+   "organization": "Suki",
+   "desc": "Voice AI assistant for clinicians: ambient note generation, dictation, and coding",
+   "status": "production",
+   "url": "https://suki.ai/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://suki.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Human Resources",
+   "project": "Eightfold AI",
+   "organization": "Eightfold",
+   "desc": "Talent intelligence platform: skills-based hiring, internal mobility, and workforce transformation",
+   "status": "production",
+   "url": "https://eightfold.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://eightfold.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Human Resources",
+   "project": "HireVue AI",
+   "organization": "HireVue",
+   "desc": "Hiring intelligence: structured interview analysis, candidate scoring, and bias mitigation",
+   "status": "production",
+   "url": "https://www.hirevue.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.hirevue.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Human Resources",
+   "project": "Paradox Olivia",
+   "organization": "Paradox",
+   "desc": "Conversational recruiting agent: schedules interviews, screens candidates, 100M+ interactions",
+   "status": "production",
+   "url": "https://paradox.ai/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://paradox.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Human Resources",
+   "project": "Workday AI",
+   "organization": "Workday",
+   "desc": "HR agent: resume screening, interview scheduling, employee Q&A, and workforce planning insights",
+   "status": "production",
+   "url": "https://www.workday.com/en-us/products/ai-platform.html",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.workday.com/en-us/products/ai-platform.html",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "IT Operations",
+   "project": "Datadog AI",
+   "organization": "Datadog",
+   "desc": "Observability + AI: anomaly detection, root cause analysis, and natural language query for infrastructure",
+   "status": "production",
+   "url": "https://www.datadoghq.com/product/ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.datadoghq.com/product/ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "IT Operations",
+   "project": "New Relic AI",
+   "organization": "New Relic",
+   "desc": "Observability + AI: natural language queries, anomaly detection, and root cause analysis",
+   "status": "production",
+   "url": "https://newrelic.com/ai",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://newrelic.com/ai",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "IT Operations",
+   "project": "PagerDuty AIOps",
+   "organization": "PagerDuty",
+   "desc": "AI agent for incident response: auto-grouping, noise reduction, and runbook automation",
+   "status": "production",
+   "url": "https://www.pagerduty.com/platform/aiops/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.pagerduty.com/platform/aiops/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "IT Operations",
+   "project": "SRE Agent",
+   "organization": "Google",
+   "desc": "Site reliability engineering agent: automated incident triage, rollback decisions, and postmortem drafting",
+   "status": "pilot",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "IT Operations",
+   "project": "Splunk AI Assistant",
+   "organization": "Splunk",
+   "desc": "SPL Copilot: natural language to SPL queries, anomaly investigation, and automated alerting",
+   "status": "production",
+   "url": "https://www.splunk.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.splunk.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Legal",
+   "project": "Casetext CoCounsel",
+   "organization": "Casetext/Thomson Reuters",
+   "desc": "AI legal assistant: document review, deposition prep, and contract analysis powered by GPT-4",
+   "status": "production",
+   "url": "https://casetext.com/co-counsel",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://casetext.com/co-counsel",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Legal",
+   "project": "DoNotPay",
+   "organization": "DoNotPay",
+   "desc": "AI legal chatbot: parking tickets, small claims, and consumer rights automation for individuals",
+   "status": "production",
+   "url": "https://donotpay.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://donotpay.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Legal",
+   "project": "Harvey AI",
+   "organization": "Harvey",
+   "desc": "Legal AI for Big Law: contract analysis, due diligence, and regulatory research at Allen & Overy, PwC",
+   "status": "production",
+   "url": "https://www.harvey.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.harvey.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Legal",
+   "project": "Harvey Due Diligence",
+   "organization": "Harvey",
+   "desc": "M&A due diligence agent: 1000s of contracts reviewed in hours at Allen & Overy, Linklaters",
+   "status": "production",
+   "url": "https://www.harvey.ai/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.harvey.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Legal",
+   "project": "Lexis+ AI",
+   "organization": "LexisNexis",
+   "desc": "Legal research assistant: case summarization, citation verification, and legal memo drafting",
+   "status": "production",
+   "url": "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Legal",
+   "project": "Robin AI",
+   "organization": "Robin AI",
+   "desc": "Contract review agent: 12k+ contracts/month automated review at 2x speed, 30% cost reduction",
+   "status": "production",
+   "url": "https://robinai.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://robinai.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Legal",
+   "project": "vLex Vincent AI",
+   "organization": "vLex",
+   "desc": "Legal research agent: cross-jurisdiction case search, argument generation, citation verification",
+   "status": "production",
+   "url": "https://vlex.com/vincent",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://vlex.com/vincent",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Logistics",
+   "project": "Amazon Logistics AI",
+   "organization": "Amazon",
+   "desc": "Last-mile delivery optimization: route planning, demand forecasting, and inventory allocation agents",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Logistics",
+   "project": "DHL AI",
+   "organization": "DHL",
+   "desc": "Supply chain AI agent: demand forecasting, route optimization, and customs documentation",
+   "status": "production",
+   "url": "https://www.dhl.com/ai",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.dhl.com/ai",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Logistics",
+   "project": "FedEx AI Routing",
+   "organization": "FedEx",
+   "desc": "Delivery optimization agent: real-time route adjustment, weather adaptation, 15% fuel savings",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Logistics",
+   "project": "Flexport AI",
+   "organization": "Flexport",
+   "desc": "Freight forwarding agent: quote generation, customs documentation, and shipment tracking automation",
+   "status": "production",
+   "url": "https://www.flexport.com/ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.flexport.com/ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Logistics",
+   "project": "Maersk AI Route",
+   "organization": "Maersk",
+   "desc": "Shipping route optimization agent: weather, fuel, and port congestion prediction for global fleet",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Manufacturing",
+   "project": "ABB Ability AI",
+   "organization": "ABB",
+   "desc": "Industrial AI: motor anomaly detection, robotics path optimization, and asset health monitoring",
+   "status": "production",
+   "url": "https://new.abb.com/ability",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://new.abb.com/ability",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Manufacturing",
+   "project": "BMW AI Production",
+   "organization": "BMW Group",
+   "desc": "Quality inspection agent: computer vision + LLM reasoning for paint defect detection at 100% rate",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Manufacturing",
+   "project": "Bosch AI Production",
+   "organization": "Bosch",
+   "desc": "Manufacturing AI agents: quality inspection, process optimization, and supply chain prediction",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Manufacturing",
+   "project": "FANUC AI Servo",
+   "organization": "FANUC",
+   "desc": "Predictive maintenance agent: motor current analysis predicts CNC machine failures before they occur",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Manufacturing",
+   "project": "Foxconn AI Factory",
+   "organization": "Foxconn",
+   "desc": "Production line agents: yield prediction, SPC anomaly detection, and automated root-cause analysis",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Manufacturing",
+   "project": "NVIDIA Omniverse + Metropolis",
+   "organization": "NVIDIA",
+   "desc": "Digital twin agents: factory floor monitoring, defect detection, and autonomous quality inspection",
+   "status": "production",
+   "url": "https://www.nvidia.com/en-us/omniverse/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.nvidia.com/en-us/omniverse/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Manufacturing",
+   "project": "Schneider EcoStruxure AI",
+   "organization": "Schneider Electric",
+   "desc": "Plant asset performance agent: predictive maintenance and energy optimization across 50k+ sites",
+   "status": "production",
+   "url": "https://www.se.com/ecostruxure/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.se.com/ecostruxure/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Manufacturing",
+   "project": "Siemens Industrial Copilot",
+   "organization": "Siemens/Microsoft",
+   "desc": "Industrial AI assistant: PLC code generation, maintenance guidance, and fault diagnosis for factories",
+   "status": "production",
+   "url": "https://www.siemens.com/en/products/automation/industrial-copilot",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.siemens.com/en/products/automation/industrial-copilot",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Media & Content",
+   "project": "Adobe Firefly Agents",
+   "organization": "Adobe",
+   "desc": "Creative AI agents: image generation, content-aware fill, and design suggestions integrated in Creative Cloud",
+   "status": "production",
+   "url": "https://www.adobe.com/products/firefly.html",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.adobe.com/products/firefly.html",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Media & Content",
+   "project": "Canva Magic Studio",
+   "organization": "Canva",
+   "desc": "Creative AI agents: Magic Write, Magic Design, Magic Edit for 200M+ users",
+   "status": "production",
+   "url": "https://www.canva.com/magic-studio/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.canva.com/magic-studio/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Media & Content",
+   "project": "Jasper AI",
+   "organization": "Jasper",
+   "desc": "Marketing content agent: brand voice, campaign copy, and multi-channel content generation at enterprise scale",
+   "status": "production",
+   "url": "https://www.jasper.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.jasper.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Media & Content",
+   "project": "Sudowrite AI",
+   "organization": "Sudowrite",
+   "desc": "Fiction writing agent: plot generation, character development, and prose expansion for novelists",
+   "status": "production",
+   "url": "https://www.sudowrite.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.sudowrite.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Media & Content",
+   "project": "Synthesia AI",
+   "organization": "Synthesia",
+   "desc": "Video generation agent: text-to-video with AI avatars for training, marketing, and corporate comms",
+   "status": "production",
+   "url": "https://www.synthesia.io/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.synthesia.io/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "RPA & Automation",
+   "project": "AA AI Copilot",
+   "organization": "Automation Anywhere",
+   "desc": "AI Copilot for business users: natural language to automation bots, document understanding",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "RPA & Automation",
+   "project": "Automation Anywhere AI Agent",
+   "organization": "Automation Anywhere",
+   "desc": "Intelligent automation: AI agents that reason, decide, and act across enterprise systems",
+   "status": "production",
+   "url": "https://www.automationanywhere.com/products/ai-agents",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.automationanywhere.com/products/ai-agents",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "RPA & Automation",
+   "project": "Bardeen AI",
+   "organization": "Bardeen",
+   "desc": "No-code workflow automation agent: browser extension turns natural language into multi-app workflows",
+   "status": "production",
+   "url": "https://bardeen.ai/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://bardeen.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "RPA & Automation",
+   "project": "Microsoft Copilot Studio",
+   "organization": "Microsoft",
+   "desc": "Build custom AI agents and copilots with low-code: integrate with Power Automate and M365",
+   "status": "production",
+   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "RPA & Automation",
+   "project": "Power Automate AI",
+   "organization": "Microsoft",
+   "desc": "AI-powered workflows: natural language to automation, document processing, and task mining",
+   "status": "production",
+   "url": "https://powerautomate.microsoft.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://powerautomate.microsoft.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "RPA & Automation",
+   "project": "UiPath AI Center",
+   "organization": "UiPath",
+   "desc": "RPA + AI: document understanding, intent analysis, and ML model orchestration in automation workflows",
+   "status": "production",
+   "url": "https://www.uipath.com/platform/ai-center",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.uipath.com/platform/ai-center",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Real Estate",
+   "project": "Compass AI",
+   "organization": "Compass",
+   "desc": "Real estate agent assistant: listing description generation, market analysis, and lead qualification",
+   "status": "production",
+   "url": "https://www.compass.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.compass.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Real Estate",
+   "project": "JLL AI",
+   "organization": "JLL",
+   "desc": "Commercial real estate AI: property valuation, tenant matching, and portfolio optimization",
+   "status": "production",
+   "url": "https://www.jll.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.jll.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Real Estate",
+   "project": "Redfin AI",
+   "organization": "Redfin",
+   "desc": "Home search assistant: natural language queries, market analysis, and personalized recommendations",
+   "status": "production",
+   "url": "https://www.redfin.com/ai",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.redfin.com/ai",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Real Estate",
+   "project": "Zillow AI",
+   "organization": "Zillow",
+   "desc": "Property valuation agent: Zestimate model + natural language search and neighborhood insights",
+   "status": "production",
+   "url": "https://www.zillow.com/zestimate/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.zillow.com/zestimate/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Research & Development",
+   "project": "Atomwise AI",
+   "organization": "Atomwise",
+   "desc": "Drug discovery agent: AI screens billions of compounds for target binding, 750+ collaborations",
+   "status": "production",
+   "url": "https://atomwise.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://atomwise.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Research & Development",
+   "project": "Coscientist",
+   "organization": "CMU/Carnegie",
+   "desc": "Autonomous chemical research: LLM agent plans and executes organic synthesis reactions via robotic lab",
+   "status": "research",
+   "url": "https://www.nature.com/articles/s41586-023-06792-0",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.nature.com/articles/s41586-023-06792-0",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Research & Development",
+   "project": "DeepMind AlphaFold Team",
+   "organization": "Google DeepMind",
+   "desc": "AI research agents: protein structure prediction, AlphaFold 3, and scientific discovery at scale",
+   "status": "production",
+   "url": "https://deepmind.google/technologies/alphafold/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://deepmind.google/technologies/alphafold/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Research & Development",
+   "project": "Insilico Medicine",
+   "organization": "Insilico Medicine",
+   "desc": "End-to-end drug discovery AI: target identification, molecule generation, clinical trial prediction",
+   "status": "production",
+   "url": "https://insilico.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://insilico.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Research & Development",
+   "project": "OpenAI o-series Research",
+   "organization": "OpenAI",
+   "desc": "Reasoning models for scientific discovery: math olympiad, theorem proving, and research-level problem solving",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Research & Development",
+   "project": "Sakana AI Scientist",
+   "organization": "Sakana AI",
+   "desc": "Autonomous research agent: conducts literature review, proposes hypotheses, runs experiments, writes papers",
+   "status": "research",
+   "url": "https://github.com/SakanaAI/AI-Scientist",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/SakanaAI/AI-Scientist",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Retail & E-commerce",
+   "project": "Alibaba Tongyi Qianwen",
+   "organization": "Alibaba Cloud",
+   "desc": "E-commerce agents: product description generation, customer service, and supply chain optimization",
+   "status": "production",
+   "url": "https://www.alibabacloud.com/product/bailian",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.alibabacloud.com/product/bailian",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Retail & E-commerce",
+   "project": "Amazon Rufus",
+   "organization": "Amazon",
+   "desc": "Shopping assistant: product Q&A, comparisons, and recommendations powered by in-house LLM",
+   "status": "production",
+   "url": "https://www.aboutamazon.com/news/retail/amazon-rufus",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.aboutamazon.com/news/retail/amazon-rufus",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Retail & E-commerce",
+   "project": "Instacart AI Shopping",
+   "organization": "Instacart",
+   "desc": "AI shopping assistant: recipe-to-cart, smart substitutions, and conversational product search",
+   "status": "production",
+   "url": "https://www.instacart.com/ai",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.instacart.com/ai",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Retail & E-commerce",
+   "project": "Shopify Sidekick",
+   "organization": "Shopify",
+   "desc": "Merchant AI assistant: store setup, campaign creation, and data-driven business advice",
+   "status": "production",
+   "url": "https://www.shopify.com/magic",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.shopify.com/magic",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Retail & E-commerce",
+   "project": "eBay AI Listing",
+   "organization": "eBay",
+   "desc": "Seller AI agent: auto-generates listing descriptions, pricing suggestions, and image enhancement",
+   "status": "production",
+   "url": "https://www.ebay.com/",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.ebay.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Telecommunications",
+   "project": "AT&T Ask AT&T",
+   "organization": "AT&T",
+   "desc": "Enterprise AI assistant: internal knowledge retrieval, customer support, and network ops",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Telecommunications",
+   "project": "BT AI Assistant",
+   "organization": "British Telecom",
+   "desc": "Network fault prediction and customer service agent handling 5M+ interactions monthly",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Telecommunications",
+   "project": "Deutsche Telekom AI",
+   "organization": "Deutsche Telekom",
+   "desc": "Network optimization agent: traffic prediction, capacity planning, and automated provisioning",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Telecommunications",
+   "project": "SK Telecom AI Agent",
+   "organization": "SK Telecom",
+   "desc": "A. agent: personal AI assistant integrating calls, scheduling, and service management for 30M users",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "domain": "Telecommunications",
+   "project": "TeleAgent Platform",
+   "organization": "中国电信",
+   "desc": "电信客服智能体：话费查询、套餐推荐、故障诊断、工单全流程自动化",
+   "status": "production",
+   "url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "industry-known",
+    "status": "seed-verified"
+   }
+  }
+ ]
+}

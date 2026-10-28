@@ -1,0 +1,51 @@
+name: Weekly industry trend scan
+
+on:
+  schedule:
+    # UTC Monday 06:00 = 北京时间周一 14:00
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-industry
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scan GitHub trending + HuggingFace
+        id: scan
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          code=0
+          python scripts/weekly_industry_scan.py || code=$?
+          if [ "$code" -ne 0 ] && [ "$code" -ne 10 ]; then exit "$code"; fi
+          gh_count=$(python -c "import json;print(json.load(open('reports/weekly-trending/latest.json'))['github_repos_count'])" 2>/dev/null || echo "0")
+          hf_count=$(python -c "import json;print(json.load(open('reports/weekly-trending/latest.json'))['hf_models_count'])" 2>/dev/null || echo "0")
+          echo "gh=$gh_count" >> "$GITHUB_OUTPUT"
+          echo "hf=$hf_count" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Commit weekly report
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/weekly-trending/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "chore(weekly-trending): $(date -u +%F) — ${{ steps.scan.outputs.gh }} repos, ${{ steps.scan.outputs.hf }} models" --no-verify
+            git push
+          fi

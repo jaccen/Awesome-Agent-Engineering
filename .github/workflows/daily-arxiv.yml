@@ -1,0 +1,48 @@
+name: Daily arXiv Agent scan
+
+on:
+  schedule:
+    # UTC 22:00 = 北京时间 06:00，覆盖前一日提交窗口
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-arxiv
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scan arXiv for new Agent papers
+        id: scan
+        run: |
+          code=0
+          python scripts/daily_arxiv_scan.py 3 || code=$?
+          # Exit 10 = candidates found (success), 0 = no candidates (success), 2 = incomplete (fail)
+          if [ "$code" -ne 0 ] && [ "$code" -ne 10 ]; then exit "$code"; fi
+          count=$(python -c "import json;print(json.load(open('reports/arxiv-daily/latest.json'))['count'])" 2>/dev/null || echo "0")
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Commit daily report
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/arxiv-daily/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "chore(arxiv-daily): $(date -u +%F) Agent scan — ${{ steps.scan.outputs.count }} candidates" --no-verify
+            git push
+          fi

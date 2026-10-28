@@ -1,0 +1,780 @@
+{
+ "generated_at": "2026-10-28",
+ "generator": "scripts/seed_kb.py",
+ "count": 47,
+ "category_count": 18,
+ "categories": {
+  "Foundation Models": 7,
+  "Code Agents": 7,
+  "Robotics Agents": 5,
+  "Customer Service Agents": 4,
+  "Action Agents": 3,
+  "Agent Memory": 3,
+  "Agent Infrastructure": 3,
+  "Healthcare Agents": 2,
+  "Web Agents": 2,
+  "Autonomous Agents": 2,
+  "Character Agents": 2,
+  "Enterprise Search & RAG": 1,
+  "Research Agents": 1,
+  "Legal Agents": 1,
+  "Agent Tools": 1,
+  "Enterprise Agents": 1,
+  "Compliance Agents": 1,
+  "Companion Agents": 1
+ },
+ "startups": [
+  {
+   "name": "Adept AI",
+   "category": "Action Agents",
+   "founded": 2022,
+   "funding": "$415M+",
+   "desc": "ACT-1: model that takes actions on software — clicks, types, navigates real UIs",
+   "url": "https://www.adept.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.adept.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Imbue",
+   "category": "Action Agents",
+   "founded": 2021,
+   "funding": "$220M+",
+   "desc": "Building autonomous agents with reasoning and simulation for complex real-world tasks",
+   "url": "https://imbue.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://imbue.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "MultiOn AI",
+   "category": "Action Agents",
+   "founded": 2023,
+   "funding": "$20M+",
+   "desc": "Browser agent: autonomous web task completion via natural language commands",
+   "url": "https://multion.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://multion.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "CrewAI",
+   "category": "Agent Infrastructure",
+   "founded": 2024,
+   "funding": "$25M+",
+   "desc": "Multi-agent orchestration platform: role-playing crews with deployment and monitoring",
+   "url": "https://www.crewai.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.crewai.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "LangChain",
+   "category": "Agent Infrastructure",
+   "founded": 2023,
+   "funding": "$25M+",
+   "desc": "Company behind LangChain/LangGraph/LangSmith: the LLM app development stack",
+   "url": "https://www.langchain.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.langchain.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "LlamaIndex",
+   "category": "Agent Infrastructure",
+   "founded": 2023,
+   "funding": "$8.5M+",
+   "desc": "Data framework company: RAG pipelines, agents, and enterprise data connectors",
+   "url": "https://www.llamaindex.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.llamaindex.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Letta",
+   "category": "Agent Memory",
+   "founded": 2024,
+   "funding": "$10M+",
+   "desc": "Agent memory framework spun out of UC Berkeley: MemGPT and block-based memory",
+   "url": "https://letta.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://letta.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Mem0",
+   "category": "Agent Memory",
+   "founded": 2024,
+   "funding": "$30M+",
+   "desc": "Production memory layer for LLM apps: personalized, evolving memory across sessions",
+   "url": "https://mem0.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://mem0.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Zep",
+   "category": "Agent Memory",
+   "founded": 2022,
+   "funding": "$5M+",
+   "desc": "Long-term memory service for AI assistants: temporal knowledge graph and recall",
+   "url": "https://getzep.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://getzep.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Composio",
+   "category": "Agent Tools",
+   "founded": 2024,
+   "funding": "$8M+",
+   "desc": "Tool platform: 250+ app integrations with auth management for agent tool-use",
+   "url": "https://composio.dev/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://composio.dev/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Waabi",
+   "category": "Autonomous Agents",
+   "founded": 2021,
+   "funding": "$280M+",
+   "desc": "Generative AI for autonomous driving: simulation-first approach to self-driving trucks",
+   "url": "https://waabi.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://waabi.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Wayve",
+   "category": "Autonomous Agents",
+   "founded": 2017,
+   "funding": "$1B+",
+   "desc": "End-to-end autonomous driving: LINGO-2 language-driving model for AV explanation and control",
+   "url": "https://wayve.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://wayve.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Character.AI",
+   "category": "Character Agents",
+   "founded": 2021,
+   "funding": "$2.7B+",
+   "desc": "Platform for creating and chatting with AI characters: 18M+ users, personalized models",
+   "url": "https://character.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://character.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Inworld AI",
+   "category": "Character Agents",
+   "founded": 2021,
+   "funding": "$125M+",
+   "desc": "AI NPCs for games and virtual worlds: character engine with personality and memory",
+   "url": "https://inworld.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://inworld.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Anysphere",
+   "category": "Code Agents",
+   "founded": 2022,
+   "funding": "$10B+",
+   "desc": "Cursor: AI-first code editor with agent mode, multi-file editing, and tab completion",
+   "url": "https://cursor.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://cursor.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Codeium",
+   "category": "Code Agents",
+   "founded": 2021,
+   "funding": "$1.5B+",
+   "desc": "Enterprise AI coding: in-IDE autocomplete, agentic chat, and codebase-aware context",
+   "url": "https://codeium.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://codeium.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Cognition",
+   "category": "Code Agents",
+   "founded": 2024,
+   "funding": "$2B+",
+   "desc": "Devin: the first autonomous AI software engineer, now SWE-bench leader",
+   "url": "https://cognition.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://cognition.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Magic.dev",
+   "category": "Code Agents",
+   "founded": 2022,
+   "funding": "$1B+",
+   "desc": "Long-context AI software engineer: LTM models for repo-level code understanding",
+   "url": "https://magic.dev/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://magic.dev/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Poolside AI",
+   "category": "Code Agents",
+   "founded": 2023,
+   "funding": "$600M+",
+   "desc": "Code synthesis via reinforcement learning from execution feedback",
+   "url": "https://poolside.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://poolside.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Replit",
+   "category": "Code Agents",
+   "founded": 2016,
+   "funding": "$1.2B+",
+   "desc": "Cloud IDE with AI Agent: natural language to full applications, deploy from browser",
+   "url": "https://replit.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://replit.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Sourcegraph",
+   "category": "Code Agents",
+   "founded": 2013,
+   "funding": "$230M+",
+   "desc": "Cody: enterprise code intelligence and agent for large codebase navigation and fixes",
+   "url": "https://sourcegraph.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://sourcegraph.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Replika",
+   "category": "Companion Agents",
+   "founded": 2017,
+   "funding": "$10M+",
+   "desc": "AI companion app: empathetic chatbot with 10M+ users and long-term memory",
+   "url": "https://replika.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://replika.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Norm AI",
+   "category": "Compliance Agents",
+   "founded": 2023,
+   "funding": "$27M+",
+   "desc": "Regulatory compliance AI agents: automate compliance checks and reporting",
+   "url": "https://norm.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://norm.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Aisera",
+   "category": "Customer Service Agents",
+   "founded": 2012,
+   "funding": "$150M+",
+   "desc": "Agentic AI for IT and customer service: auto-resolve, assist, and automate",
+   "url": "https://aisera.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://aisera.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Decagon AI",
+   "category": "Customer Service Agents",
+   "founded": 2023,
+   "funding": "$100M+",
+   "desc": "Enterprise support agent: auto-resolves tickets, learns from every interaction",
+   "url": "https://decagon.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://decagon.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Forethought",
+   "category": "Customer Service Agents",
+   "founded": 2017,
+   "funding": "$90M+",
+   "desc": "AI agent for support: auto-resolution, agent assist, and workflow automation",
+   "url": "https://forethought.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://forethought.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Sierra AI",
+   "category": "Customer Service Agents",
+   "founded": 2022,
+   "funding": "$1B+",
+   "desc": "Conversational AI for enterprise CX: voice + text agents with empathy and guardrails",
+   "url": "https://sierra.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://sierra.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Sema4.ai",
+   "category": "Enterprise Agents",
+   "founded": 2021,
+   "funding": "$30M+",
+   "desc": "Enterprise AI agents built on open-source frameworks: automation with control",
+   "url": "https://sema4.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://sema4.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Glean",
+   "category": "Enterprise Search & RAG",
+   "founded": 2019,
+   "funding": "$4.6B+",
+   "desc": "Enterprise AI search: connects all company apps with LLM-powered search and agents",
+   "url": "https://www.glean.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.glean.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "AI21 Labs",
+   "category": "Foundation Models",
+   "founded": 2017,
+   "funding": "$1.5B+",
+   "desc": "Jamba architecture: Mamba-Transformer hybrid for long-context enterprise NLP",
+   "url": "https://www.ai21.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.ai21.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Anthropic",
+   "category": "Foundation Models",
+   "founded": 2021,
+   "funding": "$60B+",
+   "desc": "Claude series with constitutional AI, computer use, and agent capabilities",
+   "url": "https://www.anthropic.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.anthropic.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Cohere",
+   "category": "Foundation Models",
+   "founded": 2019,
+   "funding": "$5B+",
+   "desc": "Enterprise-focused LLMs: Command series, embeddings, and reranking for RAG",
+   "url": "https://cohere.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://cohere.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "DeepSeek",
+   "category": "Foundation Models",
+   "founded": 2023,
+   "funding": "$2B+",
+   "desc": "DeepSeek-V3/R1 open models: MoE architecture, reasoning, and cost-efficient training",
+   "url": "https://www.deepseek.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.deepseek.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Mistral AI",
+   "category": "Foundation Models",
+   "founded": 2023,
+   "funding": "$5B+",
+   "desc": "European open-weight LLMs: Mistral, Mixtral, and Magistral models",
+   "url": "https://mistral.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://mistral.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "OpenAI",
+   "category": "Foundation Models",
+   "founded": 2015,
+   "funding": "$157B+",
+   "desc": "GPT series, ChatGPT, o-series reasoning models, Sora video generation",
+   "url": "https://openai.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://openai.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "xAI",
+   "category": "Foundation Models",
+   "founded": 2023,
+   "funding": "$50B+",
+   "desc": "Grok series, Colossus supercomputer, real-time knowledge via X integration",
+   "url": "https://x.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://x.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Glass Health",
+   "category": "Healthcare Agents",
+   "founded": 2021,
+   "funding": "$50M+",
+   "desc": "Clinical AI: differential diagnosis and clinical plan generation for physicians",
+   "url": "https://glass.health/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://glass.health/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Hippocratic AI",
+   "category": "Healthcare Agents",
+   "founded": 2022,
+   "funding": "$278M+",
+   "desc": "Healthcare safety-focused LLM: non-diagnostic patient interactions, longitudinal care",
+   "url": "https://www.hippocraticai.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.hippocraticai.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Harvey",
+   "category": "Legal Agents",
+   "founded": 2022,
+   "funding": "$1B+",
+   "desc": "AI for Big Law: contract analysis, due diligence — used by Allen & Overy, PwC, KPMG",
+   "url": "https://www.harvey.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.harvey.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Sakana AI",
+   "category": "Research Agents",
+   "founded": 2023,
+   "funding": "$200M+",
+   "desc": "Nature-inspired AI: AI Scientist, evolutionary model merging, and autonomous research",
+   "url": "https://sakana.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://sakana.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "1X Technologies",
+   "category": "Robotics Agents",
+   "founded": 2023,
+   "funding": "$100M+",
+   "desc": "NEO humanoid robot: home assistant with embodied AI and safe physical interaction",
+   "url": "https://1x.tech/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://1x.tech/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Figure AI",
+   "category": "Robotics Agents",
+   "founded": 2022,
+   "funding": "$675M+",
+   "desc": "Autonomous humanoid robots: Figure 02 with OpenAI-powered reasoning for labor",
+   "url": "https://www.figure.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://www.figure.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Physical Intelligence",
+   "category": "Robotics Agents",
+   "founded": 2024,
+   "funding": "$400M+",
+   "desc": "Universal robot brain: π0 and π0.5 VLA models for cross-embodiment manipulation",
+   "url": "https://physicalintelligence.company/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://physicalintelligence.company/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Sanctuary AI",
+   "category": "Robotics Agents",
+   "founded": 2018,
+   "funding": "$150M+",
+   "desc": "Phoenix humanoid robot with Carbon AI cognitive architecture for general-purpose work",
+   "url": "https://sanctuary.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://sanctuary.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Skild AI",
+   "category": "Robotics Agents",
+   "founded": 2023,
+   "funding": "$30M+",
+   "desc": "Scalable foundation model for robotics: single model across tasks and embodiments",
+   "url": "https://skild.ai/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://skild.ai/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Browser Use",
+   "category": "Web Agents",
+   "founded": 2024,
+   "funding": "Open Source",
+   "desc": "Open-source web automation: LLM-driven browser control, 60k+ GitHub stars",
+   "url": "https://browser-use.com/",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://browser-use.com/",
+    "status": "seed-verified"
+   }
+  },
+  {
+   "name": "Crawl4AI",
+   "category": "Web Agents",
+   "founded": 2024,
+   "funding": "Open Source",
+   "desc": "LLM-friendly web crawler optimized for RAG and agent data ingestion",
+   "url": "https://github.com/unclecode/crawl4ai",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/unclecode/crawl4ai",
+    "status": "seed-verified"
+   }
+  }
+ ]
+}

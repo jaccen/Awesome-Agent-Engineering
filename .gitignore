@@ -1,0 +1,65 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary and personal files
+.temp/
+新建文件夹/
+.ruff_cache/
+.watermark_tmp/
+*.bak
+
+# Outreach / operations outputs (local only, not for repo)
+outputs/
+
+~$*
+*.docx
+
+# Local scheduler state (runtime artifact, not for repo)
+scheduler.db
+
+# Build artifacts & caches (not for repo)
+*.genie
+Awesome-Agent-Engineering.zip
+.tmp_zipx/
+
+# Agent runtime state & local data (never for repo)
+.workbuddy/
+.temp_*.html
+.temp_*.js
+privacy-keywords.json
+
+# arXiv cache (regenerated daily)
+.arxiv_cache.json
+_arxiv_results.json

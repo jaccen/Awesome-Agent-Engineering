@@ -1,0 +1,40 @@
+name: Knowledge base validation
+
+on:
+  push:
+    paths:
+      - "data/*.json"
+      - "scripts/validate_kb.py"
+  pull_request:
+    paths:
+      - "data/*.json"
+      - "scripts/validate_kb.py"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate all knowledge bases
+        run: |
+          python scripts/validate_kb.py
+
+      - name: Print summary
+        run: |
+          echo "## Knowledge Base Validation Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Knowledge Base | Entries | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------------|---------|--------|" >> $GITHUB_STEP_SUMMARY
+          for f in data/*.json; do
+            name=$(basename "$f" .json)
+            count=$(python -c "import json; print(json.load(open('$f'))['count'])")
+            echo "| $name | $count | ✅ Pass |" >> $GITHUB_STEP_SUMMARY
+          done

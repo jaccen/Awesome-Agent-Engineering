@@ -1,0 +1,5622 @@
+{
+ "generated_at": "2026-10-28",
+ "generator": "scripts/seed_kb.py",
+ "count": 280,
+ "category_count": 12,
+ "categories": {
+  "Web & GUI Agents": 36,
+  "Code & Software Agents": 34,
+  "Foundation & Architecture": 33,
+  "Embodied & Robotics Agents": 32,
+  "Tool Use & Function Calling": 21,
+  "Multi-Agent Systems": 20,
+  "Agent Frameworks & Infrastructure": 19,
+  "Safety, Alignment & Evaluation": 19,
+  "Planning & Reasoning": 18,
+  "Memory & Context": 17,
+  "World Models & Simulation": 16,
+  "Knowledge & RAG Agents": 15
+ },
+ "methods": [
+  {
+   "name": "A2A-Protocol",
+   "arxiv_id": "2504.08218",
+   "venue": "Google 2025",
+   "year": 2025,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Agent-to-Agent protocol: open standard for inter-agent communication and task delegation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2504.08218",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "A2UI-Protocol",
+   "arxiv_id": "2503.07666",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Agent-to-UI protocol: standardizing agent interaction with graphical user interfaces",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2503.07666",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Agent-Lab",
+   "arxiv_id": "2410.05639",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "General agent evaluation framework: standardized agent benchmarking across 6 tasks",
+   "code_url": "https://github.com/SalesforceAIResearch/AgentLab",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.05639",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentScope WorkBench",
+   "arxiv_id": "2402.14034",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Distributed multi-agent runtime with message hub, GUI builder, and state management",
+   "code_url": "https://github.com/agentscope-ai/agentscope",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.14034",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Agients",
+   "arxiv_id": "2402.03599",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Asynchronous multi-agent orchestration with cancellation, retry, and parallel execution",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.03599",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AutoGen-MCP",
+   "arxiv_id": "2501.13661",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "MCP integration for AutoGen: tool server standard for multi-agent systems",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.13661",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CrewAI",
+   "arxiv_id": "",
+   "venue": "CrewAI 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Role-playing multi-agent framework with sequential and hierarchical crew orchestration",
+   "code_url": "https://github.com/crewAIInc/crewAI",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/crewAIInc/crewAI",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CrewAI-Flow",
+   "arxiv_id": "2411.14347",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "CrewAI Flows: event-driven orchestration with conditional routing and state persistence",
+   "code_url": "https://github.com/crewAIInc/crewAI",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2411.14347",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "DSPy",
+   "arxiv_id": "2310.03714",
+   "venue": "COLM 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Programming framework for LM pipelines: declarative modules with automatic prompt optimization",
+   "code_url": "https://github.com/stanfordnlp/dspy",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.03714",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Dify-Agent",
+   "arxiv_id": "2501.13461",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Dify agent builder: visual node-based agent workflow with 100+ tool nodes",
+   "code_url": "https://github.com/langgenius/dify",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.13461",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "LangChain",
+   "arxiv_id": "",
+   "venue": "LangChain 2023",
+   "year": 2023,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Framework for building LLM applications with chains, agents, and tool integration",
+   "code_url": "https://github.com/langchain-ai/langchain",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/langchain-ai/langchain",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "LangGraph",
+   "arxiv_id": "2501.00024",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Stateful multi-actor agent orchestration with graph-based control flow and persistence",
+   "code_url": "https://github.com/langchain-ai/langgraph",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.00024",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Llama-Agents",
+   "arxiv_id": "2408.10827",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "LlamaIndex's agent framework: service-based agent orchestration with message queues",
+   "code_url": "https://github.com/run-llama/llama-agents",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2408.10827",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Magentic-One",
+   "arxiv_id": "2411.04468",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Microsoft's generalist multi-agent system: web + file + terminal agents with Orchestrator",
+   "code_url": "https://github.com/microsoft/autogen",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2411.04468",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "OpenManus",
+   "arxiv_id": "2503.01391",
+   "venue": "MetaGPT 2025",
+   "year": 2025,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Open-source general agent: plan-execute-refine loop with tool and browser access",
+   "code_url": "https://github.com/FoundationAgents/OpenManus",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2503.01391",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "PydanticAI",
+   "arxiv_id": "",
+   "venue": "Pydantic 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "Type-safe agent framework: structured outputs, dependency injection, and multi-provider support",
+   "code_url": "https://github.com/pydantic/pydantic-ai",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/pydantic/pydantic-ai",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Semantic Kernel",
+   "arxiv_id": "",
+   "venue": "Microsoft 2023",
+   "year": 2023,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "SDK integrating LLMs with conventional programming languages via plugins and planners",
+   "code_url": "https://github.com/microsoft/semantic-kernel",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/microsoft/semantic-kernel",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Smolagents",
+   "arxiv_id": "2501.07758",
+   "venue": "HuggingFace 2025",
+   "year": 2025,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "HF's minimal agent library: code-first agents with hub-hosted tools, <1000 LOC",
+   "code_url": "https://github.com/huggingface/smolagents",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.07758",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Swarm",
+   "arxiv_id": "2410.05155",
+   "venue": "OpenAI 2024",
+   "year": 2024,
+   "category": "Agent Frameworks & Infrastructure",
+   "desc": "OpenAI's lightweight multi-agent orchestration: routines and handoff primitives",
+   "code_url": "https://github.com/openai/swarm",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.05155",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Agentless",
+   "arxiv_id": "2407.01489",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Repairing bugs without agents: localization + repair two-phase approach beating agentic methods",
+   "code_url": "https://github.com/OpenAutoCoder/Agentless",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.01489",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Agentless (Repair)",
+   "arxiv_id": "2407.01489",
+   "venue": "FSE 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "Two-phase bug fixing: fault localization + program repair, no agent loop needed",
+   "code_url": "https://github.com/OpenAutoCoder/Agentless",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.01489",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Aider-Edit",
+   "arxiv_id": "2402.15563",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "AI pair programming: whole-function editing and repo-aware refactoring via LLM",
+   "code_url": "https://github.com/Aider-AI/aider",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.15563",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AutoCodeRover",
+   "arxiv_id": "2404.05401",
+   "venue": "ISSTA 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Autonomous program improvement via LLM-based spectrum analysis and fault localization",
+   "code_url": "https://github.com/nus-apr/AutoCodeRover",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.05401",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Claude Code",
+   "arxiv_id": "",
+   "venue": "Anthropic 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "Anthropic's CLI coding agent with tool-use, file editing, and agentic loop for repo-level tasks",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CodeAct",
+   "arxiv_id": "2402.01030",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Code as actions: LLM agents execute Python code as unified action space",
+   "code_url": "https://github.com/xingyaoww/code-act",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.01030",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CodeActAgent",
+   "arxiv_id": "2402.01030",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Code-as-action agent: unified Python code execution as general action interface",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.01030",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CodePlan",
+   "arxiv_id": "2309.12499",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Repository-level coding: LLM plans multi-file edits with dependency-aware scheduling",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2309.12499",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CodeR",
+   "arxiv_id": "2406.01304",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Multi-agent framework for autonomous program improvement at repository level",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.01304",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CodeR-2",
+   "arxiv_id": "2502.01309",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "Multi-agent code repair: coordinator + reproducer + editor + verifier agents",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.01309",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CodeT5+",
+   "arxiv_id": "2305.07976",
+   "venue": "EMNLP 2023",
+   "year": 2023,
+   "category": "Code & Software Agents",
+   "desc": "Code understanding and generation with encoder-decoder pretraining and instruction tuning",
+   "code_url": "https://github.com/salesforce/CodeT5Plus",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.07976",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Cursor Agent",
+   "arxiv_id": "",
+   "venue": "Anysphere 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "IDE-integrated agent mode with multi-file editing, terminal access, and background task execution",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "DeepSeek-Coder",
+   "arxiv_id": "2401.14196",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Open code model: 33B trained on 2T tokens, repository-level fill-in-the-middle",
+   "code_url": "https://github.com/deepseek-ai/DeepSeek-Coder",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.14196",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Devin",
+   "arxiv_id": "",
+   "venue": "Cognition 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "First autonomous AI software engineer: plans, codes, debugs, and deploys end-to-end",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "DyVal",
+   "arxiv_id": "2310.08492",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Dynamic evaluation of LLM reasoning: generates evaluation instances with controllable difficulty",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.08492",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "LATS-Code",
+   "arxiv_id": "2403.04254",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "Search-based code agent: Monte Carlo tree search with LLM value function for debugging",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.04254",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MapCoder",
+   "arxiv_id": "2405.11403",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Multi-agent code generation: planning + retrieval + coding + debugging agents",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2405.11403",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MarsCode Agent",
+   "arxiv_id": "",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "ByteDance's AI coding agent: spec-driven recursive delegation for complex repo tasks",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MetaGPT-Code",
+   "arxiv_id": "2402.10198",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "CodeRAG: retrieval-augmented code generation with repository-aware context",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.10198",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Multi-SWE",
+   "arxiv_id": "2502.08057",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "Multi-language SWE-bench: 10 programming languages, 2300 tasks for cross-lingual code agents",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.08057",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "OpenDevin",
+   "arxiv_id": "2407.16741",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Open-source autonomous coding agent with sandboxed execution and browser access",
+   "code_url": "https://github.com/OpenDevin/OpenDevin",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.16741",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "OpenHands",
+   "arxiv_id": "2407.16741",
+   "venue": "NeurIPS 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "Platform for autonomous software agents with sandboxed code execution and multi-agent collaboration",
+   "code_url": "https://github.com/All-Hands-AI/OpenHands",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.16741",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Qwen2.5-Coder",
+   "arxiv_id": "2409.12186",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Alibaba code model: 32B trained on 5.5T tokens, strong on SWE-bench and HumanEval",
+   "code_url": "https://github.com/QwenLM/Qwen2.5-Coder",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2409.12186",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RepoAgent",
+   "arxiv_id": "2402.16667",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Repository-level agent: file dependency analysis and cross-file code understanding",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.16667",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RepoBench",
+   "arxiv_id": "2406.07091",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Benchmark for repository-level code completion: 10k samples across 100 GitHub repos",
+   "code_url": "https://github.com/echo724/RepoBench",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.07091",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RepoCoder",
+   "arxiv_id": "2303.12570",
+   "venue": "EMNLP 2023",
+   "year": 2023,
+   "category": "Code & Software Agents",
+   "desc": "Repository-level code completion via iterative retrieval-generation pipeline",
+   "code_url": "https://github.com/microsoft/repocoder",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2303.12570",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RepoHyper",
+   "arxiv_id": "2403.06095",
+   "venue": "ICSE 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Repository-level hypergraph for code context: cross-file dependency reasoning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.06095",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SWE-Gym",
+   "arxiv_id": "2410.10905",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "Environment for fine-tuning SWE agents on 2k real-world Python tasks with execution feedback",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.10905",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SWE-Gym-2",
+   "arxiv_id": "2410.10905",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Code & Software Agents",
+   "desc": "SWE training gym: execution-feedback fine-tuning on 2k real Python issues",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.10905",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SWE-agent",
+   "arxiv_id": "2405.15793",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Agent-Computer Interface: LLM agent that autonomously resolves GitHub issues with custom ACI",
+   "code_url": "https://github.com/SWE-agent/SWE-agent",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2405.15793",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SWE-agent-ACI",
+   "arxiv_id": "2405.15793",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Agent-Computer Interface design: structured file viewer and search for autonomous coding",
+   "code_url": "https://github.com/SWE-agent/SWE-agent",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2405.15793",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SWE-bench",
+   "arxiv_id": "2310.06770",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Benchmark for LLMs resolving real GitHub issues with 2294 task instances across 12 repos",
+   "code_url": "https://github.com/swe-bench/SWE-bench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.06770",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SWE-bench Multimodal",
+   "arxiv_id": "2410.03859",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "Multimodal SWE-bench: GUI screenshots + code for full-stack software agent evaluation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.03859",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "StarCoder2",
+   "arxiv_id": "2402.19173",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Code & Software Agents",
+   "desc": "15.5T-token code LLM across 600+ programming languages with repository-level context",
+   "code_url": "https://github.com/bigcode-project/starcoder2",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.19173",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "3D-VLA",
+   "arxiv_id": "2403.09631",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "3D vision-language-action: 3D scene tokenization for embodied interaction generation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.09631",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CogACT",
+   "arxiv_id": "2411.19650",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Cognitive action VLA: unified perception-action architecture with diffusion action head",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2411.19650",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CogACT-1B",
+   "arxiv_id": "2403.09010",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Cognitive action model: 1B param VLA with token-level action prediction",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.09010",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Cosmos-Predict",
+   "arxiv_id": "2501.03591",
+   "venue": "NVIDIA 2025",
+   "year": 2025,
+   "category": "Embodied & Robotics Agents",
+   "desc": "NVIDIA world foundation models: physical AI preview from text/image/video to world simulation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.03591",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Dex-Net-Agent",
+   "arxiv_id": "2402.14511",
+   "venue": "RSS 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Dexterous grasping agent: grasp pose generation with collision-aware planning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.14511",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "DexVLA",
+   "arxiv_id": "2502.05855",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Efficient VLA for dexterous manipulation: delta-action prediction and expert warm-start",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.05855",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Diffusion-VLA",
+   "arxiv_id": "2410.04787",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Diffusion policy for VLA: continuous action generation via flow matching in VLA framework",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.04787",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "DiffusionPolicy",
+   "arxiv_id": "2303.04137",
+   "venue": "RSS 2023",
+   "year": 2023,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Visuomotor policy via conditional diffusion: multi-modal action distribution for manipulation",
+   "code_url": "https://github.com/real-stanford/diffusion_policy",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2303.04137",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "EgoMimic",
+   "arxiv_id": "2410.07188",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Bimanual manipulation via egocentric imitation learning with 4D hand representation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.07188",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "GR00T N1",
+   "arxiv_id": "2503.14734",
+   "venue": "NVIDIA 2025",
+   "year": 2025,
+   "category": "Embodied & Robotics Agents",
+   "desc": "NVIDIA's foundation model for humanoid robots with OpenMind dataset and sim-to-real transfer",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2503.14734",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "HPT",
+   "arxiv_id": "2409.20594",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Heterogeneous pre-trained transformers: cross-embodiment policy via shared latent",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2409.20594",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Helix-World",
+   "arxiv_id": "2503.10967",
+   "venue": "Figure 2025",
+   "year": 2025,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Figure's generalist robot brain: sub-10Hz vision-language-action for full-body humanoid control",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2503.10967",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ManipLLM",
+   "arxiv_id": "2312.16217",
+   "venue": "CVPR 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "LLM-based manipulation: affordance prediction and action generation for dexterous grasping",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2312.16217",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "NVIDIA GR00T-N1.5",
+   "arxiv_id": "2503.14734",
+   "venue": "NVIDIA 2025",
+   "year": 2025,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Updated humanoid foundation model: 680k hours simulation + real data, bimanual tasks",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2503.14734",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "NaVILA",
+   "arxiv_id": "2407.06689",
+   "venue": "ICRA 2025",
+   "year": 2025,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Navigational VLA: vision-language-action for embodied navigation with open-vocab goals",
+   "code_url": "https://github.com/Carlos-Wu/NaVILA",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.06689",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Octo",
+   "arxiv_id": "2405.12213",
+   "venue": "RSS 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Generalist robot policy: 800k trajectories, transformer with diffusion head, fine-tunable",
+   "code_url": "https://github.com/octo-models/octo",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2405.12213",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "OpenVLA",
+   "arxiv_id": "2406.09246",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Open-source vision-language-action model: 7B fine-tuned on 970k robotics trajectories",
+   "code_url": "https://github.com/openvla/openvla",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.09246",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RDT-1B",
+   "arxiv_id": "2410.07439",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Diffusion Transformer for bimanual manipulation: 1B params, 6-layer diffusion, 720p visual input",
+   "code_url": "https://github.com/thu-ml/RoboticsDiffusionTransformer",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.07439",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RT-1",
+   "arxiv_id": "2212.06817",
+   "venue": "arXiv 2022",
+   "year": 2022,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Robotics Transformer for real-world control: 130k+ demonstrations, 700+ tasks, 13 real robots",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2212.06817",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RT-2",
+   "arxiv_id": "2307.15818",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Vision-Language-Action model transferring web knowledge to robotic control with emergent generalization",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2307.15818",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RT-H",
+   "arxiv_id": "2403.01823",
+   "venue": "RSS 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Action hierarchies: language-conditioned robot control with hierarchical action tokenization",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.01823",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RT-X",
+   "arxiv_id": "2310.12761",
+   "venue": "ICRA 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Open large-scale robotics dataset: 1M+ trajectories from 22 robot embodiments across labs",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.12761",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RoboBrain",
+   "arxiv_id": "2502.18479",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Long-horizon embodied agent with spatial-temporal reasoning across 26 tasks",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.18479",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RoboFlamingo",
+   "arxiv_id": "2311.01378",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Vision-language model for robot manipulation: long-horizon imitation via Flamingo backbone",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2311.01378",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SpatialBot",
+   "arxiv_id": "2407.07465",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Precise spatial understanding VLM: 3D coordinate reasoning for robot spatial tasks",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.07465",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SpatialVLM",
+   "arxiv_id": "2401.23321",
+   "venue": "RSS 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Endowing VLMs with spatial reasoning: 3D chain-of-thought for robot spatial planning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.23321",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SuSIE",
+   "arxiv_id": "2306.07880",
+   "venue": "ICRA 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Subgoal generation for robot policy: video-language model predicts future states for planning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2306.07880",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "TinyVLA",
+   "arxiv_id": "2409.12514",
+   "venue": "ICRA 2025",
+   "year": 2025,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Toward scalable, task-agnostic VLA: parameter-efficient transfer from VLMs to robot control",
+   "code_url": "https://github.com/TinyVLA/TinyVLA",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2409.12514",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "UniSim",
+   "arxiv_id": "2310.06114",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Universal simulator: interactive world model from internet video for embodied training",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.06114",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "VIMA",
+   "arxiv_id": "2210.03094",
+   "venue": "ICML 2023",
+   "year": 2023,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Multi-modal prompt learning for robot manipulation: text + image prompts to 13 tasks",
+   "code_url": "https://github.com/vimalabs/VIMA",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2210.03094",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "π0",
+   "arxiv_id": "2410.24164",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Vision-language-action flow model for general robot control with pre-trained flow matching",
+   "code_url": "https://github.com/openpi/bootstack",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.24164",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "π0.5",
+   "arxiv_id": "2504.16054",
+   "venue": "Physical Intelligence 2025",
+   "year": 2025,
+   "category": "Embodied & Robotics Agents",
+   "desc": "Pushing VLA generalization: high-level planning + low-level control for cross-embodiment mobile manipulation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2504.16054",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Adaptable-LAM",
+   "arxiv_id": "2402.13793",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Adaptable large action model: dynamic tool binding and context-aware action planning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.13793",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Agent-FLAN",
+   "arxiv_id": "2403.12881",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Designing data and methods of general agent tuning: 194k tasks, multi-agent generalization",
+   "code_url": "https://github.com/InternLM/Agent-FLAN",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.12881",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentTuning",
+   "arxiv_id": "2310.12823",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Enabling generalizable agent abilities via instruction tuning on 6 agent tasks",
+   "code_url": "https://github.com/THUDM/AgentTuning",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.12823",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Api-Assistant",
+   "arxiv_id": "2402.07827",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "LLM agent for API documentation understanding and endpoint recommendation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.07827",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AskPlanner",
+   "arxiv_id": "2310.12823",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Ask-before-act: LLM asks clarifying questions to reduce planning ambiguity",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.12823",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AutoGPT",
+   "arxiv_id": "",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "Autonomous goal-driven agent that decomposes objectives into sub-tasks with web access",
+   "code_url": "https://github.com/Significant-Gravitas/AutoGPT",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AutoGPT-Next",
+   "arxiv_id": "",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Redesigned autonomous agent platform with plugins, memory, and multi-agent orchestration",
+   "code_url": "https://github.com/Significant-Gravitas/AutoGPT",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AutoGen",
+   "arxiv_id": "2308.08155",
+   "venue": "COLM 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Multi-agent conversation framework enabling flexible agent collaboration via conversable agents",
+   "code_url": "https://github.com/microsoft/autogen",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2308.08155",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CAMEL",
+   "arxiv_id": "2303.17760",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "Communicative agents mind exploration: role-playing for task completion without human input",
+   "code_url": "https://github.com/camel-ai/camel",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2303.17760",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CLIN",
+   "arxiv_id": "2404.02534",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Foundation & Architecture",
+   "desc": "Continual Learning from Interactions: parameter-free agent that curates lessons from past tasks",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.02534",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ChimeraAgent",
+   "arxiv_id": "2402.08941",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Hybrid agent combining neural and symbolic reasoning for robust task completion",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.08941",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Code as Policies",
+   "arxiv_id": "2209.07753",
+   "venue": "ICRA 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "LLM generates robot policy code from natural language with perceptual grounding",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2209.07753",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "EcoAgent",
+   "arxiv_id": "2409.18470",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Edge-cloud collaborative agent: coarse-to-fine reasoning with local small models and cloud LLMs",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2409.18470",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "FireAct",
+   "arxiv_id": "2310.05915",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Language agents with heterogeneous tool-use trajectories: fine-tuning improves multi-tool reasoning",
+   "code_url": "https://github.com/anchen1011/FireAct",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.05915",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "GPT-4-Agent",
+   "arxiv_id": "2303.08774",
+   "venue": "OpenAI 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "GPT-4 as generalist agent: tool-use, code execution, and multi-step reasoning via API",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2303.08774",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Generative Agents",
+   "arxiv_id": "2304.03442",
+   "venue": "UIST 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "Simulating human behavior: 25 agents with memory, reflection, planning in a sandbox town",
+   "code_url": "https://github.com/joonspk-research/generative_agents",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2304.03442",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "HuggingGPT",
+   "arxiv_id": "2303.17580",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "LLM as controller orchestrating HuggingFace models for multi-modal tasks",
+   "code_url": "https://github.com/microsoft/TaskMatrix",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2303.17580",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Inner Monologue",
+   "arxiv_id": "2207.05608",
+   "venue": "CoRL 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "Embodied reasoning: LLM with text + image + action feedback for closed-loop robot control",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2207.05608",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "LATS",
+   "arxiv_id": "2310.04406",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Language Agent Tree Search: MCTS-inspired search with LLM value function for agent tasks",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.04406",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Lemur-2",
+   "arxiv_id": "2310.04677",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Foundation & Architecture",
+   "desc": "Open tool-integrated LLM: tool retrieval + execution with 70B scale",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.04677",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MetaGPT",
+   "arxiv_id": "2308.00352",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Multi-agent framework with SOPs: agents collaborate as a software company (PM/architect/coder/QA)",
+   "code_url": "https://github.com/geekan/MetaGPT",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2308.00352",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MindAgent",
+   "arxiv_id": "2401.05859",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Emergent gaming interaction: multi-agent collaboration in Minecraft with theory of mind",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.05859",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "OpenAGI",
+   "arxiv_id": "2304.04370",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Benchmarks LLMs as agents: RL-from-task-feedback on complex tasks requiring tool chains",
+   "code_url": "https://github.com/agiresearch/OpenAGI",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2304.04370",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "PlanGPT",
+   "arxiv_id": "2402.02806",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Customizing LLMs for planning: task decomposition and resource-aware scheduling",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.02806",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Planner-Act",
+   "arxiv_id": "2305.15710",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "LLM planner with actuator: decoupled planning and execution for long-horizon tasks",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.15710",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ProgPrompt",
+   "arxiv_id": "2211.11559",
+   "venue": "ICRA 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "Programmatic LLM prompting for robot task planning: generates situation-aware Python code",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2211.11559",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ReAct",
+   "arxiv_id": "2210.03629",
+   "venue": "ICLR 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "Reasoning + acting interleaved: LLM generates thought-action-observation loops for task solving",
+   "code_url": "https://github.com/ysymyth/ReAct",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2210.03629",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Reflexion",
+   "arxiv_id": "2303.11366",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "Verbal reinforcement learning: agent self-reflects on failures to improve next attempt",
+   "code_url": "https://github.com/noahshinn/reflexion",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2303.11366",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SayCan",
+   "arxiv_id": "2204.01691",
+   "venue": "CoRL 2022",
+   "year": 2022,
+   "category": "Foundation & Architecture",
+   "desc": "LLM as robot policy: affordance-grounded planning for long-horizon manipulation",
+   "code_url": "https://github.com/google-research/google-research",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2204.01691",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Toolformer",
+   "arxiv_id": "2302.04761",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "Self-supervised tool-use: LLM learns when and how to call calculators, search, APIs",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2302.04761",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Toolformer-V2",
+   "arxiv_id": "2407.12870",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Foundation & Architecture",
+   "desc": "Extended tool learning: multi-tool chains with self-supervised tool-use trajectories",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.12870",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Voyager",
+   "arxiv_id": "2305.16291",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "LLM-powered lifelong learning agent in Minecraft with skill library and automatic curriculum",
+   "code_url": "https://github.com/MineDojo/Voyager",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.16291",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Yayi",
+   "arxiv_id": "2310.01527",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Foundation & Architecture",
+   "desc": "End-to-end conversational agent with multi-LLM orchestration and tool integration",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.01527",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Adaptive-RAG",
+   "arxiv_id": "2403.14403",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Classifier-based adaptive retrieval: learn when to use no-RAG, single-step, or multi-step RAG",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.14403",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CRAG",
+   "arxiv_id": "2401.02691",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Corrective RAG: lightweight retrieval evaluator triggers knowledge refinement or web search",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.02691",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "FLARE",
+   "arxiv_id": "2305.06983",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Forward-Looking Active REtrieval: retrieve when generation confidence drops mid-sentence",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.06983",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "GraphRAG",
+   "arxiv_id": "2404.16130",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Knowledge-graph-augmented RAG: community detection over entity graph for global question answering",
+   "code_url": "https://github.com/microsoft/graphrag",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.16130",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "GraphRAG-Query",
+   "arxiv_id": "2409.15106",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Query-focused summarization over knowledge graph community structure",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2409.15106",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "HyDE",
+   "arxiv_id": "2212.10496",
+   "venue": "ICLR 2023",
+   "year": 2023,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Hypothetical document embeddings: generate hypothetical answers to improve retrieval",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2212.10496",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "LightRAG",
+   "arxiv_id": "2410.03769",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Lightweight graph-based RAG: incremental entity update and dual-level retrieval",
+   "code_url": "https://github.com/HKUDS/LightRAG",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.03769",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RAG",
+   "arxiv_id": "2005.11401",
+   "venue": "NeurIPS 2020",
+   "year": 2020,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Retrieval-augmented generation: combining parametric and non-parametric memory for knowledge-intensive tasks",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2005.11401",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RAGAS",
+   "arxiv_id": "2309.15217",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Automated RAG evaluation: faithfulness, answer relevance, context precision/recall metrics",
+   "code_url": "https://github.com/explodinggradients/ragas",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2309.15217",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RAPTOR",
+   "arxiv_id": "2401.18059",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Recursive Abstractive Processing: tree-structured retrieval for document-level QA",
+   "code_url": "https://github.com/parthsarthi03/raptor",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.18059",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RAPTOR-KG",
+   "arxiv_id": "2402.18684",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Knowledge-graph-augmented RAPTOR: tree-structured retrieval with entity linking",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.18684",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ReAct + RAG",
+   "arxiv_id": "2210.03629",
+   "venue": "ICLR 2023",
+   "year": 2023,
+   "category": "Knowledge & RAG Agents",
+   "desc": "ReAct grounding: reasoning + retrieval interleaved for knowledge-intensive multi-hop QA",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2210.03629",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Self-RAG",
+   "arxiv_id": "2310.11511",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Self-reflective RAG: LLM retrieves, critiques, and selects retrieval results adaptively",
+   "code_url": "https://github.com/AkariAsai/self-rag",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.11511",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Self-RAG-2",
+   "arxiv_id": "2410.01455",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Self-RAG with reflection tokens: adaptive retrieval and critique for long-form QA",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.01455",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Speculative-RAG",
+   "arxiv_id": "2407.08223",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Knowledge & RAG Agents",
+   "desc": "Speculative RAG: draft + verify paradigm reduces retrieval latency via parallel drafting",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.08223",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "A-MEM",
+   "arxiv_id": "2502.12110",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Memory & Context",
+   "desc": "Agentic memory system inspired by Zettelkasten: LLM self-organizes notes via link discovery",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.12110",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentScope-Mem",
+   "arxiv_id": "2402.14034",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "AgentScope memory module: short-term + long-term + working memory with retrieval",
+   "code_url": "https://github.com/agentscope-ai/agentscope",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.14034",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CoALA",
+   "arxiv_id": "2309.02427",
+   "venue": "TMLR 2024",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "Cognitive Architectures for Language Agents: unifying memory, action, planning, perception",
+   "code_url": "https://github.com/andyz3jp/CoALA-Archive",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2309.02427",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Cognitive Architectures Survey",
+   "arxiv_id": "2309.06781",
+   "venue": "TMLR 2024",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "Survey of 28 cognitive architectures for LLM agents: memory, reasoning, and learning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2309.06781",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "EM-LLM",
+   "arxiv_id": "2407.11004",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "Episodic Memory for LLMs: working memory inspired by human episodic memory with surprise-triggered consolidation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.11004",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Infini-attention",
+   "arxiv_id": "2404.07143",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "Efficient infinitely-long context: compressive memory into fixed-size latent for unbounded input",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.07143",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Lemur",
+   "arxiv_id": "2310.04677",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "Balancing tools and LLMs for human-like dialogue: integration of tools and memory",
+   "code_url": "https://github.com/openlamm/Lemur",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.04677",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Letta",
+   "arxiv_id": "2510.01343",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Memory & Context",
+   "desc": "Agent memory framework: block-based memory with sleep-time training for long-running agents",
+   "code_url": "https://github.com/letta-ai/letta",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2510.01343",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Mem0",
+   "arxiv_id": "2504.19413",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Memory & Context",
+   "desc": "Production memory layer for LLM apps with personalized, evolving memory across sessions",
+   "code_url": "https://github.com/mem0ai/mem0",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2504.19413",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MemGPT",
+   "arxiv_id": "2310.08560",
+   "venue": "NeurIPS 2024 Spotlight",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "OS-inspired memory hierarchy: LLM manages its own context via virtual memory paging",
+   "code_url": "https://github.com/cpacker/MemGPT",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.08560",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MemRetrieve",
+   "arxiv_id": "2312.03426",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Memory & Context",
+   "desc": "Memory retrieval optimization for LLM agents: relevance + recency + importance scoring",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2312.03426",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MemoRAG",
+   "arxiv_id": "2409.05591",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "Long-context RAG via memorization: clue generation then retrieval for million-token docs",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2409.05591",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MemoryBank",
+   "arxiv_id": "2305.10250",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Memory & Context",
+   "desc": "Long-term memory for LLMs with Ebbinghaus-inspired forgetting curve and recall",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.10250",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "REMEMBERER",
+   "arxiv_id": "2402.10157",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "Experience-based memory: agent stores and retrieves past task solutions for transfer",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.10157",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RET-LLM",
+   "arxiv_id": "2305.15047",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Memory & Context",
+   "desc": "Retrieval-augmented agent with structured memory graph extracted from dialogue history",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.15047",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "RepoUnder",
+   "arxiv_id": "2403.13060",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Memory & Context",
+   "desc": "Repository-level memory: codebase understanding via hierarchical file-level memory",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.13060",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ThinkInMemory",
+   "arxiv_id": "2311.10224",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Memory & Context",
+   "desc": "Recall what LLM thinks: memory mechanism for consistent and evolving agent reasoning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2311.10224",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AGENTS",
+   "arxiv_id": "2402.01678",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "An open-source framework for self-hosted multi-agent systems with role-playing and safety guardrails",
+   "code_url": "https://github.com/aiwaves-cn/agents",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.01678",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentCoder",
+   "arxiv_id": "2312.13010",
+   "venue": "COLM 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Multi-agent code generation: programmer + tester + executor collaboration",
+   "code_url": "https://github.com/EmailAlien/AgentCoder",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2312.13010",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentScope",
+   "arxiv_id": "2402.14034",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Flexible multi-agent platform from Alibaba: distributed agents with message hub and GUI",
+   "code_url": "https://github.com/agentscope-ai/agentscope",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.14034",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentVerse",
+   "arxiv_id": "2308.10848",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Dynamic task-solving via multi-agent collaboration with component assembly for different tasks",
+   "code_url": "https://github.com/OpenBMB/AgentVerse",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2308.10848",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AutoAgents",
+   "arxiv_id": "2403.14435",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Automatic agent generation: LLM proposes and organizes agent team for given task",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.14435",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AutoGen v0.4",
+   "arxiv_id": "2410.11750",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Rewritten AutoGen with event-driven actor model, scalable multi-agent orchestration, and async messaging",
+   "code_url": "https://github.com/microsoft/autogen",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.11750",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Camel-AI OWL",
+   "arxiv_id": "2309.09329",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Optimized Workforce Learning: multi-agent framework achieving top general agents on GAIA benchmark",
+   "code_url": "https://github.com/camel-ai/owl",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2309.09329",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ChatDev",
+   "arxiv_id": "2307.07924",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Communicative agents for software development simulating a virtual software company",
+   "code_url": "https://github.com/OpenBMB/ChatDev",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2307.07924",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ChatEval",
+   "arxiv_id": "2308.07201",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Multi-agent debate for text evaluation: role-based critics reach human-level NLG evaluation",
+   "code_url": "https://github.com/chats-lab/chateval",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2308.07201",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "DuetGPT",
+   "arxiv_id": "2403.07140",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Dual-agent dialogue: user + assistant co-construction for complex task decomposition",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.07140",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Encouraging Divergent Thinking",
+   "arxiv_id": "2305.13409",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Multi-agent debate encourages divergent thinking: improving creativity and factuality",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.13409",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "EvoAgent",
+   "arxiv_id": "2406.14228",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Evolutionary multi-agent: agent specialization via evolutionary optimization",
+   "code_url": "https://github.com/andyyang743/EvoAgent",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.14228",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Mars",
+   "arxiv_id": "2502.16666",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Multi-Agent Systems",
+   "desc": "Self-improving multi-agent coding via spec-driven recursive delegation",
+   "code_url": "https://github.com/mars-research/mars",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.16666",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MetaGPT-Multi",
+   "arxiv_id": "2402.01678",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "MetaGPT for multi-agent collaboration with standardized operating procedures",
+   "code_url": "https://github.com/geekan/MetaGPT",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.01678",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MoA",
+   "arxiv_id": "2406.11757",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Multi-Agent Systems",
+   "desc": "Mixture-of-Agents: leverages multiple LLMs as aggregators for collaborative generation, beats GPT-4o",
+   "code_url": "https://github.com/togetherai/MoA",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.11757",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Multi-Agent Debate",
+   "arxiv_id": "2305.14325",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Improving factuality and reasoning via multi-agent debate with increasing number of agents",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.14325",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Sakana AI Merge",
+   "arxiv_id": "2403.13157",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Evolutionary model merging: merge multiple agents/models via evolutionary optimization",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.13157",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Scaling Laws for Agents",
+   "arxiv_id": "2404.02123",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Quantifying emergence: when do multi-agent systems outperform single agents on complex tasks",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.02123",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Scaling Social",
+   "arxiv_id": "2402.05533",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Scaling InstructGPT-like agents to millions: social simulation at population scale",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.05533",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SolvAgent",
+   "arxiv_id": "2404.02544",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Multi-Agent Systems",
+   "desc": "Self-organizing solver agents: dynamic role assignment for math problem solving",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.02544",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AdaPlanner",
+   "arxiv_id": "2310.17250",
+   "venue": "AAAI 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "Adaptive planning from feedback: LLM revises plans with closed-loop self-correction",
+   "code_url": "https://github.com/langroid/AdaPlanner",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.17250",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Chain-of-Thought",
+   "arxiv_id": "2201.11903",
+   "venue": "NeurIPS 2022",
+   "year": 2022,
+   "category": "Planning & Reasoning",
+   "desc": "Prompting LLMs to generate intermediate reasoning steps for complex problem solving",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2201.11903",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Everything of Thoughts",
+   "arxiv_id": "2311.08037",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "Defects of ToT and GoT mitigated via thought graph with neural-guided A*",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2311.08037",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Graph of Thoughts",
+   "arxiv_id": "2308.09687",
+   "venue": "AAAI 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "Generalizes CoT to graph structure: LLM reasons over interconnected thought nodes",
+   "code_url": "https://github.com/spcl/graph-of-thoughts",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2308.09687",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "LLM+P",
+   "arxiv_id": "2305.14992",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "Empowering LLMs with classical planning: LLM translates natural language to PDDL and back",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.14992",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "LLaMA-Planner",
+   "arxiv_id": "2312.00710",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "LLM as task-and-motion planner with external verifier feedback for robotic manipulation",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2312.00710",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Plan-and-Solve",
+   "arxiv_id": "2305.04091",
+   "venue": "ACL 2023",
+   "year": 2023,
+   "category": "Planning & Reasoning",
+   "desc": "Two-stage prompting: first decompose the plan, then execute each subtask step by step",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.04091",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Progressive-Hint",
+   "arxiv_id": "2306.04944",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "Progressive-Hint Prompting: multi-round reasoning with cumulative hints for math",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2306.04944",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ReWOO",
+   "arxiv_id": "2305.18323",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "Reasoning withOut Observation: decouples planning from execution to reduce token cost",
+   "code_url": "https://github.com/billxbf/ReWoo",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.18323",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ReasonForAct",
+   "arxiv_id": "2403.10292",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "Bridging reasoning and acting via structured thought-action coupling",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.10292",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Reasoning with Reinforced Fine-Tuning",
+   "arxiv_id": "2401.08967",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Planning & Reasoning",
+   "desc": "ReFT: reinforcement fine-tuning that improves reasoning via self-generated trajectories",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.08967",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Reflexion-Cot",
+   "arxiv_id": "2402.18506",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "Chain-of-thought with self-reflection: verbal reinforcement for multi-step reasoning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.18506",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Self-Discover",
+   "arxiv_id": "2402.03620",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "LLMs compose intrinsic reasoning modules: discover task-specific reasoning structure",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.03620",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Self-Refine",
+   "arxiv_id": "2303.17651",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "category": "Planning & Reasoning",
+   "desc": "LLM iteratively refines its own output with self-feedback without external models",
+   "code_url": "https://github.com/3UGROUP/SelfRefine",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2303.17651",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SelfCheck",
+   "arxiv_id": "2308.07432",
+   "venue": "TACL 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "LLM self-checking: zero-resource hallucination detection via consistency verification",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2308.07432",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SwiftSage",
+   "arxiv_id": "2305.17390",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "category": "Planning & Reasoning",
+   "desc": "Enhancing reasoning with multi-agent reinforcement learning: Sage + Swift solver",
+   "code_url": "https://github.com/jennyzhang0215/swift-sage",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.17390",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Tree of Thoughts",
+   "arxiv_id": "2305.10601",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "category": "Planning & Reasoning",
+   "desc": "Explores reasoning over a tree of thought states with self-evaluation and search",
+   "code_url": "https://github.com/princeton-nlp/tree-of-thought-llm",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.10601",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Yara",
+   "arxiv_id": "2403.05841",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Planning & Reasoning",
+   "desc": "Self-correction planning agent with verifier-guided reasoning loops",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.05841",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ASB",
+   "arxiv_id": "2412.14470",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Agent-SafetyBench: 10 hazard categories, 200 scenarios, 3815 test cases, dual evaluation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2412.14470",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ASB-Eval",
+   "arxiv_id": "2503.07871",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Agent safety evaluation harness: automated risk scoring across 10 hazard dimensions",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2503.07871",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Agent-E",
+   "arxiv_id": "2407.15033",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "From autonomous LLM agents to home automation: DOM-based web agent for complex web tasks",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.15033",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Agent-SafetyBench",
+   "arxiv_id": "2412.14470",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Comprehensive agent safety benchmark: 10 hazard types, 200 scenarios, 3815 test cases",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2412.14470",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentBench",
+   "arxiv_id": "2308.03688",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Comprehensive benchmark for LLM agents across 8 environments: OS, DB, KG, web, card game, etc.",
+   "code_url": "https://github.com/THUDM/AgentBench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2308.03688",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentBench-Multi",
+   "arxiv_id": "2501.18718",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Multi-turn agent benchmark: comprehensive evaluation of reasoning, tool-use, and recovery",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.18718",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentDAM",
+   "arxiv_id": "2501.12483",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Dialogue attack and mitigation: indirect prompt injection defense for tool-use agents",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.12483",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentMonitor",
+   "arxiv_id": "2502.12831",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Zero-preparation run-time monitoring for LLM agent safety with anomaly detection",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.12831",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentOps",
+   "arxiv_id": "2409.04770",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Agent observability and evaluation: session replay, cost tracking, and regression testing",
+   "code_url": "https://github.com/AgentOps-AI/agentops",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2409.04770",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AutoML-Agent",
+   "arxiv_id": "2503.07666",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Autonomous ML experiment agent: hyperparameter tuning, model selection, pipeline optimization",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2503.07666",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "GAIA",
+   "arxiv_id": "2311.12983",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "General AI assistant benchmark: 466 real-world tasks requiring multi-step tool-use reasoning",
+   "code_url": "https://github.com/facebookresearch/gaia",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2311.12983",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "GAIA-2",
+   "arxiv_id": "2502.05491",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Updated GAIA: harder multi-modal real-world tasks, separates tool-use from reasoning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.05491",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "InjecAgent",
+   "arxiv_id": "2403.02691",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Benchmark for indirect prompt injection: 1054 attack cases across 7 agent scenarios",
+   "code_url": "https://github.com/uiuchiarui/InjecAgent",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.02691",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "R-Judge",
+   "arxiv_id": "2401.01911",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Benchmark for LLM agents in safety-critical code generation: 302 programs across 7 risk categories",
+   "code_url": "https://github.com/TrustedLLM/R-Judge",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.01911",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "R-Judge-2",
+   "arxiv_id": "2501.07644",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Updated safety-critical agent benchmark: 502 programs across 12 risk categories",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.07644",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Tau-Bench",
+   "arxiv_id": "2406.12045",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Benchmark for tool-agent-user interaction in real-world domains with user simulation",
+   "code_url": "https://github.com/sierra-research/tau-bench",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.12045",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ToolEmu",
+   "arxiv_id": "2309.15817",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Identifying risks of LLM agents with an LLM emulator: 144 tool-use risk scenarios",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2309.15817",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ToolEmu-Risk",
+   "arxiv_id": "2309.15817",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Emulated tool-use risk assessment: 144 scenarios, 11 risk types, mitigation via constrained generation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2309.15817",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "TrustAgent",
+   "arxiv_id": "2402.01586",
+   "venue": "AAAI 2025",
+   "year": 2025,
+   "category": "Safety, Alignment & Evaluation",
+   "desc": "Safety alignment for LLM agents via pre-hoc and post-hoc safety constraint enforcement",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.01586",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "API-Bank",
+   "arxiv_id": "2304.08244",
+   "venue": "EMNLP 2023",
+   "year": 2023,
+   "category": "Tool Use & Function Calling",
+   "desc": "Comprehensive benchmark for tool-augmented LLMs with 73 API tools and 314 tool-use dialogues",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2304.08244",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "API-Tree",
+   "arxiv_id": "2402.07833",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "API tree-structured retrieval: hierarchical API matching for complex tool chains",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.07833",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AnyTool",
+   "arxiv_id": "2402.04257",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Self-evolutionary agent resolving user queries via 1645 REST APIs with hierarchical API memory",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.04257",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CRAFT",
+   "arxiv_id": "2309.17428",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Cross-lingual agent for function-calling with tool retrieval and cross-lingual transfer",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2309.17428",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Gorilla",
+   "arxiv_id": "2305.15334",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Fine-tuned LLaMA for API calls with reduced hallucination via document-retrieval",
+   "code_url": "https://github.com/ShishirPatil/gorilla",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.15334",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "HRAS",
+   "arxiv_id": "2403.12490",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Hierarchical retrieval-augmented tool selection for multi-step agent reasoning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.12490",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Onion-ToolLLM",
+   "arxiv_id": "2407.09035",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Tool learning without tool name: learn to select tools from description only",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2407.09035",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "TPTU",
+   "arxiv_id": "2305.16036",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Tool Use & Function Calling",
+   "desc": "Task Planning and Tool Usage: structured framework for LLM agent tool orchestration",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.16036",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "TaskMatrix.AI",
+   "arxiv_id": "2303.16434",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Tool Use & Function Calling",
+   "desc": "VisualChatGPT: visual foundation models orchestrated by LLM for visual tasks",
+   "code_url": "https://github.com/microsoft/TaskMatrix",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2303.16434",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "TeOLA",
+   "arxiv_id": "2402.04607",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Hierarchical tool retrieval for multi-step agent reasoning with tool-document alignment",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.04607",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Tool-Bench-2",
+   "arxiv_id": "2403.16500",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Expanded tool benchmark: 45000+ real APIs with multi-turn tool-use trajectories",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.16500",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Tool-Choice",
+   "arxiv_id": "2305.14067",
+   "venue": "EMNLP 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Learning when not to use tools: abstention-aware tool selection for LLM agents",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.14067",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Tool-Maker",
+   "arxiv_id": "2402.16428",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "CREATOR: LLM creates reusable tools from Python for disentangling abstraction",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.16428",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ToolACE",
+   "arxiv_id": "2409.00920",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Autonomous tool calling with multi-agent decomposition and self-reinforcement",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2409.00920",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ToolLLM",
+   "arxiv_id": "2307.16789",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "General-purpose tool use with 16000+ real APIs and DFS-based multi-tool planning",
+   "code_url": "https://github.com/OpenBMB/ToolLLM",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2307.16789",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ToolLearning",
+   "arxiv_id": "2305.17118",
+   "venue": "arXiv 2023",
+   "year": 2023,
+   "category": "Tool Use & Function Calling",
+   "desc": "Survey on tool learning with LLMs: tool creation, usage, and evaluation taxonomy",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.17118",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ToolMixture",
+   "arxiv_id": "2312.07723",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Tool mixture-of-experts: routing tool calls to specialized adapters for multi-tool reasoning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2312.07723",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ToolNET",
+   "arxiv_id": "2404.10687",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Neural tool network: dynamic tool graph construction and traversal",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.10687",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ToolPlanner",
+   "arxiv_id": "2405.03609",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Tool planning with graph-based dependency resolution and conflict avoidance",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2405.03609",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Toolemu-Survey",
+   "arxiv_id": "2402.16453",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Tool Use & Function Calling",
+   "desc": "Survey of tool learning in LLMs: taxonomy of tool creation, usage, and evaluation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.16453",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ToolkenGPT",
+   "arxiv_id": "2305.11554",
+   "venue": "EMNLP 2023",
+   "year": 2023,
+   "category": "Tool Use & Function Calling",
+   "desc": "Fast tool learning via toolken embeddings: each tool as a token the LLM can generate",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2305.11554",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentSive",
+   "arxiv_id": "2503.02691",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "Browser agent with semantic DOM understanding and visual-action alignment",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2503.02691",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AgentTrek",
+   "arxiv_id": "2412.09605",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "Agent learning via website guiding: learns web navigation from tutorial webpages",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2412.09605",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AndroidArena",
+   "arxiv_id": "2410.01349",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Mobile GUI agent benchmark: 302 tasks across 101 Android apps, intent-action evaluation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.01349",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AndroidWorld",
+   "arxiv_id": "2405.14573",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Dynamic benchmark for autonomous agents on Android: 116 tasks across 20 apps with programmatic verification",
+   "code_url": "https://github.com/google-research/android_world",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2405.14573",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "AutoGLM",
+   "arxiv_id": "2411.00820",
+   "venue": "ACL 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "Z.ai's phone + web agent: adaptive GUI interaction with self-evolving policy",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2411.00820",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Browser Use",
+   "arxiv_id": "",
+   "venue": "browser-use 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "Open-source web automation: LLM-driven browser control with visual + DOM understanding",
+   "code_url": "https://github.com/browser-use/browser-use",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://github.com/browser-use/browser-use",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Browser-Agent-Q",
+   "arxiv_id": "2502.01391",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "Q-learning browser agent: offline-to-online RL for web task completion",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.01391",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Claude Computer Use",
+   "arxiv_id": "",
+   "venue": "Anthropic 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Claude 3.5 Sonnet computer use: screenshot + mouse/keyboard actions on real desktops",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "CogAgent",
+   "arxiv_id": "2310.14508",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Visual LLM for GUI agents: high-resolution cross-attention for screenshot understanding",
+   "code_url": "https://github.com/THUDM/CogVLM",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2310.14508",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "GUI-World",
+   "arxiv_id": "2406.10819",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "GUI agent benchmark across desktop/mobile/web: 166 tasks, dynamic environment",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.10819",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "MMInA",
+   "arxiv_id": "2404.11474",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Multi-hop multi-site navigation agent: cross-website task completion with memory",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.11474",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Mind2Web",
+   "arxiv_id": "2307.01271",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "category": "Web & GUI Agents",
+   "desc": "Benchmark for generalist web agents: 2350 tasks across 137 real websites with action traces",
+   "code_url": "https://github.com/OSU-NLP-Group/Mind2Web",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2307.01271",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Mobile-Agent",
+   "arxiv_id": "2401.16158",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Autonomous multi-modal mobile agent: visual perception + operation for Android apps",
+   "code_url": "https://github.com/X-PLUG/MobileAgent",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.16158",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "OS-Atlas",
+   "arxiv_id": "2410.23218",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Foundation action model for generalist GUI agents: 13k screenshot-action pairs, cross-platform",
+   "code_url": "https://github.com/OSU-NLP-Group/OS-Atlas",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.23218",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "OSWorld",
+   "arxiv_id": "2404.07972",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Benchmark for multimodal agents on real computer environments: 369 tasks across 9 OS apps",
+   "code_url": "https://github.com/xlang-ai/OSWorld",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.07972",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "OmniParser",
+   "arxiv_id": "2408.00203",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Microsoft's screen parsing model: detects interactive elements for pure-vision GUI agents",
+   "code_url": "https://github.com/microsoft/OmniParser",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2408.00203",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "OpenAgents",
+   "arxiv_id": "2402.07827",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Open-source language agent platform: data analysis, browser, and plugin agents",
+   "code_url": "https://github.com/xlang-ai/openagents",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2402.07827",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ScreenSpot",
+   "arxiv_id": "2406.04178",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "GUI grounding benchmark: natural language to screen coordinates across desktop/mobile/web",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.04178",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SeeAct",
+   "arxiv_id": "2401.01614",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "GPT-4V as web agent: visual grounding for GUI understanding and action on real websites",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.01614",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "SeeClick",
+   "arxiv_id": "2401.10935",
+   "venue": "ACL 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Harnessing GUI grounding: vision-language model for web element selection by description",
+   "code_url": "https://github.com/njucckevin/SeeClick",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.10935",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "ShowUI",
+   "arxiv_id": "2411.17465",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "One Vision-Language Model for GUI visual agent: visual prompting + interactive region selection",
+   "code_url": "https://github.com/showlab/ShowUI",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2411.17465",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "TARS",
+   "arxiv_id": "2501.14661",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "GUI agent with reflective action: self-correction after failed UI interactions",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.14661",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "UFO2",
+   "arxiv_id": "2404.03739",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Microsoft's UI-focused agent: dual-agent (AppAgent + ActAgent) for Windows app automation",
+   "code_url": "https://github.com/microsoft/UFO",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2404.03739",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "VisualAgentBench",
+   "arxiv_id": "2501.15368",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "Large-scale multimodal agent benchmark: 502 tasks across GUI, embodied, and visual reasoning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.15368",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebArena",
+   "arxiv_id": "2307.13854",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Benchmark for web agents: 812 tasks across 5 websites in a self-hosted realistic environment",
+   "code_url": "https://github.com/web-arena-x/webarena",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2307.13854",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebCanvas",
+   "arxiv_id": "2406.13373",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Online web agent evaluation with milestone-based graph reasoning, robust to webpage changes",
+   "code_url": "https://github.com/iMeanAI/WebCanvas",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.13373",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebGPT",
+   "arxiv_id": "2112.09332",
+   "venue": "arXiv 2022",
+   "year": 2022,
+   "category": "Web & GUI Agents",
+   "desc": "Browser-augmented LLM: answer questions by navigating the web with human feedback training",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2112.09332",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebGUI",
+   "arxiv_id": "2403.15991",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Web GUI grounding: element selection from screenshot + accessibility tree",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.15991",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebOlympus",
+   "arxiv_id": "2411.14347",
+   "venue": "ACL 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "Open web agent framework with browser annotation and online evaluation loop",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2411.14347",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebRL",
+   "arxiv_id": "2411.00820",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "Self-evolving web agent: trajectory self-improvement and dynamic web environment adaptation",
+   "code_url": "https://github.com/THUDM/WebRL",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2411.00820",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebRL-2",
+   "arxiv_id": "2501.01391",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "WebRL v2: online trajectory bootstrapping with reward model for web agents",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.01391",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebRL-Text",
+   "arxiv_id": "2411.00820",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "WebRL: trajectory-based self-evolving web agent with iterative trajectory bootstrapping",
+   "code_url": "https://github.com/THUDM/WebRL",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2411.00820",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebVoyager",
+   "arxiv_id": "2401.13919",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "End-to-end web agent with multimodal LLM: screenshot + accessibility tree for web task completion",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.13919",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebVoyager-Multi",
+   "arxiv_id": "2406.05604",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Multi-tab web navigation agent: parallel browser tabs and cross-tab reasoning",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.05604",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WebVoyager-Vision",
+   "arxiv_id": "2502.02391",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "Web & GUI Agents",
+   "desc": "Pure-vision web agent: screenshot-only navigation without accessibility tree",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2502.02391",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WorkArena",
+   "arxiv_id": "2403.07747",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "Web & GUI Agents",
+   "desc": "Benchmark for web agents on enterprise CRM: 29 tasks across ServiceNow platform",
+   "code_url": "https://github.com/ServiceNow/WorkArena",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.07747",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Cosmos-Reason",
+   "arxiv_id": "2501.18653",
+   "venue": "NVIDIA 2025",
+   "year": 2025,
+   "category": "World Models & Simulation",
+   "desc": "Physical AI reasoning models: spatial-temporal reasoning for embodied world understanding",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.18653",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "DIAMOND",
+   "arxiv_id": "2405.14096",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "Diffusion world model for reinforcement learning with pixel-level environment simulation",
+   "code_url": "https://github.com/eloialonso/diamond",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2405.14096",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Dreamer",
+   "arxiv_id": "1912.01603",
+   "venue": "ICLR 2020",
+   "year": 2020,
+   "category": "World Models & Simulation",
+   "desc": "Dream to control: latent dynamics model for model-based RL with imagination rollout",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/1912.01603",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "DreamerV3",
+   "arxiv_id": "2301.04104",
+   "venue": "Nature 2025",
+   "year": 2025,
+   "category": "World Models & Simulation",
+   "desc": "Mastering diverse domains with world models: fixed hyperparameters across 150+ tasks",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2301.04104",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "GameNGen",
+   "arxiv_id": "2501.14674",
+   "venue": "Google 2025",
+   "year": 2025,
+   "category": "World Models & Simulation",
+   "desc": "Diffusion model for game simulation: playable DOOM via neural game engine",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.14674",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "GenRM",
+   "arxiv_id": "2403.09009",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "Generative world models as reward models: simulate future to evaluate agent actions",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2403.09009",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Genie",
+   "arxiv_id": "2401.04524",
+   "venue": "DeepMind 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "Generative interactive environments: 11B model creating controllable games from internet video",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.04524",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Genie 2",
+   "arxiv_id": "",
+   "venue": "DeepMind 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "Foundation world model generating diverse 3D playable environments from a single image",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Genie-3",
+   "arxiv_id": "",
+   "venue": "DeepMind 2025",
+   "year": 2025,
+   "category": "World Models & Simulation",
+   "desc": "Scalable interactive world model: 10B+ params, long-horizon consistent simulation for embodied training",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "IRIS",
+   "arxiv_id": "2406.11922",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "Autoregressive world model for RL: discrete token prediction for Atari game simulation",
+   "code_url": "https://github.com/eloialonso/iris",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2406.11922",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Oasis",
+   "arxiv_id": "2410.12781",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "Interactive Minecraft world model: real-time frame prediction from player actions",
+   "code_url": "https://github.com/oasis-oasis/oasis",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.12781",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "Sora",
+   "arxiv_id": "",
+   "venue": "OpenAI 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "Text-to-video diffusion model: 60s coherent video generation as implicit world simulator",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "UniSim2",
+   "arxiv_id": "2410.18972",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "Scaling up interactive world models: multi-environment simulation for agent training",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2410.18972",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "VideoWorldModel",
+   "arxiv_id": "2501.00885",
+   "venue": "arXiv 2025",
+   "year": 2025,
+   "category": "World Models & Simulation",
+   "desc": "Set-in-order: autoregressive video as world model for agent environment simulation",
+   "code_url": "",
+   "sources": [
+    "seed-expansion"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2501.00885",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WorldDreamer",
+   "arxiv_id": "2401.09985",
+   "venue": "CVPR 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "Text-to-world generation: world model for long-horizon interactive simulation",
+   "code_url": "",
+   "sources": [
+    "seed"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2401.09985",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  },
+  {
+   "name": "WorldLab",
+   "arxiv_id": "2412.11895",
+   "venue": "arXiv 2024",
+   "year": 2024,
+   "category": "World Models & Simulation",
+   "desc": "World Labs: 3D world generation from single image with interactive scene editing",
+   "code_url": "",
+   "sources": [
+    "seed-expansion-3"
+   ],
+   "evidence": {
+    "metadata": "seed-verified",
+    "checked_at": "2026-10-28",
+    "source_url": "https://arxiv.org/abs/2412.11895",
+    "venue": "seed-verified",
+    "technical_claims": "seed-summary",
+    "numerical_results": "not-audited"
+   }
+  }
+ ]
+}
