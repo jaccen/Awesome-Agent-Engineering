@@ -280,6 +280,31 @@ See [`changelog/`](changelog/) for the full history.
 - [ ] **Phase 3** — MCP server (let any AI agent consume this knowledge base)
 - [ ] **Phase 3** — Community contributions (PR-based entry submission with auto-validation)
 
+## Companion Book
+
+This repo also ships the companion book **《AI 落地工程：从数据治理到超级智能体》** (*AI Deployment Engineering: From Data Governance to Superintelligent Agents*) as a git submodule, mounted at [`deployment-book/`](deployment-book/).
+
+It is the methodology backbone behind the knowledge base — a two-volume, 16-chapter work (~350K Chinese characters) covering the full AI-landing stack:
+
+```
+Data Governance → Knowledge Engineering → Agent Engineering → FDE → Industry Practice
+```
+
+- **Volume I (Data & Knowledge Foundation, Ch.1–8)**: the AI adoption gap, data governance maturity, RAG engineering, LLM Wiki, **ontology-driven AI (Ch.7)**, GraphRAG hybrid architectures
+- **Volume II (Agents & Delivery, Ch.9–16)**: agent architecture, multi-agent collaboration, **superintelligent agents (Ch.11)**, FDE methodology, deployment & operations, government/finance/manufacturing playbooks
+
+The book's "Knowledge Engineering" arc (ontology → RAG → GraphRAG) directly informs the [`references/agent-research-areas.md`](references/agent-research-areas.md) research map's Section 13 (Knowledge Engineering, Ontology & RAG).
+
+```bash
+# Clone with the submodule
+git clone --recurse-submodules https://github.com/jaccen2007/Awesome-Agent-Engineering.git
+
+# If already cloned, fetch the submodule
+git submodule update --init --recursive
+```
+
+> The book repo is independently maintained at [jaccen/AI-deployment-engineering](https://github.com/jaccen/AI-deployment-engineering); online reading is at [jaccen.github.io/AI-deployment-engineering](https://jaccen.github.io/AI-deployment-engineering/).
+
 ## Contributing
 
 We welcome contributions! See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full guide.

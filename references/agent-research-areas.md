@@ -7,7 +7,7 @@
 
 一个常被低估的事实是：Agent 研究并不等于"给大模型套一个调用循环"。从研究视角看，Agent 是一个横跨**感知—认知—行动—学习—治理**的全栈问题。超级智能体（Super Agent）的研究，必须在若干核心研究点上有专门的设计与论证，而非依赖单一基座模型的能力外溢。
 
-老板关心的**意图识别**与**记忆（memory）**正是其中两个关键研究点，但它们远不是全部。下面把 Agent 研究拆成 **15 个核心研究领域**，每个领域给出定义、核心研究子问题与代表性论文。论文标注两种来源：`[核实]` 表示本轮检索到明确 venue/官方来源；`[公认]` 表示学界长期公认的标志性工作，venue 信息稳定，正式引用前以 arXiv/会议官网核对为准。
+老板关心的**意图识别**与**记忆（memory）**正是其中两个关键研究点，但它们远不是全部。下面把 Agent 研究拆成 **16 个核心研究领域**，每个领域给出定义、核心研究子问题与代表性论文。论文标注两种来源：`[核实]` 表示本轮检索到明确 venue/官方来源；`[公认]` 表示学界长期公认的标志性工作，venue 信息稳定，正式引用前以 arXiv/会议官网核对为准。
 
 ---
 
@@ -239,20 +239,31 @@
 
 ---
 
-## 13. 知识增强与 RAG（Knowledge & RAG）
+## 13. 知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）
 
-**定义**：研究如何用外部知识增强智能体，减少幻觉、提升事实性。
+**定义**：研究如何为智能体构建结构化、可推理、可重用的知识底座，覆盖本体工程、知识图谱与检索增强生成。这是 Agent 从"语言合理"迈向"事实可信、逻辑正确"的桥梁——模型不是瓶颈，数据和知识底座才是。与老板专著《AI 落地工程》上卷"知识工程"主线及第7章"本体驱动"直接对应。
 
 **核心研究点**：
-- 检索增强生成（RAG）
-- 自我检索（self-RAG）
-- 知识图谱增强（GraphRAG）
-- 知识管理与更新
+- 本体工程（Ontology Engineering）：本体建模六要素、本体构建与维护、本体驱动让 AI 看懂企业业务
+- 知识表示与推理（Knowledge Representation & Reasoning）：OWL/RDF、描述逻辑、本体推理
+- 知识图谱（Knowledge Graph）：构建、表示、推理、与 LLM 互增强
+- 神经符号推理（Neuro-Symbolic Reasoning）：LLM 生成 + 符号系统验证，可验证可解释推理链
+- 场景图与空间本体（Scene Graph & Spatial Ontology）：3D/空间场景的结构化表示（与 3DGS/具身主线交汇）
+- 检索增强生成（RAG）：朴素 RAG → 三路检索 + RRF → GraphRAG → 本体驱动 RAG
+- LLM 辅助本体/知识图谱构建（LLM for KG construction）
 
-**代表性论文**：
+**代表性论文与标准**：
+- A Translation Approach to Portable Ontology Specifications. Gruber, Knowledge Acquisition, 1993.（本体经典定义）`[公认]`
+- OWL Web Ontology Language: Reference / RDF. W3C 标准, McGuinness et al. `[公认]`
+- A Survey on Knowledge Graphs: Representation, Acquisition, and Applications. Ji et al. IEEE TKDE, 2022. `[公认]`
+- Reasoning over Knowledge Graphs: A Survey. Huang et al. IEEE TKDE. `[公认]`
 - Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. Lewis et al. NeurIPS 2020. `[公认]`
 - Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection. 2023. `[公认]`
 - GraphRAG. Microsoft, 2024. `[公认]`
+- LLM Symbolic Reasoning 综述：迈向可验证、可解释、更可信的大模型推理范式. 2025-12. `[核实]`
+- Neuro-Symbolic KG Construction via Ontology-grounded Correction. arXiv, 2026-10. `[核实]`
+
+> 说明：本体在 LLM 时代有两条新研究路径值得深耕——(1) 用 LLM 自动构建本体/知识图谱，降低本体工程的人工成本；(2) 用本体为 LLM 提供结构化 ground 与可验证推理约束，缓解幻觉。这与老板的 OntoGS 项目天然交汇。
 
 ---
 
@@ -332,7 +343,10 @@
 ## 与老板研究主线的交汇
 
 - **意图识别 + 记忆** → 国数通平台"边聊边办"的核心体验，意图识别率 90% 目标与四层记忆架构的研究基础
+- **知识工程、本体与 RAG（第 13 节）** → 专著《AI 落地工程》上卷"知识工程"主线及第 7 章"本体驱动"的学术对应；与 OntoGS 项目交汇，本体为 3DGS 提供结构化语义
 - **通信协议（MCP/A2A/A2UI）** → 国数通 A2A/A2UI 协议工作的学术对应
 - **具身智能 + 世界模型 + 空间智能** → 与 3DGS/世界模型主线天然交汇，可做 SignedGS 之后的第二增长曲线
-- **Agent 工程化与部署** → FDE 方法论与产业化落地的学术支撑
+- **Agent 工程化与部署** → FDE 方法论与产业化落地的学术支撑，专著下卷第 9–16 章直接覆盖
 - **评估与基准** → 国数通质量评测与安全中心的学术对标
+
+> 专著配套仓库已以 git submodule 挂载于 `deployment-book/`，研究图谱第 13 节（知识工程、本体与 RAG）与专著第 7 章（本体驱动）互为学术骨架与工程落地两翼。

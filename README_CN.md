@@ -178,6 +178,31 @@ cat reports/weekly-trending/latest.json | python -m json.tool
 | 安全 | Guardrails AI、NeMo Guardrails、Llama Guard |
 | 界面 | OpenWebUI、LibreChat、LobeChat |
 
+## 配套专著
+
+本仓库以 git submodule 形式挂载了配套专著 **《AI 落地工程：从数据治理到超级智能体》**，路径为 [`deployment-book/`](deployment-book/)。
+
+它是知识库背后的方法论主轴——双卷 16 章（约 35 万字），覆盖 AI 落地全栈：
+
+```
+数据治理 → 知识工程 → 智能体工程 → FDE → 产业实战
+```
+
+- **上卷《数据与知识底座》（第 1–8 章）**：AI 落地鸿沟、数据治理成熟度、RAG 工程化、LLM Wiki、**本体驱动（第 7 章）**、GraphRAG 混合架构
+- **下卷《智能体与落地交付》（第 9–16 章）**：Agent 架构设计、多 Agent 协作、**超级智能体（第 11 章）**、FDE 方法论、部署与运营、政务/金融/制造实战
+
+专著的"知识工程"主线（本体 → RAG → GraphRAG）直接对应 [`references/agent-research-areas.md`](references/agent-research-areas.md) 研究图谱第 13 节（知识工程、本体与 RAG）。
+
+```bash
+# 克隆时一并拉取子模块
+git clone --recurse-submodules https://github.com/jaccen2007/Awesome-Agent-Engineering.git
+
+# 已克隆的仓库，单独拉取子模块
+git submodule update --init --recursive
+```
+
+> 专著仓库独立维护于 [jaccen/AI-deployment-engineering](https://github.com/jaccen/AI-deployment-engineering)，在线阅读地址 [jaccen.github.io/AI-deployment-engineering](https://jaccen.github.io/AI-deployment-engineering/)。
+
 ## 贡献
 
 欢迎贡献！详见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。

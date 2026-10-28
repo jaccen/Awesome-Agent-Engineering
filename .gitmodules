@@ -1,0 +1,3 @@
+[submodule "deployment-book"]
+	path = deployment-book
+	url = https://github.com/jaccen/AI-deployment-engineering.git
