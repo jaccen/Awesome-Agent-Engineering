@@ -11,7 +11,7 @@
 [![Methods](https://img.shields.io/badge/Methods-280-9cf.svg)](data/methods.json)
 [![Frameworks](https://img.shields.io/badge/Frameworks-52-green.svg)](data/frameworks.json)
 [![Industries](https://img.shields.io/badge/Industries-106-orange.svg)](data/industries.json)
-[![Startups](https://img.shields.io/badge/Startups-47-red.svg)](data/startups.json)
+[![Startups](https://img.shields.io/badge/Startups-56-red.svg)](data/startups.json)
 [![Benchmarks](https://img.shields.io/badge/Benchmarks-32-purple.svg)](data/benchmarks.json)
 [![Papers](https://img.shields.io/badge/Papers-995-ff69b4.svg)](data/papers.json)
 [![Auto-Update](https://img.shields.io/badge/Auto_Update-Daily-brightgreen.svg)](reports/arxiv-daily/)
@@ -52,7 +52,7 @@ Unlike static awesome-lists, this repo **automatically discovers new papers and 
 - 📝 995 verified papers with official arXiv titles (130 from 2026, batch-verified via arXiv API)
 - 🏗️ 52 open-source agent frameworks
 - 🏭 106 real-world industry deployments across 17+ domains
-- 🚀 47 funded agent startups
+- 🚀 56 funded agent startups
 - 📊 32 evaluation benchmarks (SWE-bench, GAIA, WebArena, OSWorld, AgentBench, LITMUS, EvoMemBench …)
 
 Every entry is machine-readable JSON with an evidence trail — no fabrication, no dead links. A built-in **research pipeline skill** guides the full paper lifecycle: idea evaluation → skeleton → literature → figures → experiments → analysis → review → rebuttal.
@@ -70,7 +70,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 | Latest Agent papers | Last updated 3 months ago | **Daily arXiv scan** — 8 query families, auto-discovered |
 | Compare frameworks | Open 10 tabs | 52 frameworks with stars, license, language, one-line description |
 | Find industry cases | Blog posts | 106 real deployments across 17 industries, with status and org |
-| Track startups | Crunchbase subscription | 47 funded companies with funding, category, and description |
+| Track startups | Crunchbase subscription | 56 funded companies with funding, category, and description |
 | Pick a benchmark | Guess | 32 benchmarks with domain, venue, and what they test |
 | Keep it current | Manual PRs | **GitHub Actions CI** runs daily, commits automatically |
 
@@ -85,7 +85,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
 │  │ RESEARCH │  │ INDUSTRY │  │ STARTUP  │  │DEPLOYMENT│    │
 │  │          │  │          │  │          │  │          │    │
-│  │ 280      │  │ 106      │  │ 47       │  │ 52       │    │
+│  │ 280      │  │ 106      │  │ 56       │  │ 52       │    │
 │  │ methods  │  │ cases    │  │ companies│  │frameworks│    │
 │  │ 12 cats  │  │ 17 doms  │  │ 18 cats  │  │ + 32     │    │
 │  │          │  │          │  │          │  │benchmarks│    │
@@ -112,7 +112,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 | **Papers** | 995 | `data/papers.json` | Verified papers with official arXiv titles — 130 from 2026, batch-verified |
 | **Frameworks** | 52 | `data/frameworks.json` | OSS agent frameworks — orchestration, memory, tools, observability |
 | **Industries** | 106 | `data/industries.json` | Real-world deployments — 17 domains from Finance to Energy · [📖 Browse](docs/industries.md) |
-| **Startups** | 47 | `data/startups.json` | Funded companies — 18 categories from Foundation Models to Robotics · [📖 Browse](docs/startups.md) |
+| **Startups** | 56 | `data/startups.json` | Funded companies — 18 categories from Foundation Models to Robotics · [📖 Browse](docs/startups.md) |
 | **Benchmarks** | 32 | `data/benchmarks.json` | Evaluation suites — SWE-bench, GAIA, WebArena, OSWorld, and more |
 
 **Every entry is machine-readable JSON** — not just markdown tables. Build tools, dashboards, and agents that consume this knowledge directly.
@@ -122,7 +122,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 Full browsable lists with intros and links — no need to open the JSON:
 
 - 🏭 **[Industry Deployments](docs/industries.md)** — 106 cases across 17 domains, each with organization, one-line intro, status badge, and official website
-- 🚀 **[Startup Radar](docs/startups.md)** — 47 funded companies, each with founding year, funding, one-line intro, and website
+- 🚀 **[Startup Radar](docs/startups.md)** — 56 funded companies, each with founding year, funding, one-line intro, and website
 
 Sample of what you'll find:
 
@@ -252,7 +252,7 @@ See [`data/industries.json`](data/industries.json) for the full database.
 
 ## Startup — Innovation & Business
 
-**47 funded companies** building the Agent economy — from foundation models to robotics:
+**56 funded companies** building the Agent economy — from foundation models to robotics:
 
 | Category | Count | Notable Companies |
 |----------|-------|-------------------|
@@ -315,7 +315,7 @@ See [`data/benchmarks.json`](data/benchmarks.json) for venue and URL details.
 - **280 academic methods** in 12 categories — from ReAct (2022) to GR00T N1 and π0.5 (2025)
 - **52 open-source frameworks** — orchestration, RAG, memory, tools, serving, observability
 - **106 industry deployments** across 17 domains — production systems from JPMorgan to Dubai AI Government
-- **47 funded startups** — $200B+ in combined funding, from foundation models to robotics
+- **56 funded startups** — $200B+ in combined funding, from foundation models to robotics
 - **32 evaluation benchmarks** — SWE-bench, GAIA, WebArena, OSWorld, and beyond
 
 **Auto-update pipeline operational:**

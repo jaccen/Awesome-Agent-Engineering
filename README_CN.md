@@ -11,7 +11,7 @@
 [![方法数](https://img.shields.io/badge/方法-280-9cf.svg)](data/methods.json)
 [![框架数](https://img.shields.io/badge/框架-52-green.svg)](data/frameworks.json)
 [![行业案例](https://img.shields.io/badge/行业案例-106-orange.svg)](data/industries.json)
-[![创业公司](https://img.shields.io/badge/创业公司-47-red.svg)](data/startups.json)
+[![创业公司](https://img.shields.io/badge/创业公司-56-red.svg)](data/startups.json)
 [![基准测试](https://img.shields.io/badge/基准测试-32-purple.svg)](data/benchmarks.json)
 [![论文库](https://img.shields.io/badge/论文-995-ff69b4.svg)](data/papers.json)
 [![自动更新](https://img.shields.io/badge/自动更新-每日-brightgreen.svg)](reports/arxiv-daily/)
@@ -32,7 +32,7 @@
 - 📝 995 篇已验证论文（官方 arXiv 标题，含 2026 年 130 篇，arXiv API 批量核验）
 - 🏗️ 52 个开源智能体框架
 - 🏭 106 个真实行业落地案例，覆盖 17+ 领域
-- 🚀 47 家已融资智能体创业公司
+- 🚀 56 家已融资智能体创业公司
 - 📊 32 个评测基准（SWE-bench、GAIA、WebArena、OSWorld、AgentBench、LITMUS、EvoMemBench 等）
 
 所有条目均为机器可读 JSON，含证据链——不编造名称，不放死链。内置**科研全流程技能**，覆盖论文全生命周期：选题评估 → 骨架 → 文献 → 绘图 → 实验 → 分析 → 审稿 → 返修。
@@ -50,7 +50,7 @@ Agent 生态发展极快——每天都有新论文，每周都有新框架，�
 | 最新 Agent 论文 | 三个月前最后更新 | **每日 arXiv 扫描** — 8 个查询族自动发现 |
 | 对比框架 | 开 10 个标签页 | 52 个框架，含 star 数、许可证、语言、一句话描述 |
 | 找行业案例 | 博客文章 | 106 个真实部署，覆盖 17+ 行业，含状态和组织 |
-| 追踪创业公司 | Crunchbase 订阅 | 47 家融资公司，含融资额、分类和描述 |
+| 追踪创业公司 | Crunchbase 订阅 | 56 家融资公司，含融资额、分类和描述 |
 | 选基准测试 | 靠猜 | 32 个基准，含领域、会议和测试内容 |
 | 保持最新 | 手动提 PR | **GitHub Actions CI** 每日运行，自动提交 |
 
@@ -62,7 +62,7 @@ Agent 生态发展极快——每天都有新论文，每周都有新框架，�
 |------|--------|------|
 | **学术研究** | 280 + 995 | Agent 论文方法库（12 类别）+ 已验证论文库 |
 | **行业应用** | 106 | 真实生产部署，17 个领域 · [📖 浏览全部案例](docs/industries.md) |
-| **创意创业** | 47 | 融资公司库，18 个分类 · [📖 浏览全部公司](docs/startups.md) |
+| **创意创业** | 56 | 融资公司库，18 个分类 · [📖 浏览全部公司](docs/startups.md) |
 | **产业落地** | 52 + 32 | 开源框架 + 评测基准，从编排到可观测性 |
 
 ## 知识库一览
@@ -73,7 +73,7 @@ Agent 生态发展极快——每天都有新论文，每周都有新框架，�
 | **论文库** | 995 | `data/papers.json` | 已验证论文 — 官方标题，含 2026 年 130 篇，arXiv API 批量核验 |
 | **框架库** | 52 | `data/frameworks.json` | 开源 Agent 框架 — 编排/记忆/工具/可观测性 |
 | **行业库** | 106 | `data/industries.json` | 真实部署案例 — 17 个领域 · [📖 浏览](docs/industries.md) |
-| **创业库** | 47 | `data/startups.json` | 融资公司 — 18 个分类 · [📖 浏览](docs/startups.md) |
+| **创业库** | 56 | `data/startups.json` | 融资公司 — 18 个分类 · [📖 浏览](docs/startups.md) |
 | **基准库** | 32 | `data/benchmarks.json` | 评测基准 — SWE-bench/GAIA/WebArena 等 |
 
 **所有条目均为机器可读 JSON**，而非单纯的 Markdown 表格。可以直接构建工具、仪表盘和 Agent 来消费这些知识。
@@ -83,7 +83,7 @@ Agent 生态发展极快——每天都有新论文，每周都有新框架，�
 无需打开 JSON，直接看介绍和链接：
 
 - 🏭 **[行业应用案例库](docs/industries.md)** — 106 个案例横跨 17 个领域，每条含组织、一句话介绍、状态标识与官网链接
-- 🚀 **[创业公司雷达](docs/startups.md)** — 47 家融资公司，每条含成立年份、融资额、一句话介绍与官网
+- 🚀 **[创业公司雷达](docs/startups.md)** — 56 家融资公司，每条含成立年份、融资额、一句话介绍与官网
 
 精选预览：
 
@@ -200,7 +200,7 @@ cat reports/weekly-trending/latest.json | python -m json.tool
 
 ## 创意创业 — 创业公司库
 
-**47 家融资公司**，构建 Agent 经济——从基础模型到机器人：
+**56 家融资公司**，构建 Agent 经济——从基础模型到机器人：
 
 | 分类 | 数量 | 代表公司 |
 |------|------|----------|

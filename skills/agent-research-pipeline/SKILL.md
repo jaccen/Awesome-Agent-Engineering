@@ -300,7 +300,7 @@ metadata:
 | 框架库 | `data/frameworks.json` (52) | 工程对比、选型 |
 | 基准库 | `data/benchmarks.json` (32) | 选数据集、选评测 |
 | 行业库 | `data/industries.json` (106) | 找落地场景、motivation |
-| 创业库 | `data/startups.json` (47) | 找产业趋势、差异化 |
+| 创业库 | `data/startups.json` (56) | 找产业趋势、差异化 |
 | 领域图谱 | `references/agent-research-areas.md` (16领域) | 定位研究方向 |
 | 专家团 | `references/agent-research-expert-team.md` (R1-R9) | 科研协作流程 |
 | 配套专著 | `deployment-book/` (子模块) | 工程落地方法论 |
