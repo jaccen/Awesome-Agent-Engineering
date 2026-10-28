@@ -117,6 +117,14 @@ cat reports/weekly-trending/latest.json | python -m json.tool
 
 完整数据见 [`data/methods.json`](data/methods.json)。
 
+<details>
+<summary><b>研究图谱与科研专家团 →</b></summary>
+
+- **[`references/agent-research-areas.md`](references/agent-research-areas.md)** — AI/Agent 16 个核心研究领域（意图识别、记忆、规划、工具使用、世界模型、知识工程与本体等），含代表性论文与 venue 核实
+- **[`references/agent-research-expert-team.md`](references/agent-research-expert-team.md)** — AI/Agent 论文科研专家团：9 角色（R1-R9）覆盖选题评估、实验设计、写作、审稿、投稿检查；含已核实期刊论文与投稿速查表
+
+</details>
+
 ## 行业应用 — 真实部署
 
 **107 个真实生产系统**，覆盖 17+ 行业——不是 demo，不是概念，是生产级系统：

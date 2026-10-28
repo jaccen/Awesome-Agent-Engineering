@@ -160,7 +160,15 @@ cat reports/weekly-trending/latest.json | python -m json.tool
 <details>
 <summary><b>Browse all 280 methods →</b></summary>
 
-See [`data/methods.json`](data/methods.json) for the full machine-readable database, or [`references/methods-overview.md`](references/methods-overview.md) for a browsable markdown table.
+See [`data/methods.json`](data/methods.json) for the full machine-readable database, or [`references/agent-research-areas.md`](references/agent-research-areas.md) for a browsable markdown table.
+
+</details>
+
+<details>
+<summary><b>Research map & expert team →</b></summary>
+
+- **[`references/agent-research-areas.md`](references/agent-research-areas.md)** — 16 core research areas of AI/Agent (intent recognition, memory, planning, tool use, world models, knowledge engineering & ontology, etc.) with representative papers and venue verification
+- **[`references/agent-research-expert-team.md`](references/agent-research-expert-team.md)** — Research expert team for AI/Agent papers: 9 roles (R1–R9) covering idea evaluation, experiment design, writing, review, and venue check; with verified journal papers and a journal/conference submission cheat sheet
 
 </details>
 
