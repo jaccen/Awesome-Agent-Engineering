@@ -69,7 +69,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 |---------------|-------------|-----------|
 | Latest Agent papers | Last updated 3 months ago | **Daily arXiv scan** — 8 query families, auto-discovered |
 | Compare frameworks | Open 10 tabs | 52 frameworks with stars, license, language, one-line description |
-| Find industry cases | Blog posts | 107 real deployments across 15+ industries, with status and org |
+| Find industry cases | Blog posts | 107 real deployments across 17 industries, with status and org |
 | Track startups | Crunchbase subscription | 47 funded companies with funding, category, and description |
 | Pick a benchmark | Guess | 32 benchmarks with domain, venue, and what they test |
 | Keep it current | Manual PRs | **GitHub Actions CI** runs daily, commits automatically |
@@ -193,7 +193,7 @@ See [`data/methods.json`](data/methods.json) for the full machine-readable datab
 
 ## Industry — Real-World Applications
 
-**107 real-world deployments** across 15+ industries — not demos, not concepts, but production systems:
+**107 real-world deployments** across 17 industries — not demos, not concepts, but production systems:
 
 | Domain | Count | Highlights |
 |--------|-------|------------|
