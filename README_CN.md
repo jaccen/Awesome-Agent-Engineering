@@ -3,9 +3,9 @@
 
 # Awesome Agent Engineering
 
-### 最全面的 AI Agent 知识中枢 — 518 条目，四大板块，每日自动更新
+### AI Agent 知识中枢 — 638 条目，每日自动更新最新论文与项目
 
-**从研究论文到生产部署，从创业项目到行业落地。一个仓库，整个 Agent 生态。**
+**从研究论文到生产部署，从创业项目到行业落地。一个仓库，整个 Agent 生态，每日自动刷新。**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![方法数](https://img.shields.io/badge/方法-280-9cf.svg)](data/methods.json)
@@ -13,12 +13,31 @@
 [![行业案例](https://img.shields.io/badge/行业案例-107-orange.svg)](data/industries.json)
 [![创业公司](https://img.shields.io/badge/创业公司-47-red.svg)](data/startups.json)
 [![基准测试](https://img.shields.io/badge/基准测试-32-purple.svg)](data/benchmarks.json)
+[![论文库](https://img.shields.io/badge/论文-120-ff69b4.svg)](data/papers.json)
 [![自动更新](https://img.shields.io/badge/自动更新-每日-brightgreen.svg)](reports/arxiv-daily/)
 [![欢迎PR](https://img.shields.io/badge/欢迎PR-Contributing-brightgreen.svg)](CONTRIBUTING.md)
 
 [English](README.md) | [中文](README_CN.md)
 
 </div>
+
+## 关于
+
+**Awesome Agent Engineering** 是一个会自己更新的 AI Agent 生态知识中枢，覆盖 LLM 智能体、多智能体系统、自主智能体、具身智能（VLA）、智能体记忆、工具调用、智能体评测与基准、智能体安全等方向。
+
+与静态 awesome-list 不同，本仓库**每日自动发现新论文与新项目**：通过定时 GitHub Actions，每日 arXiv 扫描（8 个查询族）与每周 GitHub / HuggingFace 趋势扫描，自动抓取最新研究、框架与工具，知识库无需人工维护即可保持前沿。
+
+**仓库内容（自动更新）：**
+- 📚 280 个学术 Agent 方法，覆盖 12 个类别
+- 📝 120 篇已核实论文（含 arXiv ID，40+ 篇来自 2026，已抽查）
+- 🏗️ 52 个开源智能体框架
+- 🏭 107 个真实行业落地案例，覆盖 17+ 领域
+- 🚀 47 家已融资智能体创业公司
+- 📊 32 个评测基准（SWE-bench、GAIA、WebArena、OSWorld、AgentBench、LITMUS、EvoMemBench 等）
+
+所有条目均为机器可读 JSON，含证据链——不编造名称，不放死链。内置**科研全流程技能**，覆盖论文全生命周期：选题评估 → 骨架 → 文献 → 绘图 → 实验 → 分析 → 审稿 → 返修。
+
+⭐ **Star** 收藏。👁️ **Watch** 获取每日 Agent 更新。
 
 ## 为什么是这个仓库？
 
@@ -35,7 +54,7 @@ Agent 生态发展极快——每天都有新论文，每周都有新框架，�
 | 选基准测试 | 靠猜 | 32 个基准，含领域、会议和测试内容 |
 | 保持最新 | 手动提 PR | **GitHub Actions CI** 每日运行，自动提交 |
 
-**518 个可验证条目**，横跨 5 个知识库，每个条目都有证据链。不编造名称，不放死链，不写营销话术。
+**638 个可验证条目**，横跨 5 个知识库 + 1 个 120 篇论文库，每个条目都有证据链。不编造名称，不放死链，不写营销话术。
 
 ## 四大板块
 

@@ -3,9 +3,9 @@
 
 # Awesome Agent Engineering
 
-### The Most Comprehensive AI Agent Knowledge Hub — 518 Entries, 4 Domains, Auto-Updated Daily
+### The AI Agent Knowledge Hub — 638 Entries, Auto-Updated Daily with Latest Papers & Projects
 
-**From research papers to production deployment. From startup ideas to industry playbooks. One repo, the entire Agent ecosystem.**
+**From research papers to production deployment. From startup ideas to industry playbooks. One repo, the entire Agent ecosystem — refreshed every day.**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Methods](https://img.shields.io/badge/Methods-280-9cf.svg)](data/methods.json)
@@ -13,6 +13,7 @@
 [![Industries](https://img.shields.io/badge/Industries-107-orange.svg)](data/industries.json)
 [![Startups](https://img.shields.io/badge/Startups-47-red.svg)](data/startups.json)
 [![Benchmarks](https://img.shields.io/badge/Benchmarks-32-purple.svg)](data/benchmarks.json)
+[![Papers](https://img.shields.io/badge/Papers-120-ff69b4.svg)](data/papers.json)
 [![Auto-Update](https://img.shields.io/badge/Auto_Update-Daily-brightgreen.svg)](reports/arxiv-daily/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -40,6 +41,24 @@
 
 </details>
 
+## About
+
+**Awesome Agent Engineering** is a living, auto-updated knowledge hub for the AI Agent ecosystem — covering LLM agents, multi-agent systems, autonomous agents, embodied AI (VLA), agent memory, tool use, agent evaluation & benchmarks, and agent safety.
+
+Unlike static awesome-lists, this repo **automatically discovers new papers and projects every day** via scheduled GitHub Actions: a daily arXiv scan (8 query families) and a weekly GitHub / HuggingFace trending scan surface the latest research, frameworks and tools, so the knowledge base stays current without manual curation.
+
+**What's inside (auto-updated):**
+- 📚 280 academic Agent methods across 12 categories
+- 📝 120 verified papers with arXiv IDs (40+ from 2026, spot-checked)
+- 🏗️ 52 open-source agent frameworks
+- 🏭 107 real-world industry deployments across 17+ domains
+- 🚀 47 funded agent startups
+- 📊 32 evaluation benchmarks (SWE-bench, GAIA, WebArena, OSWorld, AgentBench, LITMUS, EvoMemBench …)
+
+Every entry is machine-readable JSON with an evidence trail — no fabrication, no dead links. A built-in **research pipeline skill** guides the full paper lifecycle: idea evaluation → skeleton → literature → figures → experiments → analysis → review → rebuttal.
+
+⭐ **Star** to bookmark. 👁️ **Watch** to receive daily Agent updates.
+
 ## Why This Repo?
 
 Other awesome lists give you paper titles. **We give you a living knowledge base that updates itself.**
@@ -48,14 +67,14 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 
 | What You Need | Static Lists | This Repo |
 |---------------|-------------|-----------|
-| Latest Agent papers | Last updated 3 months ago | **Daily arXiv scan** — 17 query families, auto-discovered |
+| Latest Agent papers | Last updated 3 months ago | **Daily arXiv scan** — 8 query families, auto-discovered |
 | Compare frameworks | Open 10 tabs | 52 frameworks with stars, license, language, one-line description |
 | Find industry cases | Blog posts | 107 real deployments across 15+ industries, with status and org |
 | Track startups | Crunchbase subscription | 47 funded companies with funding, category, and description |
 | Pick a benchmark | Guess | 32 benchmarks with domain, venue, and what they test |
 | Keep it current | Manual PRs | **GitHub Actions CI** runs daily, commits automatically |
 
-**518 verified entries** across 5 knowledge bases, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
+**638 verified entries** across 5 knowledge bases plus a 120-paper database, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
 
 ## The Four Domains
 
