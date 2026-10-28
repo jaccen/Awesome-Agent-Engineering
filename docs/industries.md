@@ -1,6 +1,6 @@
-# 🏭 Industry Deployments — 107 Real-World Production Cases
+# 🏭 Industry Deployments — 106 Real-World Production Cases
 
-> From research papers to production: 107 real deployments across 17 domains, with organization, status, and official website. 中文说明见 [README_CN](../README_CN.md).
+> From research papers to production: 106 real deployments across 17 domains, with organization, status, and official website. 中文说明见 [README_CN](../README_CN.md).
 > Data source: [`data/industries.json`](../data/industries.json) · Back to [README](../README.md)
 
 ## Catalog
@@ -81,7 +81,6 @@
 | GovGPT | Singapore GovTech | Government services assistant: answers citizen queries across 70+ agencies in natural language | ✅ Production |
 | PolitiBot | Various | Constituent service agents: answer policy questions, track casework, and route requests | 🧪 Pilot |
 | [UK GOV.UK Chat](https://www.gov.uk/government/news/new-ai-tool-to-help-people-find-information-on-govuk) | UK Government | Experimental AI assistant for gov.uk: navigates citizens through services and forms | 🧪 Pilot |
-| 国数通超级智能体平台 | 国家数据集团 | 政务侧个人智能体供给网络与可信底座，核心体验'边聊边办'，近400项能力模块 | ✅ Production |
 | 智e办 | 中国多地政务 | 智能审批助手：材料预审、流程引导、一网通办智能问答 | ✅ Production |
 | 智慧政务客服 | 中国电信 | 政务AI客服：12345热线智能分流、政策问答、工单自动派发 | ✅ Production |
 
@@ -217,4 +216,4 @@
 
 ---
 
-**107 cases** · Every entry has an evidence trail (`evidence.checked_at` / `source_url`) · Machine-readable JSON: [`data/industries.json`](../data/industries.json)
+**106 cases** · Every entry has an evidence trail (`evidence.checked_at` / `source_url`) · Machine-readable JSON: [`data/industries.json`](../data/industries.json)

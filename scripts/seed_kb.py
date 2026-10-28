@@ -277,7 +277,6 @@ SEED_INDUSTRIES = [
     ("Government", "GovGPT", "Singapore GovTech", "Government services assistant: answers citizen queries across 70+ agencies in natural language", "production", ""),
     ("Government", "UK GOV.UK Chat", "UK Government", "Experimental AI assistant for gov.uk: navigates citizens through services and forms", "pilot", "https://www.gov.uk/government/news/new-ai-tool-to-help-people-find-information-on-govuk"),
     ("Government", "PolitiBot", "Various", "Constituent service agents: answer policy questions, track casework, and route requests", "pilot", ""),
-    ("Government", "国数通超级智能体平台", "国家数据集团", "政务侧个人智能体供给网络与可信底座，核心体验'边聊边办'，近400项能力模块", "production", ""),
     ("Government", "智慧政务客服", "中国电信", "政务AI客服：12345热线智能分流、政策问答、工单自动派发", "production", ""),
 
     ("Manufacturing", "Siemens Industrial Copilot", "Siemens/Microsoft", "Industrial AI assistant: PLC code generation, maintenance guidance, and fault diagnosis for factories", "production", "https://www.siemens.com/en/products/automation/industrial-copilot"),

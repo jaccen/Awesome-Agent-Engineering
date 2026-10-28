@@ -3,14 +3,14 @@
 
 # Awesome Agent Engineering
 
-### The AI Agent Knowledge Hub — 1513 Entries, Auto-Updated Daily with Latest Papers & Projects
+### The AI Agent Knowledge Hub — 1512 Entries, Auto-Updated Daily with Latest Papers & Projects
 
 **From research papers to production deployment. From startup ideas to industry playbooks. One repo, the entire Agent ecosystem — refreshed every day.**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Methods](https://img.shields.io/badge/Methods-280-9cf.svg)](data/methods.json)
 [![Frameworks](https://img.shields.io/badge/Frameworks-52-green.svg)](data/frameworks.json)
-[![Industries](https://img.shields.io/badge/Industries-107-orange.svg)](data/industries.json)
+[![Industries](https://img.shields.io/badge/Industries-106-orange.svg)](data/industries.json)
 [![Startups](https://img.shields.io/badge/Startups-47-red.svg)](data/startups.json)
 [![Benchmarks](https://img.shields.io/badge/Benchmarks-32-purple.svg)](data/benchmarks.json)
 [![Papers](https://img.shields.io/badge/Papers-995-ff69b4.svg)](data/papers.json)
@@ -51,7 +51,7 @@ Unlike static awesome-lists, this repo **automatically discovers new papers and 
 - 📚 280 academic Agent methods across 12 categories
 - 📝 995 verified papers with official arXiv titles (130 from 2026, batch-verified via arXiv API)
 - 🏗️ 52 open-source agent frameworks
-- 🏭 107 real-world industry deployments across 17+ domains
+- 🏭 106 real-world industry deployments across 17+ domains
 - 🚀 47 funded agent startups
 - 📊 32 evaluation benchmarks (SWE-bench, GAIA, WebArena, OSWorld, AgentBench, LITMUS, EvoMemBench …)
 
@@ -69,12 +69,12 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 |---------------|-------------|-----------|
 | Latest Agent papers | Last updated 3 months ago | **Daily arXiv scan** — 8 query families, auto-discovered |
 | Compare frameworks | Open 10 tabs | 52 frameworks with stars, license, language, one-line description |
-| Find industry cases | Blog posts | 107 real deployments across 17 industries, with status and org |
+| Find industry cases | Blog posts | 106 real deployments across 17 industries, with status and org |
 | Track startups | Crunchbase subscription | 47 funded companies with funding, category, and description |
 | Pick a benchmark | Guess | 32 benchmarks with domain, venue, and what they test |
 | Keep it current | Manual PRs | **GitHub Actions CI** runs daily, commits automatically |
 
-**1513 verified entries** across 5 knowledge bases plus a 995-paper database, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
+**1512 verified entries** across 5 knowledge bases plus a 995-paper database, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
 
 ## The Four Domains
 
@@ -85,7 +85,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
 │  │ RESEARCH │  │ INDUSTRY │  │ STARTUP  │  │DEPLOYMENT│    │
 │  │          │  │          │  │          │  │          │    │
-│  │ 280      │  │ 107      │  │ 47       │  │ 52       │    │
+│  │ 280      │  │ 106      │  │ 47       │  │ 52       │    │
 │  │ methods  │  │ cases    │  │ companies│  │frameworks│    │
 │  │ 12 cats  │  │ 17 doms  │  │ 18 cats  │  │ + 32     │    │
 │  │          │  │          │  │          │  │benchmarks│    │
@@ -111,7 +111,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 | **Methods** | 280 | `data/methods.json` | Academic Agent papers — 12 categories from Foundation to Safety |
 | **Papers** | 995 | `data/papers.json` | Verified papers with official arXiv titles — 130 from 2026, batch-verified |
 | **Frameworks** | 52 | `data/frameworks.json` | OSS agent frameworks — orchestration, memory, tools, observability |
-| **Industries** | 107 | `data/industries.json` | Real-world deployments — 17 domains from Finance to Energy · [📖 Browse](docs/industries.md) |
+| **Industries** | 106 | `data/industries.json` | Real-world deployments — 17 domains from Finance to Energy · [📖 Browse](docs/industries.md) |
 | **Startups** | 47 | `data/startups.json` | Funded companies — 18 categories from Foundation Models to Robotics · [📖 Browse](docs/startups.md) |
 | **Benchmarks** | 32 | `data/benchmarks.json` | Evaluation suites — SWE-bench, GAIA, WebArena, OSWorld, and more |
 
@@ -121,7 +121,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 
 Full browsable lists with intros and links — no need to open the JSON:
 
-- 🏭 **[Industry Deployments](docs/industries.md)** — 107 cases across 17 domains, each with organization, one-line intro, status badge, and official website
+- 🏭 **[Industry Deployments](docs/industries.md)** — 106 cases across 17 domains, each with organization, one-line intro, status badge, and official website
 - 🚀 **[Startup Radar](docs/startups.md)** — 47 funded companies, each with founding year, funding, one-line intro, and website
 
 Sample of what you'll find:
@@ -132,7 +132,7 @@ Sample of what you'll find:
 | [Morgan Stanley AI](https://www.morganstanley.com/) | 🏦 Finance | GPT-4-powered assistant for 16k+ wealth advisors |
 | [Med-PaLM](https://sites.research.google/med-palm) | 🏥 Healthcare | Medical LLM: USMLE-style Q&A and clinical reasoning |
 | [Siemens Industrial Copilot](https://www.siemens.com/) | 🏭 Manufacturing | PLC code generation and maintenance guidance for engineers |
-| [国数通超级智能体平台](https://www.chinatelecom.cn/) | 🏛️ Government | 政务侧个人智能体供给网络，核心体验“边聊边办” |
+| [Estonia Burokratt](https://www.kratid.ee/) | 🏛️ Government | Citizen AI assistant: voice-based proactive services across 30+ agencies |
 | [Deutsche Telekom AI](https://www.telekom.com/) | 📡 Telecom | Network optimization and capacity planning agent |
 
 | Company | Category | Funding | What they build |
@@ -221,13 +221,13 @@ See [`data/methods.json`](data/methods.json) for the full machine-readable datab
 
 ## Industry — Real-World Applications
 
-**107 real-world deployments** across 17 industries — not demos, not concepts, but production systems:
+**106 real-world deployments** across 17 industries — not demos, not concepts, but production systems:
 
 | Domain | Count | Highlights |
 |--------|-------|------------|
 | Finance | 11 | JPMorgan COiN, Klarna AI (2.3M conversations/month), BloombergGPT |
 | Healthcare | 12 | Nuance DAX, Epic AI Hub, Hippocratic AI, Nabla Copilot |
-| Government | 8 | Singapore GovGPT, UK GOV.UK Chat, 国数通超级智能体平台 |
+| Government | 8 | Singapore GovGPT, UK GOV.UK Chat, Estonia Burokratt |
 | Manufacturing | 8 | Siemens Industrial Copilot, NVIDIA Omniverse, BMW AI Production |
 | Legal | 7 | Harvey AI, Lexis+ AI, Casetext CoCounsel, Robin AI |
 | Education | 8 | Khanmigo, Duolingo Max, Squirrel AI, BYJU'S |
@@ -244,7 +244,7 @@ See [`data/methods.json`](data/methods.json) for the full machine-readable datab
 | Energy | 3 | Google DeepMind Grid (40% energy reduction), Shell, Enel |
 
 <details>
-<summary><b>Browse all 107 industry cases →</b></summary>
+<summary><b>Browse all 106 industry cases →</b></summary>
 
 See [`data/industries.json`](data/industries.json) for the full database.
 
@@ -310,11 +310,11 @@ See [`data/benchmarks.json`](data/benchmarks.json) for venue and URL details.
 
 ### v0.1.0 — Initial Release (Oct 2026)
 
-**518 verified entries** across 5 knowledge bases:
+**517 verified entries** across 5 knowledge bases:
 
 - **280 academic methods** in 12 categories — from ReAct (2022) to GR00T N1 and π0.5 (2025)
 - **52 open-source frameworks** — orchestration, RAG, memory, tools, serving, observability
-- **107 industry deployments** across 17 domains — production systems from JPMorgan to 国数通
+- **106 industry deployments** across 17 domains — production systems from JPMorgan to Dubai AI Government
 - **47 funded startups** — $200B+ in combined funding, from foundation models to robotics
 - **32 evaluation benchmarks** — SWE-bench, GAIA, WebArena, OSWorld, and beyond
 
@@ -328,8 +328,8 @@ See [`changelog/`](changelog/) for the full history.
 
 ## Roadmap
 
-- [x] **Phase 1** — Knowledge base skeleton + 518 seed entries + auto-update scripts
-- [ ] **Phase 2** — Interactive web explorer (search, filter, sort 518 entries)
+- [x] **Phase 1** — Knowledge base skeleton + 517 seed entries + auto-update scripts
+- [ ] **Phase 2** — Interactive web explorer (search, filter, sort 517 entries)
 - [x] **Phase 2** — AI-powered Skills: agent-research-pipeline (full 8-stage research lifecycle) → [`skills/agent-research-pipeline/`](skills/agent-research-pipeline/)
 - [ ] **Phase 3** — Online book: "Agent Engineering — From Research to Production"
 - [ ] **Phase 3** — MCP server (let any AI agent consume this knowledge base)

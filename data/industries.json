@@ -569,22 +569,6 @@
   },
   {
    "domain": "Government",
-   "project": "国数通超级智能体平台",
-   "organization": "国家数据集团",
-   "desc": "政务侧个人智能体供给网络与可信底座，核心体验'边聊边办'，近400项能力模块",
-   "status": "production",
-   "url": "",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "industry-known",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "domain": "Government",
    "project": "智e办",
    "organization": "中国多地政务",
    "desc": "智能审批助手：材料预审、流程引导、一网通办智能问答",

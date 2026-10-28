@@ -299,7 +299,7 @@ metadata:
 | 方法库 | `data/methods.json` (280) | 定位最近相关工作、找基线 |
 | 框架库 | `data/frameworks.json` (52) | 工程对比、选型 |
 | 基准库 | `data/benchmarks.json` (32) | 选数据集、选评测 |
-| 行业库 | `data/industries.json` (107) | 找落地场景、motivation |
+| 行业库 | `data/industries.json` (106) | 找落地场景、motivation |
 | 创业库 | `data/startups.json` (47) | 找产业趋势、差异化 |
 | 领域图谱 | `references/agent-research-areas.md` (16领域) | 定位研究方向 |
 | 专家团 | `references/agent-research-expert-team.md` (R1-R9) | 科研协作流程 |
