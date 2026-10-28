@@ -3,7 +3,7 @@
 
 # Awesome Agent Engineering
 
-### The AI Agent Knowledge Hub — 638 Entries, Auto-Updated Daily with Latest Papers & Projects
+### The AI Agent Knowledge Hub — 1513 Entries, Auto-Updated Daily with Latest Papers & Projects
 
 **From research papers to production deployment. From startup ideas to industry playbooks. One repo, the entire Agent ecosystem — refreshed every day.**
 
@@ -13,7 +13,7 @@
 [![Industries](https://img.shields.io/badge/Industries-107-orange.svg)](data/industries.json)
 [![Startups](https://img.shields.io/badge/Startups-47-red.svg)](data/startups.json)
 [![Benchmarks](https://img.shields.io/badge/Benchmarks-32-purple.svg)](data/benchmarks.json)
-[![Papers](https://img.shields.io/badge/Papers-120-ff69b4.svg)](data/papers.json)
+[![Papers](https://img.shields.io/badge/Papers-995-ff69b4.svg)](data/papers.json)
 [![Auto-Update](https://img.shields.io/badge/Auto_Update-Daily-brightgreen.svg)](reports/arxiv-daily/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -49,7 +49,7 @@ Unlike static awesome-lists, this repo **automatically discovers new papers and 
 
 **What's inside (auto-updated):**
 - 📚 280 academic Agent methods across 12 categories
-- 📝 120 verified papers with arXiv IDs (40+ from 2026, spot-checked)
+- 📝 995 verified papers with official arXiv titles (130 from 2026, batch-verified via arXiv API)
 - 🏗️ 52 open-source agent frameworks
 - 🏭 107 real-world industry deployments across 17+ domains
 - 🚀 47 funded agent startups
@@ -74,7 +74,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 | Pick a benchmark | Guess | 32 benchmarks with domain, venue, and what they test |
 | Keep it current | Manual PRs | **GitHub Actions CI** runs daily, commits automatically |
 
-**638 verified entries** across 5 knowledge bases plus a 120-paper database, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
+**1513 verified entries** across 5 knowledge bases plus a 995-paper database, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
 
 ## The Four Domains
 
@@ -87,7 +87,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 │  │          │  │          │  │          │  │          │    │
 │  │ 280      │  │ 107      │  │ 47       │  │ 52       │    │
 │  │ methods  │  │ cases    │  │ companies│  │frameworks│    │
-│  │ 12 cats  │  │ 15 doms  │  │ 12 cats  │  │ + 32     │    │
+│  │ 12 cats  │  │ 17 doms  │  │ 18 cats  │  │ + 32     │    │
 │  │          │  │          │  │          │  │benchmarks│    │
 │  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘    │
 │       │             │             │             │           │
@@ -109,12 +109,40 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 | Knowledge Base | Count | Source File | Description |
 |----------------|-------|-------------|-------------|
 | **Methods** | 280 | `data/methods.json` | Academic Agent papers — 12 categories from Foundation to Safety |
+| **Papers** | 995 | `data/papers.json` | Verified papers with official arXiv titles — 130 from 2026, batch-verified |
 | **Frameworks** | 52 | `data/frameworks.json` | OSS agent frameworks — orchestration, memory, tools, observability |
-| **Industries** | 107 | `data/industries.json` | Real-world deployments — 15 domains from Finance to Energy |
-| **Startups** | 47 | `data/startups.json` | Funded companies — 12 categories from Foundation Models to Robotics |
+| **Industries** | 107 | `data/industries.json` | Real-world deployments — 17 domains from Finance to Energy · [📖 Browse](docs/industries.md) |
+| **Startups** | 47 | `data/startups.json` | Funded companies — 18 categories from Foundation Models to Robotics · [📖 Browse](docs/startups.md) |
 | **Benchmarks** | 32 | `data/benchmarks.json` | Evaluation suites — SWE-bench, GAIA, WebArena, OSWorld, and more |
 
 **Every entry is machine-readable JSON** — not just markdown tables. Build tools, dashboards, and agents that consume this knowledge directly.
+
+### 📖 Browsable Highlights
+
+Full browsable lists with intros and links — no need to open the JSON:
+
+- 🏭 **[Industry Deployments](docs/industries.md)** — 107 cases across 17 domains, each with organization, one-line intro, status badge, and official website
+- 🚀 **[Startup Radar](docs/startups.md)** — 47 funded companies, each with founding year, funding, one-line intro, and website
+
+Sample of what you'll find:
+
+| Case | Domain | What it does |
+|---|---|---|
+| [JPMorgan COiN](https://www.jpmorgan.com/) | 🏦 Finance | Reviews commercial loan agreements in seconds instead of 360k hours of lawyer time |
+| [Morgan Stanley AI](https://www.morganstanley.com/) | 🏦 Finance | GPT-4-powered assistant for 16k+ wealth advisors |
+| [Med-PaLM](https://sites.research.google/med-palm) | 🏥 Healthcare | Medical LLM: USMLE-style Q&A and clinical reasoning |
+| [Siemens Industrial Copilot](https://www.siemens.com/) | 🏭 Manufacturing | PLC code generation and maintenance guidance for engineers |
+| [国数通超级智能体平台](https://www.chinatelecom.cn/) | 🏛️ Government | 政务侧个人智能体供给网络，核心体验“边聊边办” |
+| [Deutsche Telekom AI](https://www.telekom.com/) | 📡 Telecom | Network optimization and capacity planning agent |
+
+| Company | Category | Funding | What they build |
+|---|---|---|---|
+| [Anthropic](https://www.anthropic.com/) | Foundation Models | $60B+ | Claude with constitutional AI and computer use |
+| [Anysphere](https://cursor.com/) | Code Agents | $10B+ | Cursor: AI-first code editor with agent mode |
+| [Cognition](https://cognition.ai/) | Code Agents | $2B+ | Devin: first autonomous AI software engineer |
+| [Glean](https://www.glean.com/) | Enterprise Search | $4.6B+ | Enterprise AI search connecting all company apps |
+| [Figure AI](https://www.figure.ai/) | Robotics | $675M+ | Humanoid robots with OpenAI-powered reasoning |
+| [Harvey](https://www.harvey.ai/) | Legal | $1B+ | AI for Big Law: contract analysis, due diligence |
 
 ## Auto-Update Pipeline
 
@@ -354,13 +382,13 @@ A one-stop research assistant for AI/Agent papers, covering the full 8-stage pip
 | 7b. Self-Review | Three-role cross-review (reviewer/researcher/expert) + 33 rejection patterns |
 | 8. Rebuttal | Per-comment response strategy + cover letter + marked manuscript |
 
-**Knowledge base integration:** queries `data/methods.json` (280), `data/frameworks.json` (52), `data/benchmarks.json` (32), `data/papers.json` (120 papers), and `references/agent-research-areas.md` (16 areas) to ground every answer in verified data.
+**Knowledge base integration:** queries `data/methods.json` (280), `data/frameworks.json` (52), `data/benchmarks.json` (32), `data/papers.json` (995 papers), and `references/agent-research-areas.md` (16 areas) to ground every answer in verified data.
 
 **Bundled references:**
-- [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — 120 verified papers across 16 sub-areas (including 40+ new 2026 papers with arXiv IDs spot-checked; NeurIPS 2026 EvoMemBench/LITMUS, ICLR 2026 LightMem, AAMAS 2026 μACP, and more)
+- [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — curated papers across 16 sub-areas (featured 133 co-cited by 7 GitHub curation lists; NeurIPS 2026 EvoMemBench/LITMUS, ICLR 2026 LightMem, AAMAS 2026 μACP, and more)
 - [`references/venues.md`](skills/agent-research-pipeline/references/venues.md) — 15 top conferences + 20 journals with CCF ranking, page limits, deadlines, and review preferences
 - [`references/experiment-template.md`](skills/agent-research-pipeline/references/experiment-template.md) — Fill-in experiment template (contribution-experiment mapping, ablation design, multi-seed statistics, negative results, pre-submission checklist)
-- [`data/papers.json`](data/papers.json) — Machine-readable paper database (120 papers with arXiv ID/venue/verification status/categories)
+- [`data/papers.json`](data/papers.json) — Machine-readable paper database (995 papers with official arXiv titles/venue/verification status/categories)
 
 **Editor integration:** [`CLAUDE.md`](CLAUDE.md) (Claude Code / generic AI project instructions) and [`.cursor/rules/agent-research.mdc`](.cursor/rules/agent-research.mdc) (Cursor auto-activate rule) are configured to load this skill automatically when editing paper-related files in VS Code/Cursor.
 

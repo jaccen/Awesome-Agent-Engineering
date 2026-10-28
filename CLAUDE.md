@@ -27,7 +27,7 @@
 
 ## 关键资源路径
 
-- 论文库（机器可读）：`data/papers.json`（120 篇，含 arXiv ID/venue/核实状态）
+- 论文库（机器可读）：`data/papers.json`（995 篇，官方 arXiv 标题/venue/核实状态）
 - 论文库（人工可读）：`references/paper-database.md`（16 子领域）
 - 投稿速查：`references/venues.md`（15 顶会 + 20 期刊，CCF/页数/截稿）
 - 实验模板：`references/experiment-template.md`（可直接复制填充）

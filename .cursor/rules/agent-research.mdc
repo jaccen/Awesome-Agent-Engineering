@@ -32,7 +32,7 @@ alwaysApply: false
 
 ## 关键资源
 
-- 论文库：`data/papers.json`（120 篇）或 `skills/agent-research-pipeline/references/paper-database.md`
+- 论文库：`data/papers.json`（995 篇）或 `skills/agent-research-pipeline/references/paper-database.md`
 - 投稿速查：`skills/agent-research-pipeline/references/venues.md`
 - 实验模板：`skills/agent-research-pipeline/references/experiment-template.md`（可直接复制填充）
 - 基准清单：`data/benchmarks.json`
