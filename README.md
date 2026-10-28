@@ -3,7 +3,7 @@
 
 # Awesome Agent Engineering
 
-### The AI Agent Knowledge Hub — 1512 Entries, Auto-Updated Daily with Latest Papers & Projects
+### The AI Agent Knowledge Hub — 1521 Entries, Auto-Updated Daily with Latest Papers & Projects
 
 **From research papers to production deployment. From startup ideas to industry playbooks. One repo, the entire Agent ecosystem — refreshed every day.**
 
@@ -74,7 +74,7 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 | Pick a benchmark | Guess | 32 benchmarks with domain, venue, and what they test |
 | Keep it current | Manual PRs | **GitHub Actions CI** runs daily, commits automatically |
 
-**1512 verified entries** across 5 knowledge bases plus a 995-paper database, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
+**1521 verified entries** across 5 knowledge bases plus a 995-paper database, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
 
 ## The Four Domains
 
@@ -310,7 +310,7 @@ See [`data/benchmarks.json`](data/benchmarks.json) for venue and URL details.
 
 ### v0.1.0 — Initial Release (Oct 2026)
 
-**517 verified entries** across 5 knowledge bases:
+**526 verified entries** across 5 knowledge bases:
 
 - **280 academic methods** in 12 categories — from ReAct (2022) to GR00T N1 and π0.5 (2025)
 - **52 open-source frameworks** — orchestration, RAG, memory, tools, serving, observability
@@ -328,8 +328,8 @@ See [`changelog/`](changelog/) for the full history.
 
 ## Roadmap
 
-- [x] **Phase 1** — Knowledge base skeleton + 517 seed entries + auto-update scripts
-- [ ] **Phase 2** — Interactive web explorer (search, filter, sort 517 entries)
+- [x] **Phase 1** — Knowledge base skeleton + 526 seed entries + auto-update scripts
+- [ ] **Phase 2** — Interactive web explorer (search, filter, sort 526 entries)
 - [x] **Phase 2** — AI-powered Skills: agent-research-pipeline (full 8-stage research lifecycle) → [`skills/agent-research-pipeline/`](skills/agent-research-pipeline/)
 - [ ] **Phase 3** — Online book: "Agent Engineering — From Research to Production"
 - [ ] **Phase 3** — MCP server (let any AI agent consume this knowledge base)
