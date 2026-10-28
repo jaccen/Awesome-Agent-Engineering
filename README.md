@@ -283,7 +283,7 @@ See [`changelog/`](changelog/) for the full history.
 
 - [x] **Phase 1** — Knowledge base skeleton + 518 seed entries + auto-update scripts
 - [ ] **Phase 2** — Interactive web explorer (search, filter, sort 518 entries)
-- [ ] **Phase 2** — AI-powered Skills (Agent design, deployment, evaluation playbooks)
+- [x] **Phase 2** — AI-powered Skills: agent-research-pipeline (full 8-stage research lifecycle) → [`skills/agent-research-pipeline/`](skills/agent-research-pipeline/)
 - [ ] **Phase 3** — Online book: "Agent Engineering — From Research to Production"
 - [ ] **Phase 3** — MCP server (let any AI agent consume this knowledge base)
 - [ ] **Phase 3** — Community contributions (PR-based entry submission with auto-validation)
@@ -312,6 +312,34 @@ git submodule update --init --recursive
 ```
 
 > The book repo is independently maintained at [jaccen/AI-deployment-engineering](https://github.com/jaccen/AI-deployment-engineering); online reading is at [jaccen.github.io/AI-deployment-engineering](https://jaccen.github.io/AI-deployment-engineering/).
+
+## AI Skills
+
+This repo ships an AI skill for the full Agent research lifecycle:
+
+### agent-research-pipeline
+
+**Location:** [`skills/agent-research-pipeline/`](skills/agent-research-pipeline/)
+
+A one-stop research assistant for AI/Agent papers, covering the full 8-stage pipeline:
+
+| Stage | What it does |
+|---|---|
+| 1. Idea Evaluation | Five-dimension assessment + fatal-flaw audit + feasibility check |
+| 2. Skeleton | Seven-cell thinking template + four-point self-consistency check |
+| 3. Literature | Multi-source search (arXiv/Scholar/GitHub/HF) + knowledge-base query + citation verification |
+| 4. Figures & Tables | Three core figure design + tool selection + quality checklist |
+| 5. Experiments | Hypothesis → experiment matrix → metrics → benchmarks → ablation design |
+| 6. Data Analysis | Statistical reporting + visualization + causal attribution |
+| 7a. Polishing | Grammar + terminology + AI-tone removal + claim calibration |
+| 7b. Self-Review | Three-role cross-review (reviewer/researcher/expert) + 33 rejection patterns |
+| 8. Rebuttal | Per-comment response strategy + cover letter + marked manuscript |
+
+**Knowledge base integration:** queries `data/methods.json` (280), `data/frameworks.json` (52), `data/benchmarks.json` (32), and `references/agent-research-areas.md` (16 areas) to ground every answer in verified data.
+
+**Bundled references:**
+- [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — 80+ verified papers across 16 sub-areas (including NeurIPS 2026 EvoMemBench, LITMUS, HarnessPro, OSWorld, SWE-bench, and more)
+- [`references/venues.md`](skills/agent-research-pipeline/references/venues.md) — 15 top conferences + 20 journals with CCF ranking, page limits, deadlines, and review preferences
 
 ## Contributing
 

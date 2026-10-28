@@ -211,6 +211,34 @@ git submodule update --init --recursive
 
 > 专著仓库独立维护于 [jaccen/AI-deployment-engineering](https://github.com/jaccen/AI-deployment-engineering)，在线阅读地址 [jaccen.github.io/AI-deployment-engineering](https://jaccen.github.io/AI-deployment-engineering/)。
 
+## AI 技能
+
+本仓库内置一个覆盖 Agent 科研全流程的 AI 技能：
+
+### agent-research-pipeline
+
+**位置：** [`skills/agent-research-pipeline/`](skills/agent-research-pipeline/)
+
+面向 AI/Agent 论文的一站式科研辅导，覆盖全生命周期 8 阶段：
+
+| 阶段 | 职责 |
+|---|---|
+| 1. 选题评估 | 五维评估 + 致命伤审计 + 可行性检查 |
+| 2. 论文骨架 | 思维模板七格 + 四点自洽检查 |
+| 3. 文献检索 | 多源检索（arXiv/Scholar/GitHub/HF）+ 知识库查询 + 引用核实 |
+| 4. 绘图制表 | 三核心图设计 + 工具选型 + 质量检查 |
+| 5. 实验设计 | 假设→实验矩阵→指标→基准→消融设计 |
+| 6. 数据分析 | 统计报告 + 可视化 + 归因分析 |
+| 7a. 润色 | 语法 + 术语 + 去AI味 + claim校准 |
+| 7b. 审稿自查 | 三身份交叉审查 + 33条拒稿规律 |
+| 8. 返修改稿 | 逐条回复策略 + Cover Letter + Marked Manuscript |
+
+**知识库挂接：** 查询 `data/methods.json`（280）、`data/frameworks.json`（52）、`data/benchmarks.json`（32）及 `references/agent-research-areas.md`（16 领域），确保每个回答有据可查。
+
+**内置参考文件：**
+- [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — 16 子领域 80+ 篇已核实论文（含 NeurIPS 2026 EvoMemBench/LITMUS/HarnessPro、OSWorld、SWE-bench 等）
+- [`references/venues.md`](skills/agent-research-pipeline/references/venues.md) — 15 顶会 + 20 期刊，含 CCF 分级、页数、截稿、审稿偏好
+
 ## 贡献
 
 欢迎贡献！详见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
