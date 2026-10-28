@@ -1,0 +1,43 @@
+---
+description: AI/Agent 论文科研全流程辅导。当用户撰写 AI/Agent 论文、设计实验、检索文献、处理审稿意见时激活。
+globs:
+  - "**/*.tex"
+  - "**/paper*.md"
+  - "**/references/*.md"
+  - "**/experiment*"
+  - "**/rebuttal*"
+alwaysApply: false
+---
+
+# Agent Research Pipeline（科研全流程）
+
+本仓库 `skills/agent-research-pipeline/` 提供 AI/Agent 论文全生命周期辅导，覆盖 8 阶段：选题评估 → 论文骨架 → 文献检索 → 绘图 → 实验设计 → 数据分析 → 润色审稿 → 返修改稿。
+
+## 何时读取完整技能
+
+当用户请求涉及以下场景，读取 `skills/agent-research-pipeline/SKILL.md` 获取完整流程：
+- 评估研究 idea（"这个方向行不行"）
+- 搭论文结构（"帮我列提纲/骨架"）
+- 找相关论文（"帮我查文献"、"有哪些 baseline"）
+- 设计实验或消融（"实验怎么安排"、"消融怎么做"）
+- 分析实验结果（"结果怎么报告"、"要不要 t 检验"）
+- 润色或审稿（"帮我改语言"、"模拟审稿"）
+- 回复审稿意见（"审稿人这么说怎么回"）
+
+## 引用纪律（必须遵守）
+
+1. 不编造任何论文。arXiv ID 必须能在 arxiv.org resolve。
+2. 标注 `[核实]`（检索到明确来源）或 `[公认]`（学界长期公认）；无法核实的不列入。
+3. 检索不到足够真实论文时如实说明，不编造补齐。
+
+## 关键资源
+
+- 论文库：`data/papers.json`（120 篇）或 `skills/agent-research-pipeline/references/paper-database.md`
+- 投稿速查：`skills/agent-research-pipeline/references/venues.md`
+- 实验模板：`skills/agent-research-pipeline/references/experiment-template.md`（可直接复制填充）
+- 基准清单：`data/benchmarks.json`
+- 研究图谱：`references/agent-research-areas.md`（16 领域）
+
+## 实验纪律
+
+每条贡献须有对应实验；机制归因须补负对照；≥3 seeds + 配对 t 检验；诚实报告 negative results；先关键场景达标再全量重跑。详见 `references/experiment-template.md`。

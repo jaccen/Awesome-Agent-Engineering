@@ -233,11 +233,15 @@ git submodule update --init --recursive
 | 7b. 审稿自查 | 三身份交叉审查 + 33条拒稿规律 |
 | 8. 返修改稿 | 逐条回复策略 + Cover Letter + Marked Manuscript |
 
-**知识库挂接：** 查询 `data/methods.json`（280）、`data/frameworks.json`（52）、`data/benchmarks.json`（32）及 `references/agent-research-areas.md`（16 领域），确保每个回答有据可查。
+**知识库挂接：** 查询 `data/methods.json`（280）、`data/frameworks.json`（52）、`data/benchmarks.json`（32）、`data/papers.json`（120 篇论文）及 `references/agent-research-areas.md`（16 领域），确保每个回答有据可查。
 
 **内置参考文件：**
-- [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — 16 子领域 80+ 篇已核实论文（含 NeurIPS 2026 EvoMemBench/LITMUS/HarnessPro、OSWorld、SWE-bench 等）
+- [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — 16 子领域 120 篇已核实论文（含 40+ 篇 2026 新论文，arXiv ID 抽查核实；NeurIPS 2026 EvoMemBench/LITMUS、ICLR 2026 LightMem、AAMAS 2026 μACP 等）
 - [`references/venues.md`](skills/agent-research-pipeline/references/venues.md) — 15 顶会 + 20 期刊，含 CCF 分级、页数、截稿、审稿偏好
+- [`references/experiment-template.md`](skills/agent-research-pipeline/references/experiment-template.md) — 可直接填充的实验模板（贡献-实验映射、消融设计、多种子统计、negative results、投稿前自检清单）
+- [`data/papers.json`](data/papers.json) — 机器可读论文库（120 篇，含 arXiv ID/venue/核实状态/分类）
+
+**编辑器集成：** [`CLAUDE.md`](CLAUDE.md)（Claude Code/通用 AI 项目指令）与 [`.cursor/rules/agent-research.mdc`](.cursor/rules/agent-research.mdc)（Cursor 自动激活规则）已配置，在 VS Code/Cursor 中编辑论文相关文件时自动加载本技能指引。
 
 ## 贡献
 

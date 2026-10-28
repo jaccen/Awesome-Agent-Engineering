@@ -335,11 +335,15 @@ A one-stop research assistant for AI/Agent papers, covering the full 8-stage pip
 | 7b. Self-Review | Three-role cross-review (reviewer/researcher/expert) + 33 rejection patterns |
 | 8. Rebuttal | Per-comment response strategy + cover letter + marked manuscript |
 
-**Knowledge base integration:** queries `data/methods.json` (280), `data/frameworks.json` (52), `data/benchmarks.json` (32), and `references/agent-research-areas.md` (16 areas) to ground every answer in verified data.
+**Knowledge base integration:** queries `data/methods.json` (280), `data/frameworks.json` (52), `data/benchmarks.json` (32), `data/papers.json` (120 papers), and `references/agent-research-areas.md` (16 areas) to ground every answer in verified data.
 
 **Bundled references:**
-- [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — 80+ verified papers across 16 sub-areas (including NeurIPS 2026 EvoMemBench, LITMUS, HarnessPro, OSWorld, SWE-bench, and more)
+- [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — 120 verified papers across 16 sub-areas (including 40+ new 2026 papers with arXiv IDs spot-checked; NeurIPS 2026 EvoMemBench/LITMUS, ICLR 2026 LightMem, AAMAS 2026 μACP, and more)
 - [`references/venues.md`](skills/agent-research-pipeline/references/venues.md) — 15 top conferences + 20 journals with CCF ranking, page limits, deadlines, and review preferences
+- [`references/experiment-template.md`](skills/agent-research-pipeline/references/experiment-template.md) — Fill-in experiment template (contribution-experiment mapping, ablation design, multi-seed statistics, negative results, pre-submission checklist)
+- [`data/papers.json`](data/papers.json) — Machine-readable paper database (120 papers with arXiv ID/venue/verification status/categories)
+
+**Editor integration:** [`CLAUDE.md`](CLAUDE.md) (Claude Code / generic AI project instructions) and [`.cursor/rules/agent-research.mdc`](.cursor/rules/agent-research.mdc) (Cursor auto-activate rule) are configured to load this skill automatically when editing paper-related files in VS Code/Cursor.
 
 ## Contributing
 

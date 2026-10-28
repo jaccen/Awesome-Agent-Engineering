@@ -52,6 +52,13 @@
 | MemGPT: Towards LLMs as Operating Systems | arXiv:2310.08560, 2023 | `[公认]` |
 | EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective | NeurIPS 2026（创邻科技 & 港科大广州） | `[核实]` |
 | 十大主流记忆架构综述（A-MEM/MemoryBank/MemGPT/Memθ/Memθᵍ/MemoChat/Zep/MemTree/MemoryOS/MemOS） | 2026 | `[核实]` |
+| LightMem: Lightweight and Efficient Memory-Augmented Generation | ICLR 2026, arXiv:2510.18866 | `[核实]` |
+| ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture | arXiv:2604.23878, 2026 | `[核实]` |
+| Spatial Memory Intelligence: World Models with Long-Term Memory | arXiv:2610.02521, 2026 | `[核实]` |
+| When Can Agents Forget Their Reasoning? Context Compression | arXiv:2609.29875, 2026 | `[核实]` |
+| Capability-Driven Self-Evolution of Agent Memory | arXiv:2610.06361, 2026 | `[核实]` |
+| ProactEgoMem: Proactive Memory in Streaming Egocentric Video | arXiv:2610.30089, 2026 | `[核实]` |
+| WorldMemArena: 多模态 Agent 记忆评测基准 | NeurIPS 2026（UCSB/Stanford/ETH） | `[核实]` |
 
 ---
 
@@ -63,6 +70,13 @@
 | Gorilla: Large Language Model Connected with Massive APIs | UC Berkeley, arXiv:2305.15334, 2023 | `[公认]` |
 | ToolLLM: Facilitating LLMs to Master 16000+ Real-world APIs | ICLR 2024 | `[公认]` |
 | HuggingGPT | NeurIPS 2023 | `[公认]` |
+| Tools Are Under-Documented: Document Expansion Boosts Tool Retrieval | ICLR 2026, arXiv:2510.22670 | `[核实]` |
+| OrchestrationBench: Agentic Planning and Tool Use in Multi-Domain | ICLR 2026 Poster（Kakao） | `[核实]` |
+| CoHyDE: Iterative Co-Training of LLM Rewriter & Retriever | arXiv:2605.29271, 2026 | `[核实]` |
+| Agent Tools Orchestration Leaks More | arXiv:2512.16310, 2026 | `[核实]` |
+| ChromaFlow: Orchestration Overhead in Tool-Augmented Agent | arXiv:2605.14102, 2026 | `[核实]` |
+| Utility-Guided Agent Orchestration for Efficient Tool Use | arXiv:2603.19896, 2026 | `[核实]` |
+| TRIAGE: Three-level Routing for Efficient Execution | arXiv:2609.01428, 2026 | `[核实]` |
 
 ---
 
@@ -102,6 +116,16 @@
 | MetaGPT: Meta Programming for Multi-Agent Collaborative Framework | ICLR 2024 | `[公认]` |
 | AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation | Microsoft, arXiv:2308.08155, 2023 | `[公认]` |
 | CAMEL: Communicative Agents for "Mind" Exploration | NeurIPS 2023 | `[核实]` |
+| μACP: Formal Calculus for Resource-Constrained Agent Communication | AAMAS 2026, arXiv:2601.00219 | `[核实]` |
+| Mapping Human Anti-collusion Mechanisms to Multi-agent AI | ICML 2026 Workshop, arXiv:2601.00360 | `[核实]` |
+| LLM-Enabled MAS: Empirical Evaluation & Design Patterns | arXiv:2601.03328, 2026 | `[核实]` |
+| DarwinTOD: Lifelong Self-evolution for Task-oriented Dialog | ACL 2026, arXiv:2601.07248 | `[核实]` |
+| MACRO-LLM: Collaborative Reasoning under Partial Observability | arXiv:2601.09295, 2026 | `[核实]` |
+| SC-MAS: Cost-Efficient Multi-Agent with Edge Heterogeneity | arXiv:2601.09434, 2026 | `[核实]` |
+| Can Small Agents Collaborate to Beat a Single LLM? | arXiv:2601.11327, 2026 | `[核实]` |
+| Rethinking Multi-Agent Workflow: Strong Single Agent Baseline | arXiv:2601.12307, 2026 | `[核实]` |
+| TopoDIM: One-shot Topology Generation for Multi-Agent | ACL Findings 2026, arXiv:2601.10120 | `[核实]` |
+| Semantic Fusion: Verifiable Alignment in Decentralized MAS | ACM TAAS 2026, arXiv:2601.12580 | `[核实]` |
 
 ---
 
@@ -124,6 +148,10 @@
 | PaLM-E: An Embodied Multimodal Language Model | Google, 2023 | `[公认]` |
 | SayCan: Do As I Can, Not As I Say | Google, 2022 | `[公认]` |
 | Voyager | NVIDIA, arXiv:2305.16291, 2023 | `[公认]` |
+| ManipArena: Real-world Evaluation of Generalist Robot Manipulation | CVPR 2026 Workshop, arXiv:2603.28545 | `[核实]` |
+| NavSpace: Navigation Agents Follow Spatial Intelligence Instructions | ICRA 2026（北大董豪课题组） | `[核实]` |
+| CausGround: Causal Interaction Grounding for Adaptive Embodied Planning | arXiv:2610.29702, 2026 | `[核实]` |
+| MobiAgent: Dual-Loop Recursive Policy Self-Improvement | arXiv:2610.03476, 2026 | `[核实]` |
 
 ---
 
@@ -147,6 +175,13 @@
 | LITMUS: 智能体行为越狱评测基准 | NeurIPS 2026 Oral（南航） | `[核实]` |
 | 微软安全框架：将 AI Agent 视为内部威胁 | Microsoft, 2026-10 | `[核实]` |
 | InjecAgent / AgentDojo: 提示注入鲁棒性评测 | — | `[公认]` |
+| APEX-Harm: Agent Safety in Shared Professional Workspaces | arXiv:2610.13623, 2026 | `[核实]` |
+| MMA-SafetyBench: Multimodal Agent Safety Evaluation | arXiv:2610.19384, 2026 | `[核实]` |
+| The Misattribution Gap: Memory Poisoning vs Model Failure | arXiv:2605.22842, 2026 | `[核实]` |
+| Learning from Mistakes: Can LLM Self-Recover after Misalignment? | arXiv:2606.00003, 2026 | `[核实]` |
+| Backdoor Persistency in LLM Agent Post-Training | arXiv:2610.07510, 2026 | `[核实]` |
+| Agentra: Supervisable Multi-Agent for Enterprise Intrusion Response | arXiv:2606.18325, 2026 | `[核实]` |
+| Identify, Classify, Act: Per-Instruction Controlled Compliance | arXiv:2610.22874, 2026 | `[核实]` |
 
 ---
 
@@ -162,6 +197,12 @@
 | LITMUS | NeurIPS 2026 | `[核实]` |
 | EvoMemBench | NeurIPS 2026 | `[核实]` |
 | AA-AgentPerf（智能体推理评测） | Artificial Analysis, 2026-10 | `[核实]` |
+| ResT: Token-Level Policy Gradients for Tool-Use LLMs | ICLR 2026, arXiv:2509.21826（美团） | `[核实]` |
+| Recognize Your Orchestrator: Entropy Dynamics for MAS | ICML 2026（南京大学 NLP） | `[核实]` |
+| AgentVQA: Unified Benchmark for Agentic Visual Understanding | arXiv:2610.31494, 2026 | `[核实]` |
+| LongSearchEval: Long-Horizon Web Search Capabilities of LLMs | arXiv:2610.35150, 2026 | `[核实]` |
+| OpenGameEval: Agentic Programming in Stateful Game Engine | arXiv:2610.02563, 2026 | `[核实]` |
+| Citation Faithfulness in Agentic Scientific Synthesis | arXiv:2607.20527, 2026 | `[核实]` |
 
 ---
 

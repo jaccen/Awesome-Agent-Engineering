@@ -183,6 +183,7 @@ metadata:
    - 多种子统计（≥3 seeds）+ 配对 t 检验
 
 6. **输出**：实验计划表（固定列：序号/实验/目的/数据集/基线/指标/工作量/优先级）
+   - 可填充模板见 `references/experiment-template.md`（含贡献-实验映射、消融设计、多种子统计、negative results、关键场景达标检查、投稿前自检清单）
 
 ---
 

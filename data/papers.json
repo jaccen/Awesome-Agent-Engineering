@@ -1,0 +1,1589 @@
+{
+  "count": 120,
+  "papers": [
+    {
+      "title": "A Path Towards Autonomous Machine Intelligence / V-JEPA. LeCun et al",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "世界模型与仿真（World Models & Simulation）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+      "venue": "TPAMI 2026（复旦大数据研究院）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "综述与基础"
+      ],
+      "sources": [
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "A Survey on Knowledge Graphs: Representation, Acquisition, and Applications",
+      "venue": "IEEE TKDE 2022",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "知识工程/本体/RAG",
+        "知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers",
+      "venue": "哈工大 SCIR, arXiv:2412.17481, 2024",
+      "arxiv_id": "2412.17481",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "Agent 基础架构与编排（Foundation & Orchestration）",
+        "综述与基础"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "A Translation Approach to Portable Ontology Specifications. Gruber, Knowledge Acquisition",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "A2A Protocol",
+      "venue": "Google, arXiv:2504.08218, 2025",
+      "arxiv_id": "2504.08218",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "通信与互操作协议（Communication & Interoperability）",
+        "通信协议"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "A2UI Protocol",
+      "venue": "arXiv:2503.07666, 2025",
+      "arxiv_id": "2503.07666",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "通信与互操作协议（Communication & Interoperability）",
+        "通信协议"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "AA-AgentPerf",
+      "venue": "Artificial Analysis, 2026-10",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "评估与基准"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Adaptation of Agentic AI: A Survey of Post-Training, Memory, and Skills",
+      "venue": "UIUC, 2026-03",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "学习与自我进化（Learning & Self-Evolution）",
+        "综述与基础",
+        "记忆系统（Memory Systems）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Agent Tools Orchestration Leaks More",
+      "venue": "arXiv:2512.16310, 2026",
+      "arxiv_id": "2512.16310",
+      "verification": "verified",
+      "categories": [
+        "工具使用"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "venue": "ICLR 2024（清华）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "评估与基准",
+        "评估与基准（Evaluation & Benchmarks）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Agentra: Supervisable Multi-Agent for Enterprise Intrusion Response",
+      "venue": "arXiv:2606.18325, 2026",
+      "arxiv_id": "2606.18325",
+      "verification": "verified",
+      "categories": [
+        "安全与对齐"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "AgentVQA: Unified Benchmark for Agentic Visual Understanding",
+      "venue": "arXiv:2610.31494, 2026",
+      "arxiv_id": "2610.31494",
+      "verification": "verified",
+      "categories": [
+        "评估与基准"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "An Evolutionary Dynamical Analysis of Multi-Agent Learning in Iterated Games",
+      "venue": "NSTL 收录, 2026",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）"
+      ],
+      "sources": [
+        "agent-research-expert-team.md"
+      ]
+    },
+    {
+      "title": "APEX-Harm: Agent Safety in Shared Professional Workspaces",
+      "venue": "arXiv:2610.13623, 2026",
+      "arxiv_id": "2610.13623",
+      "verification": "verified",
+      "categories": [
+        "安全与对齐"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "AppAgent: Multimodal Agents as Smartphone Users",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "感知与多模态（Perception & Multimodality）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "venue": "Microsoft, arXiv:2308.08155, 2023",
+      "arxiv_id": "2308.08155",
+      "verification": "accepted",
+      "categories": [
+        "Agent 基础架构与编排（Foundation & Orchestration）",
+        "多智能体系统"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Backdoor Persistency in LLM Agent Post-Training",
+      "venue": "arXiv:2610.07510, 2026",
+      "arxiv_id": "2610.07510",
+      "verification": "verified",
+      "categories": [
+        "安全与对齐"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "CAMEL: Communicative Agents for \"Mind\" Exploration",
+      "venue": "NeurIPS 2023",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "Agent 基础架构与编排（Foundation & Orchestration）",
+        "多智能体系统"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Can Small Agents Collaborate to Beat a Single LLM?",
+      "venue": "arXiv:2601.11327, 2026",
+      "arxiv_id": "2601.11327",
+      "verification": "verified",
+      "categories": [
+        "多智能体系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Capability-Driven Self-Evolution of Agent Memory",
+      "venue": "arXiv:2610.06361, 2026",
+      "arxiv_id": "2610.06361",
+      "verification": "verified",
+      "categories": [
+        "记忆系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "CausGround: Causal Interaction Grounding for Adaptive Embodied Planning",
+      "venue": "arXiv:2610.29702, 2026",
+      "arxiv_id": "2610.29702",
+      "verification": "verified",
+      "categories": [
+        "具身智能"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "CC-4DGS: Computational Deformation and Point-Cloud Compression for Dynamic GS",
+      "venue": "IEEE, 2026",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "压缩与高效"
+      ],
+      "sources": [
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. Wei et al. NeurIPS",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "推理与反思（Reasoning & Reflection）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in LLMs",
+      "venue": "NeurIPS 2022",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "推理与反思"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "ChromaFlow: Orchestration Overhead in Tool-Augmented Agent",
+      "venue": "arXiv:2605.14102, 2026",
+      "arxiv_id": "2605.14102",
+      "verification": "verified",
+      "categories": [
+        "工具使用"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Citation Faithfulness in Agentic Scientific Synthesis",
+      "venue": "arXiv:2607.20527, 2026",
+      "arxiv_id": "2607.20527",
+      "verification": "verified",
+      "categories": [
+        "评估与基准"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Claude Computer Use",
+      "venue": "Anthropic, 2024-10",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "Web/GUI Agent",
+        "落地创新项目（GitHub / 产业）"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "CodeClash",
+      "venue": "SWE-bench 团队, 2026",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "代码 Agent"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "CogAgent: A Visual Language Model for GUI Agents. Tsinghua",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "感知与多模态（Perception & Multimodality）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "CoHyDE: Iterative Co-Training of LLM Rewriter & Retriever",
+      "venue": "arXiv:2605.29271, 2026",
+      "arxiv_id": "2605.29271",
+      "verification": "verified",
+      "categories": [
+        "工具使用"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "DarwinTOD: Lifelong Self-evolution for Task-oriented Dialog",
+      "venue": "ACL 2026, arXiv:2601.07248",
+      "arxiv_id": "2601.07248",
+      "verification": "verified",
+      "categories": [
+        "多智能体系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Dreamer V3",
+      "venue": "Hafner et al., 2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "世界模型与仿真",
+        "世界模型与仿真（World Models & Simulation）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "EvoMemBench",
+      "venue": "NeurIPS 2026",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "落地创新项目（GitHub / 产业）",
+        "记忆系统",
+        "评估与基准"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "GAIA: A Benchmark for General AI Assistants",
+      "venue": "Meta, 2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "评估与基准",
+        "评估与基准（Evaluation & Benchmarks）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "garak: NVIDIA 大模型与 Agent 安全探测工具",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "对齐、安全与可控性（Alignment, Safety & Controllability）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "Generative Agent Simulations of 1,000 People",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "人机协作与交互（Human-Agent Collaboration）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "venue": "UIST 2023（Best Paper）",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "Agent 基础架构与编排（Foundation & Orchestration）",
+        "人机协作与交互（Human-Agent Collaboration）",
+        "多智能体系统"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Genie: A Generative Interactive Environment",
+      "venue": "DeepMind, 2024",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "世界模型与仿真",
+        "世界模型与仿真（World Models & Simulation）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Gorilla: Large Language Model Connected with Massive APIs",
+      "venue": "UC Berkeley, arXiv:2305.15334, 2023",
+      "arxiv_id": "2305.15334",
+      "verification": "accepted",
+      "categories": [
+        "工具使用",
+        "工具使用与函数调用（Tool Use & Function Calling）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "GraphRAG",
+      "venue": "Microsoft, 2024",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "知识工程/本体/RAG",
+        "知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Harness for Large Language Model Agents: A Survey",
+      "venue": "2026",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "Agent 基础架构与编排（Foundation & Orchestration）",
+        "Agent 工程化与生产部署（Agent Engineering & Deployment）",
+        "综述与基础"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Harness2",
+      "venue": "Google, 2026-10",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "学习与自我进化"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "HarnessPro",
+      "venue": "智谱 & 清华唐杰, 2026-10",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "学习与自我进化",
+        "落地创新项目（GitHub / 产业）"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "HATS: Failure-Feedback Driven Data Generation for GUI Agent",
+      "venue": "CVPR 2026",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "Web/GUI Agent"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "HuggingGPT",
+      "venue": "NeurIPS 2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "工具使用",
+        "工具使用与函数调用（Tool Use & Function Calling）",
+        "意图识别与任务规划（Intent Recognition & Planning）",
+        "意图识别与规划"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Identify, Classify, Act: Per-Instruction Controlled Compliance",
+      "venue": "arXiv:2610.22874, 2026",
+      "arxiv_id": "2610.22874",
+      "verification": "verified",
+      "categories": [
+        "安全与对齐"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "InjecAgent / AgentDojo: 提示注入鲁棒性评测",
+      "venue": "—",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "安全与对齐",
+        "对齐、安全与可控性（Alignment, Safety & Controllability）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "LangGraph",
+      "venue": "Agent 框架（LangChain Team, 28.7K+ stars）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "落地创新项目（GitHub / 产业）"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Learning from Mistakes: Can LLM Self-Recover after Misalignment?",
+      "venue": "arXiv:2606.00003, 2026",
+      "arxiv_id": "2606.00003",
+      "verification": "verified",
+      "categories": [
+        "安全与对齐"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+      "venue": "ICLR 2026, arXiv:2510.18866",
+      "arxiv_id": "2510.18866",
+      "verification": "verified",
+      "categories": [
+        "记忆系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "LITMUS: 智能体行为越狱评测基准",
+      "venue": "NeurIPS 2026 Oral（南航）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "安全与对齐",
+        "对齐、安全与可控性（Alignment, Safety & Controllability）",
+        "评估与基准（Evaluation & Benchmarks）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "LLM Symbolic Reasoning 综述",
+      "venue": "2025-12",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "知识工程/本体/RAG",
+        "知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "LLM+P: Empowering LLMs with Optimal Planning Proficiency",
+      "venue": "arXiv:2304.11477, 2023",
+      "arxiv_id": "2304.11477",
+      "verification": "accepted",
+      "categories": [
+        "意图识别与任务规划（Intent Recognition & Planning）",
+        "意图识别与规划"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "LLM-Enabled MAS: Empirical Evaluation & Design Patterns",
+      "venue": "arXiv:2601.03328, 2026",
+      "arxiv_id": "2601.03328",
+      "verification": "verified",
+      "categories": [
+        "多智能体系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "LongSearchEval: Long-Horizon Web Search Capabilities of LLMs",
+      "venue": "arXiv:2610.35150, 2026",
+      "arxiv_id": "2610.35150",
+      "verification": "verified",
+      "categories": [
+        "评估与基准"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "MACRO-LLM: Collaborative Reasoning under Partial Observability",
+      "venue": "arXiv:2601.09295, 2026",
+      "arxiv_id": "2601.09295",
+      "verification": "verified",
+      "categories": [
+        "多智能体系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "ManipArena: Real-world Evaluation of Generalist Robot Manipulation",
+      "venue": "CVPR 2026 Workshop, arXiv:2603.28545",
+      "arxiv_id": "2603.28545",
+      "verification": "verified",
+      "categories": [
+        "具身智能"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Mapping Human Anti-collusion Mechanisms to Multi-agent AI",
+      "venue": "ICML 2026 Workshop, arXiv:2601.00360",
+      "arxiv_id": "2601.00360",
+      "verification": "verified",
+      "categories": [
+        "多智能体系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "MemGPT: Towards LLMs as Operating Systems",
+      "venue": "arXiv:2310.08560, 2023",
+      "arxiv_id": "2310.08560",
+      "verification": "accepted",
+      "categories": [
+        "记忆系统",
+        "记忆系统（Memory Systems）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Memory in the Age of AI Agents: A Survey",
+      "venue": "NUS & 人大 & 复旦 & 北大, 2025",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "综述与基础",
+        "记忆系统（Memory Systems）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "MemoryBank",
+      "venue": "AAAI 2024",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "记忆系统",
+        "记忆系统（Memory Systems）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "MetaGPT: Meta Programming for Multi-Agent Collaborative Framework",
+      "venue": "ICLR 2024",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "Agent 基础架构与编排（Foundation & Orchestration）",
+        "多智能体系统"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Mind2Web: Towards a Generalist Agent for the Web",
+      "venue": "NeurIPS 2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "Web/GUI Agent"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "mini-SWE-agent",
+      "venue": "GitHub, 2026",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "代码 Agent"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "MMA-SafetyBench: Multimodal Agent Safety Evaluation",
+      "venue": "arXiv:2610.19384, 2026",
+      "arxiv_id": "2610.19384",
+      "verification": "verified",
+      "categories": [
+        "安全与对齐"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "MobiAgent: Dual-Loop Recursive Policy Self-Improvement",
+      "venue": "arXiv:2610.03476, 2026",
+      "arxiv_id": "2610.03476",
+      "verification": "verified",
+      "categories": [
+        "具身智能"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "NavSpace: Navigation Agents Follow Spatial Intelligence Instructions",
+      "venue": "ICRA 2026（北大董豪课题组）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "具身智能"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Neuro-Symbolic KG Construction via Ontology-grounded Correction",
+      "venue": "arXiv, 2026-10",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "知识工程/本体/RAG",
+        "知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "NIST AI Risk Management Framework (AI RMF)",
+      "venue": "NIST",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "安全与对齐",
+        "对齐、安全与可控性（Alignment, Safety & Controllability）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "OpenAI Operator / CUA",
+      "venue": "OpenAI, 2025-01",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "Web/GUI Agent",
+        "落地创新项目（GitHub / 产业）"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "OpenGameEval: Agentic Programming in Stateful Game Engine",
+      "venue": "arXiv:2610.02563, 2026",
+      "arxiv_id": "2610.02563",
+      "verification": "verified",
+      "categories": [
+        "评估与基准"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "OpenHands",
+      "venue": "GitHub",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "代码 Agent",
+        "落地创新项目（GitHub / 产业）"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "OrchestrationBench: Agentic Planning and Tool Use in Multi-Domain",
+      "venue": "ICLR 2026 Poster（Kakao）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "工具使用"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks",
+      "venue": "NeurIPS 2024（港大等）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "Web/GUI Agent"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "OWL Web Ontology Language: Reference / RDF. W3C 标准, McGuinness et al",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "PaLM-E: An Embodied Multimodal Language Model",
+      "venue": "Google, 2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "具身智能",
+        "具身智能与机器人（Embodied Intelligence & Robotics）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "ProactEgoMem: Proactive Memory in Streaming Egocentric Video",
+      "venue": "arXiv:2610.30089, 2026",
+      "arxiv_id": "2610.30089",
+      "verification": "verified",
+      "categories": [
+        "记忆系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "venue": "ICLR 2023",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "Agent 基础架构与编排（Foundation & Orchestration）",
+        "意图识别与任务规划（Intent Recognition & Planning）",
+        "推理与反思",
+        "推理与反思（Reasoning & Reflection）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Reasoning over Knowledge Graphs: A Survey",
+      "venue": "IEEE TKDE",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "知识工程/本体/RAG",
+        "知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Recognize Your Orchestrator: Entropy Dynamics for MAS",
+      "venue": "ICML 2026（南京大学 NLP）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "评估与基准"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "venue": "NeurIPS 2023, arXiv:2303.11366",
+      "arxiv_id": "2303.11366",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "推理与反思",
+        "推理与反思（Reasoning & Reflection）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Reinforced Intelligence Through Active Interaction in Real World: A Survey on Embodied AI",
+      "venue": "Springer, 2025",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "综述与基础"
+      ],
+      "sources": [
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "ResT: Token-Level Policy Gradients for Tool-Use LLMs",
+      "venue": "ICLR 2026, arXiv:2509.21826（美团）",
+      "arxiv_id": "2509.21826",
+      "verification": "verified",
+      "categories": [
+        "评估与基准"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Rethinking Multi-Agent Workflow: Strong Single Agent Baseline",
+      "venue": "arXiv:2601.12307, 2026",
+      "arxiv_id": "2601.12307",
+      "verification": "verified",
+      "categories": [
+        "多智能体系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "venue": "NeurIPS 2020",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "AI/Agent 核心期刊论文（已核实 / 公认）",
+        "知识工程/本体/RAG",
+        "知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "agent-research-expert-team.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "SayCan: Do As I Can, Not As I Say",
+      "venue": "Google, 2022",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "具身智能",
+        "具身智能与机器人（Embodied Intelligence & Robotics）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "SC-MAS: Cost-Efficient Multi-Agent with Edge Heterogeneity",
+      "venue": "arXiv:2601.09434, 2026",
+      "arxiv_id": "2601.09434",
+      "verification": "verified",
+      "categories": [
+        "多智能体系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "SeeAct: GPT-4V(ision) as a Generalist Web Agent",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "感知与多模态（Perception & Multimodality）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "Self-RAG",
+      "venue": "2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "知识工程/本体/RAG",
+        "知识工程、本体与 RAG（Knowledge Engineering, Ontology & RAG）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "venue": "NeurIPS 2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "推理与反思",
+        "推理与反思（Reasoning & Reflection）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Self-Rewarding Language Models",
+      "venue": "Meta, 2024",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "学习与自我进化",
+        "学习与自我进化（Learning & Self-Evolution）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Semantic Fusion: Verifiable Alignment in Decentralized MAS",
+      "venue": "ACM TAAS 2026, arXiv:2601.12580",
+      "arxiv_id": "2601.12580",
+      "verification": "verified",
+      "categories": [
+        "多智能体系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Spatial Memory Intelligence: World Models with Long-Term Memory",
+      "venue": "arXiv:2610.02521, 2026",
+      "arxiv_id": "2610.02521",
+      "verification": "verified",
+      "categories": [
+        "记忆系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "SWE-agent",
+      "venue": "Princeton, GitHub",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "代码 Agent"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "SWE-agent / mini-SWE-agent",
+      "venue": "代码 Agent（GitHub 高星）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "落地创新项目（GitHub / 产业）"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "SWE-bench",
+      "venue": "2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "代码 Agent",
+        "评估与基准",
+        "评估与基准（Evaluation & Benchmarks）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "SWE-bench Verified",
+      "venue": "2024",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "代码 Agent"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "The Misattribution Gap: Memory Poisoning vs Model Failure",
+      "venue": "arXiv:2605.22842, 2026",
+      "arxiv_id": "2605.22842",
+      "verification": "verified",
+      "categories": [
+        "安全与对齐"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "venue": "NeurIPS 2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "工具使用",
+        "工具使用与函数调用（Tool Use & Function Calling）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "ToolLLM: Facilitating LLMs to Master 16000+ Real-world APIs",
+      "venue": "ICLR 2024",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "工具使用",
+        "工具使用与函数调用（Tool Use & Function Calling）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Tools Are Under-Documented: Document Expansion Boosts Tool Retrieval",
+      "venue": "ICLR 2026, arXiv:2510.22670",
+      "arxiv_id": "2510.22670",
+      "verification": "verified",
+      "categories": [
+        "工具使用"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "TopoDIM: One-shot Topology Generation for Multi-Agent",
+      "venue": "ACL Findings 2026, arXiv:2601.10120",
+      "arxiv_id": "2601.10120",
+      "verification": "verified",
+      "categories": [
+        "多智能体系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Tree of Thoughts",
+      "venue": "NeurIPS 2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "意图识别与任务规划（Intent Recognition & Planning）",
+        "意图识别与规划",
+        "推理与反思"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "TRIAGE: Three-level Routing for Efficient Execution",
+      "venue": "arXiv:2609.01428, 2026",
+      "arxiv_id": "2609.01428",
+      "verification": "verified",
+      "categories": [
+        "工具使用"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Utility-Guided Agent Orchestration for Efficient Tool Use",
+      "venue": "arXiv:2603.19896, 2026",
+      "arxiv_id": "2603.19896",
+      "verification": "verified",
+      "categories": [
+        "工具使用"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "V-JEPA / A Path Towards Autonomous Machine Intelligence",
+      "venue": "LeCun et al., Meta, 2024",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "世界模型与仿真"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "Voyager: An Open-Ended Embodied Agent with LLMs",
+      "venue": "NVIDIA, arXiv:2305.16291, 2023",
+      "arxiv_id": "2305.16291",
+      "verification": "accepted",
+      "categories": [
+        "具身智能与机器人（Embodied Intelligence & Robotics）",
+        "意图识别与任务规划（Intent Recognition & Planning）",
+        "意图识别与规划"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "WebArena",
+      "venue": "2023",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "Web/GUI Agent",
+        "评估与基准",
+        "评估与基准（Evaluation & Benchmarks）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "WebGPT: Browser-assisted question-answering with human feedback",
+      "venue": "",
+      "arxiv_id": "2112.09332",
+      "verification": "accepted",
+      "categories": [
+        "感知与多模态（Perception & Multimodality）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "What Does a Harness Buy? Tokens, Mostly",
+      "venue": "山东大学, arXiv:2610.04433, 2026-10",
+      "arxiv_id": "2610.04433",
+      "verification": "verified",
+      "categories": [
+        "综述与基础"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "When Can Agents Forget Their Reasoning? Context Compression",
+      "venue": "arXiv:2609.29875, 2026",
+      "arxiv_id": "2609.29875",
+      "verification": "verified",
+      "categories": [
+        "记忆系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "World Models",
+      "venue": "Ha & Schmidhuber, NeurIPS 2018",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "世界模型与仿真"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "World Models. Ha & Schmidhuber. NeurIPS",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "世界模型与仿真（World Models & Simulation）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "WorldMemArena: 多模态 Agent 记忆评测基准",
+      "venue": "NeurIPS 2026（UCSB/Stanford/ETH）",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "记忆系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture",
+      "venue": "arXiv:2604.23878, 2026",
+      "arxiv_id": "2604.23878",
+      "verification": "verified",
+      "categories": [
+        "记忆系统"
+      ],
+      "sources": [
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "工程框架：LangChain、AutoGen、CrewAI、Letta",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "Agent 工程化与生产部署（Agent Engineering & Deployment）"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "微软安全框架：将 AI Agent 视为内部威胁",
+      "venue": "Microsoft, 2026-10",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "安全与对齐",
+        "对齐、安全与可控性（Alignment, Safety & Controllability）"
+      ],
+      "sources": [
+        "agent-research-areas.md",
+        "paper-database.md"
+      ]
+    },
+    {
+      "title": "老板关心的**意图识别**与**记忆**正是其中两个关键研究点，但它们远不是全部。下面把 Agent 研究拆成 **16 个核心研究领域**，每个领域给出定义、核心研究子问题与代表性论文。论文标注两种来源：",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "verified",
+      "categories": [
+        "为什么 Agent 是一个独立的研究体系"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    },
+    {
+      "title": "老板关心的**意图识别**与**记忆**正是其中两个关键研究点，但它们远不是全部。下面把 Agent 研究拆成 **16 个核心研究领域**，每个领域给出定义、核心研究子问题与代表性论文。论文标注两种来源： 表示本轮检索到明确 venue/官方来源；",
+      "venue": "",
+      "arxiv_id": "",
+      "verification": "accepted",
+      "categories": [
+        "为什么 Agent 是一个独立的研究体系"
+      ],
+      "sources": [
+        "agent-research-areas.md"
+      ]
+    }
+  ]
+}
