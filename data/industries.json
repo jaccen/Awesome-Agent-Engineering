@@ -1,7 +1,7 @@
 {
  "generated_at": "2026-10-28",
  "generator": "scripts/seed_kb.py",
- "count": 107,
+ "count": 106,
  "domain_count": 17,
  "domains": {
   "Finance": 11,
