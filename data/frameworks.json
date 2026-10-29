@@ -1,8 +1,44 @@
 {
  "generated_at": "2026-10-28",
  "generator": "scripts/seed_kb.py",
- "count": 52,
+ "count": 54,
  "frameworks": [
+{
+  "name": "Superpowers",
+  "repo_url": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "language": "Shell",
+  "desc": "Composable skills and a structured development workflow for coding agents, covering design, planning, implementation and review.",
+  "stars": "307569",
+  "active_since": "2025-",
+  "sources": [
+    "https://github.com/obra/superpowers/blob/main/README.md"
+  ],
+  "evidence": {
+    "checked_at": "2026-10-29",
+    "source_url": "https://github.com/obra/superpowers",
+    "status": "official-repository-and-readme-reviewed",
+    "note": "Existing public project discovered in this run; not a new launch. Stars are a dated snapshot."
+  }
+},
+{
+  "name": "Hermes Agent",
+  "repo_url": "https://github.com/NousResearch/hermes-agent",
+  "license": "MIT",
+  "language": "Python",
+  "desc": "Nous Research agent with persistent memory, reusable skills, terminal tools, messaging integrations and scheduled tasks.",
+  "stars": "258126",
+  "active_since": "2025-",
+  "sources": [
+    "https://github.com/NousResearch/hermes-agent/blob/main/README.md"
+  ],
+  "evidence": {
+    "checked_at": "2026-10-29",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "status": "official-repository-and-readme-reviewed",
+    "note": "Existing public project discovered in this run; not a new launch. Stars are a dated snapshot."
+  }
+},
   {
    "name": "AgentGPT",
    "repo_url": "https://github.com/reworkd/AgentGPT",

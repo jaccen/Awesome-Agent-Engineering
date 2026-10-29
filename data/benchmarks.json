@@ -1,8 +1,40 @@
 {
  "generated_at": "2026-10-28",
  "generator": "scripts/seed_kb.py",
- "count": 32,
+ "count": 34,
  "benchmarks": [
+{
+  "name": "FeatureArc",
+  "domain": "Code Agent",
+  "desc": "Evaluates coding agents on successive feature extensions in a persistent workspace; checks new behavior and regressions across stages.",
+  "venue": "arXiv 2026-10 (preprint)",
+  "url": "https://arxiv.org/abs/2610.37434",
+  "sources": [
+    "https://arxiv.org/abs/2610.37434"
+  ],
+  "evidence": {
+    "checked_at": "2026-10-29",
+    "source_url": "https://arxiv.org/abs/2610.37434",
+    "status": "paper-announced-benchmark",
+    "note": "Benchmark existence and scope verified from public paper abstract; artifacts and reported scores not independently reproduced."
+  }
+},
+{
+  "name": "InfraDev",
+  "domain": "Code Agent",
+  "desc": "36 tasks from Megatron-LM, vLLM and verl pull requests evaluating coding agents on multi-file, multi-GPU AI infrastructure development.",
+  "venue": "arXiv 2026-10 (preprint)",
+  "url": "https://arxiv.org/abs/2610.36589",
+  "sources": [
+    "https://arxiv.org/abs/2610.36589"
+  ],
+  "evidence": {
+    "checked_at": "2026-10-29",
+    "source_url": "https://arxiv.org/abs/2610.36589",
+    "status": "paper-announced-benchmark",
+    "note": "Benchmark existence and scope verified from public paper abstract; artifacts and reported scores not independently reproduced."
+  }
+},
   {
    "name": "ALFRED",
    "domain": "Embodied Agent",
