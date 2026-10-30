@@ -1,0 +1,51 @@
+\begin{wrapfigure}{r}{0.35\textwidth}
+\pgfplotsset{width=5.2cm, height=4.5cm}
+    \centering
+    \begin{tikzpicture}  
+        \begin{axis}  
+        [  
+            ybar,
+            ymin=0, ymax=65,
+            ytick={0, 20, 40, 60},
+            major x tick style = transparent,
+            bar width=6pt,
+            enlarge x limits=0.5,
+            ylabel={GSM8K solve rate (\%)},
+            symbolic x coords={\lamda{}, \palm{}},  
+            xtick=data,  
+                axis x line*=bottom,
+                axis y line*=left,
+                legend style={draw=none},
+        legend cell align=left,
+                legend style={
+                        at={(1,1.05)},
+                        anchor=south east,
+                        column sep=1ex,
+                        font=\small,
+                }
+            ]  
+        \addplot[ybar, fill=bananayellow,  postaction={}] coordinates {
+            (\lamda{}, 6.3) (\palm{}, 17.9)
+        };
+        \addplot[ybar, fill=blanchedalmond,  postaction={pattern=north west lines}] coordinates {
+            (\lamda{}, 5.7) (\palm{}, 21.7)
+        };  
+        \addplot[ybar, fill=blanchedalmond,  postaction={pattern=north east lines}] coordinates {
+            (\lamda{}, 6.0) (\palm{}, 17.7)
+        };  
+        \addplot[ybar, fill=blanchedalmond,  postaction={pattern=dots}] coordinates {
+            (\lamda{}, 5.9) (\palm{}, 18.0)
+        };  
+        \addplot[ybar, fill=cinnamon,  postaction={}] coordinates {
+            (\lamda{}, 14.8) (\palm{}, 56.5)
+        };  
+        \legend{Standard prompting, Equation only, Variable compute only, Reasoning after answer, Chain-of-thought prompting}  
+        \end{axis}  
+    \end{tikzpicture}  
+    \caption{
+    Ablation study for different variations of prompting using \lamda{} 137B and \palm{} 540B.
+    Results for other datasets are given in Appendix \cref{tab:ablations-arithmetic} and \cref{tab:ablations-commonsense-symbolic}.
+    }
+    \vspace{-4mm}
+    \label{fig:bar_ablation}
+\end{wrapfigure}

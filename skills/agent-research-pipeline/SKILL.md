@@ -3,14 +3,15 @@ name: agent-research-pipeline
 description: >-
   AI/Agent 领域科研全流程辅导技能：选题评估、论文骨架、文献检索、实验设计、
   绘图制表、数据分析、润色去AI味、审稿自查、返修改稿。覆盖论文全生命周期8阶段，
-  挂接 Awesome-Agent-Engineering 知识库（280方法+52框架+32基准）。
+  挂接 Awesome-Agent-Engineering 知识库（280方法+58框架+41基准+1039论文）。
   用于 AI/Agent 论文写作辅导、研究规划、实验设计、审稿预审、idea生成。
 license: Apache-2.0
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   created: '2026-10-28'
+  updated: '2026-10-30'
   domain: AI/Agent
-  knowledge_base: data/methods.json (280), data/frameworks.json (52), data/benchmarks.json (32)
+  knowledge_base: data/methods.json (280), data/frameworks.json (58), data/benchmarks.json (41), data/papers.json (1039)
 ---
 
 # Agent Research Pipeline — AI/Agent 科研全流程辅导
@@ -85,6 +86,16 @@ metadata:
 
 3. **输出**：论文骨架表 + 自洽检查结果 + 建议投稿 venue
 
+### 写作范本（顶刊风格指南）
+
+搭骨架前先查阅 [`references/writing-style-guide.md`](references/writing-style-guide.md)（基于 6 篇高影响论文源码分析）：
+- Abstract 五句模板（现状/缺口/方法/数字/意义，数字必进摘要）
+- 引言三驱动方式（缺陷驱动/张力驱动/愿景驱动）+ 六段骨架
+- 贡献声明三格式（bullet 三点式 / desiderata 式 / 纯散文式）
+- 四种论文类型的完整写作模板速查表
+
+需要看原文写法时，读 [`references/top-paper-samples/`](references/top-paper-samples/) 内论文的 LaTeX 源码。
+
 ### 投稿定位
 - **Technique**（方法论文）：投 CVPR/NeurIPS/ICLR/AAAI/ACL 等方法类会议
 - **New Problem/Setting**（新问题/新设定）：投 NeurIPS Datasets&Benchmarks、ICLR、新方向 workshop
@@ -103,9 +114,9 @@ metadata:
    - HuggingFace（模型与数据集）
 3. **本仓库知识库查询**：
    - `data/methods.json`（280 条 Agent 方法，12 类别）
-   - `data/frameworks.json`（52 个框架）
-   - `data/benchmarks.json`（32 个基准）
-   - `references/agent-research-areas.md`（16 领域图谱）
+   - `data/frameworks.json`（58 个框架）
+   - `data/benchmarks.json`（41 个基准）
+   - [`../../references/agent-research-areas.md`](../../references/agent-research-areas.md)（16 领域图谱，位于项目根）
 4. **核实纪律**（红线）：
    - arXiv ID 必须能 resolve（用 arXiv API 或 https://arxiv.org/abs/XXXX.XXXXX 验证）
    - 不凭记忆编造引用
@@ -226,7 +237,8 @@ metadata:
    - 不用 -ing 结尾的肤浅分析
    - 不用宣传性语言（"革命性""颠覆性"）
 4. **claim 强度校准**：claim 须与证据强度匹配，不夸大
-5. **输出**：润色后全文 + 修改追踪（标注每处实质性修改的理由）
+5. **顶刊语言风格自检**：对照 [`references/writing-style-guide.md`](references/writing-style-guide.md) §2.6 语言风格清单（主动语态/simple 是美德/claim 三档不越位/绝对值+相对值并用/术语操作化/禁止宣传性形容词）
+6. **输出**：润色后全文 + 修改追踪（标注每处实质性修改的理由）
 
 ### 写作规范（老板偏好）
 - 事实底线：不编造结果与引用
@@ -301,9 +313,11 @@ metadata:
 | 基准库 | `data/benchmarks.json` (32) | 选数据集、选评测 |
 | 行业库 | `data/industries.json` (106) | 找落地场景、motivation |
 | 创业库 | `data/startups.json` (56) | 找产业趋势、差异化 |
-| 领域图谱 | `references/agent-research-areas.md` (16领域) | 定位研究方向 |
-| 专家团 | `references/agent-research-expert-team.md` (R1-R9) | 科研协作流程 |
-| 配套专著 | `deployment-book/` (子模块) | 工程落地方法论 |
+| 领域图谱 | [`../../references/agent-research-areas.md`](../../references/agent-research-areas.md) (16领域，项目根) | 定位研究方向 |
+| 写作风格指南 | `references/writing-style-guide.md` | 顶刊写作模式（基于 6 篇典范论文源码分析） |
+| 论文样本库 | `references/top-paper-samples/` (6篇) | 高影响论文 PDF + LaTeX 源码范本 |
+| 专家团 | [`../../references/agent-research-expert-team.md`](../../references/agent-research-expert-team.md) (R1-R9，项目根) | 科研协作流程 |
+| 配套专著 | [`deployment-book/`](../../deployment-book/) (子模块，项目根) | 工程落地方法论 |
 
 ### 引用纪律
 - 查询 `data/methods.json` 时核对方法名、arXiv ID、分类

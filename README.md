@@ -388,6 +388,8 @@ A one-stop research assistant for AI/Agent papers, covering the full 8-stage pip
 **Knowledge base integration:** queries `data/methods.json` (280), `data/frameworks.json` (58), `data/benchmarks.json` (41), `data/papers.json` (1039 papers), and `references/agent-research-areas.md` (16 areas) to ground every answer in verified data.
 
 **Bundled references:**
+- [`references/writing-style-guide.md`](skills/agent-research-pipeline/references/writing-style-guide.md) — Top-venue writing style guide (distilled from source-level analysis of 6 high-impact papers: abstract template, intro logic chains, contribution formats, type-specific templates)
+- [`references/top-paper-samples/`](skills/agent-research-pipeline/references/top-paper-samples/) — 6 exemplar papers (PDF + LaTeX source; Transformer/CoT/ReAct/Toolformer/3DGS/Generative Agents, all arXiv-verified)
 - [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — curated papers across 16 sub-areas (featured 133 co-cited by 7 GitHub curation lists; NeurIPS 2026 EvoMemBench/LITMUS, ICLR 2026 LightMem, AAMAS 2026 μACP, and more)
 - [`references/venues.md`](skills/agent-research-pipeline/references/venues.md) — 15 top conferences + 20 journals with CCF ranking, page limits, deadlines, and review preferences
 - [`references/experiment-template.md`](skills/agent-research-pipeline/references/experiment-template.md) — Fill-in experiment template (contribution-experiment mapping, ablation design, multi-seed statistics, negative results, pre-submission checklist)

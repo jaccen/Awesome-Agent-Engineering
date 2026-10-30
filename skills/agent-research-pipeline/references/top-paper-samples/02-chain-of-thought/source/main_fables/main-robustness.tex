@@ -1,0 +1,119 @@
+\begin{wrapfigure}{r}{0.40\textwidth}
+\pgfplotsset{width=3.5cm, height=5cm}
+    \centering
+    \vspace{-10mm}
+    \begin{tikzpicture}  
+    \begin{groupplot}[
+          group style={
+          group name=plot,
+          horizontal sep=23pt,
+          vertical sep=0pt,
+          group size=2 by 1},]
+      \nextgroupplot[
+            ybar,
+            ymin=0, ymax=21,
+            ytick={0, 5, 10, 15, 20},
+            major x tick style = transparent,
+            bar width=4pt,
+            enlarge x limits=0.25,
+            ylabel={Solve rate (\%)},
+            symbolic x coords={GSM8K},  
+            xtick=data,  
+            y label style={at={(axis description cs:-0.22,0.5)},anchor=south},
+                legend style={draw=none},
+                axis x line*=bottom,
+                axis y line*=left,
+        legend cell align=left,
+                legend style={
+                        at={(1.23,1.05)},
+                        anchor=south,
+                        column sep=1ex,
+                        font=\small,
+                }
+            ]  
+        \addplot[ybar, fill=bananayellow,  postaction={}] coordinates {
+            (GSM8K, 6.5)
+        };
+        \addplot[ybar, fill=cinnamon,  postaction={}] coordinates {
+            (GSM8K, 14.3)
+        };  
+        \addplot[ybar, fill=cinnamon,  postaction={pattern=north east lines}] coordinates {
+            (GSM8K, 15.5)
+        };  
+        \addplot[ybar, fill=cinnamon,  postaction={pattern=north west lines}] coordinates {
+            (GSM8K, 17.6)
+        };  
+        \addplot[ybar, fill=cinnamon,  postaction={pattern=dots}] coordinates {
+            (GSM8K, 11.1)
+        };  
+        \addplot[ybar, fill=camel,  postaction={pattern=north east lines}] coordinates {
+            (GSM8K, 13.2)
+        };  
+        \addplot[ybar, fill=camel,  postaction={pattern=north west lines}] coordinates {
+            (GSM8K, 13.3)
+        };  
+        \addplot[ybar, fill=camel,  postaction={pattern=dots}] coordinates {
+            (GSM8K, 12.8)
+        };  
+        \legend{
+            Standard prompting, 
+            \underline{Chain-of-thought prompting}, 
+            $\cdot$ different annotator (B), 
+            $\cdot$ different annotator (C), 
+            $\cdot$ intentionally concise style, 
+            $\cdot$ exemplars from GSM8K ($\alpha$), 
+            $\cdot$ exemplars from GSM8K ($\beta$), 
+            $\cdot$ exemplars from GSM8K ($\gamma$),
+            }
+        ]
+      \nextgroupplot[
+            ybar,
+            ymin=0, ymax=63,
+            ytick={0, 20, 40, 60},
+            major x tick style = transparent,
+            bar width=4pt,
+            enlarge x limits=0.25,
+            symbolic x coords={MAWPS},  
+            xtick=data,  
+                axis x line*=bottom,
+                axis y line*=left,
+        legend cell align=left,
+                legend style={
+                        at={(1,1.05)},
+                        anchor=south east,
+                        column sep=1ex,
+                        font=\small,
+                }
+            ]  
+        \addplot[ybar, fill=bananayellow,  postaction={}] coordinates {
+            (MAWPS, 43.2)
+        };
+        \addplot[ybar, fill=cinnamon,  postaction={}] coordinates {
+            (MAWPS, 57.9)
+        };  
+        \addplot[ybar, fill=cinnamon,  postaction={pattern=north east lines}] coordinates {
+            (MAWPS, 58.2)
+        };  
+        \addplot[ybar, fill=cinnamon,  postaction={pattern=north west lines}] coordinates {
+            (MAWPS, 60.1)
+        };  
+        \addplot[ybar, fill=cinnamon,  postaction={pattern=dots}] coordinates {
+            (MAWPS, 59.6)
+        };  
+        \addplot[ybar, fill=camel,  postaction={pattern=north east lines}] coordinates {
+            (MAWPS, 54.2)
+        };  
+        \addplot[ybar, fill=camel,  postaction={pattern=north west lines}] coordinates {
+            (MAWPS, 61.1)
+        };  
+        \addplot[ybar, fill=camel,  postaction={pattern=dots}] coordinates {
+            (MAWPS, 54.1)
+        };  
+        ]
+\end{groupplot}
+    \end{tikzpicture}  
+    \caption{
+    Chain-of-thought prompting has variance for different prompt examples (as expected) but outperforms standard prompting for various annotators as well as for different exemplars.
+    }
+    \label{fig:bar-robustness-analysis}
+\end{wrapfigure}

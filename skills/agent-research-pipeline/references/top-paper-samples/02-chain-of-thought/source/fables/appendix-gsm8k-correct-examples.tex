@@ -1,0 +1,30 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[h]
+    \caption{
+    Example of correct chains of thought produced by the model for the GSM8K dataset.
+    }
+    \vspace{1mm}
+    \centering
+    \small
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} James decides to run 3 sprints 3 times a week. He runs 60 meters each sprint. So he runs 60 meters x 3 sprints x 3 times a week. That is 60 meters x 9. The answer is 540. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy’s iPhone is 1 year old, how old is Brandon’s iPhone? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} Brandon's iPhone is 4 times as old as Ben's iPhone. Ben's iPhone is 2 times older than Suzy's iPhone. So Brandon's iPhone is 4 x 2 = 8 times older than Suzy's iPhone. Suzy's iPhone is 1 year old. So Brandon's iPhone is 8 x 1 = 8 years old. The answer is 8. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to package 2 lollipops in one bag. How many bags can Jean fill? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} Jean started with 30 lollipops. She ate 2 of them. So she has 28 lollipops left. She wants to package 2 lollipops in one bag. So she can package 28 / 2 = 14 bags. The answer is 14. \color{darkGreen}{\checkmark} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-gsm8k-correct-examples}
+\end{table}
+\endgroup

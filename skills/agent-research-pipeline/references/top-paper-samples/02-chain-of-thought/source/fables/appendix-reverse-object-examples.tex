@@ -1,0 +1,24 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[H]
+    \centering
+    \small
+    \caption{
+    Examples of correct and incorrect chains of thought produced by \lamda{} 137B on the reverse list task.
+    }
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Reverse the sequence "umbrella, head, camera, battery, scissors".  \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} First is umbrella. Second is head. Third is camera. Fourth is battery. Fifth is scissors. Now to reverse, change the order to: Fifth is scissors. Fourth is battery. Third is camera. Second is head. First is umbrella. So the answer is "scissors, battery, camera, head, umbrella". \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Reverse the sequence "button, stamp, light, tissue, sweet". \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} First is button. Second is stamp. Third is light. Fourth is tissue. Fifth is sweet. Now to reverse, change the order to: Fifth is sweet. Fourth is tissue. Third is light. Second is stamp. First is button. So the answer is ``sweet, tissue, {\color{blue} button, stamp, light''}. \color{blue}{\xmark} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-reverse-object-examples}
+\end{table}
+\endgroup

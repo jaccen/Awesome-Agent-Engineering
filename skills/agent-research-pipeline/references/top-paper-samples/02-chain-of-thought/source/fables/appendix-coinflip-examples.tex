@@ -1,0 +1,24 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[H]
+    \caption{
+    Examples of correct and incorrect chains of thought produced by \lamda{} 137B on the coinflip task.
+    }
+    \centering
+    \small
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} A coin is heads up. Andree flips the coin. Audrie does not flip the coin. Is the coin still heads up?  \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} The coin was flipped by Andree. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} A coin is heads up. Kristian does not flip the coin. Dallas does not flip the coin. Is the coin still heads up? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} The coin {\color{blue} was flipped by Kristian}. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no. \color{blue}{\xmark} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-coinflip-examples}
+\end{table}
+\endgroup

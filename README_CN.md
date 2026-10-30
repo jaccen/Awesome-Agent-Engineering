@@ -283,6 +283,8 @@ git submodule update --init --recursive
 **知识库挂接：** 查询 `data/methods.json`（280）、`data/frameworks.json`（58）、`data/benchmarks.json`（41）、`data/papers.json`（1039 篇论文）及 `references/agent-research-areas.md`（16 领域），确保每个回答有据可查。
 
 **内置参考文件：**
+- [`references/writing-style-guide.md`](skills/agent-research-pipeline/references/writing-style-guide.md) — 顶刊写作风格指南（基于 6 篇高影响论文源码逐篇分析：Abstract 五句模板、引言三驱动、贡献声明三格式、四类论文模板速查）
+- [`references/top-paper-samples/`](skills/agent-research-pipeline/references/top-paper-samples/) — 6 篇典范论文 PDF + LaTeX 源码（Transformer/CoT/ReAct/Toolformer/3DGS/Generative Agents，均经 arXiv 官方核实）
 - [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — 16 子领域精选论文（含 7 个 GitHub 策展项目共收的 133 篇高影响力论文；NeurIPS 2026 EvoMemBench/LITMUS、ICLR 2026 LightMem、AAMAS 2026 μACP 等）
 - [`references/venues.md`](skills/agent-research-pipeline/references/venues.md) — 15 顶会 + 20 期刊，含 CCF 分级、页数、截稿、审稿偏好
 - [`references/experiment-template.md`](skills/agent-research-pipeline/references/experiment-template.md) — 可直接填充的实验模板（贡献-实验映射、消融设计、多种子统计、negative results、投稿前自检清单）

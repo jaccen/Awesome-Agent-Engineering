@@ -1,0 +1,34 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[h]
+    \centering
+    \small
+    \caption{
+    Examples of correct and incorrect chains of thought produced by \lamda{} 137B on Sports Understanding.
+    }
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}}  Is the following sentence plausible? ``Joao Moutinho was out at third.'' \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} Joao Moutinho is a soccer player. Being out at third is part of baseball, not soccer. So the answer is no. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Is the following sentence plausible? ``Malcolm Brogdon eurostepped to the basket in the NBA Championship.'' \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} Malcolm Brogdon is a basketball player. Eurostepping to the basket is part of basketball. So the answer is yes. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Is the following sentence plausible? ``Derrick White backhanded a shot.'' \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} Derrick White is a basketball player. {\color{blue} Backhanding a shot is part of basketball.} So the answer is yes. {\color{blue} \xmark{} (Ground truth is ``no'', backhanding a shot is part of hockey.)} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Is the following sentence plausible? ``Nazem Kadri was out at home.'' \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} Nazem Kadri is a hockey player. {\color{blue}Being out at home is part of hockey.} So the answer is yes. {\color{blue} \xmark{} (Ground truth is ``no'', being out at home is part of baseball.)} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-sports-understanding-examples}
+\end{table}
+\endgroup

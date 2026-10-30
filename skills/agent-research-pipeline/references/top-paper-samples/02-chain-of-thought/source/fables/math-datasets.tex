@@ -1,0 +1,33 @@
+\newcommand{\dataset}[2]{#1}
+\begingroup
+\setlength{\tabcolsep}{3.5pt}
+\begin{table*}[t]
+    \caption{
+    Summary of math word problem benchmarks we use in this paper with examples. $N$: number of evaluation examples.
+    }
+    \centering
+    \begin{tabular}{l c p{9.9cm}}
+        \toprule
+        Dataset & $N$ & Example problem \\
+        \midrule
+        \dataset{GSM8K}{grade-school math} & 1,319 & {\small Josh decides to try flipping a house.  He buys a house for \$80,000 and then puts in \$50,000 in repairs.  This increased the value of the house by 150\%. How much profit did he make?} \\
+        \midrule 
+        SVAMP & 1,000 & {\small Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack. How much do you have to pay to buy each pack?} \\
+        \midrule
+        \dataset{ASDiv}{diverse math word problems} & 2,096 & {\small Ellen has six more balls than Marin. Marin has nine balls. How many balls does Ellen have?} \\
+        \midrule
+        AQuA & 254 & {\small A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and, in the process, it takes 10 minutes for the angle of elevation to change from 45$^{\circ}$ to 60$^{\circ}$. After how much more time will this car reach the base of the tower? Answer Choices: (a) 5$\sqrt{3}$ + 1 (b) 6$\sqrt{3}$ + $\sqrt{2}$ (c) 7$\sqrt{3}$ - 1 (d) 8$\sqrt{3}$ - 2 (e) None of these} \\
+        \midrule
+        \dataset{MAWPS: SingleOp}{single operation arithmetic} & 562 & {\small If there are 7 bottle caps in a box and Linda puts 7 more bottle caps inside, how many bottle caps are in the box?} \\ 
+        \midrule
+        \dataset{MAWPS: SingleEq}{single equation problems} & 508 
+        & {\small Benny bought a soft drink for 2 dollars and 5 candy bars. He spent a total of 27 dollars. How much did each candy bar cost?} \\
+        \midrule
+        \dataset{MAWPS: AddSub}{addition and subtraction} & 395 & {\small There were 6 roses in the vase. Mary cut some roses from her flower garden. There are now 16 roses in the vase. How many roses did she cut?} \\
+        \midrule
+        \dataset{MAWPS: MultiArith}{multi-step arithmetic} & 600 & {\small The school cafeteria ordered 42 red apples and 7 green apples for students lunches. But, if only 9 students wanted fruit, how many extra did the cafeteria end up with?} \\
+         \bottomrule
+    \end{tabular}
+    \label{tab:math-datasets}
+\end{table*}
+\endgroup

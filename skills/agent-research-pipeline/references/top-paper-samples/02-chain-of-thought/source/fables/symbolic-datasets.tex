@@ -1,0 +1,35 @@
+\begingroup
+\begin{table}[t]
+    \caption{
+    Few-shot exemplars for chain of thought prompting for symbolic reasoning datasets.
+    Chains of thought are highlighted.
+    Exact prompts with all exemplars are shown in \cref{tab:appendix-letter-concat-prompt}--\cref{tab:appendix-coinflip-prompt} in the Appendix.
+    }
+    \centering
+    \small
+    \begin{tabular}{p{\linewidth}}
+        
+        \toprule
+        \underline{\textbf{\textsc{Last Letter Concatenation}}} \\
+        \vspace{-2mm}
+        \textbf{Q:} Take the last letters of the words in "Elon Musk" and concatenate them. \\
+        \vspace{-1mm}
+        \textbf{A:} \hl{The last letter of ``Elon'' is ``n''. The last letter of ``Musk'' is ``k''. Concatenating them is ``nk''.} So the answer is nk. \\
+        \midrule
+        \underline{\textbf{\textsc{Reverse List}}} \\
+        \vspace{-2mm}
+        \textbf{Q:} Reverse the sequence "glasses, pen, alarm, license". \\
+        \vspace{-1mm}
+        \textbf{A:} \hl{First is glasses. Second is pen. Third is alarm. Fourth is license. Now to reverse, change the order to: Fourth is license. Third is alarm. Second is pen. First is glasses.} So the answer is "license, alarm, pen, glasses". \\ 
+        \midrule
+        \underline{\textbf{\textsc{Coin Flip}}} \\
+        \vspace{-2mm}
+        \textbf{Q:} A coin is heads up. Maybelle flips the coin. Shalonda does not flip the coin. Is the coin still heads up? \\
+        \vspace{-1mm}
+        \textbf{A:} \hl{The coin was flipped by Maybelle. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up.} So the answer is no. \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:symbolic-datasets}
+    \vspace{-3mm}
+\end{table}
+\endgroup

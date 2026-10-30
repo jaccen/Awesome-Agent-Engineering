@@ -1,0 +1,492 @@
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \begin{centering}
+    \begin{tikzpicture}
+        \pgfplotsset{footnotesize,samples=10}
+        \begin{groupplot}[
+            group style = {group size = 3 by 1, horizontal sep = 8pt}, 
+            width = 3.2cm, 
+            height = 4cm]
+            \nextgroupplot[
+                title = {\lamda{}},
+                legend style={at={(0.5,1.5)},anchor=north},
+                xmode=log,
+                xmin=0.1, xmax=500,
+                ymin=-5, ymax=65,
+                xtick={0.4, 8, 137},
+                xticklabels={,,},
+                ylabel={GSM8K \\ solve rate (\%)},
+                ylabel style={align=center},
+                ytick={0, 20, 40, 60},
+                legend style={draw=none},
+                x label style={at={(axis description cs:0.5,-0.15)},anchor=north},
+                y label style={at={(axis description cs:-0.24,0.5)},anchor=south},
+                xtick pos=bottom,
+                ytick pos=left,
+                axis x line*=bottom,
+                axis y line*=left,
+                ]
+                \addplot[
+                    color=black,
+                    mark=o,
+                    mark size=1pt,
+                    ]
+                    coordinates {
+                    (0.4, 2.6)
+                    (2,   3.6)
+                    (8,   3.2)
+                    (68,  5.7)
+                    (137, 6.5)
+                    };
+                \addplot[
+                    color=blue,
+                    mark=o,
+                    mark size=2.5pt,
+                    ]
+                    coordinates {
+                    (0.4, 0.4)
+                    (2,   1.9)
+                    (8,   1.6)
+                    (68,  8.2)
+                    (137, 14.3)
+                    };
+                \addplot[
+                    color=orange,
+                    mark=square,
+                    no markers,
+                    dashed,
+                    line width=1.3pt,
+                    ]
+                    coordinates {
+                    (0.1,   55)
+                    (1300, 55)
+                    };
+            \nextgroupplot[
+                title = {GPT},
+                legend style={at={(-0.12,1.3)},anchor=south},
+                xmode=log,
+                xmin=0.1, xmax=700,
+                ymin=-5, ymax=65,
+                xtick={0.35, 7, 175},
+                xticklabels={,,},
+                ytick={0, 20, 40, 60},
+                yticklabels={,,},
+                x label style={at={(axis description cs:-0.12,-0.22)},anchor=north},
+                y label style={at={(axis description cs:-0.125,0.5)},anchor=south},
+                xtick pos=bottom,
+                ytick pos=left,
+                axis x line*=bottom,
+                axis y line*=left,
+                ]
+                \addplot[
+                    color=black,
+                    mark=o,
+                    mark size=1pt,
+                    ]
+                    coordinates {
+                    (0.35, 2.2)
+                    (1.3,  2.4)
+                    (6.7,  4.0)
+                    (175,  15.6)
+                    };
+                \addplot[
+                    color=blue,
+                    mark=o,
+                    mark size=2.5pt,
+                    ]
+                    coordinates {
+                    (0.35, 0.5)
+                    (1.3,  0.5)
+                    (6.7,  2.4)
+                    (175,  46.9)
+                    };
+                \addplot[
+                    color=orange,
+                    mark=square,
+                    no markers,
+                    dashed,
+                    line width=1.3pt,
+                    ]
+                    coordinates {
+                    (0.1,   55)
+                    (1300, 55)
+                    };
+            \nextgroupplot[
+                title = {\palm{}},
+                legend style={at={(1,1.55)},anchor=east},
+                xmode=log,
+                xmin=5, xmax=1300,
+                ymin=-5, ymax=65,
+                xtick={8, 62, 540},
+                xticklabels={,,},
+                ytick={0, 20, 40, 60},
+                yticklabels={,,},
+                x label style={at={(axis description cs:-0.12,-0.22)},anchor=north},
+                y label style={at={(axis description cs:-0.125,0.5)},anchor=south},
+                legend style={draw=none},
+                xtick pos=bottom,
+                ytick pos=left,
+                axis x line*=bottom,
+                axis y line*=left,
+                legend cell align=left,
+                ]
+                \addplot[
+                    color=black,
+                    mark=o,
+                    mark size=1pt,
+                    ]
+                    coordinates {
+                    (8,   4.9)
+                    (62,  9.6)
+                    (540, 17.9)
+                    };
+                    \addlegendentry{Standard prompting}
+                \addplot[
+                    color=blue,
+                    mark=o,
+                    mark size=2.5pt,
+                    ]
+                    coordinates {
+                    (8,   4.1)
+                    (62,  29.9)
+                    (540, 56.9)
+                    };
+                    \addlegendentry{Chain-of-thought prompting}
+                \addplot[
+                    color=orange,
+                    mark=square,
+                    no markers,
+                    dashed,
+                    line width=1.3pt,
+                    ]
+                    coordinates {
+                    (5,   55)
+                    (1300, 55)
+                    };
+                    \addlegendentry{Prior supervised best}
+        \end{groupplot}
+    \end{tikzpicture}
+    \begin{tikzpicture}
+        \pgfplotsset{footnotesize,samples=10}
+        \begin{groupplot}[
+            group style = {group size = 3 by 1, horizontal sep = 8pt}, 
+            width = 3.2cm, 
+            height = 4cm]
+            \nextgroupplot[
+                legend style={at={(0.5,1.5)},anchor=north},
+                xmode=log,
+                xmin=0.1, xmax=500,
+                ymin=-5, ymax=85,
+                xtick={0.4, 8, 137},
+                xticklabels={,,},
+                ylabel={SVAMP \\ solve rate (\%)},
+                ylabel style={align=center},
+                ytick={0, 20, 40, 60, 80},
+                x label style={at={(axis description cs:0.5,-0.15)},anchor=north},
+                y label style={at={(axis description cs:-0.24,0.5)},anchor=south},
+                xtick pos=bottom,
+                ytick pos=left,
+                axis x line*=bottom,
+                axis y line*=left,
+                ]
+                \addplot[
+                    color=black,
+                    mark=o,
+                    mark size=1pt,
+                    ]
+                    coordinates {
+                    (0.4, 2.5)
+                    (2,   3.3)
+                    (8,   4.3)
+                    (68,  13.6)
+                    (137, 29.5)
+                    };
+                \addplot[
+                    color=blue,
+                    mark=o,
+                    mark size=2.5pt,
+                    ]
+                    coordinates {
+                    (0.4, 1.6)
+                    (2,   2.4)
+                    (8,   3.4)
+                    (68,  18.8)
+                    (137, 37.5)
+                    };
+                \addplot[
+                    color=orange,
+                    mark=square,
+                    no markers,
+                    dashed,
+                    line width=1.3pt,
+                    ]
+                    coordinates {
+                    (0.1,   47.3)
+                    (1300, 47.3)
+                    };
+            \nextgroupplot[
+                legend style={at={(0.5,1.5)},anchor=north},
+                xmode=log,
+                xmin=0.1, xmax=700,
+                ymin=-5, ymax=85,
+                xtick={0.4, 7, 175},
+                xticklabels={,,},
+                ylabel style={align=center},
+                ytick={0, 20, 40, 60, 80},
+                yticklabels={,,},
+                x label style={at={(axis description cs:0.5,-0.15)},anchor=north},
+                y label style={at={(axis description cs:-0.18,0.5)},anchor=south},
+                xtick pos=bottom,
+                ytick pos=left,
+                axis x line*=bottom,
+                axis y line*=left,
+                ]
+                \addplot[
+                    color=black,
+                    mark=o,
+                    mark size=1pt,
+                    ]
+                    coordinates {
+                    (0.35, 1.4)
+                    (1.3,  1.5)
+                    (6.7,  6.1)
+                    (175,  65.7)
+                    };
+                \addplot[
+                    color=blue,
+                    mark=o,
+                    mark size=2.5pt,
+                    ]
+                    coordinates {
+                    (0.35, 0.8)
+                    (1.3,  1.7)
+                    (6.7,  3.1)
+                    (175,  68.9)
+                    };
+                \addplot[
+                    color=orange,
+                    mark=square,
+                    no markers,
+                    dashed,
+                    line width=1.3pt,
+                    ]
+                    coordinates {
+                    (0.1,   47.3)
+                    (1300, 47.3)
+                    };
+            \nextgroupplot[
+                legend style={at={(-0.12,1.3)},anchor=south},
+                xmode=log,
+                xmin=5, xmax=1300,
+                ymin=-5, ymax=85,
+                xtick={8, 62, 540},
+                xticklabels={,,},
+                xlabel style={align=center},
+                ytick={0, 20, 40, 60, 80},
+                yticklabels={,,},
+                x label style={at={(axis description cs:-0.62,-0.22)},anchor=north},
+                y label style={at={(axis description cs:-0.125,0.5)},anchor=south},
+                xtick pos=bottom,
+                ytick pos=left,
+                axis x line*=bottom,
+                axis y line*=left,
+                ]
+                \addplot[
+                    color=black,
+                    mark=o,
+                    mark size=1pt,
+                    ]
+                    coordinates {
+                    (8,   23.7)
+                    (62,  58.7)
+                    (540, 68.6)
+                    };
+                \addplot[
+                    color=blue,
+                    mark=o,
+                    mark size=2.5pt,
+                    ]
+                    coordinates {
+                    (8,   25.2)
+                    (62,  61.9)
+                    (540, 73.9)
+                    };
+                \addplot[
+                    color=orange,
+                    mark=square,
+                    no markers,
+                    dashed,
+                    line width=1.3pt,
+                    ]
+                    coordinates {
+                    (0.1,   47.3)
+                    (1300, 47.3)
+                    };
+        \end{groupplot}
+    \end{tikzpicture}
+    \begin{tikzpicture}
+        \pgfplotsset{footnotesize,samples=10}
+        \begin{groupplot}[
+            group style = {group size = 3 by 1, horizontal sep = 8pt}, 
+            width = 3.2cm, 
+            height = 4cm]
+            \nextgroupplot[
+                legend style={at={(0.5,1.5)},anchor=north},
+                xmode=log,
+                xmin=0.1, xmax=500,
+                ymin=-5, ymax=105,
+                xtick={0.4, 8, 137},
+                xticklabels={0.4, 8, 137},
+                ylabel={MAWPS \\ solve rate (\%)},
+                ylabel style={align=center},
+                ytick={0, 25, 50, 75, 100},
+                x label style={at={(axis description cs:0.5,-0.15)},anchor=north},
+                y label style={at={(axis description cs:-0.24,0.5)},anchor=south},
+                xtick pos=bottom,
+                ytick pos=left,
+                axis x line*=bottom,
+                axis y line*=left,
+                ]
+                \addplot[
+                    color=black,
+                    mark=o,
+                    mark size=1pt,
+                    ]
+                    coordinates {
+                    (0.4, 3.2)
+                    (2,   3.9)
+                    (8,   5.3)
+                    (68,  21.6)
+                    (137, 43.2)
+                    };
+                \addplot[
+                    color=blue,
+                    mark=o,
+                    mark size=2.5pt,
+                    ]
+                    coordinates {
+                    (0.4, 0.9)
+                    (2,   3.1)
+                    (8,   4.8)
+                    (68,  30.6)
+                    (137, 57.9)
+                    };
+                \addplot[
+                    color=orange,
+                    mark=square,
+                    no markers,
+                    dashed,
+                    line width=1.3pt,
+                    ]
+                    coordinates {
+                    (0.1,   88.4)
+                    (1300,  88.4)
+                    };
+            \nextgroupplot[
+                legend style={at={(0.5,1.5)},anchor=north},
+                xmode=log,
+                xmin=0.1, xmax=700,
+                ymin=-5, ymax=105,
+                xtick={0.35, 7, 175},
+                xticklabels={0.4, 7, 175},
+                ylabel style={align=center},
+                ytick={0, 25, 50, 75, 100},
+                yticklabels={,,},
+                x label style={at={(axis description cs:0.5,-0.15)},anchor=north},
+                y label style={at={(axis description cs:-0.18,0.5)},anchor=south},
+                xtick pos=bottom,
+                ytick pos=left,
+                axis x line*=bottom,
+                axis y line*=left,
+                ]
+                \addplot[
+                    color=black,
+                    mark=o,
+                    mark size=1pt,
+                    ]
+                    coordinates {
+                    (0.35, 2.4)
+                    (1.3,  3.1)
+                    (6.7,  8.8)
+                    (175,  72.7)
+                    };
+                \addplot[
+                    color=blue,
+                    mark=o,
+                    mark size=2.5pt,
+                    ]
+                    coordinates {
+                    (0.35, 1.1)
+                    (1.3,  1.7)
+                    (6.7,  3.5)
+                    (175,  87.1)
+                    };
+                \addplot[
+                    color=orange,
+                    mark=square,
+                    no markers,
+                    dashed,
+                    line width=1.3pt,
+                    ]
+                    coordinates {
+                    (0.1,   88.4)
+                    (1300,  88.4)
+                    };
+            \nextgroupplot[
+                legend style={at={(-0.12,1.3)},anchor=south},
+                xmode=log,
+                xmin=5, xmax=1300,
+                ymin=-5, ymax=105,
+                xtick={8, 62, 540},
+                xticklabels={8, 62, 540},
+                xlabel={Model scale (\# parameters in billions)},
+                xlabel style={align=center},
+                ytick={0, 25, 50, 75, 100},
+                yticklabels={,,},
+                x label style={at={(axis description cs:-0.62,-0.22)},anchor=north},
+                y label style={at={(axis description cs:-0.125,0.5)},anchor=south},
+                xtick pos=bottom,
+                ytick pos=left,
+                axis x line*=bottom,
+                axis y line*=left,
+                ]
+                \addplot[
+                    color=black,
+                    mark=o,
+                    mark size=1pt,
+                    ]
+                    coordinates {
+                    (8,   26.2)
+                    (62,  61.8)
+                    (540, 79.2)
+                    };
+                \addplot[
+                    color=blue,
+                    mark=o,
+                    mark size=2.5pt,
+                    ]
+                    coordinates {
+                    (8,   30.5)
+                    (62,  80.3)
+                    (540, 93.3)
+                    };
+                \addplot[
+                    color=orange,
+                    mark=square,
+                    no markers,
+                    dashed,
+                    line width=1.3pt,
+                    ]
+                    coordinates {
+                    (0.1,   88.4)
+                    (1300,  88.4)
+                    };
+        \end{groupplot}
+    \end{tikzpicture}
+    \caption{
+    Chain-of-thought prompting enables large language models to solve challenging math problems. Notably, chain-of-thought reasoning is an emergent ability of increasing model scale.
+    Prior best numbers are from \citet{cobbe2021training} for GSM8K, \citet{jie2022learning} for SVAMP, and \citet{lan2021mwptoolkit} for MAWPS.
+    }
+    \vspace{-3mm}
+    \label{fig:main-math}
+    \end{centering}
+\end{wrapfigure}

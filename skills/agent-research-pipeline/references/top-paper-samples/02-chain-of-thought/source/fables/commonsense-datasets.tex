@@ -1,0 +1,42 @@
+\begingroup
+\begin{table}[t]
+    \caption{
+    Few-shot exemplars for chain of thought prompting for commonsense reasoning datasets.
+    Chains of thought are highlighted.
+    Exact prompts with all exemplars are shown in \cref{tab:appendix-commonsenseqa-prompt}--\cref{tab:appendix-sports-understanding-prompt} in the Appendix.
+    }
+    \small
+    \centering
+    \begin{tabular}{p{7.8cm}}
+        
+        \toprule
+        \underline{\textbf{\textsc{CommonsenseQA}}} \\
+        \vspace{-2mm}
+        \textbf{Q:} Sammy wanted to go to where the people were. Where might he go? \\
+        Options: \hspace{0.2cm} (a) race track \hspace{0.2cm} (b) populated areas  \hspace{0.2cm} (c) desert\\
+        (d) apartment \hspace{0.2cm} (e) roadblock\\
+        \vspace{-1mm}
+        \textbf{A:} \hl{The answer must be a place with a lot of people. Race tracks, desert, apartments, and roadblocks don't have a lot of people, but populated areas do.} So the answer is (b). \\
+        \midrule
+        \underline{\textbf{\textsc{StrategyQA}}} \\
+        \vspace{-2mm}
+        \textbf{Q:} Yes or no: Could a llama birth twice during War in Vietnam (1945-46)? \\
+        \vspace{-1mm}
+        \textbf{A:} \hl{The War in Vietnam was 6 months. The gestation period for a llama is 11 months. So a llama could not give birth twice during the War in Vietnam.} So the answer is no. \\ 
+        \midrule
+        \underline{\textbf{\textsc{Date Understanding}}} \\
+        \vspace{-2mm}
+        \textbf{Q:} The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY? \\
+        \vspace{-1mm}
+        \textbf{A:} \hl{One day after 06/01/1943 is 06/02/1943, so today is 06/02/1943. 10 days before today is 05/23/1943.} So the answer is 05/23/1943. \\ 
+        \midrule
+        \underline{\textbf{\textsc{Sports Understanding}}} \\
+        \vspace{-2mm}
+        \textbf{Q:} Is the following sentence plausible? "Joao Moutinho caught the screen pass in the NFC championship." \\
+        \vspace{-1mm}
+        \textbf{A:} \hl{Joao Moutinho is a soccer player. The NFC championship is part of American football, not soccer.} So the answer is no. \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:commonsense-datasets}
+\end{table}
+\endgroup

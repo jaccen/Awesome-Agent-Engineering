@@ -1,0 +1,40 @@
+\begingroup
+\begin{table}[H]
+    \centering
+    \small
+    \caption{
+    Few-shot exemplars for full chain of thought prompt for SayCan robot planning tasks.
+    }
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \underline{\textbf{\textsc{Prompt for SayCan Robot Planning}}} \\
+        \vspace{-2mm}
+        Locations = [counter, table, user, trash, bowl]. \\
+Objects = [7up, apple, kettle chips, tea, multigrain chips, coke, lime soda, jalapeno chips, rice chips, orange, grapefruit soda, pepsi, redbull, energy bar, sponge, water]. \\
+The robot can pick up items with pick(object) and put down items with put(object) as well as find objects or locations with find(). The robot can only understand the explicit locations and objects listed. \\
+\vspace{0mm} \textbf{Human}: I'm hungry, can you bring me some chips. \\ \vspace{-1mm}
+\textbf{Explanation}: \hl{The user is hungry and has asked for chips. There are several types of chips available, I will bring the user the kettle chips.}  \\
+\textbf{Plan}: 1. find(kettle chips), 2. pick(kettle chips), 3. find(user), 4. put(kettle chips), 5. done(). \\
+\vspace{0mm} \textbf{Human}: How would you move the grapefruit drink from the table to the counter? \\ \vspace{-1mm}
+\textbf{Explanation}: \hl{The user has asked me to move the grapefruit drink to the counter.} \\
+\textbf{Plan}: 1. find(grapefruit soda), 2. pick(grapefruit soda), 3. find(counter), 4. put(grapefruit soda), 5. done(). \\
+\vspace{0mm} \textbf{Human}: How would you bring me some snacks? \\ \vspace{-1mm}
+\textbf{Explanation}: \hl{The user has asked for snacks, I will choose two items and bring them. I will bring jalapeno chips and an apple.} \\ 
+\textbf{Plan}: 1. find(jalapeno chips), 2. pick(jalapeno chips), 3. find(user), 4. put(jalapeno chips), 5. find(apple), 6. pick(apple), 7. find(user), 8. put(apple), 9. done().  \\
+\vspace{0mm} \textbf{Human}: How would you bring me something to eat that isn't a fruit? \\ \vspace{-1mm}
+\textbf{Explanation}: \hl{The user has asked for a food that isn't a fruit, I will bring an energy bar to them.}  \\
+\textbf{Plan}: 1. find(energy bar), 2. pick(energy bar), 3. find(user), 4. put(energy bar), 5. done().  \\
+\vspace{0mm} \textbf{Human}: How would you put the rice chips in the bowl and then move the tea to the table? \\
+\textbf{Explanation}: \hl{The user has asked me to do two tasks, I will do one and then the other.}  \\
+\textbf{Plan}: 1. find(rice chips), 2. pick(rice chips), 3. find(bowl), 4. put(rice chips), 5. find(tea), 6. pick(tea), 7. find(table), 8. put(tea), 9. done(). \\ 
+\vspace{0mm} \textbf{Human}: How would you throw away a redbull? \\ \vspace{-1mm}
+\textbf{Explanation}: \hl{The user has asked me to throw away the redbull, I will move it to the trash.} \\
+\textbf{Plan}: 1. find(redbull), 2. pick(redbull), 3. find(trash), 4. put(redbull), 5. done(). \\
+\vspace{0mm} \textbf{Human}: Bring me a drink. \\ \vspace{-1mm}
+\textbf{Explanation}: \hl{The user has asked for a drink and there are many options. I will bring them a water.}  \\
+\textbf{Plan}: 1. find(water), 2. pick(water), 3. find(user), 4. put(water), 5. done(). \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-saycan-prompt}
+\end{table}
+\endgroup

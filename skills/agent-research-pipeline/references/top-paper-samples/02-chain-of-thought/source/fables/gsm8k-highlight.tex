@@ -1,0 +1,21 @@
+\begin{table}[h]
+    \setlength{\tabcolsep}{3.5pt}
+    \caption{
+    Chain of prompting with \palm{} achieves new state-of-the-art performance on three of five math word problem benchmarks.
+    }
+    \small
+    \centering
+    \begin{tabular}{lrrrrr}
+        \toprule
+          & GSM8K & SVAMP & ASDiv & AQuA & MAWPS \\
+         \hline
+         Prior best & 55 & 57.4 & 75.3 & 37.8 & 88.4 \\
+         \underline{\palm{}} \\
+         + Standard prompting & 17.9 & 69.4 & 68.6 & 24.4 & 71.4 \\
+         + Chain of thought prompting & \underline{56.9} & \underline{79.0} & 73.9 & 35.8 & \underline{93.3} \\
+         \bottomrule
+         \\
+    \end{tabular}
+    \label{tab:gsm8k-highlight}
+    \vspace{-3mm}
+\end{table}

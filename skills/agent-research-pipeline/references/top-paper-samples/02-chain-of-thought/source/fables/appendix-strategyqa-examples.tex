@@ -1,0 +1,34 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[h]
+    \centering
+    \small
+    \caption{
+    Examples of correct and incorrect chains of thought produced by \lamda{} 137B on StrategyQA.
+    }
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Will The Exorcist stimulate limbic system? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} The Exorcist is a horror movie. Horror movies are scary. The limbic system is involved in fear. Thus, The Exorcist will stimulate the limbic system. So the answer is yes. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Was Jackson Pollock trained by Leonardo da Vinci? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} Leonardo da Vinci lived in the 15th century. Jackson Pollock lived in the 20th century. Thus, Jackson Pollock could not have been trained by Leonardo da Vinci. So the answer is no. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Can Harry Potter book a flight on Asiana Airlines? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} Harry Potter is a fictional character. {\color{blue} Thus, Harry Potter can do anything.} So the answer is yes. {\color{blue} \xmark{} (Ground truth is ``no''.)} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Would a sophist use an épée? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} A sophist is a person who is skilled in the art of persuasion. An épée is a type of sword. {\color{blue} Thus, a sophist could use an épée.} So the answer is yes. {\color{blue} \xmark{} (Ground truth is ``no''.)} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-strategyqa-examples}
+\end{table}
+\endgroup

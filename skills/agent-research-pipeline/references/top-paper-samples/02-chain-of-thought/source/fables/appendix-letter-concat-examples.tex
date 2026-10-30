@@ -1,0 +1,24 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[h]
+    \centering
+    \small
+    \caption{
+    Examples of correct and incorrect chains of thought produced by \lamda{} 137B on the letter concatenation task.
+    }
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Take the last letters of the words in ``Waldo Schmidt'' and concatenate them. \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} The last letter of ``Waldo'' is ``o''. The last letter of ``Schmidt'' is ``t''. Concatenating them is ``ot''. So the answer is ot. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Take the last letters of the words in ``Daniel Friedman'' and concatenate them. \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} The last letter of ``Daniel'' is ``l''. The {\color{blue} last letter of ``Friedman'' is ``m''.} Concatenating them is ``lm''. So the answer is lm. \color{blue}{\xmark} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-letter-concat-examples}
+\end{table}
+\endgroup

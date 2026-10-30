@@ -1,0 +1,29 @@
+\newcommand{\cell}[2]{#1{ \scriptsize $\pm$#2}}
+\definecolor{myGreen}{rgb}{0.85,1,0.85}
+\definecolor{myRed}{rgb}{1,0.9,0.9}
+\newcommand{\rcell}[2]{{#1}{ \scriptsize $\pm$#2}}
+\newcommand{\gcell}[2]{{#1}{ \scriptsize $\pm$#2}}
+
+\begin{table}[t]
+    \caption{
+    Ablation study for different variants of chain of thought, using \lamda{} 137B and \palm{} 540B. 
+    }
+    \small
+    \centering
+    \begin{tabular}{lrr}
+        \toprule
+          & \multicolumn{2}{c}{GSM8K acc. (\%)}  \\
+          \cmidrule(lr){2-3}
+          & \lamda{} & \palm{} \\
+         \hline
+         Standard prompting & 6.3 & 17.9 \\
+         Chain of thought prompting & 14.8 & 56.5\\
+         \underline{Ablations:}   \\
+         \hspace{1mm} Equation only & 5.7 & 21.7 \\
+         \hspace{1mm} Variable compute only & 6.0 & 17.7 \\
+         \hspace{1mm} Thought after answer & 5.9 & 18.0 \\
+         \bottomrule
+    \end{tabular}
+    \label{tab:math-ablation}
+    \vspace{-4mm}
+\end{table}

@@ -1,0 +1,59 @@
+\pgfplotsset{compat=1.11,
+    /pgfplots/ybar legend/.style={
+    /pgfplots/legend image code/.code={%
+       \draw[##1,/tikz/.cd,yshift=-0.25em]
+        (0cm,0cm) rectangle (7pt,0.8em);},
+   },
+}
+\begin{wrapfigure}{r}{0.4\textwidth}
+\pgfplotsset{width=5.5cm, height=4.6cm}
+    \centering
+    \vspace{-5mm}
+    \begin{tikzpicture}  
+        \begin{axis}  
+        [  
+            ybar,
+            ymin=0, ymax=102,
+            ytick={0, 20, 40, 60, 80, 100},
+            major x tick style = transparent,
+            bar width=20pt,
+            enlarge x limits=0.2,
+            ylabel={Solve rate (\%)},
+            symbolic x coords={Math Word Problems (GSM8K)},  
+            xtick=data,  
+            nodes near coords,  
+            legend style={draw=none},
+            nodes near coords align={vertical},  
+            y label style={at={(axis description cs:-0.145,0.5)},anchor=south},
+                axis x line*=bottom,
+                axis y line*=left,
+        legend cell align=left,
+                legend style={
+                        at={(0.4,1.05)},
+                        anchor=south,
+                        column sep=1ex,
+                        font=\small,
+                }
+            ]  
+        \addplot[ybar, fill=beige,  postaction={pattern=north east lines}] coordinates {
+            (Math Word Problems (GSM8K), 33)
+        };
+        \addplot[ybar, fill=babyblue,  postaction={pattern=north east lines}] coordinates {
+            (Math Word Problems (GSM8K), 55)
+        };  
+        \addplot[ybar, fill=bananayellow,  postaction={}] coordinates {
+            (Math Word Problems (GSM8K), 18)
+        };  
+        \addplot[ybar, fill=cinnamon,  postaction={}] coordinates {
+            (Math Word Problems (GSM8K), 57)
+        };  
+        \legend{Finetuned GPT-3 175B, Prior best, PaLM 540B: standard prompting, PaLM 540B: chain-of-thought prompting}  
+        \end{axis}  
+    \end{tikzpicture}  
+    \caption{
+    PaLM 540B uses chain-of-thought prompting to achieve new state-of-the-art performance on the GSM8K benchmark of math word problems.
+    Finetuned GPT-3 and prior best are from \citet{cobbe2021training}.
+    }
+    \label{fig:pull-bar-chart}
+    \vspace{-3mm}
+\end{wrapfigure}

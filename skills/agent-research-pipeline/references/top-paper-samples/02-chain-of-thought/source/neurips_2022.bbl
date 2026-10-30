@@ -1,0 +1,663 @@
+\begin{thebibliography}{86}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Ahn et~al.(2022)Ahn, Brohan, Brown, Chebotar, Cortes, David, Finn,
+  Gopalakrishnan, Hausman, Herzog et~al.}]{ahn2022can}
+Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron
+  David, Chelsea Finn, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog,
+  et~al. 2022.
+\newblock \href {https://arxiv.org/abs/2204.01691} {Do as {I} can, not as {I}
+  say: Grounding language in robotic affordances}.
+\newblock \emph{arXiv preprint arXiv:2204.01691}.
+
+\bibitem[{Amini et~al.(2019)Amini, Gabriel, Lin, Koncel-Kedziorski, Choi, and
+  Hajishirzi}]{amini-etal-2019-mathqa}
+Aida Amini, Saadia Gabriel, Shanchuan Lin, Rik Koncel-Kedziorski, Yejin Choi,
+  and Hannaneh Hajishirzi. 2019.
+\newblock \href {https://aclanthology.org/N19-1245} {{M}ath{QA}: Towards
+  interpretable math word problem solving with operation-based formalisms}.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, Minneapolis, Minnesota.
+  Association for Computational Linguistics.
+
+\bibitem[{Andor et~al.(2019)Andor, He, Lee, and
+  Pitler}]{andor-etal-2019-giving}
+Daniel Andor, Luheng He, Kenton Lee, and Emily Pitler. 2019.
+\newblock \href {https://doi.org/10.18653/v1/D19-1609} {Giving {BERT} a
+  calculator: Finding operations and arguments with reading comprehension}.
+\newblock \emph{EMNLP}.
+
+\bibitem[{Andreas et~al.(2018)Andreas, Klein, and
+  Levine}]{andreas-etal-2018-learning}
+Jacob Andreas, Dan Klein, and Sergey Levine. 2018.
+\newblock \href {https://aclanthology.org/N18-1197} {Learning with latent
+  language}.
+\newblock \emph{NAACL}.
+
+\bibitem[{Austin et~al.(2021)Austin, Odena, Nye, Bosma, Michalewski, Dohan,
+  Jiang, Cai, Terry, Le et~al.}]{austin2021program}
+Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski,
+  David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, et~al. 2021.
+\newblock \href {https://arxiv.org/abs/2108.07732} {Program synthesis with
+  large language models}.
+\newblock \emph{arXiv preprint arXiv:2108.07732}.
+
+\bibitem[{{BIG-bench collaboration}(2021)}]{bigbench}
+{BIG-bench collaboration}. 2021.
+\newblock \href {https://github.com/google/BIG-bench/} {Beyond the imitation
+  game: Measuring and extrapolating the capabilities of language models}.
+\newblock \emph{In preparation}.
+
+\bibitem[{Bostrom et~al.(2021)Bostrom, Zhao, Chaudhuri, and
+  Durrett}]{bostrom-etal-2021-flexible}
+Kaj Bostrom, Xinyu Zhao, Swarat Chaudhuri, and Greg Durrett. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.emnlp-main.506} {Flexible
+  generation of natural language deductions}.
+\newblock \emph{EMNLP}.
+
+\bibitem[{Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal,
+  Neelakantan, Shyam, Sastry, Askell, Agarwal, Herbert-Voss, Krueger, Henighan,
+  Child, Ramesh, Ziegler, Wu, Winter, Hesse, Chen, Sigler, Litwin, Gray, Chess,
+  Clark, Berner, McCandlish, Radford, Sutskever, and
+  Amodei}]{brown2020language}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla
+  Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+  Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon
+  Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris
+  Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess,
+  Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever,
+  and Dario Amodei. 2020.
+\newblock \href
+  {https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf}
+  {Language models are few-shot learners}.
+\newblock \emph{NeurIPS}.
+
+\bibitem[{Cai et~al.(2017)Cai, Shin, and Song}]{cai2017making}
+Jonathon Cai, Richard Shin, and Dawn Song. 2017.
+\newblock \href {https://arxiv.org/abs/1704.06611} {Making neural programming
+  architectures generalize via recursion}.
+\newblock \emph{ICLR}.
+
+\bibitem[{Camburu et~al.(2018)Camburu, Rockt{\"a}schel, Lukasiewicz, and
+  Blunsom}]{camburu2018snli}
+Oana-Maria Camburu, Tim Rockt{\"a}schel, Thomas Lukasiewicz, and Phil Blunsom.
+  2018.
+\newblock \href {https://arxiv.org/pdf/1812.01193.pdf} {e-{SNLI}: Natural
+  language inference with natural language explanations}.
+\newblock \emph{NeurIPS}.
+
+\bibitem[{Chen et~al.(2022)Chen, He, Narasimhan, and Chen}]{chen2022can}
+Howard Chen, Jacqueline He, Karthik Narasimhan, and Danqi Chen. 2022.
+\newblock \href {https://arxiv.org/abs/2204.11790} {Can rationalization improve
+  robustness?}
+\newblock \emph{NAACL}.
+
+\bibitem[{Chen et~al.(2021)Chen, Tworek, Jun, Yuan, Pinto, Kaplan, Edwards,
+  Burda, Joseph, Brockman et~al.}]{chen2021evaluating}
+Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de~Oliveira
+  Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg
+  Brockman, et~al. 2021.
+\newblock \href {https://arxiv.org/abs/2107.03374} {Evaluating large language
+  models trained on code}.
+\newblock \emph{arXiv preprint arXiv:2107.03374}.
+
+\bibitem[{Chen et~al.(2019)Chen, Liang, Yu, Zhou, Song, and
+  Le}]{chen2019neural}
+Xinyun Chen, Chen Liang, Adams~Wei Yu, Denny Zhou, Dawn Song, and Quoc~V. Le.
+  2019.
+\newblock \href {https://openreview.net/forum?id=ryxjnREFwH} {Neural symbolic
+  reader: Scalable integration of distributed and symbolic representations for
+  reading comprehension}.
+\newblock \emph{ICLR}.
+
+\bibitem[{Chiang and Chen(2019)}]{chiang-chen-2019-semantically}
+Ting-Rui Chiang and Yun-Nung Chen. 2019.
+\newblock \href {https://doi.org/10.18653/v1/N19-1272} {Semantically-aligned
+  equation generation for solving and reasoning math word problems}.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 2656--2668,
+  Minneapolis, Minnesota. Association for Computational Linguistics.
+
+\bibitem[{Clark et~al.(2020)Clark, Tafjord, and
+  Richardson}]{clark2020transformers}
+Peter Clark, Oyvind Tafjord, and Kyle Richardson. 2020.
+\newblock \href {https://www.ijcai.org/proceedings/2020/0537.pdf} {Transformers
+  as soft reasoners over language}.
+\newblock \emph{IJCAI}.
+
+\bibitem[{Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Hilton, Nakano, Hesse,
+  and Schulman}]{cobbe2021training}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Jacob Hilton, Reiichiro Nakano,
+  Christopher Hesse, and John Schulman. 2021.
+\newblock \href {https://arxiv.org/abs/2110.14168} {Training verifiers to solve
+  math word problems}.
+\newblock \emph{arXiv preprint arXiv:2110.14168}.
+
+\bibitem[{Devlin et~al.(2019)Devlin, Chang, Lee, and
+  Toutanova}]{devlin-etal-2019-bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019.
+\newblock \href {https://aclanthology.org/N19-1423} {{BERT}: Pre-training of
+  deep bidirectional transformers for language understanding}.
+\newblock \emph{NAACL}.
+
+\bibitem[{Dong et~al.(2019)Dong, Mao, Lin, Wang, Li, and Zhou}]{dong2019neural}
+Honghua Dong, Jiayuan Mao, Tian Lin, Chong Wang, Lihong Li, and Denny Zhou.
+  2019.
+\newblock \href {https://arxiv.org/abs/1904.11694} {Neural logic machines}.
+\newblock \emph{ICLR}.
+
+\bibitem[{Dua et~al.(2020)Dua, Singh, and Gardner}]{dua-etal-2020-benefits}
+Dheeru Dua, Sameer Singh, and Matt Gardner. 2020.
+\newblock \href {https://aclanthology.org/2020.acl-main.497} {Benefits of
+  intermediate annotations in reading comprehension}.
+\newblock \emph{ACL}.
+
+\bibitem[{Geva et~al.(2021)Geva, Khashabi, Segal, Khot, Roth, and
+  Berant}]{geva-etal-2021-aristotle}
+Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth, and Jonathan
+  Berant. 2021.
+\newblock \href {https://doi.org/10.1162/tacl_a_00370} {Did aristotle use a
+  laptop? {A} question answering benchmark with implicit reasoning strategies}.
+\newblock \emph{TACL}.
+
+\bibitem[{Gu et~al.(2022)Gu, Mishra, and Clark}]{gu2021dream}
+Yuling Gu, Bhavana~Dalvi Mishra, and Peter Clark. 2022.
+\newblock \href {https://arxiv.org/pdf/2112.08656.pdf} {{DREAM}: Uncovering
+  mental models behind language models}.
+\newblock \emph{NAACL}.
+
+\bibitem[{Hancock et~al.(2018)Hancock, Varma, Wang, Bringmann, Liang, and
+  R{\'e}}]{hancock-etal-2018-training}
+Braden Hancock, Paroma Varma, Stephanie Wang, Martin Bringmann, Percy Liang,
+  and Christopher R{\'e}. 2018.
+\newblock \href {https://doi.org/10.18653/v1/P18-1175} {Training classifiers
+  with natural language explanations}.
+\newblock \emph{ACL}.
+
+\bibitem[{Hase and Bansal(2022)}]{hase2021can}
+Peter Hase and Mohit Bansal. 2022.
+\newblock \href {https://arxiv.org/abs/2102.02201} {When can models learn from
+  explanations? a formal framework for understanding the roles of explanation
+  data}.
+\newblock \emph{ACL}.
+
+\bibitem[{Hendrycks et~al.(2021)Hendrycks, Burns, Kadavath, Arora, Basart,
+  Tang, Song, and Steinhardt}]{hendrycks2021measuring}
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+  Tang, Dawn Song, and Jacob Steinhardt. 2021.
+\newblock \href {https://arxiv.org/abs/2103.03874} {Measuring mathematical
+  problem solving with the math dataset}.
+\newblock \emph{arXiv preprint arXiv:2103.03874}.
+
+\bibitem[{Hosseini et~al.(2014)Hosseini, Hajishirzi, Etzioni, and
+  Kushman}]{hosseini-etal-2014-learning}
+Mohammad~Javad Hosseini, Hannaneh Hajishirzi, Oren Etzioni, and Nate Kushman.
+  2014.
+\newblock \href {https://doi.org/10.3115/v1/D14-1058} {Learning to solve
+  arithmetic word problems with verb categorization}.
+\newblock \emph{EMNLP}.
+
+\bibitem[{Jie et~al.(2022)Jie, Li, and Lu}]{jie2022learning}
+Zhanming Jie, Jierui Li, and Wei Lu. 2022.
+\newblock \href {https://arxiv.org/abs/2203.10316} {Learning to reason
+  deductively: Math word problem solving as complex relation extraction}.
+\newblock \emph{arXiv preprint arXiv:2203.10316}.
+
+\bibitem[{Kaplan et~al.(2020)Kaplan, McCandlish, Henighan, Brown, Chess, Child,
+  Gray, Radford, Wu, and Amodei}]{kaplan2020scaling}
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom~B Brown, Benjamin Chess, Rewon
+  Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. 2020.
+\newblock \href {https://arxiv.org/abs/2001.08361} {Scaling laws for neural
+  language models}.
+\newblock \emph{arXiv preprint arXiv:2001.08361}.
+
+\bibitem[{Koncel-Kedziorski et~al.(2016)Koncel-Kedziorski, Roy, Amini, Kushman,
+  and Hajishirzi}]{koncel-kedziorski-etal-2016-mawps}
+Rik Koncel-Kedziorski, Subhro Roy, Aida Amini, Nate Kushman, and Hannaneh
+  Hajishirzi. 2016.
+\newblock \href {https://doi.org/10.18653/v1/N16-1136} {{MAWPS}: A math word
+  problem repository}.
+\newblock \emph{NAACL}.
+
+\bibitem[{Lampinen et~al.(2022)Lampinen, Dasgupta, Chan, Matthewson, Tessler,
+  Creswell, McClelland, Wang, and Hill}]{lampinen2022can}
+Andrew~K. Lampinen, Ishita Dasgupta, Stephanie~C.Y. Chan, Kory Matthewson,
+  Michael~Henry Tessler, Antonia Creswell, James~L. McClelland, Jane~X. Wang,
+  and Felix Hill. 2022.
+\newblock \href {https://arxiv.org/abs/2204.02329} {Can language models learn
+  from explanations in context?}
+\newblock \emph{arXiv preprint arXiv:2204.02329}.
+
+\bibitem[{Lan et~al.(2021)Lan, Wang, Zhang, Lan, Dai, Wang, Zhang, and
+  Lim}]{lan2021mwptoolkit}
+Yihuai Lan, Lei Wang, Qiyuan Zhang, Yunshi Lan, Bing~Tian Dai, Yan Wang,
+  Dongxiang Zhang, and Ee-Peng Lim. 2021.
+\newblock \href {https://arxiv.org/abs/2109.00799} {{MWPT}oolkit: An
+  open-source framework for deep learning-based math word problem solvers}.
+\newblock \emph{arXiv preprint arXiv:2109.00799}.
+
+\bibitem[{Le~Scao and Rush(2021)}]{le-scao-rush-2021-many}
+Teven Le~Scao and Alexander Rush. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.naacl-main.208} {How many
+  data points is a prompt worth?}
+\newblock \emph{NAACL}.
+
+\bibitem[{Lester et~al.(2021)Lester, Al-Rfou, and
+  Constant}]{lester-etal-2021-power}
+Brian Lester, Rami Al-Rfou, and Noah Constant. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.emnlp-main.243} {The power of
+  scale for parameter-efficient prompt tuning}.
+\newblock \emph{EMNLP}.
+
+\bibitem[{Lev et~al.(2004)Lev, MacCartney, Manning, and
+  Levy}]{lev-etal-2004-solving}
+Iddo Lev, Bill MacCartney, Christopher Manning, and Roger Levy. 2004.
+\newblock \href {https://aclanthology.org/W04-0902} {Solving logic puzzles:
+  From robust processing to precise semantics}.
+\newblock \emph{Proceedings of the 2nd Workshop on Text Meaning and
+  Interpretation}.
+
+\bibitem[{Li and Liang(2021)}]{li-liang-2021-prefix}
+Xiang~Lisa Li and Percy Liang. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.acl-long.353} {Prefix-tuning:
+  Optimizing continuous prompts for generation}.
+\newblock \emph{ACL}.
+
+\bibitem[{Liang et~al.(2021)Liang, Bethard, and
+  Surdeanu}]{liang-etal-2021-explainable}
+Zhengzhong Liang, Steven Bethard, and Mihai Surdeanu. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.naacl-main.97} {Explainable
+  multi-hop verbal reasoning through internal monologue}.
+\newblock \emph{NAACL}.
+
+\bibitem[{Ling et~al.(2017)Ling, Yogatama, Dyer, and
+  Blunsom}]{ling-etal-2017-program}
+Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom. 2017.
+\newblock \href {https://doi.org/10.18653/v1/P17-1015} {Program induction by
+  rationale generation: Learning to solve and explain algebraic word problems}.
+\newblock \emph{ACL}.
+
+\bibitem[{Liu et~al.(2021)Liu, Yuan, Fu, Jiang, Hayashi, and
+  Neubig}]{liu2021pre}
+Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, and
+  Graham Neubig. 2021.
+\newblock \href {https://arxiv.org/abs/2107.13586} {Pre-train, prompt, and
+  predict: A systematic survey of prompting methods in natural language
+  processing}.
+\newblock \emph{arXiv preprint arXiv:2107.13586}.
+
+\bibitem[{Majumder et~al.(2021)Majumder, Camburu, Lukasiewicz, and
+  McAuley}]{majumder2021rationale}
+Bodhisattwa~Prasad Majumder, Oana-Maria Camburu, Thomas Lukasiewicz, and Julian
+  McAuley. 2021.
+\newblock \href {https://arxiv.org/abs/2106.13876} {Rationale-inspired natural
+  language explanations with commonsense}.
+\newblock \emph{arXiv preprint arXiv:2106.13876}.
+
+\bibitem[{Marasovi{\'c} et~al.(2022)Marasovi{\'c}, Beltagy, Downey, and
+  Peters}]{marasovic2021few}
+Ana Marasovi{\'c}, Iz~Beltagy, Doug Downey, and Matthew~E Peters. 2022.
+\newblock \href {http://arxiv.org/abs/2111.08284} {Few-shot
+  self-rationalization with natural language prompts}.
+\newblock \emph{NAACL Findings}.
+
+\bibitem[{Maynez et~al.(2020)Maynez, Narayan, Bohnet, and
+  McDonald}]{maynez-etal-2020-faithfulness}
+Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.acl-main.173} {On
+  faithfulness and factuality in abstractive summarization}.
+\newblock In \emph{ACL}.
+
+\bibitem[{Miao et~al.(2020)Miao, Liang, and Su}]{miao-etal-2020-diverse}
+Shen~Yun Miao, Chao~Chun Liang, and Keh~Yih Su. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.acl-main.92} {A diverse
+  corpus for evaluating and developing {E}nglish math word problem solvers}.
+\newblock \emph{ACL}.
+
+\bibitem[{Min et~al.(2022)Min, Lyu, Holtzman, Artetxe, Lewis, Hajishirzi, and
+  Zettlemoyer}]{min2022rethinking}
+Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh
+  Hajishirzi, and Luke Zettlemoyer. 2022.
+\newblock \href {https://arxiv.org/abs/2202.12837} {Rethinking the role of
+  demonstrations: What makes in-context learning work?}
+\newblock \emph{arXiv preprint arXiv:2202.12837}.
+
+\bibitem[{Narang et~al.(2020)Narang, Raffel, Lee, Roberts, Fiedel, and
+  Malkan}]{narang2020wt5}
+Sharan Narang, Colin Raffel, Katherine Lee, Adam Roberts, Noah Fiedel, and
+  Karishma Malkan. 2020.
+\newblock \href {https://arxiv.org/abs/2004.14546} {{WT5}?! {T}raining
+  text-to-text models to explain their predictions}.
+\newblock \emph{arXiv preprint arXiv:2004.14546}.
+
+\bibitem[{Nye et~al.(2021)Nye, Andreassen, Gur-Ari, Michalewski, Austin,
+  Bieber, Dohan, Lewkowycz, Bosma, Luan et~al.}]{nye2021show}
+Maxwell Nye, Anders~Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob
+  Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David
+  Luan, et~al. 2021.
+\newblock \href {http://arxiv.org/abs/2112.00114} {Show your work: Scratchpads
+  for intermediate computation with language models}.
+\newblock \emph{arXiv preprint arXiv:2112.00114}.
+
+\bibitem[{Ouyang et~al.(2022)Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin,
+  Zhang, Agarwal, Slama, Ray et~al.}]{ouyang2022training}
+Long Ouyang, Jeff Wu, Xu~Jiang, Diogo Almeida, Carroll~L. Wainwright, Pamela
+  Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et~al.
+  2022.
+\newblock \href {https://arxiv.org/abs/2203.02155} {Training language models to
+  follow instructions with human feedback}.
+\newblock \emph{arXiv preprint arXiv:2203.02155}.
+
+\bibitem[{Patel et~al.(2021)Patel, Bhattamishra, and
+  Goyal}]{patel-etal-2021-nlp}
+Arkil Patel, Satwik Bhattamishra, and Navin Goyal. 2021.
+\newblock \href {https://aclanthology.org/2021.naacl-main.168.pdf} {Are {NLP}
+  models really able to solve simple math word problems?}
+\newblock \emph{NAACL}.
+
+\bibitem[{Peters et~al.(2018)Peters, Neumann, Iyyer, Gardner, Clark, Lee, and
+  Zettlemoyer}]{peters-etal-2018-deep}
+Matthew~E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+  Kenton Lee, and Luke Zettlemoyer. 2018.
+\newblock \href {https://aclanthology.org/N18-1202} {Deep contextualized word
+  representations}.
+\newblock \emph{NAACL}.
+
+\bibitem[{Pi et~al.(2022)Pi, Liu, Chen, Ziyadi, Lin, Gao, Fu, Lou, and
+  Chen}]{pi2022reasoning}
+Xinyu Pi, Qian Liu, Bei Chen, Morteza Ziyadi, Zeqi Lin, Yan Gao, Qiang Fu,
+  Jian-Guang Lou, and Weizhu Chen. 2022.
+\newblock \href {https://arxiv.org/abs/2201.11473} {Reasoning like program
+  executors}.
+\newblock \emph{arXiv preprint arXiv:2201.11473}.
+
+\bibitem[{Pi{\k{e}}kos et~al.(2021)Pi{\k{e}}kos, Malinowski, and
+  Michalewski}]{piekos-etal-2021-measuring}
+Piotr Pi{\k{e}}kos, Mateusz Malinowski, and Henryk Michalewski. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.acl-short.49} {Measuring and
+  improving {BERT}{'}s mathematical abilities by predicting the order of
+  reasoning.}
+\newblock \emph{ACL}.
+
+\bibitem[{Rae et~al.(2021)Rae, Borgeaud, Cai, Millican, Hoffmann, Song,
+  Aslanides, Henderson, Ring, Young et~al.}]{rae2021scaling}
+Jack~W. Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann,
+  Francis Song, John Aslanides, Sarah Henderson, Roman Ring, Susannah Young,
+  et~al. 2021.
+\newblock \href {https://arxiv.org/abs/2112.11446} {Scaling language models:
+  Methods, analysis \& insights from training {G}opher}.
+\newblock \emph{arXiv preprint arXiv:2112.11446}.
+
+\bibitem[{Raffel et~al.(2020)Raffel, Shazeer, Roberts, Lee, Narang, Matena,
+  Zhou, Li, and Liu}]{raffel2020exploring}
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+  Matena, Yanqi Zhou, Wei Li, and Peter~J Liu. 2020.
+\newblock \href {https://arxiv.org/abs/1910.10683} {Exploring the limits of
+  transfer learning with a unified text-to-text transformer}.
+\newblock \emph{Journal of Machine Learning Research}, 21:1--67.
+
+\bibitem[{Rajagopal et~al.(2021)Rajagopal, Balachandran, Hovy, and
+  Tsvetkov}]{rajagopal2021selfexplain}
+Dheeraj Rajagopal, Vidhisha Balachandran, Eduard~H. Hovy, and Yulia Tsvetkov.
+  2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.emnlp-main.64}
+  {{SelfExplain}: A self-explaining architecture for neural text classifiers}.
+\newblock \emph{EMNLP}.
+
+\bibitem[{Rajani et~al.(2019)Rajani, McCann, Xiong, and
+  Socher}]{rajani-etal-2019-explain}
+Nazneen~Fatema Rajani, Bryan McCann, Caiming Xiong, and Richard Socher. 2019.
+\newblock \href {https://doi.org/10.18653/v1/P19-1487} {Explain yourself!
+  {L}everaging language models for commonsense reasoning}.
+\newblock \emph{ACL}.
+
+\bibitem[{Ran et~al.(2019)Ran, Lin, Li, Zhou, and Liu}]{ran-etal-2019-numnet}
+Qiu Ran, Yankai Lin, Peng Li, Jie Zhou, and Zhiyuan Liu. 2019.
+\newblock \href {https://doi.org/10.18653/v1/D19-1251} {{N}um{N}et: Machine
+  reading comprehension with numerical reasoning}.
+\newblock \emph{EMNLP}.
+
+\bibitem[{Rashkin et~al.(2021)Rashkin, Nikolaev, Lamm, Collins, Das, Petrov,
+  Tomar, Turc, and Reitter}]{rashkin2021measuring}
+Hannah Rashkin, Vitaly Nikolaev, Matthew Lamm, Michael Collins, Dipanjan Das,
+  Slav Petrov, Gaurav~Singh Tomar, Iulia Turc, and David Reitter. 2021.
+\newblock \href {https://arxiv.org/abs/2112.12870} {Measuring attribution in
+  natural language generation models}.
+\newblock \emph{arXiv preprint arXiv:2112.12870}.
+
+\bibitem[{Recchia(2021)}]{recchia2021teaching}
+Gabriel Recchia. 2021.
+\newblock \href {https://arxiv.org/abs/2109.02102} {Teaching autoregressive
+  language models complex tasks by demonstration}.
+\newblock \emph{arXiv preprint arXiv:2109.02102}.
+
+\bibitem[{Reif et~al.(2022)Reif, Ippolito, Yuan, Coenen, Callison-Burch, and
+  Wei}]{reif2021recipe}
+Emily Reif, Daphne Ippolito, Ann Yuan, Andy Coenen, Chris Callison-Burch, and
+  Jason Wei. 2022.
+\newblock \href {https://arxiv.org/abs/2109.03910} {A recipe for arbitrary text
+  style transfer with large language models}.
+\newblock \emph{ACL}.
+
+\bibitem[{Reynolds and McDonell(2021)}]{reynolds2021prompt}
+Laria Reynolds and Kyle McDonell. 2021.
+\newblock \href {https://arxiv.org/abs/2102.07350} {Prompt programming for
+  large language models: Beyond the few-shot paradigm}.
+\newblock \emph{Extended Abstracts of the 2021 CHI Conference on Human Factors
+  in Computing Systems}.
+
+\bibitem[{Roy and Roth(2015)}]{roy-roth-2015-solving}
+Subhro Roy and Dan Roth. 2015.
+\newblock \href {https://doi.org/10.18653/v1/D15-1202} {Solving general
+  arithmetic word problems}.
+\newblock \emph{EMNLP}.
+
+\bibitem[{Roy et~al.(2015)Roy, Vieira, and Roth}]{roy-2016-reasoning}
+Subhro Roy, Tim Vieira, and Dan Roth. 2015.
+\newblock \href {https://doi.org/10.1162/tacl_a_00118} {{Reasoning about
+  Quantities in Natural Language}}.
+\newblock \emph{TACL}.
+
+\bibitem[{Saeed et~al.(2021)Saeed, Ahmadi, Nakov, and
+  Papotti}]{saeed-etal-2021-rulebert}
+Mohammed Saeed, Naser Ahmadi, Preslav Nakov, and Paolo Papotti. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.emnlp-main.110}
+  {{R}ule{BERT}: Teaching soft rules to pre-trained language models}.
+\newblock \emph{EMNLP}.
+
+\bibitem[{Sanh et~al.(2022)Sanh, Webson, Raffel, Bach, Sutawika, Alyafeai,
+  Chaffin, Stiegler, Scao, Raja et~al.}]{sanh2021multitask}
+Victor Sanh, Albert Webson, Colin Raffel, Stephen~H. Bach, Lintang Sutawika,
+  Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven~Le Scao, Arun Raja,
+  et~al. 2022.
+\newblock \href {https://arxiv.org/abs/2110.08207} {Multitask prompted training
+  enables zero-shot task generalization}.
+\newblock \emph{ICLR}.
+
+\bibitem[{Shen et~al.(2021)Shen, Yin, Li, Shang, Jiang, Zhang, and
+  Liu}]{shen-etal-2021-generate-rank}
+Jianhao Shen, Yichun Yin, Lin Li, Lifeng Shang, Xin Jiang, Ming Zhang, and Qun
+  Liu. 2021.
+\newblock \href {https://aclanthology.org/2021.findings-emnlp.195} {Generate
+  {\&} rank: A multi-task framework for math word problems}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2021}.
+
+\bibitem[{Talmor et~al.(2019)Talmor, Herzig, Lourie, and
+  Berant}]{talmor-etal-2019-commonsenseqa}
+Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. 2019.
+\newblock \href {https://doi.org/10.18653/v1/N19-1421} {{C}ommonsense{QA}: A
+  question answering challenge targeting commonsense knowledge}.
+\newblock \emph{NAACL}.
+
+\bibitem[{Talmor et~al.(2020)Talmor, Tafjord, Clark, Goldberg, and
+  Berant}]{talmor2020leap}
+Alon Talmor, Oyvind Tafjord, Peter Clark, Yoav Goldberg, and Jonathan Berant.
+  2020.
+\newblock \href {https://arxiv.org/abs/2006.06609} {Leap-of-thought: Teaching
+  pre-trained models to systematically reason over implicit knowledge}.
+\newblock \emph{NeurIPS}.
+
+\bibitem[{Talmor et~al.(2021)Talmor, Yoran, Bras, Bhagavatula, Goldberg, Choi,
+  and Berant}]{talmor2022commonsenseqa}
+Alon Talmor, Ori Yoran, Ronan~Le Bras, Chandra Bhagavatula, Yoav Goldberg,
+  Yejin Choi, and Jonathan Berant. 2021.
+\newblock \href {https://arxiv.org/abs/2201.05320} {Commonsense{QA} 2.0:
+  {E}xposing the limits of ai through gamification}.
+\newblock \emph{NeurIPS Track on Datasets and Benchmarks}.
+
+\bibitem[{Tay et~al.(2022)Tay, Dehghani, Tran, Garcia, Bahri, Schuster, Zheng,
+  Houlsby, and Metzler}]{tay2022unifying}
+Yi~Tay, Mostafa Dehghani, Vinh~Q Tran, Xavier Garcia, Dara Bahri, Tal Schuster,
+  Huaixiu~Steven Zheng, Neil Houlsby, and Donald Metzler. 2022.
+\newblock \href {https://arxiv.org/abs/2205.05131} {Unifying language learning
+  paradigms}.
+\newblock \emph{arXiv preprint arXiv:2205.05131}.
+
+\bibitem[{Thoppilan et~al.(2022)Thoppilan, De~Freitas, Hall, Shazeer,
+  Kulshreshtha, Cheng, Jin, Bos, Baker, Du et~al.}]{thoppilan2022lamda}
+Romal Thoppilan, Daniel De~Freitas, Jamie Hall, Noam Shazeer, Apoorv
+  Kulshreshtha, Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu~Du,
+  et~al. 2022.
+\newblock \href {https://arxiv.org/abs/2201.08239} {La{MDA}: Language models
+  for dialog applications}.
+\newblock \emph{arXiv preprint arXiv:2201.08239}.
+
+\bibitem[{Wang et~al.(2022{\natexlab{a}})Wang, Wei, Schuurmans, Le, Chi, and
+  Zhou}]{wang2022self}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed~Chi, and Denny Zhou.
+  2022{\natexlab{a}}.
+\newblock \href {https://arxiv.org/abs/2203.11171} {Self-consistency improves
+  chain of thought reasoning in language models}.
+\newblock \emph{arXiv preprint arXiv:2203.11171}.
+
+\bibitem[{Wang et~al.(2022{\natexlab{b}})Wang, Mishra, Alipoormolabashi, Kordi,
+  Mirzaei, Arunkumar, Ashok, Dhanasekaran, Naik, Stap
+  et~al.}]{wang2022benchmarking}
+Yizhong Wang, Swaroop Mishra, Pegah Alipoormolabashi, Yeganeh Kordi, Amirreza
+  Mirzaei, Anjana Arunkumar, Arjun Ashok, Arut~Selvan Dhanasekaran, Atharva
+  Naik, David Stap, et~al. 2022{\natexlab{b}}.
+\newblock \href {https://arxiv.org/abs/2204.07705} {Benchmarking generalization
+  via in-context instructions on 1,600+ language tasks}.
+\newblock \emph{arXiv preprint arXiv:2204.07705}.
+
+\bibitem[{Wei et~al.(2022{\natexlab{a}})Wei, Bosma, Zhao, Guu, Yu, Lester, Du,
+  Dai, and Le}]{wei2021finetuned}
+Jason Wei, Maarten Bosma, Vincent~Y. Zhao, Kelvin Guu, Adams~Wei Yu, Brian
+  Lester, Nan Du, Andrew~M. Dai, and Quoc~V. Le. 2022{\natexlab{a}}.
+\newblock \href {https://openreview.net/forum?id=gEZrGCozdqR} {Finetuned
+  language models are zero-shot learners}.
+\newblock \emph{ICLR}.
+
+\bibitem[{Wei et~al.(2022{\natexlab{b}})Wei, Tay, Bommasani, Raffel, Zoph,
+  Borgeaud, Yogatama, Bosma, Zhou, Metzler et~al.}]{wei2022emergent}
+Jason Wei, Yi~Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian
+  Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, et~al.
+  2022{\natexlab{b}}.
+\newblock \href {https://openreview.net/forum?id=yzkSU5zdwD} {Emergent
+  abilities of large language models}.
+\newblock \emph{Transactions on Machine Learning Research}.
+
+\bibitem[{Wiegreffe et~al.(2022)Wiegreffe, Hessel, Swayamdipta, Riedl, and
+  Choi}]{wiegreffe2021reframing}
+Sarah Wiegreffe, Jack Hessel, Swabha Swayamdipta, Mark Riedl, and Yejin Choi.
+  2022.
+\newblock \href {https://arxiv.org/abs/2112.08674} {Reframing human-{AI}
+  collaboration for generating free-text explanations}.
+\newblock \emph{NAACL}.
+
+\bibitem[{Wiegreffe and Marasovi{\'c}(2021)}]{wiegreffe2021teach}
+Sarah Wiegreffe and Ana Marasovi{\'c}. 2021.
+\newblock \href {https://arxiv.org/abs/2102.12060} {Teach me to explain: A
+  review of datasets for explainable {NLP}}.
+\newblock \emph{NeurIPS}.
+
+\bibitem[{Wiegreffe et~al.(2021)Wiegreffe, Marasovi{\'c}, and
+  Smith}]{wiegreffe-etal-2021-measuring}
+Sarah Wiegreffe, Ana Marasovi{\'c}, and Noah~A. Smith. 2021.
+\newblock \href {https://aclanthology.org/2021.emnlp-main.804} {{M}easuring
+  association between labels and free-text rationales}.
+\newblock \emph{EMNLP}.
+
+\bibitem[{Wu et~al.(2022{\natexlab{a}})Wu, Jiang, Donsbach, Gray, Molina,
+  Terry, and Cai}]{wu2022promptchainer}
+Tongshuang Wu, Ellen Jiang, Aaron Donsbach, Jeff Gray, Alejandra Molina,
+  Michael Terry, and Carrie~J Cai. 2022{\natexlab{a}}.
+\newblock \href {https://dl.acm.org/doi/abs/10.1145/3491101.3519729}
+  {Prompt{C}hainer: Chaining large language model prompts through visual
+  programming}.
+\newblock \emph{CHI Extended Abstracts}.
+
+\bibitem[{Wu et~al.(2022{\natexlab{b}})Wu, Terry, and Cai}]{wu2022ai}
+Tongshuang Wu, Michael Terry, and Carrie~Jun Cai. 2022{\natexlab{b}}.
+\newblock \href {https://dl.acm.org/doi/abs/10.1145/3491102.3517582} {A{I}
+  chains: Transparent and controllable human-{AI} interaction by chaining large
+  language model prompts}.
+\newblock \emph{CHI}.
+
+\bibitem[{Yan et~al.(2020)Yan, Swersky, Koutra, Ranganathan, and
+  Hashemi}]{yan2020neural}
+Yujun Yan, Kevin Swersky, Danai Koutra, Parthasarathy Ranganathan, and Milad
+  Hashemi. 2020.
+\newblock \href {https://arxiv.org/abs/2006.08084} {Neural execution engines:
+  Learning to execute subroutines}.
+\newblock \emph{NeurIPS}.
+
+\bibitem[{Yao et~al.(2021)Yao, Chen, Ye, Jin, and Ren}]{yao2021refining}
+Huihan Yao, Ying Chen, Qinyuan Ye, Xisen Jin, and Xiang Ren. 2021.
+\newblock \href
+  {https://proceedings.neurips.cc/paper/2021/hash/4b26dc4663ccf960c8538d595d0a1d3a-Abstract.html}
+  {Refining language models with compositional explanations}.
+\newblock \emph{NeurIPS}.
+
+\bibitem[{Ye and Durrett(2022)}]{ye2022unreliability}
+Xi~Ye and Greg Durrett. 2022.
+\newblock \href {https://arxiv.org/abs/2205.03401} {The unreliability of
+  explanations in few-shot in-context learning}.
+\newblock \emph{arXiv preprint arXiv:2205.03401}.
+
+\bibitem[{Yordanov et~al.(2021)Yordanov, Kocijan, Lukasiewicz, and
+  Camburu}]{yordanov2021few}
+Yordan Yordanov, Vid Kocijan, Thomas Lukasiewicz, and Oana-Maria Camburu. 2021.
+\newblock \href {http://arxiv.org/abs/2112.06204} {Few-shot out-of-domain
+  transfer learning of natural language explanations}.
+\newblock \emph{arXiv preprint arXiv:2112.06204}.
+
+\bibitem[{Zaidan et~al.(2007)Zaidan, Eisner, and
+  Piatko}]{zaidan-etal-2007-using}
+Omar Zaidan, Jason Eisner, and Christine Piatko. 2007.
+\newblock \href {https://aclanthology.org/N07-1033} {Using {``}annotator
+  rationales{''} to improve machine learning for text categorization}.
+\newblock \emph{NAACL}.
+
+\bibitem[{Zaremba and Sutskever(2014)}]{zaremba2014learning}
+Wojciech Zaremba and Ilya Sutskever. 2014.
+\newblock \href {https://arxiv.org/abs/1410.4615} {Learning to execute}.
+\newblock \emph{arXiv preprint arXiv:1410.4615}.
+
+\bibitem[{Zelikman et~al.(2022)Zelikman, Wu, and Goodman}]{zelikman2022star}
+Eric Zelikman, Yuhuai Wu, and Noah~D. Goodman. 2022.
+\newblock \href {https://arxiv.org/abs/2203.14465} {S{T}a{R}: Bootstrapping
+  reasoning with reasoning}.
+\newblock \emph{arXiv preprint arXiv:2203.14465}.
+
+\bibitem[{Zhao et~al.(2021)Zhao, Wallace, Feng, Klein, and
+  Singh}]{zhao2021calibrate}
+Tony~Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, and Sameer Singh. 2021.
+\newblock \href {https://arxiv.org/abs/2102.09690} {Calibrate before use:
+  Improving few-shot performance of language models}.
+\newblock \emph{ICML}.
+
+\bibitem[{Zhou et~al.(2020)Zhou, Hu, Zhang, Liang, Sun, Xiong, and
+  Tang}]{zhou2020towards}
+Wangchunshu Zhou, Jinyi Hu, Hanlin Zhang, Xiaodan Liang, Maosong Sun, Chenyan
+  Xiong, and Jian Tang. 2020.
+\newblock \href
+  {https://proceedings.neurips.cc/paper/2020/file/4be2c8f27b8a420492f2d44463933eb6-Paper.pdf}
+  {Towards interpretable natural language understanding with explanations as
+  latent variables}.
+\newblock \emph{NeurIPS}.
+
+\end{thebibliography}

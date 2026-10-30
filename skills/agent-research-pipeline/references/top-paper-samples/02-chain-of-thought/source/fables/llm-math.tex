@@ -1,0 +1,40 @@
+\begingroup
+\setlength{\tabcolsep}{3.5pt}
+\newcommand{\calc}[1]{\hspace{0.7mm} \battleshipgrey{\scriptsize #1}}
+\newcommand{\diff}[2]{#1 {\scriptsize (#2)}}
+\definecolor{myGreen}{rgb}{0.85,1,0.85}
+\definecolor{myRed}{rgb}{1,0.9,0.9}
+\begin{table*}[h]
+    \centering
+    \caption{
+    Chain of thought prompting outperforms standard prompting for various large language models on five arithmetic reasoning benchmarks. 
+    All metrics are accuracy (\%).
+    Ext.\ calc.: post-hoc external calculator for arithmetic computations only.
+    Prior best numbers are from the following. $a$: \citet{cobbe2021training}. $b$ \& $e$: \citet{pi2022reasoning}, $c$: \citet{lan2021mwptoolkit}, $d$: \citet{piekos-etal-2021-measuring}.
+    }
+    \begin{tabular}{ll lllll}
+        \toprule
+          & Prompting & GSM8K & SVAMP & ASDiv & AQuA & MAWPS \\
+          \midrule \vspace{3mm}
+          Prior best & N/A (finetuning) & 55$^a$ & 57.4$^b$ & 75.3$^c$ & 37.9$^d$ & 88.4$^e$ \\
+          UL2 20B & Standard & 4.1 & 10.1 & 16.0 & 20.5 & 16.6 \\
+          & Chain of thought & \diff{4.4}{+0.3} & \diff{12.5}{+2.4} & \diff{16.9}{+0.9} & \diff{23.6}{+3.1} & \diff{19.1}{+2.5} \\ \vspace{3mm}
+          & \calc{+ ext. calc} & \calc{6.9} & \calc{28.3} & \calc{34.3} & \calc{23.6} & \calc{42.7} \\
+         \lamda{} 137B & Standard & 6.5 & 29.5 & 40.1 & 25.5 & 43.2 \\
+          & Chain of thought & \diff{14.3}{+7.8} & \diff{37.5}{+8.0} & \diff{46.6}{+6.5} & \diff{20.6}{-4.9} & \diff{57.9}{+14.7} \\ \vspace{3mm}
+          & \calc{+ ext. calc} & \calc{17.8} & \calc{42.1} & \calc{53.4} & \calc{20.6} & \calc{69.3} \\
+         GPT-3 175B & Standard & 15.6 & 65.7 & 70.3 & 24.8 & 72.7 \\
+         {\scriptsize \texttt{(text-davinci-002)}} & Chain of thought & \diff{46.9}{+31.3} & \diff{68.9}{+3.2} & \diff{71.3}{+1.0} & \diff{35.8}{+11.0} & \diff{87.1}{+14.4} \\ \vspace{3mm}
+          & \calc{+ ext. calc} & \calc{49.6} & \calc{70.3} & \calc{71.1} & \calc{35.8} & \calc{87.5}  \\
+         Codex & Standard & 19.7 & 69.9 & 74.0 & 29.5 & 78.7 \\
+         {\scriptsize \texttt{(code-davinci-002)}} & Chain of thought & \diff{63.1}{+43.4} & \diff{76.4}{+6.5} & \diff{80.4}{+6.4} & \diff{45.3}{+15.8} & \diff{92.6}{+13.9} \\ \vspace{3mm}
+          & \calc{+ ext. calc} & \calc{65.4} & \calc{77.0} & \calc{80.0} & \calc{45.3} & \calc{93.3}  \\
+         \palm{} 540B & Standard & 17.9 & 69.4 & 72.1 & 25.2 & 79.2 \\
+          & Chain of thought & \diff{56.9}{+39.0} & \diff{79.0}{+9.6} & \diff{73.9}{+1.8} & \diff{35.8}{+10.6} & \diff{93.3}{+14.2} \\
+          & \calc{+ ext. calc} & \calc{58.6} & \calc{79.8} & \calc{72.6} & \calc{35.8} & \calc{93.5}\\
+         \bottomrule
+    \end{tabular}
+    \label{tab:flagship-table}
+\end{table*}
+\endgroup
+

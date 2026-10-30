@@ -1,0 +1,65 @@
+\begingroup
+\definecolor{myGreen}{rgb}{0.85,1,0.85}
+\definecolor{myRed}{rgb}{1,0.9,0.9}
+\begin{table*}[h]
+    \centering
+    \caption{
+    Ablation and robustness results for arithmetic reasoning datasets.
+    Chain of thought generally outperforms ablations by a large amount. ``Equation only'' performs in between standard prompting and chain of thought prompting, as it allows for intermediate reasoning steps via equations but does not leverage natural language.
+    Chain of thought prompting has variance (as expected) when used with prompts written by different annotators or when using other exemplars, but still outperforms standard prompting by a large margin.
+    Standard deviation shown is for different order of few-shot prompting exemplars, with five different random seeds.
+    Results here are shown for \lamda{} 137B, as additional queries for GPT-3 and \palm{} are both limited and expensive.
+    }
+    \begin{tabular}{l rrrr}
+        \toprule
+           & GSM8K & SVAMP & ASDiv & MAWPS \\
+          \midrule 
+          Standard prompting & \cell{6.5}{0.4} & \cell{29.5}{0.6} & \cell{40.1}{0.6} & \cell{43.2}{0.9} \\ \vspace{3mm}
+          Chain of thought prompting & \cell{14.3}{0.4} & \cell{36.7}{0.4} & \cell{46.6}{0.7} & \cell{57.9}{1.5} \\
+          \underline{Ablations} \\
+          $\cdot$ equation only & \cell{5.4}{0.2} & \cell{35.1}{0.4} & \cell{45.9}{0.6} & \cell{50.1}{1.0} \\
+          $\cdot$ variable compute only & \cell{6.4}{0.3} & \cell{28.0}{0.6} & \cell{39.4}{0.4} & \cell{41.3}{1.1} \\ \vspace{3mm}
+          $\cdot$ reasoning after answer & \cell{6.1}{0.4} & \cell{30.7}{0.9} & \cell{38.6}{0.6} & \cell{43.6}{1.0} \\
+          \underline{Robustness} \\
+          $\cdot$ different annotator (B) & \cell{15.5}{0.6} & \cell{35.2}{0.4} & \cell{46.5}{0.4} & \cell{58.2}{1.0} \\
+          $\cdot$ different annotator (C) & \cell{17.6}{1.0} & \cell{37.5}{2.0} & \cell{48.7}{0.7} & \cell{60.1}{2.0} \\
+          $\cdot$ intentionally concise style & \cell{11.1}{0.3} & \cell{38.7}{0.8} & \cell{48.0}{0.3} & \cell{59.6}{0.7} \\
+          $\cdot$ exemplars from GSM8K ($\alpha$) & \cell{12.6}{0.6} & \cell{32.8}{1.1} & \cell{44.1}{0.9} & \cell{53.9}{1.1} \\
+          $\cdot$ exemplars from GSM8K ($\beta$) & \cell{12.7}{0.5} & \cell{34.8}{1.1} & \cell{46.9}{0.6} & \cell{60.9}{0.8} \\
+          $\cdot$ exemplars from GSM8K ($\gamma$) & \cell{12.6}{0.7} & \cell{35.6}{0.5} & \cell{44.4}{2.6} & \cell{54.2}{4.7} \\
+         \bottomrule
+    \end{tabular}
+    \label{tab:ablations-arithmetic}
+\end{table*}
+\endgroup
+
+\begingroup
+\begin{table*}[h]
+    \centering
+    \caption{
+    Ablation and robustness results for four datasets in commonsense and symbolic reasoning.
+    Chain of thought generally outperforms ablations by a large amount. 
+    Chain of thought prompting has variance (as expected) when used with prompts written by different annotators or when using other exemplars, but still outperforms standard prompting by a large margin.
+    Standard deviation shown is for different order of few-shot prompting exemplars, with five different random seeds.
+    Results here are shown for \lamda{} 137B, as additional queries for GPT-3 and \palm{} are both limited and expensive.
+    The exception is that we run SayCan using \palm{} here, as the SayCan evaluation set is only 120 examples and therefore less expensive to run multiple times.
+    }
+    \begin{tabular}{l rrr rr}
+        \toprule
+          & \multicolumn{3}{c}{Commonsense} & \multicolumn{2}{c}{Symbolic} \\
+            \cmidrule(lr){2-4} \cmidrule(lr){5-6}
+          & Date & Sports & SayCan & Concat & Coin \\
+          \midrule 
+          Standard prompting & \cell{21.5}{0.6} & \cell{59.5}{3.0} & \cell{80.8}{1.8} & \cell{5.8}{0.6} & \cell{49.0}{2.1} \\ \vspace{3mm}
+          Chain of thought prompting & \cell{26.8}{2.1} & \cell{85.8}{1.8} &\cell{91.7}{1.4} & \cell{77.5}{3.8} & \cell{99.6}{0.3} \\
+          \underline{Ablations} \\
+          $\cdot$ variable compute only & \cell{21.3}{0.7} & \cell{61.6}{2.2} & \cell{74.2}{2.3} & \cell{7.2}{1.6} & \cell{50.7}{0.7} \\ \vspace{3mm}
+          $\cdot$ reasoning after answer & \cell{20.9}{1.0} & \cell{63.0}{2.0} & \cell{83.3}{0.6}& \cell{0.0}{0.0} & \cell{50.2}{0.5} \\
+          \underline{Robustness} \\
+          $\cdot$ different annotator (B) & \cell{27.4}{1.7} & \cell{75.4}{2.7} & \cell{88.3}{1.4}& \cell{76.0}{1.9} & \cell{77.5}{7.9} \\
+          $\cdot$ different annotator (C) & \cell{25.5}{2.5} & \cell{81.1}{3.6} & \cell{85.0}{1.8}& \cell{68.1}{2.2} & \cell{71.4}{11.1} \\
+         \bottomrule
+    \end{tabular}
+    \label{tab:ablations-commonsense-symbolic}
+\end{table*}
+\endgroup

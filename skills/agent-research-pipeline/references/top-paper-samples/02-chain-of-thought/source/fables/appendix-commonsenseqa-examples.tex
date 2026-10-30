@@ -1,0 +1,38 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[H]
+    \caption{
+    Examples of correct and incorrect chains of thought produced by \lamda{} 137B on CSQA.
+    }
+    \centering
+    \small
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} When a person is beginning work, what are they building? \\
+        Answer Choices: (a) time (b) accomplishing (c) working (d) momentum (e) tiredness \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} The answer must be something that is built. Of the above choices, only momentum is built. So the answer is (d). \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Where are you likely to find a hamburger? \\
+        Answer Choices: (a) fast food restaurant (b) pizza (c) ground up dead cows (d) mouth (e) cow carcus\\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} The answer must be a place where hamburgers are found. Of the above choices, only fast food restaurants serve hamburgers. So the answer is (a). \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Aside from water and nourishment what does your dog need? \\
+        Answer Choices: (a) bone (b) charm (c) petted (d) lots of attention (e) walked \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} The answer must be something that a dog needs. Of the above choices, {\color{blue} only bone is something that a dog needs.} So the answer is (a). {\color{blue} \xmark{} (Ground truth is (d).)} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} What are you waiting alongside with when you're in a reception area? \\
+        Answer Choices: (a) motel (b) chair (c) hospital (d) people (e) hotels \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} The answer must be something that is waiting with you in a reception area. Of the above choices, only people are waiting with you in a reception area. So the {\color{blue} answer is (e)}. {\color{blue} \xmark{} (Ground truth is (d).)} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-commonsenseqa-examples}
+\end{table}
+\endgroup

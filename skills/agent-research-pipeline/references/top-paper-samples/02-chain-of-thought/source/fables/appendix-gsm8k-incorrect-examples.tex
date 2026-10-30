@@ -1,0 +1,35 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[h]
+    \caption{
+    Example of incorrect chains of thought, categorized as described in \cref{subsec:incorrect-chain-of-thought-analysis}.
+    }
+    \centering
+    \small
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are there total? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(incorrect; calculator error only)}:}} Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. So {\color{blue}3 x 25 x 8 = 300}. The answer is 300. \color{blue}{\xmark} \\
+        \vspace{-1mm}
+        \textbf{\textsc{Explanation for Error Category:}} The produced chain of thought could be made correct just by running the equation through an external calculator, instead of asking the model to do the computation. \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Jill gets paid \$20 per hour to teach and \$30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(incorrect; symbol mapping error)}:}} Jill gets paid 20 dollars per hour to teach and 30 dollars per hour to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, then she works 50 x 35 = 1750 hours as a teacher and {\color{blue}15 x 30} = 450 hours as a coach. So she works 1750 + 450 = 2200 hours. She gets paid 20 dollars per hour for 1750 hours and 30 dollars per hour for 450 hours. So her annual salary is 20 x 1750 + 30 x 450 = \$36,500. The answer is \$36,500.   \color{blue}{\xmark} \\
+        \vspace{-1mm}
+        \textbf{\textsc{Explanation for Error Category:}} The model incorrectly mapped ``15 x 30'' instead of ``15 x 50'', and the chain of thought would be made correct by fixing just that one change (with an external calculator). \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Kelian has two recipes for preparing dishes, one having 20 instructions and the second one having twice as many instructions as the first one. How many instructions does Kelian have to read to prepare the two dishes? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(incorrect; one step missing error)}:}} Kelian has two recipes. One has 20 instructions. The other has twice as many instructions as the first one. So the second one has 40 instructions. So Kelian has to read 40 instructions to prepare the two dishes. The answer is 40.   \color{blue}{\xmark} \\
+        \vspace{-1mm}
+        \textbf{\textsc{Explanation for Error Category:}} The model answer could be made correct just adding one additional step (in this case, adding 20 and 40). \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-gsm8k-incorrect-examples}
+\end{table}
+\endgroup

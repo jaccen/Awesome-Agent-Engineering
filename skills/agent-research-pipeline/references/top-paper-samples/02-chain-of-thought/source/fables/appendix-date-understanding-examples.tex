@@ -1,0 +1,34 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[h]
+    \caption{
+    Examples of correct and incorrect chains of thought produced by \lamda{} 137B on Date Understanding.
+    }
+    \centering
+    \small
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date a month ago in MM/DD/YYYY? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} May 6, 1992 is ten years ago, so today is May 6, 2002. So a month ago will be April 6, 2002. So the answer is 04/06/2002. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} This is the last day of 1899. What is the date 24 hours later in MM/DD/YYYY? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} Today is 12/31/1899. 24 hours later will be 01/01/1900. So the answer is 01/01/1900. \color{darkGreen}{\checkmark} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} Tomorrow is 7/9/1972. {\color{blue} One week ago from today is 7/2/1972.} So the answer is 7/2/1972. {\color{blue} \xmark{} (Ground truth is 07/01/1972.)} \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date tomorrow in MM/DD/YYYY? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} {\color{blue} Today is 02/29/2020.} Tomorrow will be 03/01/2020. So the answer is 03/01/2020. {\color{blue} \xmark{} (Ground truth is ``02/03/2020''.)} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-date-understanding-examples}
+\end{table}
+\endgroup

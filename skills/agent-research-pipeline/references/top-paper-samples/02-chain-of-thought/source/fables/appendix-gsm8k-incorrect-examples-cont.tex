@@ -1,0 +1,29 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[ht]
+    \caption{
+    Example of incorrect chains of thought, categorized as described in \cref{subsec:incorrect-chain-of-thought-analysis}. These chains of thought had multiple mistakes that could not be fixed with minor edits.
+    }
+    \vspace{1mm}
+    \centering
+    \small
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gretchen have? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(incorrect; semantic understanding error)}:}} Gretchen has 110 coins. There are 30 more gold coins than silver coins. So there are 110 - 30 = 80 silver coins. So there are 80 silver coins and 110 - 80 = 30 gold coins. The answer is 30. \color{blue}{\xmark} \\
+        \vspace{-1mm}
+        \textbf{\textsc{Explanation for Error Category:}} The model does not understand that 110 coins are in total and that it must solve an equation to get the number of gold and silver coins. \\
+        \midrule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} In a dance class of 20 students, 20\% enrolled in contemporary dance, 25\% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(incorrect; incoherent chain of thought error)}:}} 20\% of the students enrolled in contemporary dance. 25\% of the remaining students enrolled in jazz dance. The rest enrolled in hip-hop dance. So {\color{blue}the percentage of the entire students enrolled in hip-hop dance is the percentage of the students enrolled in hip-hop dance, minus} the percentage of the students enrolled in contemporary dance, minus the percentage of the students enrolled in jazz dance. So the percentage of the entire students enrolled in hip-hop dance is (25 + 20) - (25 + 20) = 100\%. The answer is 100\%.  \color{blue}{\xmark} \\
+        \vspace{-1mm}
+        \textbf{\textsc{Explanation for Error Category:}} This chain of thought is incoherent in that the percent of entire students enrolled in hip-hope dance cannot be the percent of student enrolled in hip-hop dance minus another term. \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-gsm8k-incorrect-examples-cont}
+\end{table}
+\endgroup

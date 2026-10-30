@@ -1,0 +1,31 @@
+\definecolor{darkGreen}{rgb}{0.2,0.5,0.2}
+\begingroup
+\begin{table}[h]
+    \centering
+    \small
+    \caption{
+    Examples of correct and incorrect chains of thought produced by \palm{} 540B on SayCan robot planning tasks.
+    }
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \vspace{-2mm}
+        \textbf{\textsc{Question:}} I spilled my coke on the table, could you throw it away and then bring me something to help clean? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} Explanation: The user has spilled their coke on the table. I will throw away the coke and then bring the user a sponge. Plan: find(coke), pick(coke), find(trash), put(coke), find(sponge), pick(sponge), find(table), put(sponge). \color{darkGreen}{\checkmark} \\
+        \midrule
+        \textbf{\textsc{Question:}} Could you compost that apple for me? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{darkGreen}{(CORRECT)}:}} Explanation: The user would like me to compost the apple. I will move the apple to the compost.  Plan: find(apple), pick(apple), find(trash), put(apple). \color{darkGreen}{\checkmark} \\
+        \midrule
+        \textbf{\textsc{Question:}} Can you bring me a drink that is not coke? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} Explanation: The user asked me to bring a drink that is not coke, I will bring a sprite. Plan: find(sprite), pick(sprite), find(user), put(sprite). {\color{blue} \xmark{} (Feasible answers including finding lime soda, pepsi, grapefruit soda or water, because there is no sprite in the scene as defined in Table \ref{tab:appendix-saycan-prompt}.)} \\
+        \midrule
+        \textbf{\textsc{Question:}} Can you bring me something salty? \\
+        \vspace{-1mm}
+        \textbf{\textsc{Model Answer \color{blue}{(INCORRECT)}:}} Explanation: The user would like something salty. There are several options in the objects list, so I will bring the user a lime soda.  Plan: find(lime soda), pick(lime soda), find(user), put(lime soda). {\color{blue} \xmark{} (Feasible answers including finding chips. The model misidentify lime soda as salty.)} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:appendix-saycan-examples}
+\end{table}
+\endgroup
