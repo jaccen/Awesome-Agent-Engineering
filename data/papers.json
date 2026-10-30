@@ -1,446 +1,1037 @@
 {
-  "count": 1015,
+  "count": 1039,
   "papers": [
-{
-  "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37666",
-  "verification": "verified",
-  "categories": [
-    "Embodied AI"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37666"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37666",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37657",
-  "verification": "verified",
-  "categories": [
-    "Safety & Alignment"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37657"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37657",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37648",
-  "verification": "verified",
-  "categories": [
-    "Tool Use"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37648"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37648",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "Understanding the limits of latent world models",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37588",
-  "verification": "verified",
-  "categories": [
-    "World Models & Simulation"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37588"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37588",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37518",
-  "verification": "verified",
-  "categories": [
-    "Embodied AI"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37518"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37518",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37482",
-  "verification": "verified",
-  "categories": [
-    "Web/GUI Agent"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37482"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37482",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37471",
-  "verification": "verified",
-  "categories": [
-    "Tool Use"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37471"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37471",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "FeatureArc: Benchmarking Coding Agents on Evolving Features",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37434",
-  "verification": "verified",
-  "categories": [
-    "Evaluation & Benchmarks"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37434"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37434",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37381",
-  "verification": "verified",
-  "categories": [
-    "Embodied AI"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37381"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37381",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37378",
-  "verification": "verified",
-  "categories": [
-    "Safety & Alignment"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37378"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37378",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "Hidden in Plain Sight: an Empirical Study about The Instruction Stacks of Coding Agents",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37332",
-  "verification": "verified",
-  "categories": [
-    "Code Agent"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37332"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37332",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "Spine: Compiling Subtask Trees into Structured Context for Long-Horizon Coding Agents",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.37224",
-  "verification": "verified",
-  "categories": [
-    "Code Agent"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.37224"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.37224",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "DocSkill: Skill-Integrated Agentic Reasoning for Multilingual Multi-Hop Document Question Answering",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.36759",
-  "verification": "verified",
-  "categories": [
-    "Knowledge & RAG"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.36759"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.36759",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.36652",
-  "verification": "verified",
-  "categories": [
-    "Memory Systems"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.36652"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.36652",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "InfraDev: Can Coding Agents Develop AI Infrastructure, and How Can We Tell?",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.36589",
-  "verification": "verified",
-  "categories": [
-    "Evaluation & Benchmarks"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.36589"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.36589",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "CASEL: Consequence-Aware Selective Execution for Reliable Long-Horizon Tool-Using Agents",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.36570",
-  "verification": "verified",
-  "categories": [
-    "Safety & Alignment"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.36570"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.36570",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "CoHARL: Co-Evolving Agent Policies and Executable Harnesses with Reinforcement Learning",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.36469",
-  "verification": "verified",
-  "categories": [
-    "Self-Evolution & Learning"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.36469"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.36469",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.36444",
-  "verification": "verified",
-  "categories": [
-    "Knowledge & RAG"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.36444"
-  ],
-  "featured": false,
-  "published": "2026-10-27",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.36444",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "Your Wish Is My Commit: Over-Compliant Refactoring in AI Coding Agents",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.36346",
-  "verification": "verified",
-  "categories": [
-    "Code Agent"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.36346"
-  ],
-  "featured": false,
-  "published": "2026-10-26",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.36346",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
-{
-  "title": "The Inbox as a Coordination Primitive for LLM Agent Societies",
-  "venue": "arXiv 2026-10",
-  "arxiv_id": "2610.36264",
-  "verification": "verified",
-  "categories": [
-    "Multi-Agent Systems"
-  ],
-  "sources": [
-    "https://arxiv.org/abs/2610.36264"
-  ],
-  "featured": false,
-  "published": "2026-10-26",
-  "publication_type": "preprint",
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
-    "source_url": "https://arxiv.org/abs/2610.36264",
-    "status": "official-metadata-and-scope-reviewed",
-    "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
-  }
-},
+    {
+      "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+      "abstract": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and therefore does not scale. To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simulations. Our core insight is that simulation creation is a coding agent task, so improvements in coding agents translate directly into richer and more faithful simulations. We select simulations based on U.S. GDP data to cover economically valuable physical work, define what makes a good simulation and a good task, and develop an adversarial creation-audit loop that checks each simulation and task against these definitions. Using this pipeline, we build RoboWorld, a set of 25 simulations with 25 test and 175 training RL environments of varying difficulty. Even the best frontier models fail on every RoboWorld test task, achieving an average reward of only 0.06. Building on RoboWorld, we introduce several new ways for frontier models to improve, including in-context learning across repeated attempts, a privileged teacher that reads the simulator state and teaches a student in context, self-assisted learning from the model's own privileged experience, and code policies that generate demonstrations across varied scenes to train vision-language-action models (VLAs) such as $π_{0.5}$. Each of these substantially improves performance. We release our pipeline, RL environments, and benchmark to facilitate future research. Code and data are available at https://gym-anything.github.io/robotics",
+      "summary_zh": "提出可扩展的物理仿真平台 Gym-Anything，覆盖更广的真实任务与物理现象，支持具身 AI 模型大规模训练并向真实世界迁移。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.40565",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.40565"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.40565",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors",
+      "abstract": "We introduce Continuous-Action World Models (CoAWM), a framework for learning cross-embodiment spatiotemporal dynamics priors that support robot action generation across embodiments and execution frequencies. At its core is a shared latent function space that captures the spatial and temporal structure of robot actions. We learn this space through two stages. First, function pretraining brings trajectories from different embodiments and sampling frequencies into a common representation, learning shared dynamics priors through action reconstruction and consistency across temporal sampling views. By accommodating heterogeneous robot trajectories, this stage broadens the range of data sources available for pretraining and facilitates scaling to larger and more diverse datasets. Second, we connect the pretrained function space to a world-model backbone, enabling observations, language instructions, and the current robot state to condition the prediction of a latent action function. A single decoder takes any query time and returns the corresponding end-effector action. By separating shared dynamics priors from task-conditioned action selection and temporal sampling, our approach provides a unified foundation for transferring robot experience across embodiments and control frequencies.",
+      "summary_zh": "提出连续动作世界模型 CoAWM，学习跨本体时空动力学先验，支持不同本体和执行频率的机器人动作生成。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.40401",
+      "verification": "verified",
+      "categories": [
+        "World Models & Simulation"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.40401"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.40401",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+      "abstract": "Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to enhance the understanding of environmental dynamics and task progression. However, existing methods often model short-term dynamics and long-term task objectives separately, while directly incorporating predicted futures into action policies without sufficiently considering their relevance to current action requirements. To address these limitations, we propose HiFOR, a hierarchical foresight framework with action-guided world retrieval. Specifically, Hierarchical Foresight Prediction jointly predicts short-term state evolution, semantic milestones, and final goal states through a Hierarchical Dependency Mask (HDM), establishing dependencies across temporal horizons. Building upon these predictions, Structure-Aware Latent World Modeling organizes future latent representations along the horizon, view, and spatial dimensions to facilitate fine-grained retrieval. Furthermore, Action-Guided Factorized World Retrieval adaptively retrieves relevant future information from the structured latent world based on evolving action representations during denoising, providing targeted guidance for action generation. Extensive experiments on two simulation benchmarks and six real-world robotic manipulation tasks demonstrate the effectiveness of our approach.",
+      "summary_zh": "提出 HiFOR，将动作引导的未来预测融入 VLA 模型，通过层级前瞻增强环境理解与操作能力。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.40373",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI",
+        "World Models & Simulation"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.40373"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.40373",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "PRIME W0: Physical Priors from World Models for Embodied Manipulation",
+      "abstract": "Vision-Language-Action (VLA) models excel at instruction following, yet most remain feed-forward: they condition actions only on the current observation and discard both long-horizon temporal context and the hierarchical structure of VLM representations. We present PRIME W0, a hierarchical conditional flow-matching framework that closes this gap through three synergistic designs: (1)per-layer KV injection from a pretrained VLM into an Adaptive MoE action expert; (2)dynamics-aware conditioning via asynchronous world-model subgoal-image prediction and a DINOv2 historical-frame semantic bridge; and (3)Action Dynamic Manifold (ADM) flow matching with covariance-structured noise that respects robot kinematic coupling. PRIME W0 is trained in four stages---VLM pre-training, DAT/NTP visuomotor pre-training, DiT flow-matching decoder assembly with WM injection, and end-to-end SFT---and achieves state-of-the-art results on LIBERO and real-robot benchmarks, with systematic ablations validating each architectural component.",
+      "summary_zh": "提出 PRIME W0，利用世界模型中的物理先验和 VLM 的层级表征，为具身操作引入长时程时序上下文。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.39528",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI",
+        "World Models & Simulation"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.39528"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.39528",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Predict the Reward, Not the World: World Reward Models for ML Agents",
+      "abstract": "Search-based machine-learning (ML) agents improve a solution by writing candidate programs, executing them, and keeping the best. Execution gives the search reliable feedback, but a single run can take hours, and most runs end in programs the agent discards. Recent agents try to save these runs by letting a large language model act as a world model that predicts how each program would perform. However, a wrong prediction feeds the search false information. We argue that an agent does not need to predict the outcome of execution, only the decision that execution would support. We propose World Reward Models (WRMs), which learn from real execution results to choose directly which candidate will perform better, without predicting any intermediate outcome. We prove that a selector which predicts execution from the same inputs cannot outperform the best direct selector, that predicted outcomes add an error which can make a likelihood-trained world model prefer the worse program on every instance, and that cross-entropy on executed winners drives a WRM toward the optimum. Our WRM, ForeCritic, adapts a 9B typed decision model to 5k executed program pairs. On 12,438 held-out pairs from 26 ML tasks, it picks the better program 79.4% of the time, while general-purpose LLM judges reach 53--62%, and its probabilities are calibrated. Inside AIDE, ML-Master, and ForeAgent, it cuts mean task time by 4.4--7.5 times while keeping their mean scores within 0.01 or raising them.",
+      "summary_zh": "提出世界奖励模型，让搜索型 ML agent 预测奖励而非完整世界状态，减少昂贵的程序执行开销。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.38439",
+      "verification": "verified",
+      "categories": [
+        "World Models & Simulation"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.38439"
+      ],
+      "featured": false,
+      "published": "2026-10-28",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.38439",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model",
+      "abstract": "AI research agents can propose, execute, and improve programs that solve machine learning tasks. However, executing each candidate program requires training and evaluating ML models, limiting how many candidates an agent can explore at each step. We introduce MLE-World, a world model finetuned from Qwen3.5-4B that predicts a program's terminal output (error traces, training logs, and validation scores) from its code and data description without executing it, together with a confidence score estimating the prediction's correctness. Because a prediction costs one inference call rather than a training run, MLE-World makes test time scaling (TTS) affordable for these agents. We build five TTS policies, guided by MLE-World, that compare several candidates per step by their predicted outputs: Sequential revision, Best-of-N, Pairwise judging, Fusion, and a UCB style rule that also adds an exploration bonus from this confidence score. Since predictions can be wrong, we run a candidate for real only when its confidence score is low. On 17 MLE-bench Lite tasks, MLE-World matches the real terminal output on 77.9% of held out programs, versus 41.1% for much larger prompted models. MLE-World guided TTS achieves up to 22.1% higher observed mean performance than the agent without a world model, with less real execution. Project webpage: https://mle-world.github.io/.",
+      "summary_zh": "提出 MLE-World，用学习到的世界模型预测机器学习实验结果，使 AI 研究 agent 在每步探索更多候选方案。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37175",
+      "verification": "verified",
+      "categories": [
+        "World Models & Simulation"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37175"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37175",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation",
+      "abstract": "Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks. When a system also revises and reuses its data-acquisition, feedback, or learning procedures, experience changes the process that produces capability, introducing recursive self-improvement. This paper surveys research in physical AI through the connection between persistent capability and its improvement process. We first explain the functional distinction between learner updates and improvers, then compare policy learning, imagined experience, memory and skill accumulation, and executable harnesses. These approaches connect to revisions of curricula, rewards, and research programs in different ways. Contact validity, recovery, retention, and resource costs determine whether the resulting gains accumulate during continued deployment. An L0-L3 rubric distinguishes task-local adaptation, persistent capability gain, inherited process revision, and verified improver gain. Representative benchmarks and within-study contrasts relate these distinctions to existing results. We further propose common-data and interactive comparisons that evaluate reference and revised improvers from shared learner starts, separating the use of experience from its acquisition. This perspective connects the diverse methods, physical operating conditions, and evaluation evidence, underpinning embodied RSI. A comprehensive list of studies in this survey is available at https://github.com/nkd-lkz/physical-ai-rsi-survey.",
+      "summary_zh": "系统梳理物理 AI 中递归自我改进的机制、证据与评测方法，涵盖策略、世界模型、技能与数据获取程序的协同更新。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.38266",
+      "verification": "verified",
+      "categories": [
+        "Self-Evolution & Learning",
+        "Embodied AI"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.38266"
+      ],
+      "featured": false,
+      "published": "2026-10-28",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.38266",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "EpiAgent: Epistemic Self-Play for LLM Agents",
+      "abstract": "Epistemic game theory explains an agent's strategic behavior via the beliefs it holds about others and how these beliefs are updated as the interactions unfold. Modern LLM-based agents, however, often lack an explicit mechanism for learning and updating such beliefs to guide decisions under incomplete information. To bridge this gap, we propose EpiAgent, a framework that equips LLM-based agents with an explicit, learnable epistemic layer, which maintains beliefs over others' private information and combines these beliefs with the agent's available information into an epistemic state for action selection. Concretely, the agent's policy is decomposed into two coupled stages: Epistemic Update, which updates these beliefs from interaction histories, and Action Planning, which selects actions conditioned on the updated epistemic state. By formulating their dependency as a bi-level optimization problem, we introduce Epistemic Self-Play, an algorithm that alternately optimizes the two stages through self-play, utilizing an intrinsic prediction reward to evaluate how well inferred beliefs predict subsequent observations. Empirical results across both mixed and competitive scenarios show that EpiAgent consistently outperforms prompting-based and RL-based baselines. Further analyses reveal the benefits of dedicated epistemic training, improvements in belief inference accuracy, and the contribution of learned beliefs to action planning. These results demonstrate the value of an explicit, learnable epistemic layer for effective multi-agent interactions.",
+      "summary_zh": "提出 EpiAgent，将认知博弈论引入 LLM agent，使其显式学习和更新对他人的信念以指导决策。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.40227",
+      "verification": "verified",
+      "categories": [
+        "Multi-Agent Systems"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.40227"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.40227",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "EvoTeam: Multi-Agent Collaboration via Evolving Teams",
+      "abstract": "LLM-based multi-agent systems (MAS) rely on collaboration among specialized agents to solve complex tasks. Existing methods improve MAS by refining the prompts, skills, and execution strategies of individual agents based on task feedback. However, improving individual agents does not necessarily lead to better team collaboration. Recent studies have therefore extended evolution to the collaboration level, using collective execution experience to adjust team organization, and inter-agent interactions. Nevertheless, evolving collaboration across heterogeneous tasks remains challenging, as existing approaches often constrain team reorganization within a shared structure and reuse interaction rules across incompatible team contexts. In this paper, we propose EvoTeam, a collaboration-centric evolution framework that jointly evolves team organization, interaction rules, and individual agent skills through execution experience. It maintains a library of reusable teams, selecting or creating agent teams and guiding collaboration through team-specific interaction rules. Collaboration experience accumulates within compatible team contexts, while individual skills remain reusable across teams. Experiments across four benchmarks demonstrate its effectiveness. Our code is available at https://github.com/DEEP-JLU/EvoTeam.",
+      "summary_zh": "提出 EvoTeam，让多智能体团队结构本身随任务反馈进化，而非仅优化单个 agent 的提示和技能。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.39813",
+      "verification": "verified",
+      "categories": [
+        "Multi-Agent Systems"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.39813"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.39813",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Locating and Closing Information Gaps in Multi-Agent Systems",
+      "abstract": "Multi-step Web tasks often require several LLM agents to gather and combine evidence. The communication graph of a fixed workflow restricts which agents can read each other's outputs: evidence retrieved by one agent may never reach the agent that needs it, leaving an information gap and an incomplete or incorrect answer. Adding a connection can deliver the missing evidence, but can also lead the receiver to adopt an incorrect upstream conclusion that displaces a correct answer; the final output alone does not separate the two. We propose Selective Probing and Link Insertion for Closing information gaps in multi-agent Execution (SPLICE), which locates information gaps per query and decides what to adopt after adding an edge. After the original workflow runs, SPLICE uses the query and node outputs to locate a possible gap, adds one directed edge from a source to a receiver to deliver the relevant evidence, and re-executes the receiver and affected downstream nodes, producing a candidate answer. The adoption decision reads both the final answers of the two runs and the process changes the edit caused inside the workflow: how far the receiver moved, where its new content came from, and whether the change reached the final answer. A selector trained on these process features chooses between adopting the candidate answer and retaining the original. On five benchmarks, SPLICE raises the task score on Web tool use by 8.0% and the mean score on four reasoning and planning benchmarks by 5.7% relative to the static skeleton, at 1.25 to 1.44$\\times$ the skeleton's cost, and transfers zero-shot to four unseen backbones.",
+      "summary_zh": "研究多智能体系统中固定通信图导致的信息缺口问题，提出定位并闭合信息缺口的方法。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.40186",
+      "verification": "verified",
+      "categories": [
+        "Multi-Agent Systems"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.40186"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.40186",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Goal-Aware Dynamic Multi-Agent Collaboration for Long-Horizon Tasks",
+      "abstract": "LLM-based agents are increasingly used to complete complex, long-horizon tasks without human intervention. To make progress toward the task goal, agents need to perform different duties, such as planning and verification, when needed. To understand how single agents manage these duties during long-horizon execution, we conduct a preliminary study. Our analysis shows that verification has the strongest association with task success, but often occurs late, leaving limited opportunities for correction. We also find that the proportion of duty-relevant information decreases as records from different duties accumulate in a shared context. These findings lead us to examine whether multi-agent systems (MAS) can address these problems by assigning duties to agents with separate contexts. Our analysis shows that this separation alone is insufficient. Agents can lose track of the overall goal and repeat prior investigations. They may also lack necessary background while receiving irrelevant information from others. To maintain goal awareness and coordinate collaboration as task needs change, we propose Goal-Aware Dynamic Multi-Agent Collaboration (GAD). It uses a growing execution graph to organize subtasks and their dependencies. To keep agents focused on their goals, each context retains the original instruction and the assigned task's goal and acceptance conditions. To adapt collaboration and information sharing during execution, agents can divide tasks into subtasks and specify dependencies based on execution evidence. These dependencies guide when agents work and which results they receive. Verification and recovery check subtask results and full task completion against their goals, providing feedback for repair when checks fail.",
+      "summary_zh": "提出目标感知的动态多智能体协作框架，让 agent 在长程任务中按需承担规划与验证等不同职责。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.39193",
+      "verification": "verified",
+      "categories": [
+        "Multi-Agent Systems",
+        "Planning"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.39193"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.39193",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Auditable Belief Updates as a Missing Safety Layer for LLM-Powered Multi-Agent Systems",
+      "abstract": "Large Language Models (LLMs) are increasingly being used as cognitive interfaces that shape how users interpret evidence, communicate, and make decisions. As deployed systems become more multimodal, tool-using, and multi-agent, safety failures no longer arise only from isolated harmful outputs, but also from how agents update, store, and propagate epistemic commitments across retrieval, memory, tools, and peer communication. In this paper, we define belief as an engineering abstraction for evidence-based commitments that guide downstream action. Building on this view, we propose the Explicit Belief Multi-Agent System (EB-MAS), which externalizes belief states into a structured substrate, uses belief operators to propose candidate updates, and applies a Cognitive Firewall to bound or reject updates that are weakly evidenced but strongly driven by vulnerability cues. We also discuss the risk of group belief at the group level, including manufactured consensus, collusion, and cascading misinformation, and outline practical integration challenges around grounding, false positives, scalability, and ethical misuse. Therefore, scalable agent safety requires not only better output filtering or stronger base models, but also explicit interfaces for tracing, calibrating, and constraining belief revision at runtime.",
+      "summary_zh": "提出将可审计的信念更新作为 LLM 多智能体系统缺失的安全层，应对多模态、工具使用场景下的安全失效。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.38869",
+      "verification": "verified",
+      "categories": [
+        "Safety & Alignment",
+        "Multi-Agent Systems"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.38869"
+      ],
+      "featured": false,
+      "published": "2026-10-28",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.38869",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Where You Inject Matters: The Trust Region Effect in LLM Agents",
+      "abstract": "LLM agents are increasingly adopted in long-horizon tasks and interact with diverse external environments. Despite their growing capabilities, these agents remain vulnerable to real-world attacks such as indirect prompt injections, which manipulate agents through malicious instructions embedded in external environments. While existing risk assessment work has primarily focused on the injection content, the effect of where an injection appears has not been systematically characterized. Studying injection placement requires agents to operate over longer-horizon tasks and interact with diverse environmental surfaces. Thus, we build three agentic testbeds spanning tool use, coding, and daily workflow domains with diverse injection surfaces. Holding the injection content fixed, we find that agent susceptibility varies across injection placements. We refer to this phenomenon as the trust region effect: agents implicitly assign different levels of trust to different regions of their environments. For example, an agent powered by GPT-5.4 follows an unsafe injection instruction placed in a repository documentation file (i.e., a README or TODO file) 2.6 times more often on average than the same instruction placed in a code or data file. Building upon this observation, we develop learning-based attackers that generate injection content and select better injection placements. Our approach demonstrates that both where an injection is placed and what content it contains can affect the strength of indirect prompt injection attacks. To the best of our knowledge, this work provides the first systematic characterization for the effectiveness of different injection placements, spanning both coarse-grained environmental surfaces and fine-grained positions. The uneven trust that agents implicitly place across their environments provides important insights for future attack and defense design.",
+      "summary_zh": "研究间接提示注入对 LLM agent 的攻击效果与注入位置的关系，发现存在信任区域效应。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.38867",
+      "verification": "verified",
+      "categories": [
+        "Safety & Alignment",
+        "Tool Use"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.38867"
+      ],
+      "featured": false,
+      "published": "2026-10-28",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.38867",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success",
+      "abstract": "Tool-use benchmarks often score agents by final task success, but terminal outcomes can obscure whether the intermediate tool-call trajectory was executable. We propose prefix executability as a trajectory-level evaluation protocol for tool-using agents. The protocol measures whether every prefix of a predicted tool-call sequence remains executable under tool schemas, state preconditions, and data dependencies, and summarizes reliability using Prefix Executability Curves (PEC), First-Error Depth (FED), Trajectory Executability Rate (TER), horizon-normalized AUC-PEC, and Recovery Rate (RR). We instantiate the protocol on stratified samples from BFCL-v3 multi-turn and ToolSandbox, and on the complete Airline/Retail base splits of $τ^3$-bench. We observe that outcome-only and prefix-level rankings diverge: agents whose execution is conditioned on an unverified plan often achieve higher point-estimate final success than non-plan-conditioned baselines while substantially lowering TER and AUC-PEC. These divergences are precisely the failure modes that prefix executability is designed to expose: they reveal whether apparent success rests on an executable trajectory, where invalidity first enters, and whether success follows recovery from an earlier failure. As a validation intervention, explicit pre-execution plan checking can improve executable-prefix survival while maintaining competitive terminal success. These results show that final success alone is insufficient for evaluating tool-use agents and that prefix-level executability provides an actionable reliability signal for comparing agents, diagnosing failures, and assessing validation mechanisms.",
+      "summary_zh": "提出前缀可执行性评估协议，在最终成功之外衡量工具使用 agent 中间工具调用轨迹是否可执行。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.40444",
+      "verification": "verified",
+      "categories": [
+        "Evaluation & Benchmarks",
+        "Tool Use"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.40444"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.40444",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "DynaRev: Benchmarking Web Agents under Dynamic Goal Revision",
+      "abstract": "Web agents are typically evaluated with goals fully specified before execution and fixed thereafter, whereas real users often revise their requirements during interaction. To study such interactions, we introduce DynaRev, a benchmark of 181 tasks to evaluate web agents under dynamic goal revision. DynaRev uses semantic milestones to deliver revisions at task-defined stages, covers additive revisions, unconditional overrides, and runtime-conditioned overrides, and evaluates correctness, responsiveness, and efficiency through trajectory-grounded evaluation. Five-model evaluations show that agents often satisfy only part of the task requirements, with performance varying across task sources, revision types, and models. Further analyses reveal varied milestone timing, mixed effects of dynamic delivery, and contrasting revision-handling outcomes, with gains from instruction rewriting while preserving browser state and losses from browser resets. DynaRev provides a testbed for studying how web agents adapt to evolving user goals. The code and data are available at https://github.com/zsq259/DynaRev.",
+      "summary_zh": "提出 DynaRev 基准（181 任务），评估 web agent 在用户交互过程中动态修改需求时的表现。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.40133",
+      "verification": "verified",
+      "categories": [
+        "Web/GUI Agent",
+        "Evaluation & Benchmarks"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.40133"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.40133",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "AgentHeal: Evaluating Goal-Preserving Resource Recovery of Web Agents under Access Barriers",
+      "abstract": "Large language model (LLM) agents have demonstrated strong capabilities in automating complex information-seeking and transactional tasks across the open web. However, their real-world reliability remains limited by access barriers, such as dead links, authentication walls, rate limits, and anti-scraping defenses. These barriers block the primary execution path, causing agents to abort prematurely, loop indefinitely, or quietly compromise the user's original constraints. Existing evaluations either implicitly assume that target resources are freely accessible or focus on transient perturbations that simple retries can resolve, failing to capture scenarios where agents must actively reroute around impassable bottlenecks. To bridge this gap, this paper introduces AgentHeal, a comprehensive benchmark evaluating goal-preserving resource recovery, defined as the ability of web agents to detect non-transient access barriers, pivot to legitimate alternative sources, and fulfill the user's exact original objective. Spanning nine barrier families across a counterfactual sandbox and real-website replay, our experiments on leading LLM backbones show that average task success drops sharply from 89.4% to 43.7% under access barriers. Further analysis reveals that agents frequently fall for deceptive look-alikes, fail to escalate to users when necessary, violate access policies, or waste computation on futile retries, providing actionable diagnostics for developing resilient web agents.",
+      "summary_zh": "提出 AgentHeal，评估 web agent 面对死链、认证墙、限流等访问障碍时的目标保持与资源恢复能力。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.39234",
+      "verification": "verified",
+      "categories": [
+        "Web/GUI Agent",
+        "Evaluation & Benchmarks"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.39234"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.39234",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "When Relevant Code Is Wrong: Runtime-Aware Context for AI Coding Agents",
+      "abstract": "AI coding agents increasingly rely on retrieved code and development history to guide software changes. However, highly relevant artifacts may describe implementations that are inactive or incompatible with the target deployment. Neither semantic similarity nor recency establishes whether retrieved information remains applicable under feature flags, architectural migrations, and deployment-specific configurations. We challenge relevance-oriented retrieval by introducing operational context validity, a task-, deployment-, and time-dependent criterion for determining whether software evidence can legitimately guide implementation decisions. We instantiate this new retrieval principle in CASE, an agent-agnostic framework that connects repository artifacts with runtime configurations and architectural evolution, classifies evidence as valid, invalid, or unknown, and generates context packages distinguishing actionable guidance from historical rationale and unresolved constraints. We investigate its feasibility through a reproducible preliminary evaluation involving six development tasks, 15 artifacts, and three deployments. Conventional retrieval exposes 16 incompatible artifact occurrences as actionable, whereas CASE excludes them while retaining all applicable artifacts under the prototype's reference rules. Recency filtering reduces valid recall to 0.43, while removing feature-flag evidence from CASE reduces it to 0.13. Although these results demonstrate feasibility rather than improvements in coding-agent correctness, they reveal limitations of relevance-based retrieval and motivate a new research direction: enabling coding agents to reason not only about which information is relevant, but also whether it remains operationally valid.",
+      "summary_zh": "研究 AI 编码 agent 中\"相关但错误\"的代码问题，提出运行时感知上下文来过滤不兼容的检索结果。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.38800",
+      "verification": "verified",
+      "categories": [
+        "Code Agent"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.38800"
+      ],
+      "featured": false,
+      "published": "2026-10-28",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.38800",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Think Before You Act: Decision Gate for LLM Agents",
+      "abstract": "LLM agents increasingly perform consequential actions through external tools, yet their proposed actions are often executed without independent verification of policy compliance or task completion. We introduce JevAct, a runtime verification framework that intercepts selected agent actions before execution and enables feedback-driven correction. JevAct compiles domain policies into executable state checks and structured questions evaluated by a prefill-only decision model, which produces probability-based judgments without relying on LLM generation. By combining deterministic verification of tool-state facts with probabilistic assessment of conversational context, the framework identifies potentially invalid actions and premature task termination, providing targeted feedback for bounded revision. JevAct operates independently of the underlying agent model and requires no modifications to its parameters or tools. We evaluate JevAct across eleven LLM agents on $τ^2$-bench Airline and Telecom tasks and BFCL. Results show improvements in agent reliability across multiple models and benchmarks, with particularly consistent gains on Telecom and BFCL, while performance on Airline is more mixed. Overall, these findings suggest that combining structured decision models with executable verification can improve the reliability of tool-using LLM agents.",
+      "summary_zh": "提出 JevAct 运行时验证框架，在 agent 执行外部工具前拦截并独立校验策略合规性与任务完成度。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.38620",
+      "verification": "verified",
+      "categories": [
+        "Code Agent",
+        "Safety & Alignment"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.38620"
+      ],
+      "featured": false,
+      "published": "2026-10-28",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.38620",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Security Impact of Coding Agent's Memory Files",
+      "abstract": "Coding agents automatically load project memory files such as CLAUDE.md at the start of every session and treat them as trusted project guidance. Anyone who can change such a file, for example through a pull request, can therefore steer the agent without ever touching the developer's prompt. We study memory files as an attack surface for insecure code generation and ask (1) whether a malicious memory file makes agents produce code that passes its tests but is vulnerable, and (2) whether agents disclose to the developer that the file shaped their code. For each of 12 CWE classes, we crafted two malicious memory files, a qualified variant that presents removing defensive checks as engineering best practice and a forceful variant that demands it. We ran Claude Code (Sonnet 5.5) and OpenCode (Qwen 3.8 27B, DeepSeek V4.1 Flash) on 36 SecRepoBench tasks with and without these files. The malicious files changed the rate of secure completions by -8 to +6 percentage points, with no consistent pattern across agents or variants. Agents differ sharply in what they tell the developer about the file. Claude Code names it in about two thirds of its final messages, whereas OpenCode mentions it almost exclusively in its reasoning trace, not in the final message the developer reads. Flagging the file as an attack does not reliably protect the code, as such agents still generated vulnerable code. We outline the larger studies needed to quantify this risk across agents and to design defenses.",
+      "summary_zh": "揭示编码 agent 自动加载的项目记忆文件（如 CLAUDE.md）可被 PR 篡改从而隐蔽操控 agent 的安全风险。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.38521",
+      "verification": "verified",
+      "categories": [
+        "Code Agent",
+        "Safety & Alignment"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.38521"
+      ],
+      "featured": false,
+      "published": "2026-10-28",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.38521",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "MUSE: Multi-Level Memory with Selective Runtime Injection for Scientific Coding Agents",
+      "abstract": "Historical experience can guide scientific coding at multiple levels, but task-level retrieval may miss implementation lessons that become relevant during execution. We introduce MUSE, a memory management framework combining multi-level memory with selective runtime injection for scientific coding agents. MUSE builds global, approach-level, and implementation-level memory from historical trajectories. At initialization, the agent receives global memory and problem-matched approach-level memory. During execution, current interactions are used to retrieve implementation-level memory. An LLM gate selects relevant experience and generates specific review advice, or skips injection. Across four benchmarks spanning numerical problem solving, kernel optimization, and scientific software repair, MUSE outperforms retrieval and memory baselines on all evaluation metrics. Ablations support the multi-level design and gated injection, while transfer experiments show that memory remains useful across kernel benchmarks. These results show that multi-level memory and selective runtime injection enable effective reuse of experience in scientific coding. Code is available at https://github.com/hr-jin/MUSE.",
+      "summary_zh": "提出 MUSE，为科学编码 agent 设计多层记忆与选择性运行时注入框架，在任务级检索之外补充执行期经验。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.38332",
+      "verification": "verified",
+      "categories": [
+        "Memory Systems",
+        "Code Agent"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.38332"
+      ],
+      "featured": false,
+      "published": "2026-10-28",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.38332",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory",
+      "abstract": "Giving embodied agents the freedom to act autonomously, initiate interactions, and understand their surroundings through experience is a step toward bringing them to life in the physical world. Realizing this vision requires action, interaction, and memory to work together, so that each encounter can inform current decisions and contribute experience for future tasks. We present EvoLife, a unified navigation harness that enables a multimodal embodied agent to choose how to move, when to ask, and what experience to carry forward. Its hybrid action space supports waypoint navigation, local discrete adjustments, pixel-based navigation, and object-directed navigation. Active interaction allows the agent to seek clarification or assistance when it encounters ambiguity or difficulty, while persistent spatial memory binds observations and dialogue to places, retaining useful experience to guide subsequent visits. We evaluate eight benchmarks across four task families: vision-language navigation, object navigation, interactive instance navigation, and continuous multi-task navigation. With an average of only 1.87 active interactions per episode, our method achieves a first-visit success rate (SR) of 100% across four 100-episode sets spanning vision-language navigation and object navigation. Complete-sequence SR reaches 98% on 50 LHPR-VLN sequences and 94% on 50 GOAT-Bench sequences. In the R2R revisit setting, success weighted by path length (SPL) increases from 82.23% to 93.31% with retained experience. Multi-day physical navigation further demonstrates exploration, proactive help-seeking, and revisiting remembered places. Together, these results advance the vision of bringing embodied agents to life through autonomous action, proactive interaction, and the accumulation and reuse of experience.",
+      "summary_zh": "提出 Ask to Evolve，统一具身导航框架，集成混合动作空间与持久记忆，让 agent 自主行动、发起交互并积累经验。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.39446",
+      "verification": "verified",
+      "categories": [
+        "Memory Systems",
+        "Embodied AI"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.39446"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.39446",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "MRC-MMAgent: Reinforcement Learning for Multi-Role Collaboration in Multimodal Tool-Using Agents",
+      "abstract": "Multimodal tool-using agents augment vision-language models with access to external information and capabilities, enabling them to solve knowledge-intensive and visually complex tasks that cannot be addressed using visual context alone. However, existing reinforcement learning pipelines largely train single-role agents to search and answer using terminal rewards, overlooking how humans inspect retrieved evidence, reformulate queries, and revise conclusions during search. Consequently, they fail to optimize this self-corrective process over complete interaction trajectories. We propose MRC-MMAgent, a multi-role collaborative reinforcement learning framework that incorporates trajectory assessment and continuation directly into the executable agent loop. First, the framework establishes a multi-role collaborative loop that integrates solving, inspection, and continuation, enabling the agent to acquire evidence through tools, evaluate the preceding trajectory, and resume problem solving when the current answer is insufficiently supported. Second, we introduce a role-coupled learning objective that combines task success, interaction validity, and successful correction with full-trajectory policy optimization across the decisions generated by all roles. Extensive experiments show that, using only the original baseline training set without constructing additional datasets, our method consistently outperforms the corresponding base models and achieves leading or highly competitive performance across benchmarks.",
+      "summary_zh": "提出 MRC-MMAgent，用强化学习训练多模态工具使用 agent 的多角色协作能力。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.39324",
+      "verification": "verified",
+      "categories": [
+        "Tool Use"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.39324"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.39324",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search",
+      "abstract": "Reliable local search is essential for LLM agents to support everyday decisions and longer plans by finding places that meet users' needs at given times and locations. Yet existing benchmarks provide limited coverage of whether search results satisfy mandatory requirements, account for preferences, and ground factual and experiential judgments in place attributes and reviews. We introduce ATLAS-Bench, a benchmark of 1,200 queries across three regions, expanded from real search events using place attributes, reviews, and existing user profiles from the platform. Each query distinguishes mandatory requirements from preferences and factual conditions from subjective judgments, with supporting evidence and criteria for checking each requirement. Queries are validated through iterative assertion checks and cross-model review. We also introduce ATLASBox, a standardized evaluation environment with search tools and a fixed point-of-interest (POI) knowledge base. Given a query, timestamp, and location, an agent searches place attributes and reviews to recommend evidence-supported options or report that no place meets all mandatory requirements. We evaluate answer quality, trajectory quality, and execution cost. Across 14 configurations of 11 models, GPT-6-Luna achieves the highest constraint satisfaction rate among returned recommendations (71.5%) and factual accuracy (95.6%). However, it returns at least one acceptable recommendation for fewer satisfiable queries than GLM-5.3 (67.3% versus 85.3%). These results highlight the challenge of satisfying individual requirements while providing usable recommendations across queries.",
+      "summary_zh": "提出 ATLAS-Bench，评估 LLM agent 在本地区域搜索中能否满足强制性需求与时空约束。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.39438",
+      "verification": "verified",
+      "categories": [
+        "Tool Use",
+        "Evaluation & Benchmarks"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.39438"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.39438",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence",
+      "abstract": "Choosing a robot action model requires evidence about task capability, adaptation cost, deployment requirements, and the reliability of reported conclusions. Success rates alone offer limited guidance to researchers with different computing budgets and goals. We propose RoboSeed, a multidimensional evaluation framework for vision-language-action (VLA) and world-action models (WAM), within a continuing program to train, evaluate, and openly release robot models with verifiable evidence for model selection. The framework defines five dimensions: capability, downstream training affordability, deployment affordability, locally verified research value, and reproduction evidence. It maps empirical measurements and audit criteria to 0-100 profiles using fixed normalization anchors, with balanced, training-constrained, and deployment-constrained preference settings. Interface and protocol checks establish when comparisons are appropriate. Missing measurements remain explicit, incomplete aggregate scores are withheld, and weighted input coverage identifies evidence gaps. We apply the framework to representative VLA and WAM models, drawing on local training, released-weight evaluation, task-level audits, and an evaluation-system study. The results reveal budget-dependent backbone choices, sensitivity to adaptation recipes, and differences between language and visual task interfaces. Reproducible scoring code and machine-readable evidence support extension to additional models. The study provides dimension-level assessments and priorities for further measurement, while incomplete serving traces and heterogeneous protocols preclude overall numerical rankings.",
+      "summary_zh": "提出 RoboSeed，从能力、资源可负担性与研究证据可靠性三个维度评测 VLA 与世界动作模型。",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.40026",
+      "verification": "verified",
+      "categories": [
+        "Evaluation & Benchmarks",
+        "Embodied AI"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.40026"
+      ],
+      "featured": false,
+      "published": "2026-10-29",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "retrieved_at": "2026-10-30T12:58:39.672135+00:00",
+        "source_url": "https://arxiv.org/abs/2610.40026",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37666",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37666"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37666",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37657",
+      "verification": "verified",
+      "categories": [
+        "Safety & Alignment"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37657"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37657",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37648",
+      "verification": "verified",
+      "categories": [
+        "Tool Use"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37648"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37648",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Understanding the limits of latent world models",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37588",
+      "verification": "verified",
+      "categories": [
+        "World Models & Simulation"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37588"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37588",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37518",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37518"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37518",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37482",
+      "verification": "verified",
+      "categories": [
+        "Web/GUI Agent"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37482"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37482",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37471",
+      "verification": "verified",
+      "categories": [
+        "Tool Use"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37471"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37471",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "FeatureArc: Benchmarking Coding Agents on Evolving Features",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37434",
+      "verification": "verified",
+      "categories": [
+        "Evaluation & Benchmarks"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37434"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37434",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37381",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37381"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37381",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37378",
+      "verification": "verified",
+      "categories": [
+        "Safety & Alignment"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37378"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37378",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Hidden in Plain Sight: an Empirical Study about The Instruction Stacks of Coding Agents",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37332",
+      "verification": "verified",
+      "categories": [
+        "Code Agent"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37332"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37332",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Spine: Compiling Subtask Trees into Structured Context for Long-Horizon Coding Agents",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.37224",
+      "verification": "verified",
+      "categories": [
+        "Code Agent"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.37224"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.37224",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "DocSkill: Skill-Integrated Agentic Reasoning for Multilingual Multi-Hop Document Question Answering",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.36759",
+      "verification": "verified",
+      "categories": [
+        "Knowledge & RAG"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.36759"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.36759",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.36652",
+      "verification": "verified",
+      "categories": [
+        "Memory Systems"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.36652"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.36652",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "InfraDev: Can Coding Agents Develop AI Infrastructure, and How Can We Tell?",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.36589",
+      "verification": "verified",
+      "categories": [
+        "Evaluation & Benchmarks"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.36589"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.36589",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "CASEL: Consequence-Aware Selective Execution for Reliable Long-Horizon Tool-Using Agents",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.36570",
+      "verification": "verified",
+      "categories": [
+        "Safety & Alignment"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.36570"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.36570",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "CoHARL: Co-Evolving Agent Policies and Executable Harnesses with Reinforcement Learning",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.36469",
+      "verification": "verified",
+      "categories": [
+        "Self-Evolution & Learning"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.36469"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.36469",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.36444",
+      "verification": "verified",
+      "categories": [
+        "Knowledge & RAG"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.36444"
+      ],
+      "featured": false,
+      "published": "2026-10-27",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.36444",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Your Wish Is My Commit: Over-Compliant Refactoring in AI Coding Agents",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.36346",
+      "verification": "verified",
+      "categories": [
+        "Code Agent"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.36346"
+      ],
+      "featured": false,
+      "published": "2026-10-26",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.36346",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "The Inbox as a Coordination Primitive for LLM Agent Societies",
+      "venue": "arXiv 2026-10",
+      "arxiv_id": "2610.36264",
+      "verification": "verified",
+      "categories": [
+        "Multi-Agent Systems"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2610.36264"
+      ],
+      "featured": false,
+      "published": "2026-10-26",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "retrieved_at": "2026-10-29T03:22:42.405097+00:00",
+        "source_url": "https://arxiv.org/abs/2610.36264",
+        "status": "official-metadata-and-scope-reviewed",
+        "scope": "Public arXiv preprint metadata and abstract reviewed; peer review and performance claims not independently verified."
+      }
+    },
     {
       "title": "Sci$Π$vot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
       "venue": "arXiv 2026-10",

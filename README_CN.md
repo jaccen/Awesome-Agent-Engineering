@@ -3,17 +3,17 @@
 
 # Awesome Agent Engineering
 
-### AI Agent 知识中枢 — 1545 条目，每日自动更新最新论文与项目
+### AI Agent 知识中枢 — 1582 条目，每日自动更新最新论文与项目
 
 **从研究论文到生产部署，从创业项目到行业落地。一个仓库，整个 Agent 生态，每日自动刷新。**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![方法数](https://img.shields.io/badge/方法-280-9cf.svg)](data/methods.json)
-[![框架数](https://img.shields.io/badge/框架-54-green.svg)](data/frameworks.json)
+[![框架数](https://img.shields.io/badge/框架-58-green.svg)](data/frameworks.json)
 [![行业案例](https://img.shields.io/badge/行业案例-106-orange.svg)](data/industries.json)
 [![创业公司](https://img.shields.io/badge/创业公司-56-red.svg)](data/startups.json)
-[![基准测试](https://img.shields.io/badge/基准测试-34-purple.svg)](data/benchmarks.json)
-[![论文库](https://img.shields.io/badge/论文-1015-ff69b4.svg)](data/papers.json)
+[![基准测试](https://img.shields.io/badge/基准测试-41-purple.svg)](data/benchmarks.json)
+[![论文库](https://img.shields.io/badge/论文-1039-ff69b4.svg)](data/papers.json)
 [![自动更新](https://img.shields.io/badge/自动更新-每日-brightgreen.svg)](reports/arxiv-daily/)
 [![欢迎PR](https://img.shields.io/badge/欢迎PR-Contributing-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -29,11 +29,11 @@
 
 **仓库内容（自动更新）：**
 - 📚 280 个学术 Agent 方法，覆盖 12 个类别
-- 📝 1015 篇已验证论文（官方 arXiv 标题，含 2026 年 150 篇，arXiv API 批量核验）
-- 🏗️ 54 个开源智能体框架
+- 📝 1039 篇已验证论文（官方 arXiv 标题，含 2026 年 150 篇，arXiv API 批量核验）
+- 🏗️ 58 个开源智能体框架
 - 🏭 106 个真实行业落地案例，覆盖 17+ 领域
 - 🚀 56 家已融资智能体创业公司
-- 📊 34 个评测基准（SWE-bench、GAIA、WebArena、OSWorld、AgentBench、LITMUS、EvoMemBench 等）
+- 📊 41 个评测基准（SWE-bench、GAIA、WebArena、OSWorld、AgentBench、LITMUS、EvoMemBench 等）
 
 所有条目均为机器可读 JSON，含证据链——不编造名称，不放死链。内置**科研全流程技能**，覆盖论文全生命周期：选题评估 → 骨架 → 文献 → 绘图 → 实验 → 分析 → 审稿 → 返修。
 
@@ -48,33 +48,33 @@ Agent 生态发展极快——每天都有新论文，每周都有新框架，�
 | 你的需求 | 静态列表 | 本仓库 |
 |----------|---------|--------|
 | 最新 Agent 论文 | 三个月前最后更新 | **每日 arXiv 扫描** — 8 个查询族自动发现 |
-| 对比框架 | 开 10 个标签页 | 54 个框架，含 star 数、许可证、语言、一句话描述 |
+| 对比框架 | 开 10 个标签页 | 58 个框架，含 star 数、许可证、语言、一句话描述 |
 | 找行业案例 | 博客文章 | 106 个真实部署，覆盖 17+ 行业，含状态和组织 |
 | 追踪创业公司 | Crunchbase 订阅 | 56 家融资公司，含融资额、分类和描述 |
-| 选基准测试 | 靠猜 | 34 个基准，含领域、会议和测试内容 |
+| 选基准测试 | 靠猜 | 41 个基准，含领域、会议和测试内容 |
 | 保持最新 | 手动提 PR | **GitHub Actions CI** 每日运行，自动提交 |
 
-**1545 个可验证条目**，横跨 5 个知识库 + 1 个 1015 篇论文库，每个条目都有证据链。不编造名称，不放死链，不写营销话术。
+**1582 个可验证条目**，横跨 5 个知识库 + 1 个 1039 篇论文库，每个条目都有证据链。不编造名称，不放死链，不写营销话术。
 
 ## 四大板块
 
 | 板块 | 条目数 | 内容 |
 |------|--------|------|
-| **学术研究** | 280 + 1015 | Agent 论文方法库（12 类别）+ 已验证论文库 |
+| **学术研究** | 280 + 1039 | Agent 论文方法库（12 类别）+ 已验证论文库 |
 | **行业应用** | 106 | 真实生产部署，17 个领域 · [📖 浏览全部案例](docs/industries.md) |
 | **创意创业** | 56 | 融资公司库，18 个分类 · [📖 浏览全部公司](docs/startups.md) |
-| **产业落地** | 54 + 34 | 开源框架 + 评测基准，从编排到可观测性 |
+| **产业落地** | 58 + 41 | 开源框架 + 评测基准，从编排到可观测性 |
 
 ## 知识库一览
 
 | 知识库 | 数量 | 数据文件 | 说明 |
 |--------|------|----------|------|
 | **方法库** | 280 | `data/methods.json` | 学术 Agent 论文 — 12 个类别 |
-| **论文库** | 1015 | `data/papers.json` | 已验证论文 — 官方标题，含 2026 年 150 篇，arXiv API 批量核验 |
-| **框架库** | 54 | `data/frameworks.json` | 开源 Agent 框架 — 编排/记忆/工具/可观测性 |
+| **论文库** | 1039 | `data/papers.json` | 已验证论文 — 官方标题，含 2026 年 150 篇，arXiv API 批量核验 |
+| **框架库** | 58 | `data/frameworks.json` | 开源 Agent 框架 — 编排/记忆/工具/可观测性 |
 | **行业库** | 106 | `data/industries.json` | 真实部署案例 — 17 个领域 · [📖 浏览](docs/industries.md) |
 | **创业库** | 56 | `data/startups.json` | 融资公司 — 18 个分类 · [📖 浏览](docs/startups.md) |
-| **基准库** | 34 | `data/benchmarks.json` | 评测基准 — SWE-bench/GAIA/WebArena 等 |
+| **基准库** | 41 | `data/benchmarks.json` | 评测基准 — SWE-bench/GAIA/WebArena 等 |
 
 **所有条目均为机器可读 JSON**，而非单纯的 Markdown 表格。可以直接构建工具、仪表盘和 Agent 来消费这些知识。
 
@@ -218,13 +218,13 @@ cat reports/weekly-trending/latest.json | python -m json.tool
 
 ## 产业落地 — 框架与基准
 
-**54 个开源框架** + **34 个评测基准**：
+**58 个开源框架** + **41 个评测基准**：
 
 | 层级 | 框架 |
 |------|------|
 | 编排 | LangChain、LangGraph、AutoGen、CrewAI、DSPy、Swarm |
 | RAG | LlamaIndex、Haystack、RAGFlow、Dify、AnythingLLM |
-| 代码 Agent | OpenHands、SWE-agent、Aider |
+| 代码 Agent | OpenHands、SWE-agent、Aider、Cline、DeerFlow |
 | Web 自动化 | Browser Use、Playwright、Crawl4AI、Firecrawl |
 | 记忆 | Mem0、Letta、Zep |
 | 工具与 MCP | MCP、Composio |
@@ -280,13 +280,13 @@ git submodule update --init --recursive
 | 7b. 审稿自查 | 三身份交叉审查 + 33条拒稿规律 |
 | 8. 返修改稿 | 逐条回复策略 + Cover Letter + Marked Manuscript |
 
-**知识库挂接：** 查询 `data/methods.json`（280）、`data/frameworks.json`（54）、`data/benchmarks.json`（34）、`data/papers.json`（1015 篇论文）及 `references/agent-research-areas.md`（16 领域），确保每个回答有据可查。
+**知识库挂接：** 查询 `data/methods.json`（280）、`data/frameworks.json`（58）、`data/benchmarks.json`（41）、`data/papers.json`（1039 篇论文）及 `references/agent-research-areas.md`（16 领域），确保每个回答有据可查。
 
 **内置参考文件：**
 - [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — 16 子领域精选论文（含 7 个 GitHub 策展项目共收的 133 篇高影响力论文；NeurIPS 2026 EvoMemBench/LITMUS、ICLR 2026 LightMem、AAMAS 2026 μACP 等）
 - [`references/venues.md`](skills/agent-research-pipeline/references/venues.md) — 15 顶会 + 20 期刊，含 CCF 分级、页数、截稿、审稿偏好
 - [`references/experiment-template.md`](skills/agent-research-pipeline/references/experiment-template.md) — 可直接填充的实验模板（贡献-实验映射、消融设计、多种子统计、negative results、投稿前自检清单）
-- [`data/papers.json`](data/papers.json) — 机器可读论文库（1015 篇，官方 arXiv 标题/venue/核实状态/分类）
+- [`data/papers.json`](data/papers.json) — 机器可读论文库（1039 篇，官方 arXiv 标题/venue/核实状态/分类）
 
 **编辑器集成：** [`CLAUDE.md`](CLAUDE.md)（Claude Code/通用 AI 项目指令）与 [`.cursor/rules/agent-research.mdc`](.cursor/rules/agent-research.mdc)（Cursor 自动激活规则）已配置，在 VS Code/Cursor 中编辑论文相关文件时自动加载本技能指引。
 
@@ -310,4 +310,4 @@ git submodule update --init --recursive
 
 </div>
 
-本次审核收录明细：[2026-10-29](docs/reviewed-updates-2026-10-29.md).
+本次审核收录明细：[2026-10-29](docs/reviewed-updates-2026-10-29.md) | [2026-10-30](docs/reviewed-updates-2026-10-30.md).

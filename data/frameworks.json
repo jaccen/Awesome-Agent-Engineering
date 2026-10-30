@@ -1,927 +1,999 @@
 {
- "generated_at": "2026-10-28",
- "generator": "scripts/seed_kb.py",
- "count": 54,
- "frameworks": [
-{
-  "name": "Superpowers",
-  "repo_url": "https://github.com/obra/superpowers",
-  "license": "MIT",
-  "language": "Shell",
-  "desc": "Composable skills and a structured development workflow for coding agents, covering design, planning, implementation and review.",
-  "stars": "307569",
-  "active_since": "2025-",
-  "sources": [
-    "https://github.com/obra/superpowers/blob/main/README.md"
-  ],
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "source_url": "https://github.com/obra/superpowers",
-    "status": "official-repository-and-readme-reviewed",
-    "note": "Existing public project discovered in this run; not a new launch. Stars are a dated snapshot."
-  }
-},
-{
-  "name": "Hermes Agent",
-  "repo_url": "https://github.com/NousResearch/hermes-agent",
-  "license": "MIT",
-  "language": "Python",
-  "desc": "Nous Research agent with persistent memory, reusable skills, terminal tools, messaging integrations and scheduled tasks.",
-  "stars": "258126",
-  "active_since": "2025-",
-  "sources": [
-    "https://github.com/NousResearch/hermes-agent/blob/main/README.md"
-  ],
-  "evidence": {
-    "checked_at": "2026-10-29",
-    "source_url": "https://github.com/NousResearch/hermes-agent",
-    "status": "official-repository-and-readme-reviewed",
-    "note": "Existing public project discovered in this run; not a new launch. Stars are a dated snapshot."
-  }
-},
-  {
-   "name": "AgentGPT",
-   "repo_url": "https://github.com/reworkd/AgentGPT",
-   "license": "GPL-3.0",
-   "language": "TS",
-   "desc": "Browser-based autonomous agent: name a goal, watch it plan and execute",
-   "stars": "35k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/reworkd/AgentGPT",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "AnythingLLM",
-   "repo_url": "https://github.com/Mintplex-Labs/anything-llm",
-   "license": "MIT",
-   "language": "Node/Python",
-   "desc": "Full-stack RAG app: document chat, agent workflows, and multi-user support",
-   "stars": "50k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/Mintplex-Labs/anything-llm",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "AutoGen",
-   "repo_url": "https://github.com/microsoft/autogen",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Microsoft's multi-agent conversation framework with event-driven orchestration (v0.4)",
-   "stars": "60k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/microsoft/autogen",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "AutoGPT",
-   "repo_url": "https://github.com/Significant-Gravitas/AutoGPT",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Original autonomous agent platform: goal decomposition and self-execution",
-   "stars": "170k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "BabyAGI",
-   "repo_url": "https://github.com/yoheinakajima/babyagi",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Task-driven autonomous agent: create, prioritize, and execute tasks in a loop",
-   "stars": "25k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/yoheinakajima/babyagi",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Braintrust",
-   "repo_url": "https://github.com/braintrustdata/braintrust-sdk",
-   "license": "MIT",
-   "language": "Python/JS",
-   "desc": "Evaluation and prompt playground for LLM apps: scores, datasets, and experiments",
-   "stars": "3k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/braintrustdata/braintrust-sdk",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Browser Use",
-   "repo_url": "https://github.com/browser-use/browser-use",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "LLM-driven browser automation with visual and DOM-based web interaction",
-   "stars": "60k+",
-   "active_since": "2025-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/browser-use/browser-use",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Camel-AI OWL",
-   "repo_url": "https://github.com/camel-ai/owl",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "Multi-agent workforce framework: top general agent on GAIA benchmark",
-   "stars": "20k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/camel-ai/owl",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Composio",
-   "repo_url": "https://github.com/ComposioHQ/composio",
-   "license": "ELv2",
-   "language": "Python",
-   "desc": "Tool platform: 250+ app integrations with auth management for agent tool-use",
-   "stars": "20k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/ComposioHQ/composio",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Coze",
-   "repo_url": "https://www.coze.com/",
-   "license": "Proprietary",
-   "language": "SaaS",
-   "desc": "ByteDance's agent building platform: visual bot creation with plugins and workflows",
-   "stars": "N/A",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://www.coze.com/",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Crawl4AI",
-   "repo_url": "https://github.com/unclecode/crawl4ai",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "LLM-friendly web crawler: structured extraction optimized for RAG and agents",
-   "stars": "40k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/unclecode/crawl4ai",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "CrewAI",
-   "repo_url": "https://github.com/crewAIInc/crewAI",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Role-playing multi-agent orchestration: sequential and hierarchical crew coordination",
-   "stars": "30k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/crewAIInc/crewAI",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "CrewAI Tools",
-   "repo_url": "https://github.com/crewAIInc/crewAI-tools",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Tool collection for CrewAI agents: search, scraping, file I/O, and custom tools",
-   "stars": "5k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/crewAIInc/crewAI-tools",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Dify",
-   "repo_url": "https://github.com/langgenius/dify",
-   "license": "Apache-2.0",
-   "language": "Python/TS",
-   "desc": "Open-source LLM app development platform: visual workflow, RAG, and agent orchestration",
-   "stars": "90k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/langgenius/dify",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "DSPy",
-   "repo_url": "https://github.com/stanfordnlp/dspy",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Stanford's programming framework: declarative LM pipelines with automatic optimization",
-   "stars": "25k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/stanfordnlp/dspy",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "FastGPT",
-   "repo_url": "https://github.com/labring/FastGPT",
-   "license": "Apache-2.0",
-   "language": "TS",
-   "desc": "Knowledge-based platform: visual workflow, RAG, and out-of-box agent deployment",
-   "stars": "20k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/labring/FastGPT",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Firecrawl",
-   "repo_url": "https://github.com/mendableai/firecrawl",
-   "license": "AGPL-3.0",
-   "language": "TS",
-   "desc": "Web scraping for LLMs: crawl, scrape, and convert sites to LLM-ready markdown",
-   "stars": "25k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/mendableai/firecrawl",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Flowise",
-   "repo_url": "https://github.com/FlowiseAI/Flowise",
-   "license": "Apache-2.0",
-   "language": "Node/TS",
-   "desc": "Visual LLM app builder: drag-and-drop LangChain agents and RAG flows",
-   "stars": "40k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/FlowiseAI/Flowise",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Guardrails AI",
-   "repo_url": "https://github.com/guardrails-ai/guardrails",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "Input/output validation for LLM apps: schema enforcement and safety guards",
-   "stars": "5k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/guardrails-ai/guardrails",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Haystack",
-   "repo_url": "https://github.com/deepset-ai/haystack",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "Production-ready LLM framework: RAG, agents, and pipelines with 100+ components",
-   "stars": "20k+",
-   "active_since": "2022-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/deepset-ai/haystack",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Helicone",
-   "repo_url": "https://github.com/Helicone/helicone",
-   "license": "MIT",
-   "language": "TS",
-   "desc": "Open-source LLM observability: logging, caching, rate limiting, and cost tracking",
-   "stars": "3k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/Helicone/helicone",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "instructor",
-   "repo_url": "https://github.com/jxnl/instructor",
-   "license": "MIT",
-   "language": "Python/TS",
-   "desc": "Structured extraction from LLMs: Pydantic-based function calling with retries",
-   "stars": "10k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/jxnl/instructor",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "LangChain",
-   "repo_url": "https://github.com/langchain-ai/langchain",
-   "license": "MIT",
-   "language": "Python/JS",
-   "desc": "The most popular LLM app framework: chains, agents, memory, 600+ integrations",
-   "stars": "200k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/langchain-ai/langchain",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "LangGraph",
-   "repo_url": "https://github.com/langchain-ai/langgraph",
-   "license": "MIT",
-   "language": "Python/JS",
-   "desc": "Stateful graph-based agent orchestration with cycles, persistence, and human-in-the-loop",
-   "stars": "25k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/langchain-ai/langgraph",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "LangSmith",
-   "repo_url": "https://github.com/langchain-ai/langsmith-sdk",
-   "license": "MIT",
-   "language": "Python/JS",
-   "desc": "Observability and evaluation for LLM apps: trace, test, and monitor agents",
-   "stars": "10k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/langchain-ai/langsmith-sdk",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Letta",
-   "repo_url": "https://github.com/letta-ai/letta",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "Agent memory framework: block-based memory with sleep-time training",
-   "stars": "20k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/letta-ai/letta",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "LibreChat",
-   "repo_url": "https://github.com/danny-avila/LibreChat",
-   "license": "MIT",
-   "language": "Node/TS",
-   "desc": "Enhanced ChatGPT clone: multi-provider, plugins, and agent presets",
-   "stars": "25k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/danny-avila/LibreChat",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "LiteLLM",
-   "repo_url": "https://github.com/BerriAI/litellm",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Unified API for 100+ LLM providers: proxy, fallback, cost tracking, and rate limits",
-   "stars": "20k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/BerriAI/litellm",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Llama Guard",
-   "repo_url": "https://github.com/meta-llama/PurpleLlama",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Meta's LLM-based input/output safety classifier for agent guardrails",
-   "stars": "5k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/meta-llama/PurpleLlama",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "LlamaIndex",
-   "repo_url": "https://github.com/run-llama/llama_index",
-   "license": "MIT",
-   "language": "Python/TS",
-   "desc": "Data framework for LLM apps: RAG pipelines, agents, and document ingestion at scale",
-   "stars": "50k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/run-llama/llama_index",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "LobeChat",
-   "repo_url": "https://github.com/lobehub/lobe-chat",
-   "license": "MIT",
-   "language": "TS",
-   "desc": "Open-source AI chat framework: plugins, agents, and multi-modal support",
-   "stars": "60k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/lobehub/lobe-chat",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "MaxKB",
-   "repo_url": "https://github.com/1Panel-dev/MaxKB",
-   "license": "GPL-3.0",
-   "language": "Python",
-   "desc": "Ready-to-use RAG chatbot: multi-model support and enterprise knowledge base",
-   "stars": "20k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/1Panel-dev/MaxKB",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "MCP",
-   "repo_url": "https://github.com/modelcontextprotocol",
-   "license": "MIT",
-   "language": "TS/Python",
-   "desc": "Anthropic's Model Context Protocol: standard for connecting LLMs to external tools and data",
-   "stars": "20k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/modelcontextprotocol",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "MCP Server Registry",
-   "repo_url": "https://github.com/modelcontextprotocol/servers",
-   "license": "MIT",
-   "language": "TS/Python",
-   "desc": "Official MCP server collection: filesystem, Git, GitHub, Slack, Postgres, and more",
-   "stars": "50k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/modelcontextprotocol/servers",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Mem0",
-   "repo_url": "https://github.com/mem0ai/mem0",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "Production memory layer for LLM apps: personalized, evolving memory across sessions",
-   "stars": "30k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/mem0ai/mem0",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "n8n",
-   "repo_url": "https://github.com/n8n-io/n8n",
-   "license": "Sustainable Use",
-   "language": "TS",
-   "desc": "Workflow automation with LLM nodes: self-hostable agent pipelines with 400+ integrations",
-   "stars": "100k+",
-   "active_since": "2019-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/n8n-io/n8n",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "NeMo Guardrails",
-   "repo_url": "https://github.com/NVIDIA/NeMo-Guardrails",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "NVIDIA's toolkit for LLM guardrails: programmable dialogue flow and safety rules",
-   "stars": "6k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/NVIDIA/NeMo-Guardrails",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Ollama",
-   "repo_url": "https://github.com/ollama/ollama",
-   "license": "MIT",
-   "language": "Go",
-   "desc": "Local LLM runtime: run open models on any OS with one command, OpenAI-compatible API",
-   "stars": "100k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/ollama/ollama",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "OpenHands",
-   "repo_url": "https://github.com/All-Hands-AI/OpenHands",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Platform for autonomous coding agents with sandbox and multi-agent collaboration",
-   "stars": "50k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/All-Hands-AI/OpenHands",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "OpenWebUI",
-   "repo_url": "https://github.com/open-webui/open-webui",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Self-hosted LLM interface: Ollama/OpenAI-compatible with RAG and agent support",
-   "stars": "90k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/open-webui/open-webui",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Phoenix",
-   "repo_url": "https://github.com/Arize-ai/phoenix",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "LLM observability: tracing, evaluation, and debugging for agent workflows",
-   "stars": "15k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/Arize-ai/phoenix",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Playwright",
-   "repo_url": "https://github.com/microsoft/playwright",
-   "license": "Apache-2.0",
-   "language": "Node/Python/Java/C#",
-   "desc": "Browser automation: cross-browser end-to-end testing and web agent infrastructure",
-   "stars": "70k+",
-   "active_since": "2020-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/microsoft/playwright",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "QAnything",
-   "repo_url": "https://github.com/netease-youdao/QAnything",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "NetEase's RAG: multi-format document QA with local embedding and reranking",
-   "stars": "15k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/netease-youdao/QAnything",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "RAGFlow",
-   "repo_url": "https://github.com/infiniflow/ragflow",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "RAG engine with deep document understanding: chunking, citation, and agent workflows",
-   "stars": "40k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/infiniflow/ragflow",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "SearXNG",
-   "repo_url": "https://github.com/searxng/searxng",
-   "license": "AGPL-3.0",
-   "language": "Python",
-   "desc": "Privacy-respecting metasearch engine: unified API for agent web search",
-   "stars": "20k+",
-   "active_since": "2021-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/searxng/searxng",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Semantic Kernel",
-   "repo_url": "https://github.com/microsoft/semantic-kernel",
-   "license": "MIT",
-   "language": "C#/Python/Java",
-   "desc": "Microsoft SDK for AI orchestration: plugins, planners, and native function calling",
-   "stars": "25k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/microsoft/semantic-kernel",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "SuperAGI",
-   "repo_url": "https://github.com/TransformerOptimus/SuperAGI",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Open-source autonomous agent framework with tool library and vector memory",
-   "stars": "16k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/TransformerOptimus/SuperAGI",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "SWE-agent",
-   "repo_url": "https://github.com/SWE-agent/SWE-agent",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Agent-Computer Interface for autonomous GitHub issue resolution",
-   "stars": "20k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/SWE-agent/SWE-agent",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Tavily",
-   "repo_url": "https://github.com/tavily-ai/tavily-python",
-   "license": "MIT",
-   "language": "Python",
-   "desc": "Search API designed for AI agents: real-time results with answer extraction",
-   "stars": "5k+",
-   "active_since": "2024-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/tavily-ai/tavily-python",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Unstructured",
-   "repo_url": "https://github.com/Unstructured-IO/unstructured",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "Document ingestion: 25+ file formats to structured JSON for RAG pipelines",
-   "stars": "15k+",
-   "active_since": "2022-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/Unstructured-IO/unstructured",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "Verba",
-   "repo_url": "https://github.com/weaviate/verba",
-   "license": "BSD-3",
-   "language": "Python",
-   "desc": "Weaviate's open-source RAG: golden RAG with multimodal and hybrid search",
-   "stars": "8k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/weaviate/verba",
-    "status": "seed-verified"
-   }
-  },
-  {
-   "name": "vLLM",
-   "repo_url": "https://github.com/vllm-project/vllm",
-   "license": "Apache-2.0",
-   "language": "Python",
-   "desc": "High-throughput LLM serving: PagedAttention, continuous batching, and OpenAI API",
-   "stars": "50k+",
-   "active_since": "2023-",
-   "sources": [
-    "seed"
-   ],
-   "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://github.com/vllm-project/vllm",
-    "status": "seed-verified"
-   }
-  }
- ]
+  "generated_at": "2026-10-28",
+  "generator": "scripts/seed_kb.py",
+  "count": 58,
+  "frameworks": [
+    {
+      "name": "Superpowers",
+      "repo_url": "https://github.com/obra/superpowers",
+      "license": "MIT",
+      "language": "Shell",
+      "desc": "Composable skills and a structured development workflow for coding agents, covering design, planning, implementation and review.",
+      "stars": "307569",
+      "active_since": "2025-",
+      "sources": [
+        "https://github.com/obra/superpowers/blob/main/README.md"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "source_url": "https://github.com/obra/superpowers",
+        "status": "official-repository-and-readme-reviewed",
+        "note": "Existing public project discovered in this run; not a new launch. Stars are a dated snapshot."
+      }
+    },
+    {
+      "name": "Hermes Agent",
+      "repo_url": "https://github.com/NousResearch/hermes-agent",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Nous Research agent with persistent memory, reusable skills, terminal tools, messaging integrations and scheduled tasks.",
+      "stars": "258126",
+      "active_since": "2025-",
+      "sources": [
+        "https://github.com/NousResearch/hermes-agent/blob/main/README.md"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-29",
+        "source_url": "https://github.com/NousResearch/hermes-agent",
+        "status": "official-repository-and-readme-reviewed",
+        "note": "Existing public project discovered in this run; not a new launch. Stars are a dated snapshot."
+      }
+    },
+    {
+      "name": "AgentGPT",
+      "repo_url": "https://github.com/reworkd/AgentGPT",
+      "license": "GPL-3.0",
+      "language": "TS",
+      "desc": "Browser-based autonomous agent: name a goal, watch it plan and execute",
+      "stars": "35k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/reworkd/AgentGPT",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "AnythingLLM",
+      "repo_url": "https://github.com/Mintplex-Labs/anything-llm",
+      "license": "MIT",
+      "language": "Node/Python",
+      "desc": "Full-stack RAG app: document chat, agent workflows, and multi-user support",
+      "stars": "50k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/Mintplex-Labs/anything-llm",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "AutoGen",
+      "repo_url": "https://github.com/microsoft/autogen",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Microsoft's multi-agent conversation framework with event-driven orchestration (v0.4)",
+      "stars": "60k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/microsoft/autogen",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "AutoGPT",
+      "repo_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Original autonomous agent platform: goal decomposition and self-execution",
+      "stars": "170k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "BabyAGI",
+      "repo_url": "https://github.com/yoheinakajima/babyagi",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Task-driven autonomous agent: create, prioritize, and execute tasks in a loop",
+      "stars": "25k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/yoheinakajima/babyagi",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Braintrust",
+      "repo_url": "https://github.com/braintrustdata/braintrust-sdk",
+      "license": "MIT",
+      "language": "Python/JS",
+      "desc": "Evaluation and prompt playground for LLM apps: scores, datasets, and experiments",
+      "stars": "3k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/braintrustdata/braintrust-sdk",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Browser Use",
+      "repo_url": "https://github.com/browser-use/browser-use",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "LLM-driven browser automation with visual and DOM-based web interaction",
+      "stars": "60k+",
+      "active_since": "2025-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/browser-use/browser-use",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Camel-AI OWL",
+      "repo_url": "https://github.com/camel-ai/owl",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "Multi-agent workforce framework: top general agent on GAIA benchmark",
+      "stars": "20k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/camel-ai/owl",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Composio",
+      "repo_url": "https://github.com/ComposioHQ/composio",
+      "license": "ELv2",
+      "language": "Python",
+      "desc": "Tool platform: 250+ app integrations with auth management for agent tool-use",
+      "stars": "20k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/ComposioHQ/composio",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Coze",
+      "repo_url": "https://www.coze.com/",
+      "license": "Proprietary",
+      "language": "SaaS",
+      "desc": "ByteDance's agent building platform: visual bot creation with plugins and workflows",
+      "stars": "N/A",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://www.coze.com/",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Crawl4AI",
+      "repo_url": "https://github.com/unclecode/crawl4ai",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "LLM-friendly web crawler: structured extraction optimized for RAG and agents",
+      "stars": "40k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/unclecode/crawl4ai",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "CrewAI",
+      "repo_url": "https://github.com/crewAIInc/crewAI",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Role-playing multi-agent orchestration: sequential and hierarchical crew coordination",
+      "stars": "30k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/crewAIInc/crewAI",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "CrewAI Tools",
+      "repo_url": "https://github.com/crewAIInc/crewAI-tools",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Tool collection for CrewAI agents: search, scraping, file I/O, and custom tools",
+      "stars": "5k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/crewAIInc/crewAI-tools",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Dify",
+      "repo_url": "https://github.com/langgenius/dify",
+      "license": "Apache-2.0",
+      "language": "Python/TS",
+      "desc": "Open-source LLM app development platform: visual workflow, RAG, and agent orchestration",
+      "stars": "90k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/langgenius/dify",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "DSPy",
+      "repo_url": "https://github.com/stanfordnlp/dspy",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Stanford's programming framework: declarative LM pipelines with automatic optimization",
+      "stars": "25k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/stanfordnlp/dspy",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "FastGPT",
+      "repo_url": "https://github.com/labring/FastGPT",
+      "license": "Apache-2.0",
+      "language": "TS",
+      "desc": "Knowledge-based platform: visual workflow, RAG, and out-of-box agent deployment",
+      "stars": "20k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/labring/FastGPT",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Firecrawl",
+      "repo_url": "https://github.com/mendableai/firecrawl",
+      "license": "AGPL-3.0",
+      "language": "TS",
+      "desc": "Web scraping for LLMs: crawl, scrape, and convert sites to LLM-ready markdown",
+      "stars": "25k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/mendableai/firecrawl",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Flowise",
+      "repo_url": "https://github.com/FlowiseAI/Flowise",
+      "license": "Apache-2.0",
+      "language": "Node/TS",
+      "desc": "Visual LLM app builder: drag-and-drop LangChain agents and RAG flows",
+      "stars": "40k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/FlowiseAI/Flowise",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Guardrails AI",
+      "repo_url": "https://github.com/guardrails-ai/guardrails",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "Input/output validation for LLM apps: schema enforcement and safety guards",
+      "stars": "5k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/guardrails-ai/guardrails",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Haystack",
+      "repo_url": "https://github.com/deepset-ai/haystack",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "Production-ready LLM framework: RAG, agents, and pipelines with 100+ components",
+      "stars": "20k+",
+      "active_since": "2022-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/deepset-ai/haystack",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Helicone",
+      "repo_url": "https://github.com/Helicone/helicone",
+      "license": "MIT",
+      "language": "TS",
+      "desc": "Open-source LLM observability: logging, caching, rate limiting, and cost tracking",
+      "stars": "3k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/Helicone/helicone",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "instructor",
+      "repo_url": "https://github.com/jxnl/instructor",
+      "license": "MIT",
+      "language": "Python/TS",
+      "desc": "Structured extraction from LLMs: Pydantic-based function calling with retries",
+      "stars": "10k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/jxnl/instructor",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "LangChain",
+      "repo_url": "https://github.com/langchain-ai/langchain",
+      "license": "MIT",
+      "language": "Python/JS",
+      "desc": "The most popular LLM app framework: chains, agents, memory, 600+ integrations",
+      "stars": "200k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/langchain-ai/langchain",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "LangGraph",
+      "repo_url": "https://github.com/langchain-ai/langgraph",
+      "license": "MIT",
+      "language": "Python/JS",
+      "desc": "Stateful graph-based agent orchestration with cycles, persistence, and human-in-the-loop",
+      "stars": "25k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/langchain-ai/langgraph",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "LangSmith",
+      "repo_url": "https://github.com/langchain-ai/langsmith-sdk",
+      "license": "MIT",
+      "language": "Python/JS",
+      "desc": "Observability and evaluation for LLM apps: trace, test, and monitor agents",
+      "stars": "10k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/langchain-ai/langsmith-sdk",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Letta",
+      "repo_url": "https://github.com/letta-ai/letta",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "Agent memory framework: block-based memory with sleep-time training",
+      "stars": "20k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/letta-ai/letta",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "LibreChat",
+      "repo_url": "https://github.com/danny-avila/LibreChat",
+      "license": "MIT",
+      "language": "Node/TS",
+      "desc": "Enhanced ChatGPT clone: multi-provider, plugins, and agent presets",
+      "stars": "25k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/danny-avila/LibreChat",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "LiteLLM",
+      "repo_url": "https://github.com/BerriAI/litellm",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Unified API for 100+ LLM providers: proxy, fallback, cost tracking, and rate limits",
+      "stars": "20k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/BerriAI/litellm",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Llama Guard",
+      "repo_url": "https://github.com/meta-llama/PurpleLlama",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Meta's LLM-based input/output safety classifier for agent guardrails",
+      "stars": "5k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/meta-llama/PurpleLlama",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "LlamaIndex",
+      "repo_url": "https://github.com/run-llama/llama_index",
+      "license": "MIT",
+      "language": "Python/TS",
+      "desc": "Data framework for LLM apps: RAG pipelines, agents, and document ingestion at scale",
+      "stars": "50k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/run-llama/llama_index",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "LobeChat",
+      "repo_url": "https://github.com/lobehub/lobe-chat",
+      "license": "MIT",
+      "language": "TS",
+      "desc": "Open-source AI chat framework: plugins, agents, and multi-modal support",
+      "stars": "60k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/lobehub/lobe-chat",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "MaxKB",
+      "repo_url": "https://github.com/1Panel-dev/MaxKB",
+      "license": "GPL-3.0",
+      "language": "Python",
+      "desc": "Ready-to-use RAG chatbot: multi-model support and enterprise knowledge base",
+      "stars": "20k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/1Panel-dev/MaxKB",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "MCP",
+      "repo_url": "https://github.com/modelcontextprotocol",
+      "license": "MIT",
+      "language": "TS/Python",
+      "desc": "Anthropic's Model Context Protocol: standard for connecting LLMs to external tools and data",
+      "stars": "20k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/modelcontextprotocol",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "MCP Server Registry",
+      "repo_url": "https://github.com/modelcontextprotocol/servers",
+      "license": "MIT",
+      "language": "TS/Python",
+      "desc": "Official MCP server collection: filesystem, Git, GitHub, Slack, Postgres, and more",
+      "stars": "50k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/modelcontextprotocol/servers",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Mem0",
+      "repo_url": "https://github.com/mem0ai/mem0",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "Production memory layer for LLM apps: personalized, evolving memory across sessions",
+      "stars": "30k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/mem0ai/mem0",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "n8n",
+      "repo_url": "https://github.com/n8n-io/n8n",
+      "license": "Sustainable Use",
+      "language": "TS",
+      "desc": "Workflow automation with LLM nodes: self-hostable agent pipelines with 400+ integrations",
+      "stars": "100k+",
+      "active_since": "2019-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/n8n-io/n8n",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "NeMo Guardrails",
+      "repo_url": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "NVIDIA's toolkit for LLM guardrails: programmable dialogue flow and safety rules",
+      "stars": "6k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/NVIDIA/NeMo-Guardrails",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Ollama",
+      "repo_url": "https://github.com/ollama/ollama",
+      "license": "MIT",
+      "language": "Go",
+      "desc": "Local LLM runtime: run open models on any OS with one command, OpenAI-compatible API",
+      "stars": "100k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/ollama/ollama",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "OpenHands",
+      "repo_url": "https://github.com/All-Hands-AI/OpenHands",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Platform for autonomous coding agents with sandbox and multi-agent collaboration",
+      "stars": "50k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/All-Hands-AI/OpenHands",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "OpenWebUI",
+      "repo_url": "https://github.com/open-webui/open-webui",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Self-hosted LLM interface: Ollama/OpenAI-compatible with RAG and agent support",
+      "stars": "90k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/open-webui/open-webui",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Phoenix",
+      "repo_url": "https://github.com/Arize-ai/phoenix",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "LLM observability: tracing, evaluation, and debugging for agent workflows",
+      "stars": "15k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/Arize-ai/phoenix",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Playwright",
+      "repo_url": "https://github.com/microsoft/playwright",
+      "license": "Apache-2.0",
+      "language": "Node/Python/Java/C#",
+      "desc": "Browser automation: cross-browser end-to-end testing and web agent infrastructure",
+      "stars": "70k+",
+      "active_since": "2020-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/microsoft/playwright",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "QAnything",
+      "repo_url": "https://github.com/netease-youdao/QAnything",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "NetEase's RAG: multi-format document QA with local embedding and reranking",
+      "stars": "15k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/netease-youdao/QAnything",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "RAGFlow",
+      "repo_url": "https://github.com/infiniflow/ragflow",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "RAG engine with deep document understanding: chunking, citation, and agent workflows",
+      "stars": "40k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/infiniflow/ragflow",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "SearXNG",
+      "repo_url": "https://github.com/searxng/searxng",
+      "license": "AGPL-3.0",
+      "language": "Python",
+      "desc": "Privacy-respecting metasearch engine: unified API for agent web search",
+      "stars": "20k+",
+      "active_since": "2021-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/searxng/searxng",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Semantic Kernel",
+      "repo_url": "https://github.com/microsoft/semantic-kernel",
+      "license": "MIT",
+      "language": "C#/Python/Java",
+      "desc": "Microsoft SDK for AI orchestration: plugins, planners, and native function calling",
+      "stars": "25k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/microsoft/semantic-kernel",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "SuperAGI",
+      "repo_url": "https://github.com/TransformerOptimus/SuperAGI",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Open-source autonomous agent framework with tool library and vector memory",
+      "stars": "16k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/TransformerOptimus/SuperAGI",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "SWE-agent",
+      "repo_url": "https://github.com/SWE-agent/SWE-agent",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Agent-Computer Interface for autonomous GitHub issue resolution",
+      "stars": "20k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/SWE-agent/SWE-agent",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Tavily",
+      "repo_url": "https://github.com/tavily-ai/tavily-python",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Search API designed for AI agents: real-time results with answer extraction",
+      "stars": "5k+",
+      "active_since": "2024-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/tavily-ai/tavily-python",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Unstructured",
+      "repo_url": "https://github.com/Unstructured-IO/unstructured",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "Document ingestion: 25+ file formats to structured JSON for RAG pipelines",
+      "stars": "15k+",
+      "active_since": "2022-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/Unstructured-IO/unstructured",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Verba",
+      "repo_url": "https://github.com/weaviate/verba",
+      "license": "BSD-3",
+      "language": "Python",
+      "desc": "Weaviate's open-source RAG: golden RAG with multimodal and hybrid search",
+      "stars": "8k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/weaviate/verba",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "vLLM",
+      "repo_url": "https://github.com/vllm-project/vllm",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "desc": "High-throughput LLM serving: PagedAttention, continuous batching, and OpenAI API",
+      "stars": "50k+",
+      "active_since": "2023-",
+      "sources": [
+        "seed"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-28",
+        "source_url": "https://github.com/vllm-project/vllm",
+        "status": "seed-verified"
+      }
+    },
+    {
+      "name": "Cline",
+      "repo_url": "https://github.com/cline/cline",
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "desc": "Autonomous coding agent as SDK, IDE extension (VS Code, JetBrains), CLI, and desktop app; multi-agent teams, scheduled agents, MCP and plugin extensibility, works with every LLM provider.",
+      "stars": "71.1k",
+      "active_since": "2024-",
+      "sources": [
+        "https://github.com/cline/cline/blob/main/README.md"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "source_url": "https://github.com/cline/cline",
+        "status": "official-repository-and-readme-reviewed",
+        "note": "Existing public project verified via official GitHub repository; stars are a dated snapshot."
+      }
+    },
+    {
+      "name": "DeerFlow",
+      "repo_url": "https://github.com/bytedance/deer-flow",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Open-source long-horizon SuperAgent harness by ByteDance that researches, codes, and creates using sandboxes, memories, tools, skills, subagents and a message gateway for tasks from minutes to hours.",
+      "stars": "84.7k",
+      "active_since": "2025-",
+      "sources": [
+        "https://github.com/bytedance/deer-flow/blob/main/README.md"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "status": "official-repository-and-readme-reviewed",
+        "note": "Existing public project verified via official GitHub repository; stars are a dated snapshot."
+      }
+    },
+    {
+      "name": "Goose",
+      "repo_url": "https://github.com/aaif-goose/goose",
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "desc": "Open-source, extensible general-purpose AI agent (desktop app, CLI, API) built in Rust; works with 15+ providers and 70+ MCP extensions; part of the Agentic AI Foundation at the Linux Foundation.",
+      "stars": "56.0k",
+      "active_since": "2024-",
+      "sources": [
+        "https://github.com/aaif-goose/goose/blob/main/README.md"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "source_url": "https://github.com/aaif-goose/goose",
+        "status": "official-repository-and-readme-reviewed",
+        "note": "Existing public project verified via official GitHub repository; stars are a dated snapshot."
+      }
+    },
+    {
+      "name": "Nanobot",
+      "repo_url": "https://github.com/HKUDS/nanobot",
+      "license": "MIT",
+      "language": "Python",
+      "desc": "Ultra-lightweight, open-source, self-hosted personal AI agent framework with WebUI, TUI, and chat-app channels (Telegram, Discord, Slack, WeChat, etc.); built-in file tools, long-term memory, MCP, and scheduled automations.",
+      "stars": "49.7k",
+      "active_since": "2025-",
+      "sources": [
+        "https://github.com/HKUDS/nanobot/blob/main/README.md"
+      ],
+      "evidence": {
+        "checked_at": "2026-10-30",
+        "source_url": "https://github.com/HKUDS/nanobot",
+        "status": "official-repository-and-readme-reviewed",
+        "note": "Existing public project verified via official GitHub repository; stars are a dated snapshot."
+      }
+    }
+  ]
 }
