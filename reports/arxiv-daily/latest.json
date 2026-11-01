@@ -1,56 +1,56 @@
 {
-  "date": "2026-10-31",
-  "retrieved_at": "2026-10-31T01:09:45.061331+00:00",
+  "date": "2026-11-01",
+  "retrieved_at": "2026-11-01T00:30:50.157261+00:00",
   "status": "complete",
   "window_days": 3,
   "known_arxiv_ids": 246,
-  "count": 59,
+  "count": 41,
   "queries_run": 8,
   "queries": [
     {
-      "query": "all:\"tool use\" AND (all:llm OR all:agent) AND submittedDate:[202610280109 TO 202610310109]",
+      "query": "all:\"tool use\" AND (all:llm OR all:agent) AND submittedDate:[202610290030 TO 202611010030]",
       "status": "complete",
       "pages": 1,
-      "fetched": 11
+      "fetched": 8
     },
     {
-      "query": "(ti:\"web agent\" OR ti:\"gui agent\") AND submittedDate:[202610280109 TO 202610310109]",
+      "query": "(ti:\"web agent\" OR ti:\"gui agent\") AND submittedDate:[202610290030 TO 202611010030]",
       "status": "complete",
       "pages": 1,
       "fetched": 3
     },
     {
-      "query": "(ti:\"coding agent\" OR ti:\"code agent\" OR ti:\"software agent\") AND submittedDate:[202610280109 TO 202610310109]",
-      "status": "complete",
-      "pages": 1,
-      "fetched": 5
-    },
-    {
-      "query": "all:\"multi-agent\" AND (all:llm OR all:\"language model\") AND submittedDate:[202610280109 TO 202610310109]",
-      "status": "complete",
-      "pages": 1,
-      "fetched": 14
-    },
-    {
-      "query": "(all:\"vision-language-action\" OR all:\"embodied agent\") AND submittedDate:[202610280109 TO 202610310109]",
-      "status": "complete",
-      "pages": 1,
-      "fetched": 17
-    },
-    {
-      "query": "all:\"world model\" AND (all:agent OR all:embodied) AND submittedDate:[202610280109 TO 202610310109]",
-      "status": "complete",
-      "pages": 1,
-      "fetched": 13
-    },
-    {
-      "query": "(ti:\"agent benchmark\" OR ti:\"agent safety\") AND submittedDate:[202610280109 TO 202610310109]",
+      "query": "(ti:\"coding agent\" OR ti:\"code agent\" OR ti:\"software agent\") AND submittedDate:[202610290030 TO 202611010030]",
       "status": "complete",
       "pages": 1,
       "fetched": 0
     },
     {
-      "query": "(all:\"rag agent\" OR all:\"retrieval-augmented agent\") AND submittedDate:[202610280109 TO 202610310109]",
+      "query": "all:\"multi-agent\" AND (all:llm OR all:\"language model\") AND submittedDate:[202610290030 TO 202611010030]",
+      "status": "complete",
+      "pages": 1,
+      "fetched": 10
+    },
+    {
+      "query": "(all:\"vision-language-action\" OR all:\"embodied agent\") AND submittedDate:[202610290030 TO 202611010030]",
+      "status": "complete",
+      "pages": 1,
+      "fetched": 14
+    },
+    {
+      "query": "all:\"world model\" AND (all:agent OR all:embodied) AND submittedDate:[202610290030 TO 202611010030]",
+      "status": "complete",
+      "pages": 1,
+      "fetched": 9
+    },
+    {
+      "query": "(ti:\"agent benchmark\" OR ti:\"agent safety\") AND submittedDate:[202610290030 TO 202611010030]",
+      "status": "complete",
+      "pages": 1,
+      "fetched": 0
+    },
+    {
+      "query": "(all:\"rag agent\" OR all:\"retrieval-augmented agent\") AND submittedDate:[202610290030 TO 202611010030]",
       "status": "complete",
       "pages": 1,
       "fetched": 0
@@ -1009,390 +1009,6 @@
         "Embodied",
         "Benchmark",
         "Framework"
-      ]
-    },
-    {
-      "id": "2610.38980",
-      "title": "Context Compaction for World Models",
-      "abstract": "World models let observers explore and interact with generated worlds. Recent work shows that when observers revisit a region, current models often fail to regenerate it consistently. We view this as a context retrieval problem. LLM agents manage context retrieval at two layers of their stack. At the model layer, the KV cache design determines how much context fits in memory. At the agent harness layer, harnesses such as Claude Code pick the context sent to the LLM. Prior work on world models has mostly focused only on the model layer. In this paper, we make three contributions. First, we build a benchmark to measure world model context retrieval. It generates new worlds for every episode, preventing a model from recalling rooms using training data. It also separates context retrieval from guesses based on nearby frames. Second, we build an agent harness that performs context compaction for world models, which to our knowledge no prior work has studied. Third, we use our benchmark to study four world model designs. Context compaction lets our world models retrieve rooms up to 4 times beyond their context window without retraining. However, world models with sliding-window attention lose most of their context retrieval when dreaming. Therefore, a dreaming world agent benefits more from extending the reach of its world model using context compaction than switching to sliding window attention at the model layer.",
-      "published": "2026-10-28",
-      "authors": [
-        "Hayder Tirmazi"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "primary": "cs.AI",
-      "suggested_categories": [
-        "World Model",
-        "Memory",
-        "Benchmark"
-      ]
-    },
-    {
-      "id": "2610.38869",
-      "title": "Auditable Belief Updates as a Missing Safety Layer for LLM-Powered Multi-Agent Systems",
-      "abstract": "Large Language Models (LLMs) are increasingly being used as cognitive interfaces that shape how users interpret evidence, communicate, and make decisions. As deployed systems become more multimodal, tool-using, and multi-agent, safety failures no longer arise only from isolated harmful outputs, but also from how agents update, store, and propagate epistemic commitments across retrieval, memory, tools, and peer communication. In this paper, we define belief as an engineering abstraction for evidence-based commitments that guide downstream action. Building on this view, we propose the Explicit Belief Multi-Agent System (EB-MAS), which externalizes belief states into a structured substrate, uses belief operators to propose candidate updates, and applies a Cognitive Firewall to bound or reject updates that are weakly evidenced but strongly driven by vulnerability cues. We also discuss the risk of group belief at the group level, including manufactured consensus, collusion, and cascading misinformation, and outline practical integration challenges around grounding, false positives, scalability, and ethical misuse. Therefore, scalable agent safety requires not only better output filtering or stronger base models, but also explicit interfaces for tracing, calibrating, and constraining belief revision at runtime.",
-      "published": "2026-10-28",
-      "authors": [
-        "Zhuoyun Li",
-        "Boxuan Wang",
-        "Jinwei Hu",
-        "Xiaowei Huang",
-        "Yi Dong"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "primary": "cs.AI",
-      "suggested_categories": [
-        "Multi-Agent",
-        "Memory",
-        "Safety"
-      ]
-    },
-    {
-      "id": "2610.38867",
-      "title": "Where You Inject Matters: The Trust Region Effect in LLM Agents",
-      "abstract": "LLM agents are increasingly adopted in long-horizon tasks and interact with diverse external environments. Despite their growing capabilities, these agents remain vulnerable to real-world attacks such as indirect prompt injections, which manipulate agents through malicious instructions embedded in external environments. While existing risk assessment work has primarily focused on the injection content, the effect of where an injection appears has not been systematically characterized. Studying injection placement requires agents to operate over longer-horizon tasks and interact with diverse environmental surfaces. Thus, we build three agentic testbeds spanning tool use, coding, and daily workflow domains with diverse injection surfaces. Holding the injection content fixed, we find that agent susceptibility varies across injection placements. We refer to this phenomenon as the trust region effect: agents implicitly assign different levels of trust to different regions of their environments. For example, an agent powered by GPT-5.4 follows an unsafe injection instruction placed in a repository documentation file (i.e., a README or TODO file) 2.6 times more often on average than the same instruction placed in a code or data file. Building upon this observation, we develop learning-based attackers that generate injection content and select better injection placements. Our approach demonstrates that both where an injection is placed and what content it contains can affect the strength of indirect prompt injection attacks. To the best of our knowledge, this work provides the first systematic characterization for the effectiveness of different injection placements, spanning both coarse-grained environmental surfaces and fine-grained positions. The uneven trust that agents implicitly place across their environments provides important insights for future attack and defense design.",
-      "published": "2026-10-28",
-      "authors": [
-        "Chengquan Guo",
-        "Xiaodong Liu",
-        "Weiwei Yang",
-        "Mingqian Feng",
-        "Jialin Song",
-        "Qiyao Ma",
-        "Carolyn Buractaon",
-        "Christopher White"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CR",
-        "cs.LG"
-      ],
-      "primary": "cs.AI",
-      "suggested_categories": [
-        "Tool Use",
-        "RAG"
-      ]
-    },
-    {
-      "id": "2610.38800",
-      "title": "When Relevant Code Is Wrong: Runtime-Aware Context for AI Coding Agents",
-      "abstract": "AI coding agents increasingly rely on retrieved code and development history to guide software changes. However, highly relevant artifacts may describe implementations that are inactive or incompatible with the target deployment. Neither semantic similarity nor recency establishes whether retrieved information remains applicable under feature flags, architectural migrations, and deployment-specific configurations. We challenge relevance-oriented retrieval by introducing operational context validity, a task-, deployment-, and time-dependent criterion for determining whether software evidence can legitimately guide implementation decisions. We instantiate this new retrieval principle in CASE, an agent-agnostic framework that connects repository artifacts with runtime configurations and architectural evolution, classifies evidence as valid, invalid, or unknown, and generates context packages distinguishing actionable guidance from historical rationale and unresolved constraints. We investigate its feasibility through a reproducible preliminary evaluation involving six development tasks, 15 artifacts, and three deployments. Conventional retrieval exposes 16 incompatible artifact occurrences as actionable, whereas CASE excludes them while retaining all applicable artifacts under the prototype's reference rules. Recency filtering reduces valid recall to 0.43, while removing feature-flag evidence from CASE reduces it to 0.13. Although these results demonstrate feasibility rather than improvements in coding-agent correctness, they reveal limitations of relevance-based retrieval and motivate a new research direction: enabling coding agents to reason not only about which information is relevant, but also whether it remains operationally valid.",
-      "published": "2026-10-28",
-      "authors": [
-        "Wesley K. G. Assunção",
-        "Ramesh Periyathambi"
-      ],
-      "categories": [
-        "cs.SE"
-      ],
-      "primary": "cs.SE",
-      "suggested_categories": [
-        "Framework"
-      ]
-    },
-    {
-      "id": "2610.38799",
-      "title": "CARI: Cross-Boundary Adversarial Runtime Injection in Coding-Agent Workflows",
-      "abstract": "Coding agents increasingly develop, test, and integrate software whose components are owned by different developers, teams, or services. This exposes a distinct attack surface: a malicious or compromised peer development role can manipulate a live component of the software under development (e.g., a backend service, test harness, CI job, or deployment service) and influence the runtime feedback that another role's coding agent must process to complete its task. Although such a component has legitimate diagnostic authority to report its own state, it has no action authority over the victim's local files, credentials, shell, or development environment. We introduce Cross-Boundary Adversarial Runtime Injection (CARI), a direct runtime-feedback injection setting that exploits this authority mismatch. Rather than explicitly compromising the victim's prompt, model, tools, or local environment, the attacker covertly embeds malicious instructions in task-relevant runtime feedback produced by a peer-controlled development component. The victim then interprets that feedback as part of normal debugging or recovery, and may translate the diagnostic guidance into unauthorized victim-side actions. We instantiate ten different attacks based on CARI, spanning resource exhaustion, information exposure, and development-state manipulation. Across four programming languages and five code-capable models, CARI succeeds in 2,845/3,000 (94.8%) trials. Furthermore, CARI transfers effectively to product-level coding agents, achieving 61.3% attack success on Codex and 58.7% on Claude Code. By contrast, prompt-level defenses exhibit a security-utility trade-off: generic warnings are ineffective, whereas explicit policies suppress attacks but substantially over-refuse legitimate actions.",
-      "published": "2026-10-28",
-      "authors": [
-        "Jie Fu",
-        "Shuang Wu",
-        "Ashish Kundu",
-        "Wendy Hui Wang",
-        "Yuan Hong"
-      ],
-      "categories": [
-        "cs.CR",
-        "cs.SE"
-      ],
-      "primary": "cs.CR",
-      "suggested_categories": [
-        "General"
-      ]
-    },
-    {
-      "id": "2610.38661",
-      "title": "Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models",
-      "abstract": "Post-training quantization (PTQ) reduces the memory footprint of vision-language-action (VLA) models, but lowering bit widths while maintaining task performance remains challenging. Existing work has used sensitivity estimates from calibration data to assign bit widths to different model components. However, using task success directly to guide mixed-precision allocation is underexplored because closed-loop evaluations are costly and the effect of quantizing one component depends on the precision of other components. To this end, we propose \\textbf{QbD-VLA}, a task-guided mixed-precision quantization method that uses task success from short closed-loop evaluations to assign weight and activation bit widths while accounting for interactions between model components. Experiments covering four VLA models and all four LIBERO suites show strong task performance at average precisions of approximately 4 bits for weights and fewer than 6 bits for activations. On SIMPLER, the gain over uniform quantization is small. On a Franka Research 3 robot arm, simulation-selected allocations show no detected success-rate loss on X-VLA but fail on $π_{0.5}$. These findings support using task success to guide mixed-precision VLA quantization, while highlighting the need for real-world evaluation before deployment. Code is available at \\href{https://github.com/jiuyixu25/QbD-VLA}{\\texttt{github.com/jiuyixu25/QbD-VLA}}.",
-      "published": "2026-10-28",
-      "authors": [
-        "Jiuyi Xu",
-        "Xiao Hu",
-        "Meida Chen",
-        "Song Wang",
-        "Yang Ye",
-        "Yangming Shi"
-      ],
-      "categories": [
-        "cs.RO"
-      ],
-      "primary": "cs.RO",
-      "suggested_categories": [
-        "RAG",
-        "Memory"
-      ]
-    },
-    {
-      "id": "2610.38620",
-      "title": "Think Before You Act: Decision Gate for LLM Agents",
-      "abstract": "LLM agents increasingly perform consequential actions through external tools, yet their proposed actions are often executed without independent verification of policy compliance or task completion. We introduce JevAct, a runtime verification framework that intercepts selected agent actions before execution and enables feedback-driven correction. JevAct compiles domain policies into executable state checks and structured questions evaluated by a prefill-only decision model, which produces probability-based judgments without relying on LLM generation. By combining deterministic verification of tool-state facts with probabilistic assessment of conversational context, the framework identifies potentially invalid actions and premature task termination, providing targeted feedback for bounded revision. JevAct operates independently of the underlying agent model and requires no modifications to its parameters or tools. We evaluate JevAct across eleven LLM agents on $τ^2$-bench Airline and Telecom tasks and BFCL. Results show improvements in agent reliability across multiple models and benchmarks, with particularly consistent gains on Telecom and BFCL, while performance on Airline is more mixed. Overall, these findings suggest that combining structured decision models with executable verification can improve the reliability of tool-using LLM agents.",
-      "published": "2026-10-28",
-      "authors": [
-        "Iftach Shoham",
-        "Yuval David",
-        "Offer Akrabi",
-        "Erez Bilgory",
-        "Ido Levy",
-        "Sami Marreed",
-        "Sergey Zeltyn",
-        "Segev Shlomov"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "primary": "cs.AI",
-      "suggested_categories": [
-        "Benchmark",
-        "Framework"
-      ]
-    },
-    {
-      "id": "2610.38521",
-      "title": "Security Impact of Coding Agent's Memory Files",
-      "abstract": "Coding agents automatically load project memory files such as CLAUDE.md at the start of every session and treat them as trusted project guidance. Anyone who can change such a file, for example through a pull request, can therefore steer the agent without ever touching the developer's prompt. We study memory files as an attack surface for insecure code generation and ask (1) whether a malicious memory file makes agents produce code that passes its tests but is vulnerable, and (2) whether agents disclose to the developer that the file shaped their code. For each of 12 CWE classes, we crafted two malicious memory files, a qualified variant that presents removing defensive checks as engineering best practice and a forceful variant that demands it. We ran Claude Code (Sonnet 5.5) and OpenCode (Qwen 3.8 27B, DeepSeek V4.1 Flash) on 36 SecRepoBench tasks with and without these files. The malicious files changed the rate of secure completions by -8 to +6 percentage points, with no consistent pattern across agents or variants. Agents differ sharply in what they tell the developer about the file. Claude Code names it in about two thirds of its final messages, whereas OpenCode mentions it almost exclusively in its reasoning trace, not in the final message the developer reads. Flagging the file as an attack does not reliably protect the code, as such agents still generated vulnerable code. We outline the larger studies needed to quantify this risk across agents and to design defenses.",
-      "published": "2026-10-28",
-      "authors": [
-        "Thiago Santos de Moura",
-        "Selma Güler",
-        "Yannic Noller"
-      ],
-      "categories": [
-        "cs.SE",
-        "cs.CR"
-      ],
-      "primary": "cs.SE",
-      "suggested_categories": [
-        "Memory"
-      ]
-    },
-    {
-      "id": "2610.38508",
-      "title": "SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control",
-      "abstract": "Joint-embedding predictive architectures (JEPAs) learn to predict representations rather than pixels, offering a compact way to model how visual scenes evolve. We ask whether this predictive objective improves closed-loop control when a vision-language-action (VLA) policy already uses V-JEPA features. We call our JEPA-conditioned flow policy family SaiVLA-JEPA. It combines a vision-language model with a diffusion transformer action expert and receives features from a frozen V-JEPA encoder. Two lightweight auxiliary heads predict future representations during training and are omitted at inference, leaving the action sampler unchanged. We compare policies without JEPA features, with current JEPA conditioning, and with additional future supervision on 10,030 paired LIBERO-Plus episodes. Current JEPA conditioning reaches about 82.5% success versus 71.6% without JEPA, while future supervision provides no detectable aggregate gain at the evaluated training budget. We separately evaluate SaiVLA-JEPA-TCA, which adapts latent context, and SaiVLA-JEPA-TPA, which adapts selected parameters. The context-retry gain is a system-level result under a larger attempt budget; parameter adaptation shows no consistent advantage over the frozen policy and target controls. These results motivate assessing latent-prediction objectives through paired closed-loop rollouts rather than latent loss alone.",
-      "published": "2026-10-28",
-      "authors": [
-        "Rufeng Xiao",
-        "Ruihao Xiao",
-        "Wei Chen",
-        "Xinhai Sun"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "primary": "cs.RO",
-      "suggested_categories": [
-        "General"
-      ]
-    },
-    {
-      "id": "2610.38468",
-      "title": "Cinematize from Unreal: Agentic Choreography for Controllable World Simulation",
-      "abstract": "Controllable world simulation requires more than visually plausible frames: scenes must retain persistent state, coordinated actions, and editable temporal structure. Generative world models offer flexible visual synthesis, but their outputs do not always expose the objects and transitions needed for precise revision. Graphics engines provide executable state and direct control, yet translating language into valid operations requires specialized knowledge of assets, geometry, and interdependent APIs. We present CineU (Cinematize from Unreal), an agentic system for language-driven world orchestration and cinematic choreography within Unreal Engine. From a code-based world modeling perspective, an Unreal project serves as a persistent, inspectable world representation, while agent-generated code specifies operations whose effects can be executed and verified. CineU combines hierarchical orchestration, cascaded asset retrieval and geometry-constrained placement, capability-aligned code synthesis, and multi-stage verification with localized repair. Shared scene and timeline context coordinates entities, actions, camera trajectories, and shot boundaries while supporting dependency-aware revisions. Experiments on scene construction, selective editing, multi-shot cinematography, and component ablations show how specialized execution knowledge and engine feedback improve task completion and targeted recovery. CineU illustrates how executable world state can complement learned visual generation to support controllable and revisable simulated worlds.",
-      "published": "2026-10-28",
-      "authors": [
-        "Zifan Song",
-        "Caihua Shan",
-        "Kaitao Song",
-        "Yifan Yang",
-        "Dongsheng Li",
-        "Cairong Zhao"
-      ],
-      "categories": [
-        "cs.MA"
-      ],
-      "primary": "cs.MA",
-      "suggested_categories": [
-        "World Model"
-      ]
-    },
-    {
-      "id": "2610.38439",
-      "title": "Predict the Reward, Not the World: World Reward Models for ML Agents",
-      "abstract": "Search-based machine-learning (ML) agents improve a solution by writing candidate programs, executing them, and keeping the best. Execution gives the search reliable feedback, but a single run can take hours, and most runs end in programs the agent discards. Recent agents try to save these runs by letting a large language model act as a world model that predicts how each program would perform. However, a wrong prediction feeds the search false information. We argue that an agent does not need to predict the outcome of execution, only the decision that execution would support. We propose World Reward Models (WRMs), which learn from real execution results to choose directly which candidate will perform better, without predicting any intermediate outcome. We prove that a selector which predicts execution from the same inputs cannot outperform the best direct selector, that predicted outcomes add an error which can make a likelihood-trained world model prefer the worse program on every instance, and that cross-entropy on executed winners drives a WRM toward the optimum. Our WRM, ForeCritic, adapts a 9B typed decision model to 5k executed program pairs. On 12,438 held-out pairs from 26 ML tasks, it picks the better program 79.4% of the time, while general-purpose LLM judges reach 53--62%, and its probabilities are calibrated. Inside AIDE, ML-Master, and ForeAgent, it cuts mean task time by 4.4--7.5 times while keeping their mean scores within 0.01 or raising them.",
-      "published": "2026-10-28",
-      "authors": [
-        "Yuxiao Lee",
-        "Zherui Yang",
-        "Fan Liu",
-        "Hao Liu"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "primary": "cs.AI",
-      "suggested_categories": [
-        "World Model"
-      ]
-    },
-    {
-      "id": "2610.38332",
-      "title": "MUSE: Multi-Level Memory with Selective Runtime Injection for Scientific Coding Agents",
-      "abstract": "Historical experience can guide scientific coding at multiple levels, but task-level retrieval may miss implementation lessons that become relevant during execution. We introduce MUSE, a memory management framework combining multi-level memory with selective runtime injection for scientific coding agents. MUSE builds global, approach-level, and implementation-level memory from historical trajectories. At initialization, the agent receives global memory and problem-matched approach-level memory. During execution, current interactions are used to retrieve implementation-level memory. An LLM gate selects relevant experience and generates specific review advice, or skips injection. Across four benchmarks spanning numerical problem solving, kernel optimization, and scientific software repair, MUSE outperforms retrieval and memory baselines on all evaluation metrics. Ablations support the multi-level design and gated injection, while transfer experiments show that memory remains useful across kernel benchmarks. These results show that multi-level memory and selective runtime injection enable effective reuse of experience in scientific coding. Code is available at https://github.com/hr-jin/MUSE.",
-      "published": "2026-10-28",
-      "authors": [
-        "Haoran Jin",
-        "Defu Lian",
-        "Xiting Wang",
-        "Hong Xie"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "primary": "cs.LG",
-      "suggested_categories": [
-        "Memory",
-        "Benchmark",
-        "Framework"
-      ]
-    },
-    {
-      "id": "2610.38329",
-      "title": "A Case Study of a Multi-Agent Kernel-Optimization Loop That Learns a New AI Accelerator",
-      "abstract": "Frontier large language models write correct CUDA kernels for most single-operator benchmark tasks, yet their accuracy collapses on accelerators whose architecture and programming language they have rarely seen. We present a case study of an LLM agent loop built for such accelerators. Our example is the FuriosaAI RNGD NPU, programmed in a recent, sparsely documented Rust DSL, where the loop optimized three Gemma-4-12B decode kernels over 12 days on a shared, scarce device. The loop builds its own target knowledge: it writes and checks a summary of the DSL documentation, measures the chip with microbenchmarks, records compiler-derived legality rules, and revisits this knowledge when the toolchain changes, rechecking rules and measurements where it can. A role-based search over per-kernel Design Trees explores whole-kernel designs and accumulates small accepted changes in the best version of each kernel. Because device time is scarce and readings are noisy, cheap checks screen new designs before any device run, and late in the run a change was accepted only after repeated comparisons with the best kernel on the device. The final kernels reach a 9.293x geomean speedup over the official baseline, each within 1.25x of the cycles needed just to move its weights. Our prompts, profiler and acceptance test are available at https://github.com/bgchun-fs/multi-agent-kernel-gen-loop.",
-      "published": "2026-10-28",
-      "authors": [
-        "Byonggon Chun"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.AR",
-        "cs.PL"
-      ],
-      "primary": "cs.LG",
-      "suggested_categories": [
-        "Multi-Agent",
-        "Benchmark"
-      ]
-    },
-    {
-      "id": "2610.38266",
-      "title": "Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation",
-      "abstract": "Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks. When a system also revises and reuses its data-acquisition, feedback, or learning procedures, experience changes the process that produces capability, introducing recursive self-improvement. This paper surveys research in physical AI through the connection between persistent capability and its improvement process. We first explain the functional distinction between learner updates and improvers, then compare policy learning, imagined experience, memory and skill accumulation, and executable harnesses. These approaches connect to revisions of curricula, rewards, and research programs in different ways. Contact validity, recovery, retention, and resource costs determine whether the resulting gains accumulate during continued deployment. An L0-L3 rubric distinguishes task-local adaptation, persistent capability gain, inherited process revision, and verified improver gain. Representative benchmarks and within-study contrasts relate these distinctions to existing results. We further propose common-data and interactive comparisons that evaluate reference and revised improvers from shared learner starts, separating the use of experience from its acquisition. This perspective connects the diverse methods, physical operating conditions, and evaluation evidence, underpinning embodied RSI. A comprehensive list of studies in this survey is available at https://github.com/nkd-lkz/physical-ai-rsi-survey.",
-      "published": "2026-10-28",
-      "authors": [
-        "Xiaofeng Han",
-        "Kaize Luo",
-        "Zenghuang Fu",
-        "Zichong Zhu",
-        "Zhe Feng",
-        "Changwei Wang",
-        "Rongtao Xu",
-        "Weiliang Meng"
-      ],
-      "categories": [
-        "cs.RO"
-      ],
-      "primary": "cs.RO",
-      "suggested_categories": [
-        "Embodied",
-        "World Model",
-        "Memory",
-        "Benchmark"
-      ]
-    },
-    {
-      "id": "2610.38244",
-      "title": "Precedent or Intent? What Coding Agents Follow When Evolving Existing Code",
-      "abstract": "Existing code reveals past implementation decisions but rarely explains the reasoning behind them. When coding agents implement new features or modify existing functionality, past decisions may conflict with new task instructions. This raises a fundamental question for agentic software evolution: when multiple implementations satisfy the same functional requirements, how do coding agents decide whether to follow existing code or new task instructions? We investigate this question through bidirectional, controlled experiments in purpose-built repositories, followed by validation in real-world open-source repositories. Our approach isolates three competing sources of guidance: (1) agents' default preferences, (2) repository precedents, and (3) explicit task instructions. We conduct 5,625 trials across four coding agents and six implementation pairs, with validation in four open-source repositories spanning three programming languages. We find that agents share the same default implementation choices, yet overwhelmingly follow repository precedent when it conflicts with those defaults (359/360 trials). Crucially, not all precedents carry equal influence: three supporting local files yield 96% adoption, compared with only 4% for sibling-resource files, and changing file placement alone can shift adoption from 0% to 100% at a fixed example count. When new task intent conflicts with existing code, written priority rules achieve substantially higher success than code examples alone (59/60 versus 38/60 joint successes for two agents on two implementation pairs). The effectiveness of explicit rules also extends to open-source repositories, where a harness-loaded rule raises joint success from 0/120 to 117/120. These findings motivate design-decision traceability that preserves not only implementation choices but also the rationale and priorities that should guide future changes.",
-      "published": "2026-10-28",
-      "authors": [
-        "Haichao Zhu",
-        "Geyang Xu",
-        "Zhaorui Yang",
-        "Jiyuan Wang",
-        "Qian Zhang"
-      ],
-      "categories": [
-        "cs.SE",
-        "cs.AI"
-      ],
-      "primary": "cs.SE",
-      "suggested_categories": [
-        "General"
-      ]
-    },
-    {
-      "id": "2610.38215",
-      "title": "Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems",
-      "abstract": "Clinical large language models are increasingly fielded as multi-agent teams, on the assumption that deliberation averages out individual error. It does not average out bias. Across a full factorial of five model families and four aggregation topologies on 120 real MIMIC-IV emergency cases under counterfactual demographic swaps, no configuration neutralizes the disparity: all 20 cells commit the direction of their agents' independent answers, giving Black patients more acute triage. Every model has a topology that amplifies its baseline gap, but which one varies by model, so no design is reliably safe or reliably amplifying: the disparity is relocated, never removed. Late-stage fixes fail: fairness instructions and demographic masking leave the gap untouched, and per-agent self-debiasing widens it, because the bias is already encoded in the agents' ordinary clinical numbers. We call this disparity laundering; the audits now applied to clinical AI, per model, per output, per version, can certify the parts but never the committed decision. Interventions close the gap exactly when they make counterfactual versions visible inside the system and pool them, through deliberation, into the committed decision. A diverse-perspective ensemble does both while keeping the team, with no retraining or architectural change: the disparity falls by 67 to 94% where all five perspectives pool at every round, and the one topology that never pools them is the one it cannot reliably repair. Medical multi-agent systems do not filter demographic bias; they launder it into plausible decisions no single-version audit can catch, and the only defense is to make the bias visible.",
-      "published": "2026-10-28",
-      "authors": [
-        "Xiaoyang Wang",
-        "Tianrui Wang",
-        "Christopher C. Yang"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ],
-      "primary": "cs.AI",
-      "suggested_categories": [
-        "Multi-Agent",
-        "RAG"
-      ]
-    },
-    {
-      "id": "2610.38199",
-      "title": "Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation",
-      "abstract": "Behavior Cloning has demonstrated promising generalization capabilities for robotic manipulation in terrestrial environments. However, marine visual distortions and dynamic currents create a severe domain shift that remains a key bottleneck in adapting generalist architectures to underwater field manipulation. To address this, 1616 episodes of underwater manipulation data were collected in calm and turbulent waters and were used to train 14 generalist Vision-Language-Action (VLA) models (DynamicVLA) with varying proprioception observation configurations. Across three tasks on 1260 gradable on-hardware rollouts in a pool, 10 models outperformed the baseline, with the highest-performing model achieving a 93.3% overall success rate, including partial successes. Results are also introduced from a case study evaluating the performance of a single-task Action Chunking Transformer (ACT) and a generalist VLA (SmolVLA) policy for two tasks in marine archaeology and conservation: grasping and mooring. Experiments are performed on an ROV on and around the WWII wreck Coralita X127 and at Manoel Island Marina, Malta. Across 748 collected episodes and 508 gradable on-hardware rollouts, the ACT policy substantially outperformed SmolVLA (47.9% vs. 7.9% pooled success rate), earning a 66.7% success rate on the most successful task at the marine archaeological site. To enable further contributions to embodied intelligence in marine field robotics, the BLUEMBODIED KIT used to collect data, train models, and deploy policies on the ROV has been open sourced.",
-      "published": "2026-10-28",
-      "authors": [
-        "Greta Perez-Haiek",
-        "Luca Macesanu",
-        "Kevin Angers",
-        "Mohammed Imam",
-        "Timothy Gambin",
-        "Christopher Clark"
-      ],
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ],
-      "primary": "cs.RO",
-      "suggested_categories": [
-        "Embodied"
-      ]
-    },
-    {
-      "id": "2610.38145",
-      "title": "El Agente Quntur: Agentic Active-Space Selection for CASSCF",
-      "abstract": "Multireference calculations often require substantial human expertise and time to choose and refine an active space for the electronic states or chemical process of interest. This involves selecting which orbitals to include, verifying that the calculation describes the intended excited state, and deciding whether the results have converged. Here, we ask whether scientific agentic systems (harnesses) can make these decisions reliably. We use the El Agente Quntur multi-agent harness, with GPT-5.6 Sol and GPT-5.6 Terra as the underlying LLM components, to explore 32 diverse singlet excitations at fixed molecular geometries. The agents planned and executed calculations, choosing and refining active spaces under prompts that specified equal-weight two-singlet state-averaged CASSCF followed by strongly contracted NEVPT2 with def2-TZVPD. We evaluate excitation energies against published CASPT2 reference values at matching geometries and compare performance with six deterministic Active Space Finder protocols. Within the El Agente Quntur system, agents detect missing active orbitals, compare candidate excited states, and revise state assignments as calculations progress. Agentic execution reduced mean absolute error by 48\\% relative to the state-of-the-art Active Space Finder protocol. We note that computational traces vary substantially across runs in both active space selection strategies and cost, even for the same molecule. Our results underscore the advantage of agentic active space selection over fixed workflows, yet leave room to improve efficiency through runtime-aware decision-making, reduced inter-agent communication overhead and redundancy, more systematic checks of state identity, and clearer stopping criteria.",
-      "published": "2026-10-28",
-      "authors": [
-        "Juan B. Pérez-Sánchez",
-        "Viviana Roman-Ventura",
-        "Olalla Nieto-Faza",
-        "Aiwei Yin",
-        "Alán Aspuru-Guzik",
-        "Varinia Bernales"
-      ],
-      "categories": [
-        "physics.chem-ph",
-        "cs.MA"
-      ],
-      "primary": "physics.chem-ph",
-      "suggested_categories": [
-        "Multi-Agent",
-        "RAG"
       ]
     }
   ],
