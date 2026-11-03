@@ -1,61 +1,444 @@
 {
-  "date": "2026-11-02",
-  "retrieved_at": "2026-11-02T01:05:45.729017+00:00",
+  "date": "2026-11-03",
+  "retrieved_at": "2026-11-03T03:07:53.188708+00:00",
   "status": "complete",
   "window_days": 3,
   "known_arxiv_ids": 246,
-  "count": 0,
+  "count": 17,
   "queries_run": 8,
   "queries": [
     {
-      "query": "all:\"tool use\" AND (all:llm OR all:agent) AND submittedDate:[202610300105 TO 202611020105]",
+      "query": "all:\"tool use\" AND (all:llm OR all:agent) AND submittedDate:[202610310307 TO 202611030307]",
+      "status": "complete",
+      "pages": 1,
+      "fetched": 1
+    },
+    {
+      "query": "(ti:\"web agent\" OR ti:\"gui agent\") AND submittedDate:[202610310307 TO 202611030307]",
       "status": "complete",
       "pages": 1,
       "fetched": 0
     },
     {
-      "query": "(ti:\"web agent\" OR ti:\"gui agent\") AND submittedDate:[202610300105 TO 202611020105]",
+      "query": "(ti:\"coding agent\" OR ti:\"code agent\" OR ti:\"software agent\") AND submittedDate:[202610310307 TO 202611030307]",
+      "status": "complete",
+      "pages": 1,
+      "fetched": 3
+    },
+    {
+      "query": "all:\"multi-agent\" AND (all:llm OR all:\"language model\") AND submittedDate:[202610310307 TO 202611030307]",
+      "status": "complete",
+      "pages": 1,
+      "fetched": 4
+    },
+    {
+      "query": "(all:\"vision-language-action\" OR all:\"embodied agent\") AND submittedDate:[202610310307 TO 202611030307]",
+      "status": "complete",
+      "pages": 1,
+      "fetched": 8
+    },
+    {
+      "query": "all:\"world model\" AND (all:agent OR all:embodied) AND submittedDate:[202610310307 TO 202611030307]",
+      "status": "complete",
+      "pages": 1,
+      "fetched": 2
+    },
+    {
+      "query": "(ti:\"agent benchmark\" OR ti:\"agent safety\") AND submittedDate:[202610310307 TO 202611030307]",
       "status": "complete",
       "pages": 1,
       "fetched": 0
     },
     {
-      "query": "(ti:\"coding agent\" OR ti:\"code agent\" OR ti:\"software agent\") AND submittedDate:[202610300105 TO 202611020105]",
-      "status": "complete",
-      "pages": 1,
-      "fetched": 0
-    },
-    {
-      "query": "all:\"multi-agent\" AND (all:llm OR all:\"language model\") AND submittedDate:[202610300105 TO 202611020105]",
-      "status": "complete",
-      "pages": 1,
-      "fetched": 0
-    },
-    {
-      "query": "(all:\"vision-language-action\" OR all:\"embodied agent\") AND submittedDate:[202610300105 TO 202611020105]",
-      "status": "complete",
-      "pages": 1,
-      "fetched": 0
-    },
-    {
-      "query": "all:\"world model\" AND (all:agent OR all:embodied) AND submittedDate:[202610300105 TO 202611020105]",
-      "status": "complete",
-      "pages": 1,
-      "fetched": 0
-    },
-    {
-      "query": "(ti:\"agent benchmark\" OR ti:\"agent safety\") AND submittedDate:[202610300105 TO 202611020105]",
-      "status": "complete",
-      "pages": 1,
-      "fetched": 0
-    },
-    {
-      "query": "(all:\"rag agent\" OR all:\"retrieval-augmented agent\") AND submittedDate:[202610300105 TO 202611020105]",
+      "query": "(all:\"rag agent\" OR all:\"retrieval-augmented agent\") AND submittedDate:[202610310307 TO 202611030307]",
       "status": "complete",
       "pages": 1,
       "fetched": 0
     }
   ],
-  "papers": [],
+  "papers": [
+    {
+      "id": "2611.01276",
+      "title": "OntoDoc: Automatically Generating Ontology Resource Descriptions",
+      "abstract": "Knowledge graphs and ontologies form the backbone of structured, machine-readable knowledge representation, yet ontology terms often lack natural language descriptions, limiting their accessibility and reuse. Existing ontology verbalization approaches tend to rely on rule-based or template-driven techniques that operate on strict, formal schema axioms, resulting in rigid verbalizations that fail to convey richer contextual semantics. We present OntoDoc, a multi-agent framework for automatically generating natural language descriptions for any Internationalized Resource Identifier (IRI) within a SPARQL endpoint or RDF file. OntoDoc operates through a four-stage pipeline: (1) a Database Context agent that adaptively explores the knowledge graph via SPARQL to collect semantically informative triples about the target IRI; (2) a Web Context agent that retrieves and re-ranks encyclopedic background knowledge from Wikipedia and the open web; (3) an Assumption Generation agent that synthesizes both contexts into a structured, evidence-grounded list of intermediate assumptions; and (4) a Description Generation agent that produces the final natural language description from the grounded assumptions. We evaluate OntoDoc on three knowledge graphs spanning biomedical, agricultural, and cross-domain settings, using both automatic scoring via Large Language Models (LLMs) and human evaluation with 11 annotators. OntoDoc consistently matches or exceeds a naive LLM baseline and a template-based ontology verbalizer in accuracy. Furthermore, it vastly outperforms both baselines in the completeness of the generated descriptions, delivering an average 12% improvement in completeness over the naive baseline across all domains, and improving completeness scores by as much as 2.8 points on a 5-point scale relative to the ontology verbalizer.",
+      "published": "2026-10-31",
+      "authors": [
+        "Juan Guajardo Gutierrez",
+        "Mike Tran",
+        "Nasim Shirvani Mahdavi",
+        "Chengkai Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "primary": "cs.AI",
+      "suggested_categories": [
+        "Multi-Agent",
+        "RAG",
+        "Framework"
+      ]
+    },
+    {
+      "id": "2611.01265",
+      "title": "Toward Bounding Coding-Agent Autonomy in Software Maintenance: A Pilot Study of Boundary Contracts",
+      "abstract": "As coding agents gain greater autonomy to modify software repositories, relevant context alone does not define their operational authority. An artifact may be relevant to a maintenance task while being inappropriate to edit; conversely, another artifact may be required even when it is not explicitly mentioned in the request. We explore Boundary Contracts, a machine-readable abstraction that makes task-specific artifact roles (editable, inspect-only, required, and protected) explicit before repository modification begins. We conduct a pilot study on 40 maintenance tasks from a real enterprise repository, comparing the same Codex-based coding agent with and without Boundary Contract information. The boundary-informed condition improves macro edit-selection F1 from 0.440 to 0.682, required-behavior coverage from 0.429 to 0.673, and the number of strictly acceptable patches from 9 of 40 to 18 of 40. To probe whether these gains are explained only by improved file localization, we additionally analyze 21 tasks in which both conditions modify at least one identical file. Differences remain in edit selectivity and patch outcomes, providing initial evidence that explicit artifact roles may influence maintenance behavior beyond localization alone. This pilot does not establish the general effectiveness of Boundary Contracts. Rather, it provides initial evidence for a broader research question: how should the operational boundaries of coding agents be generated, validated, revised, and ultimately enforced as repository-level maintenance becomes increasingly autonomous?",
+      "published": "2026-10-31",
+      "authors": [
+        "Heeyong Eun",
+        "Seungyeon Chung",
+        "Hyejee Park",
+        "Youngeun Lee",
+        "Sukhyun Hong",
+        "Hyewon Jung"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary": "cs.SE",
+      "suggested_categories": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "2611.01215",
+      "title": "Vision-Language Models Are Joint Denoisers in Robotic Action Generation",
+      "abstract": "Diffusion-based vision-language-action (VLA) models cascade pretrained vision-language models (VLMs) with diffusion action experts, but typically restrict the VLM to providing static conditioning. This separation limits how much pretrained perception and reasoning can guide action generation, especially in out-of-distribution settings. We introduce JADE, a Joint Action DEnoiser that enables the VLM and action expert to jointly refine actions. Our key insight is that structured action latents allow the VLM to read the current noisy action together with visual observations and language instructions. At every denoising step, the VLM contextualizes the noisy action and guides the action expert through gated cross-attention, so that its guidance evolves with the action being generated. We further supervise the VLM to recover clean action latents from noisy ones, which gives it a direct action-learning signal and couples perception with control. Additionally, joint denoising enables JADE to generate actions with fewer sampling steps, helping offset the additional cost of VLM participation. An adaptive step-size schedule further balances task performance and inference latency. On RoboDojo, JADE achieves an average success rate of 12.67%, the highest among the evaluated $π_{0.5}$-based methods, and is competitive with recent VLA and WAM foundation models pretrained at scale. It also improves performance on RoboTwin 2.0 and raises the average success rate across four real-world bimanual tasks by 20.8 percentage points compared with $π_{0.5}$.",
+      "published": "2026-10-31",
+      "authors": [
+        "Xicheng Gong",
+        "Wenxuan Song",
+        "Chengze Liu",
+        "Qiwei Li",
+        "Qize Yu",
+        "Jiaolong Yang",
+        "Haoang Li",
+        "Yadong Mu"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary": "cs.RO",
+      "suggested_categories": [
+        "RAG"
+      ]
+    },
+    {
+      "id": "2611.01190",
+      "title": "ClothDojo: Learned Data Generation and Benchmarking for Bimanual Garment Flattening and Folding",
+      "abstract": "Garment flattening and folding require robots to identify garment structure during manipulation and adapt their actions as the cloth deforms. We present ClothDojo, a simulation platform that generates adaptive manipulation trajectories at scale across diverse garments and initial states and evaluates policies in closed loop. ClothDojo encodes each garment's canonical mesh coordinates as an NOCS texture, providing canonical surface-position cues through the visual interface of a pretrained vision-language-action model. We fine-tune the model on human demonstrations and corrections to obtain a data-generation policy. The policy autonomously generates simulated manipulation trajectories, and we retain rollouts that satisfy task-specific success criteria. Each retained trajectory is re-rendered under a randomly sampled appearance to provide RGB observations for downstream policies that do not receive NOCS. Across both tasks, the policy produces nearly 8,000 successful trajectories over hundreds of garments. RGB policies trained on these generated trajectories outperform those trained directly on the original human demonstrations and corrections across all evaluated garment splits and appearance settings. Evaluations across multiple policy models show that overall performance and appearance robustness vary across models and tasks, while generalization to unseen garments remains a common challenge.",
+      "published": "2026-10-31",
+      "authors": [
+        "Zilong Huang",
+        "Zipeng Ye",
+        "Caicheng Wang",
+        "Yuchen Xie",
+        "Jiaxiang Luo"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "primary": "cs.RO",
+      "suggested_categories": [
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "2611.01181",
+      "title": "Do Coding Agents Catch Their Own Bugs? (They Don't.)",
+      "abstract": "In software development, engineers need to foresee and fix potential problems with their code that are not explicitly specified in requirements---such as pre-emptively considering vulnerabilities or other bugs from a code change. But current benchmarks often do not measure these future-looking consequences. We introduce $\\textbf{Foresight-SWE}$, a benchmark for measuring whether coding agents can anticipate and address unstated problems during software engineering tasks. Foresight-SWE consists of 212 samples spanning 4 languages and 35 popular open-source repositories. Each sample contains two pull requests (PRs), the second of which resolves defects the first one introduced. To measure whether agents exhibit foresight, we define the $\\textbf{foresight resolve rate (FRR)}$ as the fraction of instances where an agent fully resolves the original task while also avoiding the defect identified by a later PR. We evaluate eleven large language models and find that FRR ranges from only 6.13% to 24.53%, indicating that models largely fail to address problems introduced by the first PR change. This raises important questions about how models are trained and aligned in coding contexts, as well as how code review tools should be improved for more fail-safe coding. Foresight-SWE shifts evaluations in this direction.",
+      "published": "2026-10-31",
+      "authors": [
+        "Shaswat Patel",
+        "Michel Liao",
+        "Peter Henderson",
+        "He He",
+        "Valerie Chen"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "primary": "cs.SE",
+      "suggested_categories": [
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "2611.01145",
+      "title": "CivicBench: A Benchmark and Memory Framework for Web-Based Civic Data Analytics",
+      "abstract": "Municipalities publish service requests, geographic boundaries, weather observations, demographic estimates, and operational guidance through independently maintained Web portals. Civic analysis must combine these sources while preserving their schemas, source links, spatial and temporal scopes, and interpretive limits. Tool-using language agents can perform this integration, but existing task benchmarks rarely test whether a computed claim remains supported by the records used. We present CivicBench, a 400-task benchmark over four cities and two years that materializes civic Web data into frozen bundles for reproducible evaluation. Executable contracts score computation, source linkage, coverage, scope, qualified answers, and refusal when the requested conclusion is not supported. We also introduce Task-State Memory (TSM), which compiles tool observations into typed assertions, reconciles records only within compatible scopes, and retrieves a bounded state organized around unresolved constraints. Across nine completed model pairs, eight yield positive mean-score differences with 95\\% semantic-contract-cluster bootstrap intervals excluding zero; the ninth interval crosses zero. The benchmark and memory framework make the records behind a claim inspectable at the point of decision.",
+      "published": "2026-10-31",
+      "authors": [
+        "Yangyu Wu",
+        "Siru Zhong",
+        "Haoyuan Liang",
+        "Yuxuan Liang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "primary": "cs.AI",
+      "suggested_categories": [
+        "RAG",
+        "Memory",
+        "Benchmark",
+        "Framework"
+      ]
+    },
+    {
+      "id": "2611.01011",
+      "title": "Leap-VLA: High-Rate Robot Control from a Low-Rate VLM Backbone",
+      "abstract": "Vision-language-action (VLA) models re-encode the full observation through a multi-billion-parameter vision-language model (VLM) at every control step, even though scene semantics evolve at roughly 1 Hz while reactive control requires 20-50 Hz. We present a VLA that decouples the two: a VLM runs as a low-frequency semantic anchor whose cached context is reused across control steps, while a flow-matching action expert operates at high frequency, consuming the cached semantics with a fresh, low-latency visual stream from a compact encoder pretrained on robot video with masked reconstruction, optical flow, and depth. The measured age $τ$ of the cache conditions the expert through adaptive layer normalization. Reusing the cache makes the policy a function of its age, and training covers that function explicitly: cache ages sampled from real episode history, plus an age-ramped pixel corruption that erases the stale snapshot the way deployed staleness corrupts content. On the asynchronous deployment stack, the recipe closes most of the staleness gap: on LIBERO-Spatial, 61.4% to 95.5% at a 2 s semantic refresh (95.9% at 1 s, within 1.6 points of the frequency-matched anchor); averaged over the four LIBERO suites, the deployed policy holds 95.2% at a 1 s refresh and 94.5% at 2 s against a 96.3% matched anchor. A forward-only chunk-boundary correction (soft-nudge), an autograd-free reformulation of real-time-chunking guidance, carries per-control-step re-planning without loss (97.1%) at zero added latency. The same lens exposes a second defect: under an instruction-scene mismatch the policy keeps manipulating the scene, and a chain-of-thought verdict gate trained on zero-cost negative episodes freezes execution exactly on mismatched instructions without hurting feasible success.",
+      "published": "2026-10-31",
+      "authors": [
+        "Lin Yang",
+        "Yunjie Shen",
+        "Zheyu Li",
+        "Zhenjie Tian",
+        "Yongli Wang",
+        "Dongze Huang",
+        "Weiqi Wang",
+        "Yucheng Zhu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "primary": "cs.AI",
+      "suggested_categories": [
+        "RAG",
+        "Planning"
+      ]
+    },
+    {
+      "id": "2611.01001",
+      "title": "GURU: A Hierarchical Neuro-Symbolic Multi-Agent System for Verification-Aware Automation of Mission-Critical Digital Engineering and Operations",
+      "abstract": "An AI can find a safe action faster than any human, but it must never decide what counts as safe. We present GURU, a hierarchical neuro-symbolic multi-agent system for mission-critical digital engineering and operations, built on one partition of authority: learned models propose, rank, and accelerate; a symbolic rules engine checks every consequential action against hard limits before it executes; and validated physics confirms and decides. GURU runs a workflow as a closed control loop, with Navigation, Action, and Planning agents sharing one Common Internal Language and one training factory. Nuclear, aviation, and national-security guidance now requires this pattern; a harnessed language model keeps the model at the center, GURU puts a validated reference there. In computational fluid dynamics, the workflow raised the converged-simulation rate on unseen aircraft geometries from under 1 percent to 74 percent over 100 single-attempt cases, ran 54 live cases to Mach 6 on three facilities, and an ablation put the symbolic layer at 13 points of boundary-layer capture. Knowledge-graph retrieval and role adapters raised ParaView control success from 55 to 75 percent. In space domain awareness, where a language model cannot be trusted to decide, a frozen self-supervised world model under validated propagation scored highest of five methods at conjunction risk, including fully fine-tuned language models, with several-times-lower seed variance: the trustworthy design gives up nothing in accuracy, and the recipe transferred to reactor anomaly detection. A radar-to-avoidance debris pipeline was demonstrated in stages on a 2026 reentry; the hierarchy coordinates simulated teams of 200 aircraft. Training scaled near-linearly past 1,000 Aurora nodes and ran at 8,000. The approach extends to a control-grade microreactor digital twin with validated physics, not a learned model, as the safety basis.",
+      "published": "2026-10-31",
+      "authors": [
+        "Allan Grosvenor",
+        "Anton Zemlyansky",
+        "Abdul Wahab",
+        "Kyrylo Bohachov",
+        "Aras Dogan",
+        "Ryland Adams",
+        "Dwyer Deighan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CE",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "primary": "cs.AI",
+      "suggested_categories": [
+        "Multi-Agent",
+        "World Model",
+        "Planning",
+        "Safety"
+      ]
+    },
+    {
+      "id": "2611.00923",
+      "title": "Illusion: Safeguarding Topology Confidentiality in LLM Multi-Agent Systems via Behavior-Preserving Obfuscation",
+      "abstract": "The communication topology of Large Language Model Multi-Agent Systems (LLM-MASs) governs how information propagates among agents and encodes critical domain knowledge and expert workflow design. It is valuable intellectual property and plays a decisive role in system utility and safety, yet remains vulnerable to inference attacks that stealthily reconstruct it from agent outputs. Existing defenses detect or mitigate such attacks but do not proactively conceal the topology itself. We propose \\textit{Illusion}, a proactive topology obfuscation defense for LLM-MAS. \\textit{Illusion} injects fake edges and fake messages to present attackers with a deceptive topology, while selecting low-impact candidates that preserve output-distribution equivalence and task-accuracy non-inferiority. The resulting fake edges are designed to be indistinguishable from genuine messages under black-box observation. Extensive experiments show that \\textit{Illusion} reduces edge-level F1 from over 0.87 to 0.62 and graph similarity from over 0.94 to 0.71. It also largely preserves output distributions and task performance, and its fake edges resist both similarity-based and LLM-judge filtering, even under adaptive pruning.",
+      "published": "2026-10-31",
+      "authors": [
+        "Yiu-Fai Cheung",
+        "Hongzhi Guo",
+        "Miao Pan",
+        "Irwin King",
+        "Hao Wang"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary": "cs.CR",
+      "suggested_categories": [
+        "Multi-Agent",
+        "Safety"
+      ]
+    },
+    {
+      "id": "2611.00896",
+      "title": "Verifying Test-State Identity in Paired Evaluation of Vision-Language-Action Models",
+      "abstract": "Simulation-based VLA evaluation often treats matching task, seed, and episode identifiers as sufficient evidence that two policies faced identical test conditions. Under specific vectorized reset and autoreset conditions, different termination timing can change subsequent initial-state assignment, so the same episode index need not mean the same test state. We present an evaluation-integrity framework for paired comparison - invariants I1-I5, provenance logging, optional scene fingerprints, and an automated checker - and a controlled LeRobot 0.6.1 LIBERO harness study with emulated controllers. Four evidence levels are kept separate: (A) mixed-horizon Sync wave-1 IDs [20, 5, 22, 7] vs [4, 5, 6, 7]; (B) homogeneous separate-job Sync control (16 cells, 0 ID/fingerprint mismatches); (C) Async+Freeze batch-size map differences (12 I3 mismatches; bs=8 incomplete; mechanism unisolated); (D) a synthetic McNemar illustration only. Controllers were emulated and no real-VLA shared-vector experiment was completed. We recommend checking declared/resolved init-state identity and provenance before paired statistics. We do not claim that published VLA leaderboards are generally invalid.",
+      "published": "2026-10-31",
+      "authors": [
+        "Rafiqul Islam"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "primary": "cs.RO",
+      "suggested_categories": [
+        "Framework"
+      ]
+    },
+    {
+      "id": "2611.00770",
+      "title": "Embodied AI for Radio Mapping: From Solo to Swarm",
+      "abstract": "Radio maps provide spatial knowledge of wireless environments to assess coverage, manage spectrum use, and support connectivity-aware mobility. Recent advances in embodied intelligence (EI) offer a promising approach to radio map reconstruction by enabling agents to perceive the environment and autonomously adjust their survey paths toward safe, reachable locations. However, a single agent remains constrained by limited endurance and onboard computing capacity, limiting measurement collection and reconstruction performance. Swarm cooperation can support more efficient radio mapping over larger areas by sharing observations and coordinating members' sampling. This article first explores the capabilities and applications of cooperative embodied agents. A cooperative radio map reconstruction framework is then presented, together with its key enabling techniques. Case study results illustrate how scene perception supports access to informative sampling locations and how air--ground cooperation improves reconstruction through complementary measurements and mobile support. The article concludes with open challenges and future research directions for reliable and efficient embodied cooperative radio mapping in complex environments.",
+      "published": "2026-10-31",
+      "authors": [
+        "Shangjie Zhuang",
+        "Wenlihan Lu",
+        "Zhentian Zhang",
+        "Ziwei Huang",
+        "Zaichen Zhang",
+        "Rongqing Zhang",
+        "Shijian Gao"
+      ],
+      "categories": [
+        "eess.SP"
+      ],
+      "primary": "eess.SP",
+      "suggested_categories": [
+        "Embodied",
+        "RAG",
+        "Framework"
+      ]
+    },
+    {
+      "id": "2611.00758",
+      "title": "Old Is Not False: Valid-Time Memory for Interactive Video World Models",
+      "abstract": "Interactive video world models draw each frame from a memory bank of earlier frames stamped with their capture times. With frames, weights and noise fixed, reversing the timestamps of two views flips the state that generators of two families draw: they take the newest timestamp as the truth. That reading is right as long as states never return. After an agent undoes an action, the newest view of a region is outdated and the only view of the present is older; memories for changing worlds delete that older view, and memories that keep it hand the generator the past. Temporal databases separate when a record is stored from when its content holds, its valid time. ReDate keeps every frame and dates each retrieved token by its valid time, read from the agent's action log. The frozen generator then reads a reverted region as one that has just reached a new state, so ReDate needs no training. We prove that trusting the newest timestamp is right exactly when every current view is dated after every outdated one, that without a view taken after the return only the action log tells a reverted region from an up-to-date one, and that a generator able to draw from its own prediction gains more from re-dating than from deletion when the moved tokens keep little weight. After an undo, ReDate raises the share of FAR's steps showing the current state from 0.36 to 0.62 and HY-WorldPlay's from 0.003 to 0.19. We also propose a calibrated state metric to test any memory after undos.",
+      "published": "2026-10-31",
+      "authors": [
+        "Ziming Wang",
+        "Chuyue Gong",
+        "Hongliang Cao",
+        "Jingmin Zhu",
+        "Chutian Wang",
+        "Yuheng He",
+        "Xiuyu Li"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary": "cs.CV",
+      "suggested_categories": [
+        "World Model",
+        "Memory"
+      ]
+    },
+    {
+      "id": "2611.00725",
+      "title": "The Long Con on the Web: Earn-then-Exploit Fraud Attacks against Coding Agents",
+      "abstract": "Coding agents increasingly operate with web access and high privileges, creating a new attack surface where web fraud can directly target autonomous agents. Existing studies mainly focus on malicious links, prompt injection, and interface deception, while content-level web fraud against agents and the amplification of attacks through agent trust remain underexplored. In this paper, we present EtE (Earn-then-Exploit), a web fraud attack framework against coding agents, in which a malicious website first provides multiple rounds of genuinely verifiable assistance to establish trust and then introduces task-related instructions that cross intended operational boundaries. To systematically evaluate its effectiveness, we construct 56 organizational environments (8 task contexts x 7 attack consequences) and evaluate three representative coding agents. EtE achieves an average scene-level attack success rate of 71.4%, including 85.7% on Codex-GPT-5.5, 67.9% on ZCode-GLM-5.3-Flash, and 60.7% on QwenCode-Qwen3.7-Plus, significantly outperforming all injection-based baselines. More importantly, our experiments reveal that coding agents exhibit trust-like behavioral reliance on previously helpful Web sources, and that such accumulated credibility significantly increases their susceptibility to subsequent malicious instructions. Based on this finding, we propose action-authorization separation (AAS), which prevents web content from directly authorizing privileged actions and reduces the attack success rate to 0% while preserving 100% task completion, outperforming all evaluated defense baselines.",
+      "published": "2026-10-31",
+      "authors": [
+        "Xingling Xu",
+        "Zhengwei Jiang",
+        "Zheng Zhi",
+        "Fangming Dong",
+        "LingJia Guo",
+        "Wei Dong",
+        "Chunyan Ma",
+        "Jun Jiang"
+      ],
+      "categories": [
+        "cs.CR"
+      ],
+      "primary": "cs.CR",
+      "suggested_categories": [
+        "RAG",
+        "Framework"
+      ]
+    },
+    {
+      "id": "2611.00723",
+      "title": "Architecting Fairness-Aware LLM Interactions",
+      "abstract": "Large Language Models (LLMs) are increasingly used as decision-support tools but may generate stereotypical, discriminatory, or unfair responses. As LLMs become embedded in decision-critical software systems, fairness can no longer be treated as a downstream evaluation step, but must become an architectural concern of the interaction itself. Yet current fairness approaches operate as standalone evaluation techniques, lacking a reusable mechanism to verify and mitigate violations at runtime. We propose a fairness-assurance architecture grounded in three reusable design patterns, instantiated as a multi-agent framework that evaluates and iteratively refines LLM responses before delivery. A preliminary evaluation across eight configurations involving different LLM families shows that the architecture identifies fairness violations and iteratively produces compliant responses in all configurations, with behavior differing depending on the model-family composition. These results provide initial evidence for the joint instantiation of the proposed patterns and a first step toward architecting non-functional properties into LLM-based systems.",
+      "published": "2026-10-31",
+      "authors": [
+        "Alessandra Parziale",
+        "Valeria Pontillo",
+        "Fabio Palomba",
+        "Patrizio Pelliccione"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "primary": "cs.SE",
+      "suggested_categories": [
+        "Multi-Agent",
+        "Framework"
+      ]
+    },
+    {
+      "id": "2611.00718",
+      "title": "STEER: Route-Aware Adaptive Reasoning for Autonomous Driving",
+      "abstract": "Vision-language action (VLA) models excel for end-to-end autonomous driving, yet their tendency to over-invoke chain-of-thought (CoT) reasoning mirrors a human cognitive pitfall: overthinking. Just as deliberate reasoning can slow or mislead human judgment in routine tasks, excessive CoT in VLA incurs unnecessary compute overhead and can paradoxically degrade planning performance. Recent research tackles this via adaptive reasoning, which dynamically modulates inference complexity by selectively triggering CoT for complex scenes while responding directly to routine ones. While prior adaptive methods rely on implicit adaptation, recent work shows that explicitly optimizing the route between CoT and direct responses yields superior performance, assuming scene-difficulty annotations which are labor-intensive, poorly scalable, and prone to error due to the subjectivity of judging driving complexity. We explore, for the first time, whether adaptive reasoning with explicit route optimization can be achieved without any scene-difficulty labeling. We introduce STEER, a generic over-reasoning mitigation strategy featuring two key components: (i) routing uncertainty-aware rollout, which calibrates sampling to align routing diversity with model uncertainty; and (ii) cross-route advantage credit assignment, which introduces a differential metric to reinforce optimal routing decisions based on environmental rewards rather than subjective labels. Extensive experiments on NAVSIM v1/v2 demonstrate that STEER is competitive with state-of-the-art methods in both planning quality and the Pareto front of inference efficiency.",
+      "published": "2026-10-31",
+      "authors": [
+        "Yangang Zou",
+        "Pei Liu",
+        "Nan Song",
+        "Bozhou Zhang",
+        "Mingyu Guo",
+        "Jun Ma",
+        "Jiankang Deng",
+        "Xiatian Zhu"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "primary": "cs.RO",
+      "suggested_categories": [
+        "Planning"
+      ]
+    },
+    {
+      "id": "2611.00634",
+      "title": "PREM: Prediction-Regulated Memory for Robot Manipulation",
+      "abstract": "A robot's next action can depend on recent motion or earlier visual evidence absent from its current observation. A recurrent visual-memory architecture can retain this history in a visual state, but its usefulness depends on what the state represents and how it is updated with new observations. We introduce Prediction-Regulated Memory (PREM), a framework that uses action-conditioned future prediction to guide both memory learning and updating in vision-language-action policies. During training, predicting future visual features provides temporal supervision for memory learning. During execution, PREM compares current visual features with the prediction made at the preceding decision and uses the spatially normalized prediction discrepancy to regulate updates to the visual state at each spatial location. The updated visual state supplies temporal context for action generation alongside current observations. Built on $π_{0.5}$, PREM improves average success rate from 9.63% to 20.74% on DOMINO dynamic manipulation tasks and from 14.4% to 83.8% on the RMBench M(1) memory-dependent setting. Further evaluations on LIBERO and LIBERO-Pro show improvements in general manipulation and robustness to spatial perturbations. PREM incurs a mean inference overhead of 7.7 ms on a single NVIDIA H800 GPU.",
+      "published": "2026-10-31",
+      "authors": [
+        "Xiao Huang",
+        "Ya Zhang",
+        "Weidi Xie"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary": "cs.RO",
+      "suggested_categories": [
+        "RAG",
+        "Memory",
+        "Framework"
+      ]
+    },
+    {
+      "id": "2611.00615",
+      "title": "Learning from an Imitable Teacher: Competition Solution for the MetaFine Challenge",
+      "abstract": "The MetaFine Open Competition (RoboFineMani workshop, CoRL 2026) evaluates fine-grained manipulation beyond binary success. Its five simulated tasks, from grasping a bottle by an instructed part to inserting letter-shaped pegs with 4 mm clearance, are scored on perception under lighting and camera changes, instruction understanding, and behavior. This report presents Team Friday's solution, which got second place with an overall score of 0.947, more than twice the $π_0$ baseline. Instead of fine-tuning a large vision-language-action (VLA) model, we train one 19M-parameter policy per task with a separate instruction classifier and focus on the data, all generated in the simulator by a privileged scripted teacher, including its corrections of the student's mistakes. By analyzing failed episodes, we find that a teacher that almost always succeeds can still teach a memoryless student badly: its pauses become stalls, its fixed habits become shortcuts, and it never shows the errors the student makes. Making the teacher \\emph{imitable} raised the official score on letter insertion, the hardest task, from 0.44 to 0.82 with 32\\% more data and the same architecture, and finally to 0.88. We summarize practical lessons on demonstration data and evaluation, which we hope will help in imitation learning for precise manipulation.",
+      "published": "2026-10-31",
+      "authors": [
+        "Yanze Zhang",
+        "Hao Liu",
+        "Haochang Hao",
+        "Zhixiang Shen",
+        "Chunyu Miao",
+        "Yuyao Yang"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary": "cs.RO",
+      "suggested_categories": [
+        "Memory"
+      ]
+    }
+  ],
   "note": "Discovery candidates, not admitted or fully verified methods."
 }
