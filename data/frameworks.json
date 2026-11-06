@@ -147,15 +147,16 @@
       "license": "MIT",
       "language": "Python",
       "desc": "LLM-driven browser automation with visual and DOM-based web interaction",
-      "stars": "60k+",
+      "stars": "119.6k",
       "active_since": "2025-",
       "sources": [
         "seed"
       ],
       "evidence": {
-        "checked_at": "2026-10-28",
+        "checked_at": "2026-10-30",
         "source_url": "https://github.com/browser-use/browser-use",
-        "status": "seed-verified"
+        "status": "seed-verified",
+        "note": "Stars snapshot re-verified via official repo page 2026-10-30."
       }
     },
     {
@@ -623,15 +624,16 @@
       "license": "Apache-2.0",
       "language": "Python",
       "desc": "Production memory layer for LLM apps: personalized, evolving memory across sessions",
-      "stars": "30k+",
+      "stars": "68.1k",
       "active_since": "2024-",
       "sources": [
         "seed"
       ],
       "evidence": {
-        "checked_at": "2026-10-28",
+        "checked_at": "2026-10-30",
         "source_url": "https://github.com/mem0ai/mem0",
-        "status": "seed-verified"
+        "status": "seed-verified",
+        "note": "Stars snapshot re-verified via official repo page 2026-10-30."
       }
     },
     {

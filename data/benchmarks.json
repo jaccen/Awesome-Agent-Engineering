@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-28",
   "generator": "scripts/seed_kb.py",
-  "count": 41,
+  "count": 48,
   "benchmarks": [
     {
       "name": "DynaRev",
@@ -625,6 +625,111 @@
         "checked_at": "2026-10-28",
         "source_url": "paper-venue",
         "status": "seed-verified"
+      }
+    },
+    {
+      "name": "ScamWorld",
+      "domain": "Web Agent",
+      "desc": "Interactive environment reconstructing scam websites to evaluate web agents against online fraud; baseline deception 11-35%",
+      "venue": "arXiv 2026-11",
+      "url": "https://arxiv.org/abs/2611.04879",
+      "sources": [
+        "https://arxiv.org/abs/2611.04879"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-06",
+        "source_url": "https://arxiv.org/abs/2611.04879",
+        "status": "abs-page-verified"
+      }
+    },
+    {
+      "name": "RoboColosseum",
+      "domain": "Embodied Agent",
+      "desc": "Distributed in-the-wild evaluation: 5699 pairwise trials, 4 embodiments, 5 VLA policies + 3 frontier agents across 124 sites",
+      "venue": "arXiv 2026-11",
+      "url": "https://arxiv.org/abs/2611.02497",
+      "sources": [
+        "https://arxiv.org/abs/2611.02497"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-06",
+        "source_url": "https://arxiv.org/abs/2611.02497",
+        "status": "abs-page-verified"
+      }
+    },
+    {
+      "name": "TriPhysBench",
+      "domain": "Embodied Agent",
+      "desc": "410 questions from 200 videos unifying physical perception, knowledge retrieval and reasoning for embodied agents",
+      "venue": "arXiv 2026-11",
+      "url": "https://arxiv.org/abs/2611.01934",
+      "sources": [
+        "https://arxiv.org/abs/2611.01934"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-06",
+        "source_url": "https://arxiv.org/abs/2611.01934",
+        "status": "abs-page-verified"
+      }
+    },
+    {
+      "name": "VLALagBench",
+      "domain": "Embodied Agent",
+      "desc": "Studies VLA inference-latency sensitivity across task types, object speeds and execution modes",
+      "venue": "arXiv 2026-11",
+      "url": "https://arxiv.org/abs/2611.03103",
+      "sources": [
+        "https://arxiv.org/abs/2611.03103"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-06",
+        "source_url": "https://arxiv.org/abs/2611.03103",
+        "status": "abs-page-verified"
+      }
+    },
+    {
+      "name": "Foresight-SWE",
+      "domain": "Software Engineering",
+      "desc": "212 samples / 35 repos measuring whether coding agents anticipate and fix defects introduced by their own changes",
+      "venue": "arXiv 2026-10",
+      "url": "https://arxiv.org/abs/2611.01181",
+      "sources": [
+        "https://arxiv.org/abs/2611.01181"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-06",
+        "source_url": "https://arxiv.org/abs/2611.01181",
+        "status": "abs-page-verified"
+      }
+    },
+    {
+      "name": "SLATE",
+      "domain": "Tool Use",
+      "desc": "Large-scale long-horizon API-selection benchmark over ~1000 e-commerce tools; best model completes only 5.0%",
+      "venue": "NeurIPS 2026 Workshop",
+      "url": "https://arxiv.org/abs/2611.03982",
+      "sources": [
+        "https://arxiv.org/abs/2611.03982"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-06",
+        "source_url": "https://arxiv.org/abs/2611.03982",
+        "status": "abs-page-verified"
+      }
+    },
+    {
+      "name": "WebHarbor",
+      "domain": "Web Agent",
+      "desc": "153 dockerized real-website environments with 3518 tasks for GUI-agent evaluation and RL training",
+      "venue": "arXiv 2026-11",
+      "url": "https://arxiv.org/abs/2611.03634",
+      "sources": [
+        "https://arxiv.org/abs/2611.03634"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-06",
+        "source_url": "https://arxiv.org/abs/2611.03634",
+        "status": "abs-page-verified"
       }
     }
   ]

@@ -3,17 +3,17 @@
 
 # Awesome Agent Engineering
 
-### The AI Agent Knowledge Hub — 1582 Entries, Auto-Updated Daily with Latest Papers & Projects
+### The AI Agent Knowledge Hub — 1630 Entries, Auto-Updated Daily with Latest Papers & Projects
 
 **From research papers to production deployment. From startup ideas to industry playbooks. One repo, the entire Agent ecosystem — refreshed every day.**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Methods](https://img.shields.io/badge/Methods-280-9cf.svg)](data/methods.json)
+[![Methods](https://img.shields.io/badge/Methods-295-9cf.svg)](data/methods.json)
 [![Frameworks](https://img.shields.io/badge/Frameworks-58-green.svg)](data/frameworks.json)
 [![Industries](https://img.shields.io/badge/Industries-106-orange.svg)](data/industries.json)
 [![Startups](https://img.shields.io/badge/Startups-56-red.svg)](data/startups.json)
-[![Benchmarks](https://img.shields.io/badge/Benchmarks-41-purple.svg)](data/benchmarks.json)
-[![Papers](https://img.shields.io/badge/Papers-1039-ff69b4.svg)](data/papers.json)
+[![Benchmarks](https://img.shields.io/badge/Benchmarks-48-purple.svg)](data/benchmarks.json)
+[![Papers](https://img.shields.io/badge/Papers-1067-ff69b4.svg)](data/papers.json)
 [![Auto-Update](https://img.shields.io/badge/Auto_Update-Daily-brightgreen.svg)](reports/arxiv-daily/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -48,12 +48,12 @@
 Unlike static awesome-lists, this repo **automatically discovers new papers and projects every day** via scheduled GitHub Actions: a daily arXiv scan (8 query families) and a weekly GitHub / HuggingFace trending scan surface the latest research, frameworks and tools, so the knowledge base stays current without manual curation.
 
 **What's inside (auto-updated):**
-- 📚 280 academic Agent methods across 12 categories
-- 📝 1039 verified papers with official arXiv titles (150 from 2026, batch-verified via arXiv API)
+- 📚 295 academic Agent methods across 12 categories
+- 📝 1067 verified papers with official arXiv titles (202 from 2026, batch-verified via arXiv API)
 - 🏗️ 58 open-source agent frameworks
 - 🏭 106 real-world industry deployments across 17+ domains
 - 🚀 56 funded agent startups
-- 📊 41 evaluation benchmarks (SWE-bench, GAIA, WebArena, OSWorld, AgentBench, LITMUS, EvoMemBench …)
+- 📊 48 evaluation benchmarks (SWE-bench, GAIA, WebArena, OSWorld, AgentBench, LITMUS, EvoMemBench …)
 
 Every entry is machine-readable JSON with an evidence trail — no fabrication, no dead links. A built-in **research pipeline skill** guides the full paper lifecycle: idea evaluation → skeleton → literature → figures → experiments → analysis → review → rebuttal.
 
@@ -71,10 +71,10 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 | Compare frameworks | Open 10 tabs | 58 frameworks with stars, license, language, one-line description |
 | Find industry cases | Blog posts | 106 real deployments across 17 industries, with status and org |
 | Track startups | Crunchbase subscription | 56 funded companies with funding, category, and description |
-| Pick a benchmark | Guess | 41 benchmarks with domain, venue, and what they test |
+| Pick a benchmark | Guess | 48 benchmarks with domain, venue, and what they test |
 | Keep it current | Manual PRs | **GitHub Actions CI** runs daily, commits automatically |
 
-**1582 verified entries** across 5 knowledge bases plus a 1039-paper database, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
+**1630 verified entries** across 5 knowledge bases plus a 1067-paper database, each with an evidence trail. No fabricated names, no dead links, no marketing fluff.
 
 ## The Four Domains
 
@@ -108,12 +108,12 @@ The Agent ecosystem moves fast — new papers daily, new frameworks weekly, new 
 
 | Knowledge Base | Count | Source File | Description |
 |----------------|-------|-------------|-------------|
-| **Methods** | 280 | `data/methods.json` | Academic Agent papers — 12 categories from Foundation to Safety |
-| **Papers** | 1039 | `data/papers.json` | Verified papers with official arXiv titles — 150 from 2026, batch-verified |
+| **Methods** | 295 | `data/methods.json` | Academic Agent papers — 12 categories from Foundation to Safety |
+| **Papers** | 1067 | `data/papers.json` | Verified papers with official arXiv titles — 202 from 2026, batch-verified |
 | **Frameworks** | 58 | `data/frameworks.json` | OSS agent frameworks — orchestration, memory, tools, observability |
 | **Industries** | 106 | `data/industries.json` | Real-world deployments — 17 domains from Finance to Energy · [📖 Browse](docs/industries.md) |
 | **Startups** | 56 | `data/startups.json` | Funded companies — 18 categories from Foundation Models to Robotics · [📖 Browse](docs/startups.md) |
-| **Benchmarks** | 41 | `data/benchmarks.json` | Evaluation suites — SWE-bench, GAIA, WebArena, OSWorld, and more |
+| **Benchmarks** | 48 | `data/benchmarks.json` | Evaluation suites — SWE-bench, GAIA, WebArena, OSWorld, and more |
 
 **Every entry is machine-readable JSON** — not just markdown tables. Build tools, dashboards, and agents that consume this knowledge directly.
 
@@ -189,25 +189,25 @@ cat reports/weekly-trending/latest.json | python -m json.tool
 
 ## Research — Academic Methods
 
-**280 verified methods** across 12 categories, covering the full Agent research stack:
+**295 verified methods** across 12 categories, covering the full Agent research stack:
 
 | Category | Count | Key Methods |
 |----------|-------|-------------|
-| Foundation & Architecture | 24 | ReAct, Reflexion, AutoGPT, Toolformer, Voyager, MetaGPT, AutoGen |
-| Planning & Reasoning | 17 | Chain-of-Thought, Tree of Thoughts, LLM+P, Self-Refine, AdaPlanner |
-| Tool Use & Function Calling | 13 | Gorilla, ToolLLM, ToolkenGPT, AnyTool, ToolACE |
-| Memory & Context | 12 | MemGPT, Mem0, Letta, A-MEM, CoALA, Infini-attention |
-| Multi-Agent Systems | 17 | ChatDev, AgentVerse, MoA, AgentScope, EvoAgent, Camel-AI OWL |
-| Code & Software Agents | 25 | SWE-agent, Devin, OpenHands, Agentless, SWE-bench, CodeAct |
-| Embodied & Robotics Agents | 22 | RT-1/2, OpenVLA, π0, GR00T N1, RDT-1B, DiffusionPolicy |
-| World Models & Simulation | 11 | DreamerV3, Genie, DIAMOND, Sora, Oasis, GameNGen |
-| Web & GUI Agents | 25 | Mind2Web, WebArena, OSWorld, Browser Use, OmniParser, SeeClick |
+| Foundation & Architecture | 33 | ReAct, Reflexion, AutoGPT, Toolformer, Voyager, MetaGPT, AutoGen |
+| Planning & Reasoning | 18 | Chain-of-Thought, Tree of Thoughts, LLM+P, Self-Refine, AdaPlanner |
+| Tool Use & Function Calling | 22 | Gorilla, ToolLLM, ToolkenGPT, AnyTool, ToolACE |
+| Memory & Context | 18 | MemGPT, Mem0, Letta, A-MEM, CoALA, Infini-attention |
+| Multi-Agent Systems | 23 | ChatDev, AgentVerse, MoA, AgentScope, EvoAgent, Camel-AI OWL |
+| Code & Software Agents | 34 | SWE-agent, Devin, OpenHands, Agentless, SWE-bench, CodeAct |
+| Embodied & Robotics Agents | 34 | RT-1/2, OpenVLA, π0, GR00T N1, RDT-1B, DiffusionPolicy |
+| World Models & Simulation | 22 | DreamerV3, Genie, DIAMOND, Sora, Oasis, GameNGen |
+| Web & GUI Agents | 38 | Mind2Web, WebArena, OSWorld, Browser Use, OmniParser, SeeClick |
 | Knowledge & RAG Agents | 15 | RAG, Self-RAG, GraphRAG, RAPTOR, LightRAG, MemoRAG |
-| Safety, Alignment & Evaluation | 17 | GAIA, AgentBench, ToolEmu, InjecAgent, Agent-SafetyBench |
-| Agent Frameworks & Infrastructure | 18 | LangChain, LangGraph, AutoGen, Swarm, Smolagents, A2A-Protocol |
+| Safety, Alignment & Evaluation | 19 | GAIA, AgentBench, ToolEmu, InjecAgent, Agent-SafetyBench |
+| Agent Frameworks & Infrastructure | 19 | LangChain, LangGraph, AutoGen, Swarm, Smolagents, A2A-Protocol |
 
 <details>
-<summary><b>Browse all 280 methods →</b></summary>
+<summary><b>Browse all 295 methods →</b></summary>
 
 See [`data/methods.json`](data/methods.json) for the full machine-readable database, or [`references/agent-research-areas.md`](references/agent-research-areas.md) for a browsable markdown table.
 
@@ -295,7 +295,7 @@ See [`data/frameworks.json`](data/frameworks.json) for stars, license, and langu
 
 ## Benchmarks — Evaluation
 
-**41 benchmarks** for evaluating Agent capabilities across domains:
+**48 benchmarks** for evaluating Agent capabilities across domains:
 
 | Domain | Benchmarks |
 |--------|-----------|
@@ -385,7 +385,7 @@ A one-stop research assistant for AI/Agent papers, covering the full 8-stage pip
 | 7b. Self-Review | Three-role cross-review (reviewer/researcher/expert) + 33 rejection patterns |
 | 8. Rebuttal | Per-comment response strategy + cover letter + marked manuscript |
 
-**Knowledge base integration:** queries `data/methods.json` (280), `data/frameworks.json` (58), `data/benchmarks.json` (41), `data/papers.json` (1039 papers), and `references/agent-research-areas.md` (16 areas) to ground every answer in verified data.
+**Knowledge base integration:** queries `data/methods.json` (295), `data/frameworks.json` (58), `data/benchmarks.json` (48), `data/papers.json` (1067 papers), and `references/agent-research-areas.md` (16 areas) to ground every answer in verified data.
 
 **Bundled references:**
 - [`references/writing-style-guide.md`](skills/agent-research-pipeline/references/writing-style-guide.md) — Top-venue writing style guide (distilled from source-level analysis of 6 high-impact papers: abstract template, intro logic chains, contribution formats, type-specific templates)
@@ -393,7 +393,7 @@ A one-stop research assistant for AI/Agent papers, covering the full 8-stage pip
 - [`references/paper-database.md`](skills/agent-research-pipeline/references/paper-database.md) — curated papers across 16 sub-areas (featured 133 co-cited by 7 GitHub curation lists; NeurIPS 2026 EvoMemBench/LITMUS, ICLR 2026 LightMem, AAMAS 2026 μACP, and more)
 - [`references/venues.md`](skills/agent-research-pipeline/references/venues.md) — 15 top conferences + 20 journals with CCF ranking, page limits, deadlines, and review preferences
 - [`references/experiment-template.md`](skills/agent-research-pipeline/references/experiment-template.md) — Fill-in experiment template (contribution-experiment mapping, ablation design, multi-seed statistics, negative results, pre-submission checklist)
-- [`data/papers.json`](data/papers.json) — Machine-readable paper database (1039 papers with official arXiv titles/venue/verification status/categories)
+- [`data/papers.json`](data/papers.json) — Machine-readable paper database (1067 papers with official arXiv titles/venue/verification status/categories)
 
 **Editor integration:** [`CLAUDE.md`](CLAUDE.md) (Claude Code / generic AI project instructions) and [`.cursor/rules/agent-research.mdc`](.cursor/rules/agent-research.mdc) (Cursor auto-activate rule) are configured to load this skill automatically when editing paper-related files in VS Code/Cursor.
 
@@ -422,4 +422,4 @@ Built with the same philosophy as [Awesome-Gaussian-Skills](https://github.com/j
 
 </div>
 
-Reviewed additions: [2026-10-29](docs/reviewed-updates-2026-10-29.md) | [2026-10-30](docs/reviewed-updates-2026-10-30.md).
+Reviewed additions: [2026-10-29](docs/reviewed-updates-2026-10-29.md) | [2026-10-30](docs/reviewed-updates-2026-10-30.md) | [2026-11-06](docs/reviewed-updates-2026-11-06.md).

@@ -3,15 +3,15 @@ name: agent-research-pipeline
 description: >-
   AI/Agent 领域科研全流程辅导技能：选题评估、论文骨架、文献检索、实验设计、
   绘图制表、数据分析、润色去AI味、审稿自查、返修改稿。覆盖论文全生命周期8阶段，
-  挂接 Awesome-Agent-Engineering 知识库（280方法+58框架+41基准+1039论文）。
+  挂接 Awesome-Agent-Engineering 知识库（295方法+58框架+48基准+1067论文）。
   用于 AI/Agent 论文写作辅导、研究规划、实验设计、审稿预审、idea生成。
 license: Apache-2.0
 metadata:
   version: 1.1.0
   created: '2026-10-28'
-  updated: '2026-10-30'
+  updated: '2026-11-06'
   domain: AI/Agent
-  knowledge_base: data/methods.json (280), data/frameworks.json (58), data/benchmarks.json (41), data/papers.json (1039)
+  knowledge_base: data/methods.json (295), data/frameworks.json (58), data/benchmarks.json (48), data/papers.json (1067)
 ---
 
 # Agent Research Pipeline — AI/Agent 科研全流程辅导
@@ -113,9 +113,9 @@ metadata:
    - GitHub（代码与项目）
    - HuggingFace（模型与数据集）
 3. **本仓库知识库查询**：
-   - `data/methods.json`（280 条 Agent 方法，12 类别）
+   - `data/methods.json`（295 条 Agent 方法，12 类别）
    - `data/frameworks.json`（58 个框架）
-   - `data/benchmarks.json`（41 个基准）
+   - `data/benchmarks.json`（48 个基准）
    - [`../../references/agent-research-areas.md`](../../references/agent-research-areas.md)（16 领域图谱，位于项目根）
 4. **核实纪律**（红线）：
    - arXiv ID 必须能 resolve（用 arXiv API 或 https://arxiv.org/abs/XXXX.XXXXX 验证）
@@ -308,8 +308,8 @@ metadata:
 ### 本仓库资源
 | 资源 | 路径 | 用途 |
 |---|---|---|
-| 方法库 | `data/methods.json` (280) | 定位最近相关工作、找基线 |
-| 框架库 | `data/frameworks.json` (52) | 工程对比、选型 |
+| 方法库 | `data/methods.json` (295) | 定位最近相关工作、找基线 |
+| 框架库 | `data/frameworks.json` (58) | 工程对比、选型 |
 | 基准库 | `data/benchmarks.json` (32) | 选数据集、选评测 |
 | 行业库 | `data/industries.json` (106) | 找落地场景、motivation |
 | 创业库 | `data/startups.json` (56) | 找产业趋势、差异化 |
