@@ -1,5 +1,5 @@
 {
-  "count": 1067,
+  "count": 1081,
   "papers": [
     {
       "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
@@ -17414,6 +17414,350 @@
         "source_url": "https://arxiv.org/abs/2610.36114",
         "status": "official-metadata-and-abs-page-verified",
         "scope": "Official arXiv metadata and abs page cross-verified (2026-11-06); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+      "abstract": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step. The agent's reasoning, the explanation it writes with each tool call, often states why it took an action; the tool calls alone do not. ReTrace extracts the condition behind each step, merges these conditions across runs into a compact rule document, and generates an executable workflow from it. Only this last stage depends on the platform, so rule documents can be compiled for different orchestration platforms. On $79$ procedures from our production platform, ReTrace workflows reach $93.8\\%$ completion, against $96.8\\%$ for the agent, at $24\\%$ lower cost per task. On $τ^2$-Bench, they reach $75.8\\%$ task success (agent: $80.6\\%$) and run in $1.3$s instead of $170$s; three rounds of repair on training failures lift $k{=}2$ workflows from $66.7\\%$ to $81.2\\%$. On eight SOP-Bench procedures, ReTrace without repair trails few-shot generation ($80.6\\%$ vs. $83.6\\%$), but repair from labeled training failures lifts it to $87.8\\%$ at $0.40$s per task, compared to $85.5\\%$ in $46.6$s for the agent.",
+      "summary_zh": "提出 ReTrace，把工具使用智能体蒸馏为免规划的可执行工作流，由代码而非 LLM 选择下一步，在 93.8% 完成率下每任务成本降 24%。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.14492",
+      "verification": "verified",
+      "categories": [
+        "Tool Use"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.14492"
+      ],
+      "featured": false,
+      "published": "2026-11-10",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.14492",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents",
+      "abstract": "LLM agents increasingly operate in long-horizon, verifier-rich environments, but current self-improvement mechanisms often write episode-derived lessons directly into memory, making local success an unreliable signal for reusable and safe knowledge. This paper addresses the core question of when an experience-derived behavioral update should be admitted into persistent agent state. We propose Falsification-Gated Self-Evolution (FGSE), a verifier-grounded framework that represents each candidate lesson as a structured hypothesis with an explicit precondition, behavior change, expected effect, and verifier. FGSE applies the hypothesis only in a temporary state, tests it on target-transfer, falsification, and archived-regression probes, and then commits, refines, or rejects it according to measured gain and risk. Across web, app, tool-use, and long-term memory benchmarks, FGSE achieves strong task performance, including 39.8 WebArena success rate, 78.8 AppWorld average completion, and 0.724/0.487 Pass$^1$ on $τ$-Retail/$τ$-Airline, while reducing falsification failures to 5.0%, regression damage to 1.3%, and harmful committed updates to 3.6%. These results suggest that testing memory updates as hypotheses supports more reliable long-term adaptation.",
+      "summary_zh": "提出反驳门控自进化（FGSE），把候选经验当作可验证假设，经目标迁移/反驳/回归探针测试后再决定提交或拒绝，降低长期记忆更新的伪影。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.14326",
+      "verification": "verified",
+      "categories": [
+        "Self-Evolution & Learning",
+        "Memory Systems"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.14326"
+      ],
+      "featured": false,
+      "published": "2026-11-10",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.14326",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+      "abstract": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. Across three empirical tracks, we analyze 410 first-pass generations. In the reference-backed game track, 134/135 generated world models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366, with just 28/134 mechanically valid models exactly matching the authored reference. In the cultural track, explicitly naming the country changes the generated structural representation for most LLMs while producing only small changes in automated semantic scores. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
+      "summary_zh": "评测五个 LLM 生成的形式世界模型（部分可观测随机博弈），发现机械可执行不足以保证语义一致，为神经符号推理与规划提供新基准。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.14419",
+      "verification": "verified",
+      "categories": [
+        "World Models & Simulation",
+        "Evaluation & Benchmarks"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.14419"
+      ],
+      "featured": false,
+      "published": "2026-11-10",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.14419",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
+      "abstract": "Video world models conditioned on an input video make it possible to explore real, recorded dynamic scenes, enabling re-shooting of footage, free-viewpoint replay, and real-to-sim environments for embodied agents. Such uses require the generated rollout to stay faithful to the recorded world, yet existing benchmarks start from a single image or a text prompt, and video-conditioned generation is evaluated mainly on perceptual quality and camera following. These evaluations do not directly assess whether exploration preserves subject identity, event progression, and scene consistency upon revisiting a location. We introduce WanderBench, a benchmark for exploring dynamic worlds from video. It comprises 745 single-shot source videos of real and AI-generated content in three difficulty tiers (3-25 s), paired with camera routes given as keyboard actions, and evaluates six dimensions with 24 human-validated sub-metrics. Benchmarking eight models, we find that as clips grow longer, models keep the static scene and visual quality but lose camera control and the source dynamics, and that none keeps revisited places consistent. We further propose WanderLand, a training-free framework that conditions each frame of a frozen model on the same-instant source and, on revisits, on its own earlier static content. WanderLand improves five models on every dimension, by up to 8.3 points in source-dynamics fidelity.",
+      "summary_zh": "提出从视频探索动态世界的世界模型基准 WanderBench（745 源视频、六维 24 子指标）与训练无关框架 WanderLand，提升源动态保真度。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.12557",
+      "verification": "verified",
+      "categories": [
+        "World Models & Simulation",
+        "Evaluation & Benchmarks"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.12557"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.12557",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Learning to Act with World Models by Valuing What Comes Next",
+      "abstract": "A sparse terminal reward tells an agent little about its steps. Much of the missing information is implicit in the environment's dynamics, because each state transition can change the conditions for success long before the reward arrives. A world model trained on real transitions can learn to predict what each action changes, but a predicted observation does not by itself show whether success has become more likely. With a binary terminal reward, PPO's critic makes this judgment by estimating the current policy's probability of success, but only for states the agent reaches. Our method, WM-PPO, elegantly brings the two together. For each action the policy samples, executed or not, the world model predicts the next observation and the critic values the predicted successor. In the policy channel, comparisons among these values give the policy auxiliary advantages; in the value channel, their mean gives the critic an auxiliary target. A shared gate weights both channels according to how reliably comparisons with similar margins predicted real outcomes earlier in training. The policy, critic and world model all learn from the agent's own interaction, with no teacher or privileged information, and only the policy is used at inference. With a comparable number of real environment steps, WM-PPO raises success from PPO's 63.5% to 87.5% on ALFWorld and from 39.3% to 52.9% on ScienceWorld. It matches the strongest PPO refinements we tested on ALFWorld and exceeds the best of them by 6.5 points on ScienceWorld. The trained policy more often completes prerequisite steps before placing an object or committing to an answer.",
+      "summary_zh": "提出 WM-PPO，用世界模型预测后继状态并由 critic 估值，向策略与价值通道注入辅助信号，ALFWorld 成功率 63.5%→87.5%。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.12200",
+      "verification": "verified",
+      "categories": [
+        "World Models & Simulation"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.12200"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.12200",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "ChipOmni: A General-Purpose AI Agent for Electronic Design Automation",
+      "abstract": "Electronic design automation (EDA) workflows remain highly fragmented, requiring engineers to coordinate heterogeneous representations, specialised software tools, and iterative verification across multiple design stages. Although large language models have brought more general reasoning and code-generation capabilities to EDA, many existing approaches remain focused on isolated tasks and struggle to plan, verify, and repair designs autonomously within executable engineering environments. Here we introduce ChipOmni, a knowledge-enhanced, context-evolving AI agent framework for EDA. ChipOmni integrates multimodal understanding, dynamic planning, multi-agent collaboration, and verification-driven tool interaction into a unified autonomous system. By continually incorporating feedback from external engineering tools, the framework maintains an evolving task context, integrates domain knowledge, and iteratively refines intermediate designs. Across benchmarks for analog circuit, RTL, testbench, and formal-assertion generation, ChipOmni improves multiple task-specific measures over the evaluated baselines and solves all 30 AnalogCoder-Pro tasks. In a long-horizon case study, ChipOmni advances a natural-language RISC-V specification through three design levels to a micro-SoC GDSII layout that passes physical sign-off, without human intervention after initialization. Together, these results show that ChipOmni can coordinate verification-driven design across heterogeneous tasks and sustain long-horizon engineering workflows, advancing a shift from fragmented, tool-centred processes towards agent-centred, closed-loop systems.",
+      "summary_zh": "提出面向电子设计自动化的通用智能体 ChipOmni，融合多模态理解、动态规划与多智能体协作，实现 RISC-V 规格到通过签核的 micro-SoC GDSII 全自动流程。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.13020",
+      "verification": "verified",
+      "categories": [
+        "General Agent Studies"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.13020"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.13020",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "DrugCoding: A Scientific Programming Agent for Drug Discovery",
+      "abstract": "Drug discovery involves multiple interconnected research stages, including molecular design, property prediction, and virtual screening. These processes are characterized by complex workflows, interdependent computational tasks, and diverse specialized tools, placing substantial demands on the coordination of scientific models and computational resources. However, existing large language model (LLM)-based scientific agents still face challenges in autonomous planning of complex tasks, adaptive selection of specialized models, and reliable execution of multi-stage scientific computations, limiting their effectiveness in automating complex drug discovery workflows. To address these challenges, we propose DrugCoding, a scientific programming agent system that integrates scientific task planning, adaptive model routing, multi-agent collaboration, and programmatic tool execution. DrugCoding enables autonomous task planning and dynamic model adaptation for complex research objectives. It can flexibly invoke specialized scientific models, autonomously generate and execute code according to task requirements, and leverage multi-agent collaboration to support efficient execution and reliable validation of complex scientific tasks. To evaluate DrugCoding's performance in scientific tool invocation and multi-stage task execution, we conduct multi-turn tool-calling experiments across diverse language models and scientific tool interfaces. Experimental results demonstrate that DrugCoding achieves an average session-level Pass@1 of 97.35% on the full benchmark, outperforming the strongest baseline, Codex, by 9.24%. On the challenging subset, DrugCoding achieves 97.92%, exceeding the strongest baseline.",
+      "summary_zh": "提出药物研发科学编程智能体 DrugCoding，集成任务规划、自适应模型路由与多智能体协作，全基准会话级 Pass@1 达 97.35%。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.13651",
+      "verification": "verified",
+      "categories": [
+        "General Agent Studies"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.13651"
+      ],
+      "featured": false,
+      "published": "2026-11-10",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.13651",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+      "abstract": "Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate worker agents and to author the executable workflow that coordinates them, shifting the design of system structure from developers to the model at run time. The quality of this organization therefore constitutes a distinct capability, yet existing benchmarks either measure end-to-end task completion or evaluate coordination under structures specified in advance. We formalize this capability as workflow orchestration and introduce WorkflowArena, a benchmark of 145 long-horizon tasks spanning 8 professional domains, from software engineering and formal mathematics to legal analysis and 3D production. Each task specifies an initial workspace and an integrated deliverable composed of interdependent components, which is assessed by a hidden verifier. Agents determine autonomously whether and how to delegate, and all delegation is recorded, enabling joint evaluation of deliverable quality and the organization of the underlying work. Experiments with nine models show that no single configuration performs best across all domains and that systems exhibit distinct delegation strategies: at high effort, Claude models in Claude Code invoke workflows less frequently but with larger worker groups, whereas GPT models in Codex delegate more frequently in smaller units. When the executing model is held fixed on a challenging subset of tasks, workflows authored by Claude Opus 5.5 substantially improve weaker executors, indicating that workflow organization is itself a measurable determinant of task performance.",
+      "summary_zh": "提出可执行工作流编排基准 WorkflowArena（145 长程任务/8 专业领域），评测模型在运行时自主决定如何委派与编排工作。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.12856",
+      "verification": "verified",
+      "categories": [
+        "Multi-Agent Systems",
+        "Evaluation & Benchmarks"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.12856"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.12856",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "How Much of Your VLA Is kNN",
+      "abstract": "Vision-language-action (VLA) models now exceed 95% success on the LIBERO simulation benchmark, yet it remains unclear how much of this performance requires generalization beyond the training demonstrations. In this work, we show that retrieving nearby demonstrations and reusing their action chunks achieves a success rate of 91.7 % on LIBERO without policy training. Under LIBERO-Plus perturbations, retrieval shows the smallest drop of all evaluated policies. Across nine publicly available VLAs, fine-tuning mostly makes the vision-language backbone a better retrieval key, and the actions of the VLAs remain close to the demonstrations. In addition, we introduce Local Action Consistency (LAC), an offline metric that measures whether nearby observations in representation space are also associated with similar future actions. We show that LAC tracks the success rate of retrieval and can guide the training of a retrieval key. Our evaluation and source code are available at https://github.com/sereact/lerobot_knn.",
+      "summary_zh": "研究表明检索近邻演示并复用动作块即可在 LIBERO 达 91.7% 成功率，提出局部动作一致性（LAC）离线指标衡量表示空间局部一致性。",
+      "venue": "CoRL 2026 工作坊（arXiv:2611.13160）",
+      "arxiv_id": "2611.13160",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.13160"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.13160",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models",
+      "abstract": "Vision-language-action (VLA) policies have demonstrated strong generalization in robotic manipulation, yet processing dense visual tokens often incurs high inference latency. Visual token pruning offers a practical way to reduce this cost, but identifying a compact set of tokens that preserves reliable action generation remains challenging. Existing methods largely rely on static or immediate heuristic cues to estimate token importance. We introduce APS-VLA, a framework that learns visual token selection from robot demonstrations while keeping the pretrained VLA backbone frozen. A lightweight Decision Influence Estimator scores tokens conditioned on current visual observations, language instructions, and robot proprioception. Its training combines two complementary signals: action supervision matches both the full-input policy predictions and demonstrated actions, while an auxiliary visual transition objective uses demonstrated actions to predict subsequent visual features from the selected representation. At deployment, the estimator performs a single hard selection and packing step before the policy's native action-generation procedure; the auxiliary predictor is removed. Experiments with OpenVLA-OFT on LIBERO and with $π_{0.5}$ and XR-1 on RoboCasa365 demonstrate inference acceleration with modest changes in task success. Across five real-world tasks on two dual-arm platforms, APS-VLA reduces mean policy inference latency from 137.25 to 93.25 ms, achieving a $1.47\\times$ speedup with an average success rate of 61%, compared with 60% for the unpruned baseline. Together, these results support APS-VLA as a modular, plug-in framework for efficient robotic control across VLA architectures, preserving the underlying policy parameters and native action-generation procedure.",
+      "summary_zh": "提出动作引导与未来感知的视觉 token 剪枝框架 APS-VLA，保持骨干冻结，在双机械臂真实任务 1.47× 提速且保持成功率。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.13030",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI",
+        "Efficiency & Compression"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.13030"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.13030",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "FlowPlan: Reducing the Token Cost of Coding Agents with Abstraction-Guided Planning and Verification",
+      "abstract": "LLM-based coding agents such as Claude Code can resolve real-world repository issues, but their iterative interaction loop can be expensive. Existing approaches reduce this cost primarily by limiting, compressing, or selectively avoiding information and actions within the repair process. We investigate a complementary question: Can an agent reason about a repair at an abstract program level, rather than repeatedly operating over raw source code, to reduce both the exploration needed to identify a repair and the repeated checking needed to verify it afterward? We present FlowPlan, an abstraction-guided repair approach that structures localization, planning, and verification around per-function control-flow or data-flow graphs. The agent first localizes the candidate fault location on the program abstraction and expresses the intended repair as explicit graph deltas before modifying the concrete source. After the edit, FlowPlan reconstructs the same abstraction and compares the observed structural change with the planned one. Then, a verification checks the complete repair before termination. Across all six benchmark-model settings, FlowPlan does not significantly change resolution rate relative to the vanilla agent while reducing token consumption in every setting, significantly in five of six settings. With Claude Haiku 4.5, it uses only 0.46-0.47x the baseline tokens on SWE-bench Pro, 0.32-0.35x on SWE-bench Verified, and 0.68-0.74x on SecBench; with Sonnet 5, it uses 0.72-0.76x, 0.73-0.74x, and 0.92-0.94x, respectively. Overall, FlowPlan achieves the largest token reduction among the compared methods in three of the six settings and ties the strongest compared method in a fourth. Trajectory analysis shows that FlowPlan saves tokens by replacing much of the costly post-edit re-reading and testing with explicit verification and reducing per-call context.",
+      "summary_zh": "提出基于程序抽象（控制流/数据流图）的规划与验证方法 FlowPlan，在不显著降解决率下降低编码智能体 token 消耗。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.13241",
+      "verification": "verified",
+      "categories": [
+        "Code Agent",
+        "Efficiency & Compression"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.13241"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.13241",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation",
+      "abstract": "Robotic manipulation has advanced rapidly in mapping visual observations and language instructions to actions. However, reliable manipulation in open-world environments requires robust spatial understanding: the ability to identify targets in complex layouts (spatial reasoning) and adapt to scenes that continuously evolve through interaction (spatial memory). Yet existing embodied benchmarks fall short in evaluating spatial understanding: they often introduce strong visual cues that bypass spatial reasoning, and focus on static scenes that offer little insight into an agent's capacity for spatial memory. To address this gap, we introduce GeoMind, a systematic benchmark for structured spatial understanding through tabletop manipulation. GeoMind comprises 54 evaluated task variants organized around spatial reasoning and spatial memory. It also incorporates a scalable pipeline that automates the generation and annotation of task instances with verified targets and executable interactions. Extensive evaluations across diverse embodied agents reveal their consistent weaknesses in spatial understanding. Our findings highlight that these agents struggle to track identities after spatial changes and convert relational or geometric constraints into executable actions. We release the GeoMind benchmark at https://github.com/Notfound-JH/GEOMIND-benchmark.git.",
+      "summary_zh": "提出机器人操作空间理解基准 GeoMind（54 任务变体），覆盖空间推理与空间记忆，揭示具身智能体空间关系的普遍短板。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.12175",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI",
+        "Evaluation & Benchmarks"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.12175"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.12175",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+      "abstract": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist. Such a null event changes nothing the task depends on, yet a released memory VLA counts the interval as work done and stops early. We call this failure phantom progress. It cuts success from 47 to 16 of 50 on one task and from 44 to 10 on the other. When the same frames are withheld from memory, success returns, so the cause lies in memory rather than in the interruption itself. We trace the failure to a temporal shortcut: because demonstrations proceed at a steady pace, elapsed time predicts progress. Indeed, rescaling the time stamps alone makes the policy stop early when the clock runs fast and repeat when it runs slow. Surprisingly, removing the time encoding does not cure the failure, because the frames of a null event still occupy slots of the time-sampled memory. Across RoboMME's released designs, vulnerability follows how memory is indexed. Of the fixes the diagnosis suggests, training with injected pauses does not remove the failure and impairs counting, whereas indexing memory by events recovers half or more of the loss without retraining. A memory meant to remember what happened should count events rather than clock ticks.",
+      "summary_zh": "发现记忆增强 VLA 的时间记忆缺陷：按时间抽帧的记忆会把暂停当作工作（幻影进展），提出按事件索引记忆修复。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.14488",
+      "verification": "verified",
+      "categories": [
+        "Embodied AI",
+        "Memory Systems"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.14488"
+      ],
+      "featured": false,
+      "published": "2026-11-10",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.14488",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
+      }
+    },
+    {
+      "title": "Dependable Long-Horizon LLM Agents: A Trajectory-Centered Empirical Study of Where Errors Enter and Which Controls Reach Them",
+      "abstract": "When an LLM agent fails part-way through a long task, the usual analysis records a symptom: a failure-mode label, or the agent and step judged responsible. It does not say where the error entered, which state carried it to the symptom, whether anything in the trajectory contradicted it, or which control could have caught it. We define an episode record that ties a candidate fault to its origin, propagation, detection, response and consequence, located by operational phase and state domain, and that names the control families whose observation and reach cover it. We turned the record into a written annotation protocol and applied it to 95 failed runs of six multi-agent systems from the public Who&When and MAD corpora, reading each trajectory in full. Faults enter early (median at 0.18 of the run), mostly as wrong decisions or fabrications over task state, and in 37 of 88 Who&When runs before the step the corpus' human labels mark as decisive. In 72% of failed runs the trajectory already contained evidence against the error before the failure; in 88% of those no agent acted on it. Something flagged a deviation in 31% of runs, but no response removed the deviated state. Independent judges reading the unused evidence, task contracts fixed at admission, and re-checking beliefs against the environment reach most episodes; restoring the agent's own state would have sufficed in 35 of 95 runs. A text scan of the raw corpus also shows that 45% of the hand-crafted Who&When failures ended with a provider content-filter crash after which the harness emitted a final answer no agent produced, a failure class that neither symptom taxonomies nor responsible-agent labels represent. Protocol, records and scripts are included.",
+      "summary_zh": "以轨迹为中心的可靠性研究，把错误绑定到起源/传播/检测/响应，发现错误多在运行 0.18 处进入且 72% 失败轨迹已含反证证据。",
+      "venue": "arXiv 2026-11",
+      "arxiv_id": "2611.13254",
+      "verification": "verified",
+      "categories": [
+        "General Agent Studies"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2611.13254"
+      ],
+      "featured": false,
+      "published": "2026-11-09",
+      "publication_type": "preprint",
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "retrieved_at": "2026-11-13T01:30:27.153903+00:00",
+        "source_url": "https://arxiv.org/abs/2611.13254",
+        "status": "official-metadata-and-abs-page-verified",
+        "scope": "Official arXiv metadata and abs page cross-verified (2026-11-15); peer review and performance claims not independently verified."
       }
     }
   ],

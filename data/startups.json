@@ -1,27 +1,27 @@
 {
  "generated_at": "2026-10-28",
  "generator": "scripts/seed_kb.py",
- "count": 56,
+ "count": 57,
  "category_count": 18,
  "categories": {
-  "Foundation Models": 12,
-  "Code Agents": 7,
-  "Robotics Agents": 6,
-  "Agent Infrastructure": 4,
-  "Customer Service Agents": 4,
   "Action Agents": 3,
+  "Agent Infrastructure": 5,
   "Agent Memory": 3,
-  "Autonomous Agents": 3,
-  "Healthcare Agents": 3,
-  "Character Agents": 2,
-  "Web Agents": 2,
   "Agent Tools": 1,
+  "Autonomous Agents": 3,
+  "Character Agents": 2,
+  "Code Agents": 7,
   "Companion Agents": 1,
   "Compliance Agents": 1,
+  "Customer Service Agents": 4,
   "Enterprise Agents": 1,
   "Enterprise Search & RAG": 1,
+  "Foundation Models": 12,
+  "Healthcare Agents": 3,
   "Legal Agents": 1,
-  "Research Agents": 1
+  "Research Agents": 1,
+  "Robotics Agents": 6,
+  "Web Agents": 2
  },
  "startups": [
   {
@@ -96,18 +96,25 @@
    "name": "LangChain",
    "category": "Agent Infrastructure",
    "founded": 2023,
-   "funding": "$25M+",
+   "funding": "$460M total (announced 2026-11-13)",
    "desc": "Company behind LangChain/LangGraph/LangSmith: the LLM app development stack",
    "url": "https://www.langchain.com/",
    "sources": [
-    "seed"
+    "seed",
+    "https://www.sttinfo.fi/tiedote/72502600/langchain-raises-dollar300m-to-enable-every-company-to-own-their-intelligence?publisherId=58763726"
    ],
    "evidence": {
-    "checked_at": "2026-10-28",
-    "source_url": "https://www.langchain.com/",
-    "status": "seed-verified"
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.sttinfo.fi/tiedote/72502600/langchain-raises-dollar300m-to-enable-every-company-to-own-their-intelligence?publisherId=58763726",
+    "status": "issuer-press-release-reviewed"
    },
-   "desc_cn": "LangChain/LangGraph/LangSmith 背后的公司：LLM 应用开发全栈"
+   "desc_cn": "LangChain、LangGraph 和 LangSmith 背后的公司，提供智能体开发、运行、评测与治理工具。",
+   "funding_round": {
+    "amount_usd": 300000000,
+    "announced_at": "2026-11-13",
+    "lead_investor": "CapitalG",
+    "post_money_valuation_usd": 3000000000
+   }
   },
   {
    "name": "LlamaIndex",
@@ -974,6 +981,27 @@
     "checked_at": "2026-10-28",
     "source_url": "https://www.coze.cn/",
     "status": "verified"
+   }
+  },
+  {
+   "name": "firmly",
+   "category": "Agent Infrastructure",
+   "funding": "~$20M total (announced 2026-11-05)",
+   "funding_round": {
+    "amount_usd": 15000000,
+    "stage": "Series A",
+    "announced_at": "2026-11-05",
+    "lead_investor": "Squarepoint Capital"
+   },
+   "desc": "Agentic commerce infrastructure connecting merchant catalogs and checkout to AI shopping channels, with the Ask Agent conversational shopping product.",
+   "url": "https://www.firmly.ai/",
+   "sources": [
+    "https://www.globenewswire.com/news-release/2026/11/05/3396499/0/en/firmly-raises-15-million-series-a-and-launches-ask-agent-to-help-merchants-more-easily-adopt-agentic-commerce.html"
+   ],
+   "evidence": {
+    "checked_at": "2026-11-13",
+    "source_url": "https://www.globenewswire.com/news-release/2026/11/05/3396499/0/en/firmly-raises-15-million-series-a-and-launches-ask-agent-to-help-merchants-more-easily-adopt-agentic-commerce.html",
+    "status": "issuer-announcement-reviewed"
    }
   }
  ],

@@ -1,6 +1,6 @@
-# 🚀 Startup Radar — 56 Funded Agent Companies
+# 🚀 Startup Radar — 57 Funded Agent Companies
 
-> Track the capital flow of the Agent ecosystem: 56 funded companies with founding year, funding, website, and one-line intro (EN + 中文). 中文说明见 [README_CN](../README_CN.md).
+> Track the capital flow of the Agent ecosystem: 57 funded companies with founding year, funding, website, and one-line intro (EN + 中文). 中文说明见 [README_CN](../README_CN.md).
 > Data source: [`data/startups.json`](../data/startups.json) · Back to [README](../README.md)
 
 ## Catalog
@@ -69,7 +69,7 @@
 | 公司 | 成立 | 融资 | 一句话介绍 | 官网 |
 |---|---|---|---|---|
 | [CrewAI](https://www.crewai.com/) | 2024 | $25M+ | Multi-agent orchestration platform: role-playing crews with deployment and monitoring<br>多智能体编排平台：角色扮演式智能体团队，含部署与监控 | www.crewai.com |
-| [LangChain](https://www.langchain.com/) | 2023 | $25M+ | Company behind LangChain/LangGraph/LangSmith: the LLM app development stack<br>LangChain/LangGraph/LangSmith 背后的公司：LLM 应用开发全栈 | www.langchain.com |
+| [LangChain](https://www.langchain.com/) | 2023 | $460M total (2026-11-13) | Company behind LangChain/LangGraph/LangSmith: the LLM app development stack<br>LangChain/LangGraph/LangSmith 背后的公司：LLM 应用开发全栈 | www.langchain.com |
 | [LlamaIndex](https://www.llamaindex.ai/) | 2023 | $8.5M+ | Data framework company: RAG pipelines, agents, and enterprise data connectors<br>数据框架公司：RAG 管线、智能体与企业数据连接器 | www.llamaindex.ai |
 | [Coze (扣子)](https://www.coze.cn/) | 2023 | 字节跳动旗下 | Agent building platform by ByteDance: no-code/low-code agent creation, workflow orchestration, plugin ecosystem<br>字节跳动旗下智能体搭建平台：无代码/低代码创建智能体，工作流编排与插件生态 | www.coze.cn |
 
@@ -172,4 +172,17 @@
 
 ---
 
-**56 companies** · Funding figures are public-reported · Machine-readable JSON: [`data/startups.json`](../data/startups.json)
+**57 companies** · Funding figures are public-reported · Machine-readable JSON: [`data/startups.json`](../data/startups.json)
+## 2026-11-13 verified addition / 核实补录
+
+[firmly](https://www.firmly.ai/) connects merchant catalogs and checkout to AI shopping channels and offers Ask Agent conversational shopping.
+
+中文介绍为商家商品目录、结账系统与 AI 购物渠道提供连接基础设施，并提供 Ask Agent 对话式购物产品。
+
+Announced 2026-11-05, discovered 2026-11-13. Series A funding is $15M, with approximately $20M total funding. 2026年11月5日公告，11月13日核实，A轮融资1500万美元，累计融资约2000万美元。[公司发布的融资公告](https://www.globenewswire.com/news-release/2026/11/05/3396499/0/en/firmly-raises-15-million-series-a-and-launches-ask-agent-to-help-merchants-more-easily-adopt-agentic-commerce.html)
+
+## LangChain funding update · 2026-11-14
+
+LangChain announced $300M in new funding led by CapitalG on 2026-11-13, bringing total funding to $460M at a $3B valuation.
+
+中文说明为本轮融资3亿美元，累计融资4.6亿美元，估值30亿美元，领投方为CapitalG。[公司新闻稿](https://www.sttinfo.fi/tiedote/72502600/langchain-raises-dollar300m-to-enable-every-company-to-own-their-intelligence?publisherId=58763726)
