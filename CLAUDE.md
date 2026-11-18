@@ -27,11 +27,11 @@
 
 ## 关键资源路径
 
-- 论文库（机器可读）：`data/papers.json`（1081 篇，官方 arXiv 标题/venue/核实状态）
+- 论文库（机器可读）：`data/papers.json`（1582 篇，官方 arXiv 标题/venue/核实状态）
 - 论文库（人工可读）：`references/paper-database.md`（16 子领域）
 - 投稿速查：`references/venues.md`（15 顶会 + 20 期刊，CCF/页数/截稿）
 - 实验模板：`references/experiment-template.md`（可直接复制填充）
-- 基准清单：`data/benchmarks.json`（50 个 Agent 评测基准）
+- 基准清单：`data/benchmarks.json`（51 个 Agent 评测基准）
 - 方法库：`data/methods.json`（295 方法，12 类别）
 - 研究图谱：`references/agent-research-areas.md`（16 核心领域）
 - 科研专家团：`references/agent-research-expert-team.md`（R1-R9 角色）

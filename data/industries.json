@@ -815,12 +815,23 @@
    "status": "production",
    "url": "https://www.workday.com/en-us/products/ai-platform.html",
    "sources": [
-    "seed"
+    "seed",
+    "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith"
    ],
    "evidence": {
     "checked_at": "2026-10-28",
     "source_url": "https://www.workday.com/en-us/products/ai-platform.html",
-    "status": "seed-verified"
+    "status": "seed-verified",
+    "platform_update_checked_at": "2026-11-16",
+    "platform_update_source_url": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith"
+   },
+   "platform_update": {
+    "published": "2026-11-10",
+    "discovered_at": "2026-11-16",
+    "desc": "Workday uses LangGraph orchestration and LangSmith observability and evaluation for its internal agent platform, including the shipped Agent System of Record governance layer.",
+    "desc_cn": "Workday以内置LangGraph编排、LangSmith可观测性与评测的内部平台支撑智能体开发，并已交付Agent System of Record治理层。",
+    "source_url": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
+    "scope": "Vendor-published customer case study; reported adoption, no independently verified business metrics."
    }
   },
   {
