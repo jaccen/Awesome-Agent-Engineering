@@ -313,3 +313,7 @@ git submodule update --init --recursive
 </div>
 
 本次审核收录明细：[2026-10-29](docs/reviewed-updates-2026-10-29.md) | [2026-10-30](docs/reviewed-updates-2026-10-30.md) | [2026-11-06](docs/reviewed-updates-2026-11-06.md) | [2026-11-15](docs/reviewed-updates-2026-11-15.md).
+
+## Research retrieval tools / 科研检索工具
+
+Pinned integrations for scholar-mcp (discovery and citation tools), scihub-cli (batch full-text downloads), and research-fetch-skill (web/video/PDF materials) are available through `python scripts/research_tools.py`. See [setup, usage and validation](integrations/research-tools/README.md). Installation and live coverage are reported separately; retrieved candidates require review before knowledge-base admission.

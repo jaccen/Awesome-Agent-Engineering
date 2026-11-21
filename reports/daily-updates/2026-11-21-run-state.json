@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-21",
+  "status": "partial-review",
+  "global_success_watermark": null,
+  "pending_since": "2026-10-30",
+  "arxiv_queries_complete": true,
+  "arxiv_discovery_retrieved_at": "2026-11-21T01:29:30.522538+00:00",
+  "candidates": 123,
+  "verified_advisory": "GHSA-764m-3ppc-5m73"
+}
