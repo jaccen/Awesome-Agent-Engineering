@@ -1,8 +1,25 @@
 {
   "generated_at": "2026-10-28",
   "generator": "scripts/seed_kb.py",
-  "count": 48,
+  "count": 51,
   "benchmarks": [
+    {
+      "name": "B³ (Breaking Agent Backbones)",
+      "domain": "Agent Security",
+      "desc": "Uses threat snapshots and 194,331 crowdsourced attacks to evaluate how backbone LLM choice affects agent security.",
+      "venue": "arXiv 2025-10 (preprint)",
+      "url": "https://arxiv.org/abs/2510.22620",
+      "sources": [
+        "https://arxiv.org/abs/2510.22620",
+        "https://www.aisi.gov.uk/research/breaking-agent-backbones-evaluating-the-security-of-backbone-llms-in-ai-agents"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-09",
+        "source_url": "https://arxiv.org/abs/2510.22620",
+        "status": "official-paper-and-project-reviewed",
+        "published_at": "2025-10-26"
+      }
+    },
     {
       "name": "DynaRev",
       "domain": "Web Agent",
@@ -730,6 +747,46 @@
         "checked_at": "2026-11-06",
         "source_url": "https://arxiv.org/abs/2611.03634",
         "status": "abs-page-verified"
+      }
+    },
+    {
+      "name": "GreyZone",
+      "domain": "Agent Security",
+      "desc": "Evaluates automated red-teaming services against independently developed agent applications through verified security-policy violations.",
+      "desc_cn": "以经核实的安全策略违规为依据，评估自动化红队服务对独立开发的智能体应用的攻击能力。",
+      "venue": "arXiv 2026-11",
+      "url": "https://arxiv.org/abs/2611.09161",
+      "published": "2026-11-06",
+      "discovered_at": "2026-11-15",
+      "update_type": "backfill",
+      "sources": [
+        "https://arxiv.org/abs/2611.09161"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-15",
+        "source_url": "https://arxiv.org/abs/2611.09161",
+        "status": "abs-page-verified",
+        "scope": "Paper metadata and abstract; benchmark artifacts not independently executed."
+      }
+    },
+    {
+      "name": "MKA (Multimodal Knowledge Agent)",
+      "domain": "Multimodal Knowledge Work",
+      "desc": "Evaluates agent reasoning over visually complex files and production of professional work artifacts; the evaluation set is private, with separate public sample tasks.",
+      "desc_cn": "评估智能体处理视觉复杂文件并生成专业工作成果的能力；正式评测集保密，另有公开样例任务。",
+      "venue": "Google DeepMind / Artificial Analysis 2026-11",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+      "published": "2026-11-10",
+      "discovered_at": "2026-11-16",
+      "update_type": "backfill",
+      "sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/"
+      ],
+      "evidence": {
+        "checked_at": "2026-11-16",
+        "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+        "status": "official-announcement-verified",
+        "scope": "Public announcement verified; private evaluation set and performance not independently reproduced."
       }
     }
   ]

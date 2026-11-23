@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-22",
+  "status": "partial-review",
+  "global_success_watermark": null,
+  "pending_since": "2026-10-30",
+  "arxiv_queries_complete": true,
+  "arxiv_discovery_retrieved_at": "2026-11-22T01:28:40.797526+00:00",
+  "candidates": 123,
+  "material_update": false
+}
