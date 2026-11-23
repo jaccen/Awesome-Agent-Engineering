@@ -1,9 +1,850 @@
 {
-  "date": "2026-11-16",
-  "retrieved_at": "2026-11-16T14:20:13.402854+00:00",
-  "github_repos_count": 0,
+  "date": "2026-11-23",
+  "retrieved_at": "2026-11-23T16:54:20.554491+00:00",
+  "github_repos_count": 89,
   "hf_models_count": 0,
-  "github_repos": [],
+  "github_repos": [
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 309395,
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ]
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 265607,
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": 207640,
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search",
+        "crawler",
+        "data-extraction",
+        "html-to-markdown"
+      ]
+    },
+    {
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 197382,
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "pushed_at": "2026-11-22",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm"
+      ]
+    },
+    {
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "stars": 161747,
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without reb",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "claude",
+        "deepseek"
+      ]
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": 149958,
+      "description": "The agent engineering platform.",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework"
+      ]
+    },
+    {
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "stars": 145504,
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "language": "Python",
+      "pushed_at": "2026-11-18",
+      "topics": [
+        "agents",
+        "llms",
+        "python",
+        "rag"
+      ]
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "stars": 123576,
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "pushed_at": "2026-11-17",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ]
+    },
+    {
+      "name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "stars": 123497,
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": []
+    },
+    {
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "stars": 122358,
+      "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
+      "language": "Go",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering"
+      ]
+    },
+    {
+      "name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "stars": 121843,
+      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+      "language": "Python",
+      "pushed_at": "2026-11-22",
+      "topics": [
+        "ai-agents",
+        "ai-tools",
+        "browser-agent",
+        "browser-automation",
+        "browser-use",
+        "cdp",
+        "cloud-browser",
+        "computer-use"
+      ]
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "stars": 116221,
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "acpx",
+        "agent-orchestration",
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "ai-engineering",
+        "ai-governance",
+        "ai-tools"
+      ]
+    },
+    {
+      "name": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "stars": 99035,
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "language": "JavaScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "architecture-diagram",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "coding-agents",
+        "deepseek-harness"
+      ]
+    },
+    {
+      "name": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "stars": 98419,
+      "description": "A collection of MCP servers.",
+      "language": "",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai",
+        "mcp"
+      ]
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "stars": 94151,
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
+        "cli",
+        "developer-tools",
+        "gpt",
+        "llm"
+      ]
+    },
+    {
+      "name": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "stars": 87718,
+      "description": "Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powe",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "crawl4ai-cloud",
+        "crawler",
+        "data-extraction",
+        "llm",
+        "markdown",
+        "mcp"
+      ]
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "stars": 85677,
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of ta",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "agentic",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "ai-agents",
+        "deep-research",
+        "harness"
+      ]
+    },
+    {
+      "name": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "stars": 84208,
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "language": "Python",
+      "pushed_at": "2026-11-22",
+      "topics": [
+        "ai4science",
+        "document-analysis",
+        "docx",
+        "extract-data",
+        "layout-analysis",
+        "ocr",
+        "parser",
+        "pdf"
+      ]
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "stars": 80639,
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "ai",
+        "anthropic",
+        "claude-code",
+        "compression",
+        "context-engineering",
+        "context-window",
+        "cursor"
+      ]
+    },
+    {
+      "name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "stars": 80067,
+      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "ai",
+        "chatgpt",
+        "deepseek",
+        "fine-tuning",
+        "gemma",
+        "image-generation",
+        "llama"
+      ]
+    },
+    {
+      "name": "hiyouga/LlamaFactory",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "stars": 76242,
+      "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "ai",
+        "deepseek",
+        "fine-tuning",
+        "gemma",
+        "gpt",
+        "instruction-tuning",
+        "large-language-models"
+      ]
+    },
+    {
+      "name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "stars": 72661,
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "pushed_at": "2026-11-19",
+      "topics": [
+        "agent-skills",
+        "ai-humanizer",
+        "ai-writing",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "cursor"
+      ]
+    },
+    {
+      "name": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "stars": 69376,
+      "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agentic-memory",
+        "agentic-memory-system",
+        "agents",
+        "ai",
+        "ai-agents",
+        "chatgpt",
+        "genai",
+        "llm"
+      ]
+    },
+    {
+      "name": "Mintplex-Labs/anything-llm",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "stars": 68549,
+      "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+      "language": "JavaScript",
+      "pushed_at": "2026-11-21",
+      "topics": [
+        "agent-computer",
+        "agent-harness",
+        "agent-orchestration",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-agents",
+        "computer-use",
+        "hermes-agent"
+      ]
+    },
+    {
+      "name": "upstash/context7",
+      "url": "https://github.com/upstash/context7",
+      "stars": 65334,
+      "description": "Context7 Platform -- Up-to-date docs for AI agents",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "llm",
+        "mcp",
+        "mcp-server",
+        "vibe-coding"
+      ]
+    },
+    {
+      "name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "stars": 59587,
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "agent-memory",
+        "ai-agent",
+        "book",
+        "coding-agent",
+        "context-engineering",
+        "large-language-models",
+        "llm"
+      ]
+    },
+    {
+      "name": "hesreallyhim/awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "stars": 58661,
+      "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliatio",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent-skills",
+        "agentic-code",
+        "agentic-coding",
+        "ai-workflow-optimization",
+        "ai-workflows",
+        "anthropic",
+        "anthropic-claude",
+        "awesome"
+      ]
+    },
+    {
+      "name": "zylon-ai/private-gpt",
+      "url": "https://github.com/zylon-ai/private-gpt",
+      "stars": 57642,
+      "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai",
+        "ai-tools",
+        "on-premise"
+      ]
+    },
+    {
+      "name": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "stars": 56895,
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "acp",
+        "ai",
+        "ai-agents",
+        "mcp"
+      ]
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "stars": 55628,
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE,",
+      "language": "Go",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ]
+    },
+    {
+      "name": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "stars": 53786,
+      "description": "Your AI workspace for models, agents, and productivity.",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent-skills",
+        "agent-workspace",
+        "agentic-workspace",
+        "ai-agents",
+        "ai-models",
+        "ai-productivity",
+        "ai-workspace",
+        "computer-use"
+      ]
+    },
+    {
+      "name": "zhayujie/CowAgent",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "stars": 48050,
+      "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-lin",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "chatgpt-on-wechat",
+        "claude",
+        "claude-code",
+        "codex",
+        "cowagent"
+      ]
+    },
+    {
+      "name": "microsoft/playwright-mcp",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "stars": 40059,
+      "description": "Playwright MCP server",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-18",
+      "topics": [
+        "mcp",
+        "playwright"
+      ]
+    },
+    {
+      "name": "DayuanJiang/next-ai-draw-io",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "stars": 37145,
+      "description": "Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai",
+        "architecture-diagram",
+        "claude-code",
+        "deepseek-harness",
+        "diagram-generator",
+        "diagrams",
+        "draw-io",
+        "drawio"
+      ]
+    },
+    {
+      "name": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "stars": 34692,
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "pushed_at": "2026-11-21",
+      "topics": [
+        "github",
+        "mcp",
+        "mcp-server"
+      ]
+    },
+    {
+      "name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "stars": 32822,
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
+      "language": "Rust",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "apple",
+        "computer-use",
+        "computer-use-agent",
+        "containerization",
+        "cua",
+        "desktop-automation"
+      ]
+    },
+    {
+      "name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "stars": 31220,
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Dock",
+      "language": "Rust",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai",
+        "cli",
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "docker",
+        "gui"
+      ]
+    },
+    {
+      "name": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "stars": 30548,
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-18",
+      "topics": [
+        "agentmemory",
+        "agents",
+        "ai",
+        "claude",
+        "claudecode",
+        "codex",
+        "copilot",
+        "cursor"
+      ]
+    },
+    {
+      "name": "PrefectHQ/fastmcp",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "stars": 28719,
+      "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agents",
+        "fastmcp",
+        "llms",
+        "mcp",
+        "mcp-clients",
+        "mcp-servers",
+        "mcp-tools",
+        "model-context-protocol"
+      ]
+    },
+    {
+      "name": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "stars": 25688,
+      "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai-agent",
+        "ai-agent-tools",
+        "ai-agents",
+        "ai-agents-framework",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "mcps"
+      ]
+    },
+    {
+      "name": "modelcontextprotocol/python-sdk",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "stars": 24947,
+      "description": "The official Python SDK for Model Context Protocol servers and clients",
+      "language": "Python",
+      "pushed_at": "2026-11-17",
+      "topics": [
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "python"
+      ]
+    },
+    {
+      "name": "czlonkowski/n8n-mcp",
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "stars": 23296,
+      "description": "MCP server that lets Claude, ChatGPT, Cursor and other AI assistants operate n8n: debug, edit, validate, test and build workflows on any n8n instance",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "mcp",
+        "mcp-server",
+        "n8n",
+        "workflows"
+      ]
+    },
+    {
+      "name": "Evil0ctal/Douyin_TikTok_Download_API",
+      "url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
+      "stars": 21528,
+      "description": "🚀 自托管的抖音、TikTok、B 站数据采集与无水印视频下载 API，支持 AI agent 通过 MCP 调用与离线语音转文字，Docker 一键部署。| Self-hosted TikTok, Douyin & Bilibili scraper and no-watermark video downloader — async REST API, MCP server for AI agen",
+      "language": "Python",
+      "pushed_at": "2026-11-20",
+      "topics": [
+        "bilibili",
+        "crawler",
+        "data-collection",
+        "douyin",
+        "douyin-api",
+        "downloader",
+        "fastapi",
+        "mcp-server"
+      ]
+    },
+    {
+      "name": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "stars": 20205,
+      "description": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory a",
+      "language": "Rust",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent-memory",
+        "ai-agents",
+        "bm25",
+        "claude-code",
+        "cli",
+        "code-search",
+        "cursor",
+        "database"
+      ]
+    },
+    {
+      "name": "rocketride-org/rocketride-server",
+      "url": "https://github.com/rocketride-org/rocketride-server",
+      "stars": 19992,
+      "description": "RocketRide is an open source AI meta-harness with the only enterprise-grade runtime built on C++. Build, test and publish durable agents that scale in production.",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent-framework",
+        "agent-harness",
+        "agent-orchestration",
+        "agentic-ai",
+        "ai-agents",
+        "ai-observability",
+        "cpp",
+        "document-processing"
+      ]
+    },
+    {
+      "name": "apify/apify-mcp-server",
+      "url": "https://github.com/apify/apify-mcp-server",
+      "stars": 17566,
+      "description": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automa",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agents",
+        "ai",
+        "mcp",
+        "mcp-server"
+      ]
+    },
+    {
+      "name": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "stars": 16941,
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "language": "Go",
+      "pushed_at": "2026-11-20",
+      "topics": [
+        "agent",
+        "agents",
+        "ai",
+        "bigquery",
+        "clickhouse",
+        "cockroachdb",
+        "database",
+        "elasticsearch"
+      ]
+    },
+    {
+      "name": "budtmo/docker-android",
+      "url": "https://github.com/budtmo/docker-android",
+      "stars": 16195,
+      "description": "Android in docker solution with noVNC supported, video recording, mcp server and AI-agent",
+      "language": "Python",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-emulator",
+        "aws",
+        "azure",
+        "cloud",
+        "docker",
+        "docker-android"
+      ]
+    },
+    {
+      "name": "liketrek/TREK",
+      "url": "https://github.com/liketrek/TREK",
+      "stars": 15895,
+      "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routin",
+      "language": "TypeScript",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "budget-tracker",
+        "collaborative",
+        "docker",
+        "itinerary",
+        "mcp-server",
+        "offline-first",
+        "open-source",
+        "openstreetmap"
+      ]
+    },
+    {
+      "name": "casdoor/casdoor",
+      "url": "https://github.com/casdoor/casdoor",
+      "stars": 14931,
+      "description": "An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, ",
+      "language": "Go",
+      "pushed_at": "2026-11-23",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agi",
+        "ai-gateway",
+        "auth",
+        "authentication",
+        "iam",
+        "llm"
+      ]
+    }
+  ],
   "hf_models": [],
   "note": "Weekly trend candidates for frameworks and startups KBs. Review before admission."
 }
